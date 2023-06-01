@@ -10,9 +10,15 @@ make
 ##
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/bash.bashrc
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/chat-with-bob.txt
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp '/data/data/com.termux/files/home/koboldcpp-altaera/bash.bashrc' '/data/data/com.termux/files/usr/etc/'
 cp '/data/data/com.termux/files/home/koboldcpp-altaera/altaera.sh' '/data/data/com.termux/files/home'
+cd '/data/data/com.termux/files/home/koboldcpp-altaera/prompts'
+rm -rf 'chat-with-bob.txt'
+cp '/data/data/com.termux/files/home/koboldcpp-altaera/chat-with-bob.txt' '/data/data/com.termux/files/home/koboldcpp-altaera/prompts'
+cd '/data/data/com.termux/files/home/koboldcpp-altaera'
+rm -rf 'chat-with-bob.txt'
 cd '/data/data/com.termux/files/home'
 rm -rf 'altaera_script.sh'
 chmod a+x 'altaera.sh'
