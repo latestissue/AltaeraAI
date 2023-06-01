@@ -9,8 +9,8 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/bash.bashrc
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera.sh
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
-cp '~/AltaeraAI/bash.bashrc' '/data/data/com.termux/files/usr/etc/'
-cp '~/AltaeraAI/altaera.sh' '~/'
-cd '~/AltaeraAI'
+cp '/data/data/com.termux/files/home/AltaeraAI/bash.bashrc' '/data/data/com.termux/files/usr/etc/'
+cp '/data/data/com.termux/files/home/AltaeraAI/altaera.sh' '/data/data/com.termux/files/home'
+cd '/data/data/com.termux/files/home/AltaeraAI'
 make
 cd ..
