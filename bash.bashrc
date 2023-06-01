@@ -23,4 +23,4 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 
-alias altaera="$PREFIX/altaera.sh"
+alias altaera="/data/data/com.termux/files/home/altaera.sh"
