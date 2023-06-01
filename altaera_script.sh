@@ -16,4 +16,5 @@ cp '/data/data/com.termux/files/home/koboldcpp-altaera/altaera.sh' '/data/data/c
 cd '/data/data/com.termux/files/home'
 rm -rf 'altaera_script.sh'
 chmod a+x 'altaera.sh'
+clear
 echo "Installation completed. You can now run AltaeraAI by writing "altaera".
