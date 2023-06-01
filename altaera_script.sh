@@ -11,6 +11,7 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp '/data/data/com.termux/files/home/AltaeraAI/bash.bashrc' '/data/data/com.termux/files/usr/etc/'
 cp '/data/data/com.termux/files/home/AltaeraAI/altaera.sh' '/data/data/com.termux/files/home'
-cd '/data/data/com.termux/files/home/AltaeraAI'
+cd '/data/data/com.termux/files/home'
+cd 'AltaeraAI'
 make
 cd ..
