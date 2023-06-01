@@ -17,5 +17,6 @@ cd '/data/data/com.termux/files/home'
 rm -rf 'altaera_script.sh'
 chmod a+x 'altaera.sh'
 clear
-echo "Installation completed. You can now run AltaeraAI by writing 'altaera' - remember this command for future app launching.
-After running the command, you will be forwarded to your browser with the UI deployed at 'localhost:1551'."
+echo "Installation completed. Please restart Termux with the 'Exit' button from the notification bar.
+After that, you can run AltaeraAI by writing 'altaera' - remember this command for future app launching.
+After running the command, you will be forwarded to your browser with the UI deployed at 'localhost:1551'. If the website does not load, refresh the page."
