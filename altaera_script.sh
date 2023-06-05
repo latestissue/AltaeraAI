@@ -1,6 +1,6 @@
 pkg install root-repo x11-repo git curl clang cmake python3 python-pip -y
 apt-get update
-apt-get upgrade -y
+apt-get -o DPkg::Options::="--force-confnew" -y upgrade
 git clone https://github.com/LostRuins/koboldcpp
 mv 'koboldcpp' 'koboldcpp-altaera'
 cd 'koboldcpp-altaera'
