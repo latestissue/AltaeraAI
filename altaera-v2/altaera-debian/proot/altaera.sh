@@ -10,7 +10,7 @@ TARBALL_SHA256['x86_64']="51a1da5b4db87ec35853d0865b1d7bf2472d39007f698ecd7ae4fa
 
 distro_setup() {
 	run_proot_cmd apt update && apt upgrade -y
-	run_proot_cmd apt install curl wget apt-transport-https ca-certificates ssl-cert -y
+	run_proot_cmd apt install curl wget -y
 	run_proot_cmd wget --no-check-certificate https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-2.sh
  	run_proot_cmd bash 'altaera_install_pt-2.sh'
 }
