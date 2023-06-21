@@ -13,3 +13,5 @@ wget https://download1523.mediafire.com/m2jz6ebi90zgOTl3fBOMH3cGmUh4nMyLQu8Rkrs4
 tar xvf 'altaera-v2'
 rm -rf 'altaera-v2'
 cd /data/data/com.termux/files/home
+rm -rf 'altaera_install.sh'
+rm -rf 'altaera_install_pt-2.sh
