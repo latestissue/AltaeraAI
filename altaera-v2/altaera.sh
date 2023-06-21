@@ -1,3 +1,3 @@
 #!/bin/bash
 
-proot-distro login altaera_debian
+proot-distro login altaera
