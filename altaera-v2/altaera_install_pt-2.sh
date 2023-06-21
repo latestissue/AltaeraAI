@@ -10,6 +10,7 @@ rm -rf 'altaera-v2.tar.gz'
 cd koboldcpp-altaera
 wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
 exit
+logout
 cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 rm -rf 'altaera_install_pt-2.sh
