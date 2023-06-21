@@ -7,7 +7,7 @@ proot-distro install debian
 proot-distro rename debian altaera
 wget https://github.com/latestissue/altaera-packages.github.io/blob/main/altaera-v2/altaera-debian/initial/bash.bashrc
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/initial/initial.sh
-rm -rf '$PREFIX/var/lib/proot-distro/installed-rootfs/altaera/etc/bash.bashrc'
-cp 'bash.bashrc' '$PREFIX/var/lib/proot-distro/installed-rootfs/altaera/etc'
-cp 'initial.sh' '$PREFIX/var/lib/proot-distro/installed-rootfs/altaera/root'
+rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/etc/bash.bashrc'
+cp 'bash.bashrc' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/etc'
+cp 'initial.sh' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 proot-distro login altaera
