@@ -1,6 +1,5 @@
 cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
-rm -rf 'altaera_install_pt-2.sh
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-update.sh
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera.sh
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/bash.bashrc
