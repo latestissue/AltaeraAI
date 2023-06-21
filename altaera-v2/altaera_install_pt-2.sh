@@ -21,6 +21,8 @@ chmod a+x 'altaera.sh'
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
 rm -rf 'bash.bashrc'
+rm -rf '$PREFIX/var/lib/proot-distro/installed-rootfs/altaera/root/initial.sh'
+rm -rf '$PREFIX/var/lib/proot-distro/installed-rootfs/altaera/root/bash.bashrc'
 clear
 echo "Installation completed. Please restart Termux with the 'Exit' button from the notification bar.
 After that, you can run AltaeraAI by writing 'altaera' - remember this command for future app launching.
