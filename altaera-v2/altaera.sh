@@ -1,3 +1,3 @@
 #!/bin/bash
 
-proot-distro login altaera -- altaera.sh &
+proot-distro login altaera -- ./altaera.sh &
