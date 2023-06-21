@@ -2,7 +2,7 @@ termux-change-repo
 termux-setup-storage
 apt-get update
 apt-get -o DPkg::Options::="--force-confnew" -y install openssl-1.1 wget
-pkg install proot-distro -y
+pkg install curl proot-distro -y
 proot-distro install debian
 proot-distro rename debian altaera
 proot-distro login altaera
