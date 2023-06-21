@@ -1,3 +1,7 @@
+rm -rf "/etc/bash.bashrc"
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/bash.bashrc
+cp 'bash.bashrc' "/etc"
+rm -rf 'bash.bashrc'
 wget https://github.com/latestissue/altaera-packages.github.io/raw/main/altaera-v2/altaera-v2.tar.gz
 tar -xf 'altaera-v2.tar.gz'
 rm -rf 'altaera-v2.tar.gz'
