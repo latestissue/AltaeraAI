@@ -1,6 +1,6 @@
 termux-change-repo
 termux-setup-storage
-pkg-upgrade -o DPkg::Options::="--force-confnew" -y
+pkg -o ASSUME_ALWAYS_YES=true upgrade
 apt-get update
 apt-get -o DPkg::Options::="--force-confnew" -y install openssl-1.1 wget
 pkg install curl proot-distro -y
