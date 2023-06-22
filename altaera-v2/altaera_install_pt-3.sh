@@ -13,7 +13,7 @@ cd prompts
 rm -rf 'chat-with-bob.txt'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
 cd /root
-apt install clang python3 python3-pip libclblast-dev libopenblas-dev -y
+apt install clang python3 libclblast-dev libopenblas-dev -y
 clear
 echo "
 
