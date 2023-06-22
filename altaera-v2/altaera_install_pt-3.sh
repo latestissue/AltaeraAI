@@ -10,8 +10,9 @@ rm -rf 'altaera-v2.tar.gz'
 cd koboldcpp-altaera
 wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
 cd prompts
-wget ####
-rm -rf 'chat-with-bo
+rm -rf 'chat-with-bob.txt'
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
+cd /root
 apt install clang python3 python3-pip libclblast-dev libopenblas-dev -y
 clear
 echo "Installation completed. Please restart Termux with the 'Exit' button from the notification bar.
