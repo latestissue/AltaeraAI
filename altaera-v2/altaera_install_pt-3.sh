@@ -18,8 +18,8 @@ clear
 echo "
 
               **********INSTALLATION COMPLETED**********
-
 _______________________________________________________________________
+
 
       !!!  Please restart Termux now, by pulling down the notification bar, then expanding 'Termux' and pressing 'Exit'.  !!!
       !!!                  (You can also remove Termux from the 'apps switch' list, just to make sure)                    !!!
