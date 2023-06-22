@@ -9,6 +9,9 @@ tar -xf 'altaera-v2.tar.gz'
 rm -rf 'altaera-v2.tar.gz'
 cd koboldcpp-altaera
 wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+cd prompts
+wget ####
+rm -rf 'chat-with-bo
 apt install clang python3 python3-pip libclblast-dev libopenblas-dev -y
 clear
 echo "Installation completed. Please restart Termux with the 'Exit' button from the notification bar.
