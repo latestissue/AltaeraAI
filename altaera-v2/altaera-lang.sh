@@ -22,16 +22,16 @@ clear
 case $CHOICE in
         1)
             echo "You chose English"
-            cd '/root/koboldcpp-altaera/prompts'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts'
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
-            cd /root
+            cd '/data/data/com.termux/files/home'
             ;;
         2)
             echo "You chose English"
-            cd '/root/koboldcpp-altaera/prompts'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts'
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
-            cd /root
+            cd '/data/data/com.termux/files/home'
             ;;
 esac
