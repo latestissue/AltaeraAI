@@ -1,0 +1,41 @@
+rm -rf "/etc/bash.bashrc"
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/bash.bashrc
+cp 'bash.bashrc' "/etc"
+rm -rf 'bash.bashrc'
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/altaera.sh
+chmod a+x 'altaera.sh'
+wget https://github.com/latestissue/altaera-packages.github.io/raw/main/altaera-v2/altaera-v2.tar.gz
+tar -xf 'altaera-v2.tar.gz'
+rm -rf 'altaera-v2.tar.gz'
+cd koboldcpp-altaera
+wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
+cd prompts
+rm -rf 'chat-with-bob.txt'
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
+cd /root
+apt install clang python3 libclblast-dev libopenblas-dev -y
+clear
+echo "
+
+              **********INSTALACJA ZAKOŃCZONA**********
+_______________________________________________________________________
+
+
+      !!!  Należy teraz zrestartować Termuksa. Rozwiń belkę powiadomień, następnie rozszerz 'Termux' i wybierz 'Exit'.  !!!
+      !!!                  (Dla pewności możesz również usunąć Termux z listy obecnie aktywnych aplikacji)                    !!!
+
+      
+      --- Następnie, włącz Termux i:
+
+
+- Aby rozpocząć, wpisz 'altaera'.
+
+- Następnie, wróć do aplikacji AltaeraAI i naciśnij przycisk 'HTTPS://ALTAERA.AI/LOCALHOST/', pojawi się interfejs użytkownika. Jeśli strona nie zadziała, odśwież ją.
+
+
+_______________________________________________________________________
+
+(ZIGNORUJ informacje poniżej)
+              |
+              v
+              "
