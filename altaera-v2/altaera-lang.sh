@@ -8,7 +8,7 @@ TITLE="Please choose which in language you would like to talk to with the AI"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "English [Default]"
-         2 "Polish")
+         2 "Polski")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -28,7 +28,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home'
             ;;
         2)
-            echo "You chose English"
+            echo "Wybrałeś język polski"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts'
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
