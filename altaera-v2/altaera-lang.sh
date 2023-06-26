@@ -4,8 +4,8 @@ HEIGHT=80
 WIDTH=40
 CHOICE_HEIGHT=4
 BACKTITLE="Language Settings"
-TITLE="Please choose which in language you would like to talk to with the AI"
-MENU="Choose one of the following options:"
+TITLE="AI Conversation Language"
+MENU="Choose your desired language:"
 
 OPTIONS=(1 "English [Default]"
          2 "中国"
