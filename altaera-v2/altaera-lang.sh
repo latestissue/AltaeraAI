@@ -2,7 +2,7 @@
 
 HEIGHT=15
 WIDTH=40
-CHOICE_HEIGHT=8
+CHOICE_HEIGHT=6
 BACKTITLE="Language Settings"
 TITLE="AI Conversation Language"
 MENU="Choose your desired language:"
