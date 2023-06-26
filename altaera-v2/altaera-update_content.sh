@@ -4,4 +4,5 @@ chmod a+x 'lang.sh'
 rm -rf 'bash.bashrc'
 rm -rf "/etc/bash.bashrc"
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/bash.bashrc
+chmod a+x 'bash.bashrc'
 cp 'bash.bashrc' "/etc"
