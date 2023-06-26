@@ -3,8 +3,8 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 chmod a+x 'lang.sh'
 rm -rf 'bash.bashrc'
 rm -rf "/etc/bash.bashrc"
-termux-chroot
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/bash.bashrc
+termux-chroot
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
 logout
