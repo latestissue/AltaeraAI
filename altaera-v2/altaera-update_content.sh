@@ -3,6 +3,7 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 chmod a+x 'lang.sh'
 rm -rf 'bash.bashrc'
 rm -rf "/etc/bash.bashrc"
+cd /etc
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/bash.bashrc
-cp 'bash.bashrc' "/etc"
+cd '/data/data/com.termux/files/home'
 rm -rf 'bash.bashrc'
