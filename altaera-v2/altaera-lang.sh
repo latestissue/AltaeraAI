@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HEIGHT=80
+HEIGHT=40
 WIDTH=40
 CHOICE_HEIGHT=4
 BACKTITLE="Language Settings"
