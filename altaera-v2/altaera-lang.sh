@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HEIGHT=15
+HEIGHT=20
 WIDTH=40
-CHOICE_HEIGHT=4
+CHOICE_HEIGHT=6
 BACKTITLE="Language Settings"
 TITLE="AI Conversation Language"
 MENU="Choose your desired language:"
