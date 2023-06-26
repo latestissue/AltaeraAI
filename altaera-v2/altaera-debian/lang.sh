@@ -10,7 +10,16 @@ MENU="Choose one of the following options:"
 OPTIONS=(1 "English [Default]"
          2 "中国"
          3 "Deutsch"
-         4 "Polski")
+         4 "Español"
+         5 "Français"
+         6 "Italiano"
+         7 "한국어"
+         8 "日本語"
+         9 "Polski"
+         10 "Português"
+         11 "Русский"
+         12 "Українська")
+
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -44,10 +53,66 @@ case $CHOICE in
             cd /root
             ;;
         4)
+            echo "Ha elegido el español"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Spanish/chat-with-bob.txt
+            cd /root
+            ;;
+        5)
+            echo "Vous avez choisi le français"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/French/chat-with-bob.txt
+            cd /root
+            ;;
+        6)
+            echo "Avete scelto l'italiano"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Italian/chat-with-bob.txt
+            cd /root
+            ;;
+        7)
+            echo "한국어를 선택하셨습니다."
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Korean/chat-with.bob.txt
+            cd /root
+            ;;
+        8)
+            echo "あなたは日本語を選択しました"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Japanese/chat-with-bob.txt
+            cd /root
+            ;;
+        9)
             echo "Wybrałeś język polski"
             cd '/root/koboldcpp-altaera/prompts'
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
+            cd /root
+            ;;
+        10)
+            echo "Escolheu Português"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Portugese/chat-with-bob.txt
+            cd /root
+            ;;
+        11)
+            echo "Вы выбрали русский язык"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Russian/chat-with-bob.txt
+            cd /root
+            ;;
+        12)
+            echo "Ви обрали українську мову"
+            cd '/root/koboldcpp-altaera/prompts'
+            rm -rf 'chat-with-bob.txt'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Ukrainian/chat-with-bob.txt
             cd /root
             ;;
 esac
