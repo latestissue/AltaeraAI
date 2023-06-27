@@ -24,4 +24,4 @@ Człowiek: Dobrze, podoba mi się sposób w jaki ta rozmowa się odbywa. Czy mo�
 
 AltaeraAI: Oczywiście! Możesz rozpocząć rozmowę, śmiało.
 
-Człowiek:
+Człowiek: W takim razie, może Ty rozpocznij rozmowę. Możesz zaczynać.
