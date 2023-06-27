@@ -37,6 +37,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+            
+            You have succesfully changed the prompt to English.
+            "
             ;;
         2)
             echo "你选择了中文"
@@ -44,6 +50,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Chinese/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+            
+            你已经成功地将提示改为中文。
+            "
             ;;
         3)
             echo "Sie haben die deutsche Sprache gewählt"
@@ -51,6 +63,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/German/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Sie haben die Eingabeaufforderung erfolgreich auf Deutsch geändert.
+            "
             ;;
         4)
             echo "Ha elegido el español"
@@ -58,6 +76,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Spanish/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Has cambiado con éxito el prompt a español.
+            "
             ;;
         5)
             echo "Vous avez choisi le français"
@@ -65,6 +89,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/French/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Vous avez réussi à changer l'invite en français.
+            "
             ;;
         6)
             echo "Avete scelto l'italiano"
@@ -72,6 +102,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Italian/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Si è riusciti a cambiare il prompt in italiano.
+            "
             ;;
         7)
             echo "한국어를 선택하셨습니다."
@@ -79,6 +115,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Korean/chat-with.bob.txt
             cd /root
+            clear
+            echo "
+
+
+            프롬프트를 한국어로 성공적으로 변경했습니다.
+            "
             ;;
         8)
             echo "あなたは日本語を選択しました"
@@ -86,6 +128,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Japanese/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            プロンプトが日本語に変更されました。
+            "
             ;;
         9)
             echo "Wybrałeś język polski"
@@ -93,6 +141,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Udało ci się zmienić podpowiedź na język polski.
+            "
             ;;
         10)
             echo "Escolheu Português"
@@ -100,6 +154,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Portugese/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Conseguiu alterar o prompt para português.
+            "
             ;;
         11)
             echo "Вы выбрали русский язык"
@@ -107,6 +167,12 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Russian/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Вы успешно изменили запрос на русский язык.
+            "
             ;;
         12)
             echo "Ви обрали українську мову"
@@ -114,5 +180,11 @@ case $CHOICE in
             rm -rf 'chat-with-bob.txt'
             wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/Ukrainian/chat-with-bob.txt
             cd /root
+            clear
+            echo "
+
+
+            Ви успішно змінили підказку на російську мову.
+            "
             ;;
 esac
