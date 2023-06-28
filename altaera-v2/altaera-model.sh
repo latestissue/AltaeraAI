@@ -1,7 +1,7 @@
 #!/bin/bash
 
-HEIGHT=20
-WIDTH=40
+HEIGHT=30
+WIDTH=60
 CHOICE_HEIGHT=6
 BACKTITLE="AI Model Settings"
 TITLE="AI Model Selection"
