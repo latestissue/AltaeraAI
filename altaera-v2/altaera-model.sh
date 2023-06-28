@@ -35,7 +35,7 @@ OPTIONS=(1 "Q8_0-RWKV-4-World-1.5B-Untuned [Default]    1.8GB / min. 6GB RAM"
          26 "Q4_1-RWKV-4-World-7B-Untuned       5.07GB / min. 12GB RAM"
          27 "Q5_0-RWKV-4-World-7B-Untuned       5.47GB / min. 12GB RAM"
          28 "Q5_1-RWKV-4-World-7B-Untuned       5.88GB / min. 12/16GB RAM"
-         29 "Q8_0-RWKV-4-World-7B-Untuned       7.91GB / min. 16GB RAM)
+         29 "Q8_0-RWKV-4-World-7B-Untuned       7.91GB / min. 16GB RAM")
 
 
 CHOICE=$(dialog --clear \
