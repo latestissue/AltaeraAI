@@ -5,6 +5,7 @@ rm -rf 'altaera-lang.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-lang.sh
 chmod a+x 'altaera-lang.sh'
 rm -rf 'altaera-model.sh'
+rm -rf '/data/data/com.termux/files/home/altaera-model.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-model.sh
 chmod a+x 'altaera-model.sh'
 rm -rf 'bash.bashrc'
