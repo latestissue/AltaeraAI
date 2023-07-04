@@ -35,7 +35,13 @@ OPTIONS=(1 "Q8_0-RWKV-4-World-1.5B-Untuned [Default]    1.8GB / min. 6GB RAM"
          26 "Q4_1-RWKV-4-World-7B-Untuned       5.07GB / min. 12GB RAM"
          27 "Q5_0-RWKV-4-World-7B-Untuned       5.47GB / min. 12GB RAM"
          28 "Q5_1-RWKV-4-World-7B-Untuned       5.88GB / min. 12/16GB RAM"
-         29 "Q8_0-RWKV-4-World-7B-Untuned       7.91GB / min. 16GB RAM")
+         29 "Q8_0-RWKV-4-World-7B-Untuned       7.91GB / min. 16GB RAM"
+         30 "Q4_0-open-llama-3b                1.93 GB / min. ???"
+         31 "Q4_1-open-llama-3b                2.14 GB / min. ???"
+         32 "Q5_0-open-llama-3b                2.36 GB / min. ???"
+         33 "Q5_1-open-llama-3b                2.57 GB / min. ???"
+         34 "Q8_0-open-llama-3b                3.64 GB / min. ???"
+         35 "F16-open-llama-3b                  6.85 GB / min. ???")
 
 
 CHOICE=$(dialog --clear \
@@ -52,8 +58,9 @@ case $CHOICE in
             echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned [Default]'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -66,8 +73,9 @@ case $CHOICE in
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-            mv 'f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' 'RWKV-model.bin'
+            mv 'f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -80,8 +88,9 @@ case $CHOICE in
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-            mv 'f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' 'RWKV-model.bin'
+            mv 'f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -94,8 +103,9 @@ case $CHOICE in
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
-            mv 'f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin' 'RWKV-model.bin'
+            mv 'f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -108,8 +118,9 @@ case $CHOICE in
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
-            mv 'f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin' 'RWKV-model.bin'
+            mv 'f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -122,8 +133,9 @@ case $CHOICE in
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            mv 'q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -136,8 +148,9 @@ case $CHOICE in
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            mv 'q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -150,8 +163,9 @@ case $CHOICE in
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            mv 'q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -164,8 +178,9 @@ case $CHOICE in
             echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            mv 'q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -178,8 +193,9 @@ case $CHOICE in
             echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            mv 'q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -192,8 +208,9 @@ case $CHOICE in
             echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            mv 'q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -206,8 +223,9 @@ case $CHOICE in
             echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            mv 'q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -220,8 +238,9 @@ case $CHOICE in
             echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            mv 'q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -234,8 +253,9 @@ case $CHOICE in
             echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            mv 'q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -248,8 +268,9 @@ case $CHOICE in
             echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            mv 'q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -262,8 +283,9 @@ case $CHOICE in
             echo "你选择了 'Q4_0-RWKV-4-World-3B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            mv 'q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -276,8 +298,9 @@ case $CHOICE in
             echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            mv 'q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -290,8 +313,9 @@ case $CHOICE in
             echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            mv 'q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -304,8 +328,9 @@ case $CHOICE in
             echo "You chose 'Q5_0-RWKV-4-World-3B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            mv 'q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -318,8 +343,9 @@ case $CHOICE in
             echo "你选择了 'Q5_0-RWKV-4-World-3B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            mv 'q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -332,8 +358,9 @@ case $CHOICE in
             echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            mv 'q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -346,8 +373,9 @@ case $CHOICE in
             echo "你选择了 'Q5_1-RWKV-4-World-3B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            mv 'q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -360,8 +388,9 @@ case $CHOICE in
             echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            mv 'q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -374,8 +403,9 @@ case $CHOICE in
             echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            mv 'q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -388,8 +418,9 @@ case $CHOICE in
             echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            mv 'q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -402,8 +433,9 @@ case $CHOICE in
             echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            mv 'q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -416,8 +448,9 @@ case $CHOICE in
             echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            mv 'q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -430,8 +463,9 @@ case $CHOICE in
             echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            mv 'q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
@@ -444,14 +478,105 @@ case $CHOICE in
             echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            mv 'q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'RWKV-model.bin'
+            mv 'q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin' 'model.bin'
             cd /root
             clear
             echo "
 
 
             You have succesfully changed the model to 'Q8_0-RWKV-4-World-7B-Untuned'
+            "
+            ;;
+        30)
+            echo "You chose 'Q4_0-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin
+            mv 'open-llama-3b-q4_0.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'Q4_0-open-llama-3b'
+            "
+            ;;
+        31)
+            echo "You chose 'Q4_1-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_1.bin
+            mv 'open-llama-3b-q4_1.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'Q4_1-open-llama-3b'
+            "
+            ;;
+        32)
+            echo "You chose 'Q5_0-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_0.bin
+            mv 'open-llama-3b-q5_0.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'Q5_0-open-llama-3b'
+            "
+            ;;
+        33)
+            echo "You chose 'Q5_1-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_1.bin
+            mv 'open-llama-3b-q5_1.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'Q5_1-open-llama-3b'
+            "
+            ;;
+        34)
+            echo "You chose 'Q8_0-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q8_0.bin
+            mv 'open-llama-3b-q8_0.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'Q8_0-open-llama-3b'
+            "
+            ;;
+        35)
+            echo "You chose 'F16-open-llama-3b'"
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-f16.bin
+            mv 'open-llama-3b-f16.bin' 'model.bin'
+            cd /root
+            clear
+            echo "
+
+
+            You have succesfully changed the model to 'F16-open-llama-3b'
             "
             ;;
 esac
