@@ -29,9 +29,7 @@ _______________________________________________________________________
       --- Then, open Termux and:
 
 
-- To start, please type in 'altaera'.
-
-- Then, GO BACK to the AltaeraAI apk and tap on the 'HTTPS://ALTAERA.AI/LOCALHOST/' button, you will be welcomed with front-end UI. If the website does not load, please refresh the page.
+- To start, please type in 'altaera' - You will be forwarded to a browser with the deployed front-end UI.
 
 
 _______________________________________________________________________
