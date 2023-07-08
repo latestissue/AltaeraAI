@@ -9,7 +9,7 @@ tar -xf 'altaera-v2.1.tar.gz'
 rm -rf 'altaera-v2.1.tar.gz'
 cd koboldcpp-altaera
 wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
+mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 cd prompts
 rm -rf 'chat-with-bob.txt'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
