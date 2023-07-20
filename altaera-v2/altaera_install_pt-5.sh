@@ -1,3 +1,8 @@
+cd prompts
+rm -rf 'chat-with-bob.txt'
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
+cd /root
+apt install clang python3 libclblast-dev libopenblas-dev -y
 clear
 echo "
 
@@ -12,9 +17,7 @@ _______________________________________________________________________
       --- Then, open Termux and:
 
 
-- To start, please type in 'altaera'.
-
-- Then, GO BACK to the AltaeraAI apk and tap on the 'HTTPS://ALTAERA.AI/LOCALHOST/' button, you will be welcomed with front-end UI. If the website does not load, please refresh the page.
+- To start, please type in 'altaera' - You will be forwarded to a browser with the deployed front-end UI.
 
 
 _______________________________________________________________________
@@ -23,4 +26,3 @@ _______________________________________________________________________
               |
               v
               "
-              
