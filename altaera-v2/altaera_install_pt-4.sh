@@ -1,5 +1,7 @@
 #!/bin/bash
 
+free -h | awk '/Mem\:/ { print $2 }
+
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
 	wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
