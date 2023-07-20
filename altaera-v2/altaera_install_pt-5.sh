@@ -1,4 +1,4 @@
-cd 'koboldcpp-altaera/prompts'
+cd 'prompts'
 rm -rf 'chat-with-bob.txt'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
 cd /root
