@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd 'koboldcpp-altaera'
-
 	if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
 	wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
@@ -35,7 +33,7 @@ cd 'koboldcpp-altaera'
   mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 fi
 
-cd ../..
+cd ..
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-5.sh
 chmod a+x 'altaera_install_pt-5.sh'
 bash 'altaera_install_pt-5.sh'
