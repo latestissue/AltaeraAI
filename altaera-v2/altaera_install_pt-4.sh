@@ -35,4 +35,4 @@ fi
 
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-5.sh
 chmod a+x 'altaera_install_pt-5.sh'
-bash 'altaera_install_pt-5.sh'
+./altaera_install_pt-5.sh
