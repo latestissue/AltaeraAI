@@ -9,6 +9,7 @@ chmod a+x 'altaera.sh'
 wget https://github.com/latestissue/altaera-packages.github.io/releases/download/v2.2/altaera-v2.2.tar.gz
 tar -xf 'altaera-v2.2.tar.gz'
 rm -rf 'altaera-v2.2.tar.gz'
+cd 'koboldcpp-altaera'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-4.sh
 chmod a+x 'altaera_install_pt-4.sh'
 bash 'altaera_install_pt-4.sh'
