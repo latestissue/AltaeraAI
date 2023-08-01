@@ -21,8 +21,8 @@ cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-wget https://github.com/latestissue/altaera-packages.github.io/releases/download/v2.2/altaera-v2.2.tar.gz
-tar -xf 'altaera-v2.2.tar.gz'
+wget https://github.com/latestissue/altaera-packages.github.io/releases/download/v2.3/altaera-v2.3.tar.gz
+tar -xf 'altaera-v2.3.tar.gz'
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary/RWKV-model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts'
