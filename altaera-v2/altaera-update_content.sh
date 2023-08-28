@@ -11,6 +11,9 @@ rm -rf 'altaera-model.sh'
 rm -rf '/data/data/com.termux/files/home/altaera-model.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-model.sh
 chmod a+x 'altaera-model.sh'
+rm -rf 'altaera-update.sh'
+wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-update.sh
+chmod a+x 'altaera-update.sh'
 rm -rf 'bash.bashrc'
 rm -rf "/etc/bash.bashrc"
 cd /etc
