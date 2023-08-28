@@ -30,18 +30,18 @@ case $CHOICE in
             ;;
         2)
             clear
-            bash 'altaera-update.sh'
-            bash 'altaera.sh'
+            ./altaera-update.sh
+            ./altaera.sh
             ;;
         3)
             clear
-            bash 'altaera-model.sh'
-            bash 'altaera.sh'
+            ./altaera-model.sh
+            ./altaera.sh
             ;;
         4)
             clear
-            bash 'altaera-lang.sh'
-            bash 'altaera.sh'
+            ./altaera-lang.sh
+            ./altaera.sh
             ;;
          5)
             clear
