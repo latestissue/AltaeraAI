@@ -1,5 +1,5 @@
 echo "Updating AltaeraAI...";
-
+{
 rm -rf 'lang.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/lang.sh
 chmod a+x 'lang.sh'
@@ -45,6 +45,7 @@ rm -rf 'altaera.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/altaera.sh
 chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
+} &> /dev/null
 clear
 echo "
 
