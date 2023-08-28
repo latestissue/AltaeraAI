@@ -10,7 +10,8 @@ MENU="What do you want to do?"
 OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
          3 "Change the AI model"
-         4 "Change language")
+         4 "Change language"
+         5 "Exit")
          
 
 CHOICE=$(dialog --clear \
@@ -29,14 +30,20 @@ case $CHOICE in
             ;;
         2)
             clear
-            bash 'altaera-update'
+            bash 'altaera-update.sh'
+            bash 'altaera.sh'
             ;;
         3)
             clear
-            bash 'altaera-model'
+            bash 'altaera-model.sh'
+            bash 'altaera.sh'
             ;;
         4)
             clear
-            bash 'altaera-lang'
+            bash 'altaera-lang.sh'
+            bash 'altaera.sh'
+            ;;
+         5)
+            clear
             ;;
 esac
