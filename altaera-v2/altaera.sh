@@ -5,7 +5,7 @@ WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI"
 TITLE="Welcome!"
-MENU="What do you want to do?"
+MENU="What would you like to do?"
 
 OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
