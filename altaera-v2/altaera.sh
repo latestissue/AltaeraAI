@@ -2,7 +2,7 @@
 
 HEIGHT=30
 WIDTH=60
-CHOICE_HEIGHT=14
+CHOICE_HEIGHT=7
 BACKTITLE="AI Model Settings"
 TITLE="Welcome to AltaeraAI!"
 MENU="What do you want to do?"
