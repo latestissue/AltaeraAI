@@ -11,7 +11,8 @@ OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
          3 "Change the AI model"
          4 "Change language 🌍"
-         5 "Exit")
+         5 "Exit"
+         6 "Settings")
          
 
 CHOICE=$(dialog --clear \
@@ -43,7 +44,43 @@ case $CHOICE in
             ./altaera-lang.sh
             ./altaera.sh
             ;;
-         5)
+        5)
+            clear
+            ;;
+        6)
+            HEIGHT=30
+          WIDTH=60
+         CHOICE_HEIGHT=7
+         BACKTITLE="AltaeraAI - Settings"
+         TITLE="Welcome!"
+         MENU="What would you like to do?"
+
+         OPTIONS=(1 "Change the AI model"
+                  2 "Change language 🌍"
+                  3 "Exit"
+         
+
+         CHOICE=$(dialog --clear \
+                         --backtitle "$BACKTITLE" \
+                         --title "$TITLE" \
+                         --menu "$MENU" \
+                         $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                         "${OPTIONS[@]}" \
+                         2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+            clear
+            ./altaera-model.sh
+            ./altaera.sh
+            ;;
+        2)
+            clear
+            ./altaera-lang.sh
+            ./altaera.sh
+            ;;
+        3)
             clear
             ;;
 esac
