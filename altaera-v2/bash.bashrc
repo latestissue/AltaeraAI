@@ -23,6 +23,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 
+alias ae="/data/data/com.termux/files/home/altaera.sh"
 alias altaera="/data/data/com.termux/files/home/altaera.sh"
 alias altaera-update="/data/data/com.termux/files/home/altaera-update.sh"
 alias altaera-lang="/data/data/com.termux/files/home/altaera-lang.sh"
