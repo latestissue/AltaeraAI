@@ -9,8 +9,8 @@ MENU="What would you like to do?"
 
 OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
-         3 "Change the AI model"
-         4 "Change language 🌍"
+         3 "Change the AI model 🤖"
+         4 "Change language 🌐"
          5 "Exit")
          
 
