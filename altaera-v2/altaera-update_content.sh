@@ -18,9 +18,9 @@ rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-update.sh
 chmod a+x 'altaera-update.sh'
 rm -rf 'bash.bashrc'
-rm -rf "/etc/bash.bashrc"
-cd /etc
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/bash.bashrc
+rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
+cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
 cd '/data/data/com.termux/files/home'
 rm -rf 'bash.bashrc'
 mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'RWKV-model.bin'
