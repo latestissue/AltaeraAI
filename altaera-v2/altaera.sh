@@ -3,8 +3,8 @@
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AI Model Settings"
-TITLE="Welcome to AltaeraAI!"
+BACKTITLE="AltaeraAI"
+TITLE="Welcome!"
 MENU="What do you want to do?"
 
 OPTIONS=(1 "Start AltaeraAI"
