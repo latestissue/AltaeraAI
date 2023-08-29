@@ -10,14 +10,13 @@ echo "
 _______________________________________________________________________
 
 
-      !!!  Please restart Termux now, by pulling down the notification bar, then expanding 'Termux' and pressing 'Exit'.  !!!
-      !!!                  (You can also remove Termux from the 'apps switch' list, just to make sure)                    !!!
+      !!!  Please press ENTER now to restart Termux  !!!
 
       
       --- Then, open Termux and:
 
 
-- To start, please type in 'altaera' - You will be forwarded to a browser with the deployed front-end UI.
+- To start, please type in 'ae'.
 
 
 _______________________________________________________________________
@@ -26,3 +25,5 @@ _______________________________________________________________________
               |
               v
               "
+^C
+exit
