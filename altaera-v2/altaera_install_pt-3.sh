@@ -1,5 +1,5 @@
 #!/bin/bash
-clean
+clear
 echo "Installing core files...";
 
 {
