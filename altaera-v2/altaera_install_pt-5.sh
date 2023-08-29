@@ -1,4 +1,4 @@
-clean
+clear
 echo "Installing dependencies...";
 
 {
