@@ -1,4 +1,5 @@
 #!/bin/bash
+clean
 echo "Installing core files...";
 
 {
