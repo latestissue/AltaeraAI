@@ -1,3 +1,4 @@
+clean
 echo "Installing dependencies...";
 
 {
