@@ -1,3 +1,7 @@
+clear
+echo "Installing initial files...";
+
+{
 cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-update.sh
@@ -16,3 +20,4 @@ rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/al
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/bash.bashrc'
 rm -rf 'initial.sh'
 rm -rf 'bash.bashrc'
+} &> /dev/null 2>&1;
