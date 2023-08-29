@@ -8,6 +8,7 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 } &> /dev/null 2>&1;
+exit
 clear
 echo "
 
@@ -30,4 +31,5 @@ _______________________________________________________________________
               |
               v
               "
+^C
 exit
