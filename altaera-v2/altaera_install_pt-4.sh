@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Downloading the AI model...";
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
@@ -36,3 +37,4 @@ fi
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-5.sh
 chmod a+x 'altaera_install_pt-5.sh'
 ./altaera_install_pt-5.sh
+} &> /dev/null 2>&1;
