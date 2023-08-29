@@ -8,7 +8,6 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 } &> /dev/null 2>&1;
-exit
 clear
 echo "
 
@@ -16,7 +15,7 @@ echo "
 _______________________________________________________________________
 
 
-      !!!  Please press ENTER now to restart Termux  !!!
+      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
 
       
       --- Then, open Termux and:
@@ -31,5 +30,3 @@ _______________________________________________________________________
               |
               v
               "
-^C
-exit
