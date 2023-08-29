@@ -1,5 +1,7 @@
 #!/bin/bash
+echo "Installing core files...";
 
+{
 rm -rf "/etc/bash.bashrc"
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/bash.bashrc
 cp 'bash.bashrc' "/etc"
@@ -15,3 +17,4 @@ wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/ma
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-4.sh
 chmod a+x 'altaera_install_pt-4.sh'
 ./altaera_install_pt-4.sh
+} &> /dev/null 2>&1;
