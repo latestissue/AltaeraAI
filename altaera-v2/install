@@ -1,3 +1,5 @@
+echo "Initializing installation..."
+
 termux-change-repo
 termux-setup-storage
 apt update && apt -o DPkg::Options::="--force-confnew" -y upgrade
