@@ -92,6 +92,11 @@ case $CHOICE in
             ;;
         4)
             echo "Ha elegido el español"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_spa.sh
+            mv 'altaera_spa.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -107,6 +112,11 @@ case $CHOICE in
             ;;
         5)
             echo "Vous avez choisi le français"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_fr.sh
+            mv 'altaera_fr.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -122,6 +132,11 @@ case $CHOICE in
             ;;
         6)
             echo "Avete scelto l'italiano"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_it.sh
+            mv 'altaera_it.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -137,6 +152,11 @@ case $CHOICE in
             ;;
         7)
             echo "한국어를 선택하셨습니다."
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_jpn.sh
+            mv 'altaera_jpn.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -152,6 +172,11 @@ case $CHOICE in
             ;;
         8)
             echo "あなたは日本語を選択しました"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_krn.sh
+            mv 'altaera_krn.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -167,6 +192,11 @@ case $CHOICE in
             ;;
         9)
             echo "Wybrałeś język polski"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_pol.sh
+            mv 'altaera_pol.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -182,6 +212,11 @@ case $CHOICE in
             ;;
         10)
             echo "Escolheu Português"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_por.sh
+            mv 'altaera_por.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -197,6 +232,11 @@ case $CHOICE in
             ;;
         11)
             echo "Вы выбрали русский язык"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_rus.sh
+            mv 'altaera_rus.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -212,6 +252,11 @@ case $CHOICE in
             ;;
         12)
             echo "Ви обрали українську мову"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_ukr.sh
+            mv 'altaera_ukr.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
