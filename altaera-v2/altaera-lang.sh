@@ -33,6 +33,10 @@ clear
 case $CHOICE in
         1)
             echo "You chose English"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera.sh
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -48,6 +52,11 @@ case $CHOICE in
             ;;
         2)
             echo "你选择了中文"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_chn.sh
+            mv 'altaera_chn.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
