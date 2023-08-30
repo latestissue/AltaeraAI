@@ -72,6 +72,11 @@ case $CHOICE in
             ;;
         3)
             echo "Sie haben die deutsche Sprache gewählt"
+            cd '/data/data/com.termux/files/home'
+            rm -rf 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_ger.sh
+            mv 'altaera_ger.sh' 'altaera.sh'
+            chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
