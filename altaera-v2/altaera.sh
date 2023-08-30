@@ -15,6 +15,7 @@ OPTIONS=(1 "Start AltaeraAI"
          
 
 CHOICE=$(dialog --clear \
+                --colors 0 \
                 --backtitle "$BACKTITLE" \
                 --title "$TITLE" \
                 --menu "$MENU" \
