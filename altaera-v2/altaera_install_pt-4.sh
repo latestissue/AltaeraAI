@@ -35,6 +35,6 @@ echo "Downloading the AI model..."
   mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 fi
 
-wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-5.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-5.sh -q --show-progress
 chmod a+x 'altaera_install_pt-5.sh'
 ./altaera_install_pt-5.sh
