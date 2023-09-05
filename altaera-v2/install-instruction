@@ -1,1 +1,1 @@
-curl -o install https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/install && chmod +x install && ./install
+curl -o install https://github.com/latestissue/AltaeraAI/blob/main/altaera-v2/install && chmod +x install && ./install
