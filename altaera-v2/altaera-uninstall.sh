@@ -13,7 +13,7 @@ case $response in
         rm -rf 'altaera_install_pt-2.sh'
         rm -rf 'altaera-model.sh
         rm -rf 'altaera.sh'
-        rm -rf 'install'
+        rm -rf 'install.sh'
         clear
         echo "AltaeraAI has been succesfully uninstalled";;
    1) ./altaera.sh;;
