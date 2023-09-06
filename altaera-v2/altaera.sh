@@ -47,11 +47,11 @@ case $CHOICE in
             ;;
         5)
             clear
-            ./altaera-uninstall.sh
+            ./altaera-reinstall.sh
             ;;
         6)
             clear
-            ./altaera-reinstall.sh
+            ./altaera-uninstall.sh
             ;;
         7)
             clear
