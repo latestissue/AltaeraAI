@@ -17,6 +17,9 @@ chmod a+x 'altaera-model.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
 chmod a+x 'altaera-update.sh'
+rm -rf 'altaera-reinstall.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
+chmod a+x 'altaera-reinstall.sh'
 rm -rf 'altaera-uninstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 chmod a+x 'altaera-uninstall.sh'
