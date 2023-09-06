@@ -6,12 +6,13 @@ dialog --title "Uninstall Altaera AI" \
 response=$?
 case $response in
    0)   proot-distro remove altaera
-        cd /data/data/com.termux/files/home
+        cd '/data/data/com.termux/files/home'
         rm -rf 'bash.bashrc'
         rm -rf 'altaera-lang.sh'
         rm -rf 'altaera-update.sh'
         rm -rf 'altaera_install_pt-2.sh'
-        rm -rf 'altaera-model.sh
+        rm -rf 'altaera-model.sh'
+        rm -rf 'altaera'
         rm -rf 'altaera.sh'
         rm -rf 'install.sh'
         clear
