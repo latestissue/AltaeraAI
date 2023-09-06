@@ -47,6 +47,7 @@ case $CHOICE in
         5)
             clear
             ./altaera-uninstall.sh
+            ;;
         6)
             clear
             ;;
