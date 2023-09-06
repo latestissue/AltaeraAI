@@ -24,7 +24,7 @@ case $response in
         cd $PREFIX/etc/proot-distro
         wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/proot/altaera.sh -q --show-progress
         proot-distro install altaera
-        proot-distro login altaera
+        proot-distro login altaera;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
 esac
