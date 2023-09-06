@@ -5,12 +5,14 @@ echo "Installing initial files...";
 cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-lang.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 chmod a+x 'altaera-update.sh'
+chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
 chmod a+x 'altaera.sh'
 chmod a+x 'altaera-lang.sh'
