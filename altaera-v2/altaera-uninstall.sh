@@ -1,6 +1,6 @@
 #!/bin/bash
 dialog --title "Uninstall Altaera AI" \
---backtitle "Linux Shell Script Tutorial Example" \
+--backtitle "AltaeraAI" \
 --yesno "Are you sure you want to uninstall AltaeraAI?" 7 60
 
 response=$?
