@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-cd 'koboldcpp-altaera'
+cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/'
 echo "Downloading the AI model..."
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
@@ -36,7 +36,4 @@ echo "Downloading the AI model..."
   mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 fi
 
-cd /root
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6.sh
-chmod a+x 'altaera_install_pt-6.sh'
-./altaera_install_pt-6.sh
+proot-distro login altaera
