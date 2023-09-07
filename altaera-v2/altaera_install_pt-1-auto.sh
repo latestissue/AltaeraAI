@@ -38,3 +38,6 @@ echo "Downloading the AI model..."
 fi
 
 proot-distro login altaera
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-4.sh
+chmod a+x 'altaera_install_pt-4.sh'
+./altaera_install_pt-4.sh
