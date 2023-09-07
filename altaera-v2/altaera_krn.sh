@@ -7,10 +7,12 @@ BACKTITLE="AltaeraAI"
 TITLE="환영합니다!"
 MENU="무엇을 하시겠습니까?"
 
-OPTIONS=(1 "알테라AI 시작하기"
-         2 "알테라AI 업데이트"
+OPTIONS=(1 "AltaeraAI 시작"
+         2 "AltaeraAI 업데이트"
          3 "AI 모델 변경 🤖"
          4 "언어 변경 🌐"
+         5 "AltaeraAI 재설치(수정)"
+         6 "AltaeraAI 제거"
          5 "종료")
          
 
@@ -43,7 +45,15 @@ case $CHOICE in
             ./altaera-lang.sh
             ./altaera.sh
             ;;
-         5)
+        5)
+            clear
+            ./altaera-reinstall.sh
+            ;;
+        6)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        7)
             clear
             ;;
 esac
