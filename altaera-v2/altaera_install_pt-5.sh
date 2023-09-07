@@ -22,7 +22,7 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6-auto.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6-auto.sh -q --show-progress
             chmod a+x 'altaera_install_pt-6-auto.sh'
             ./altaera_install_pt-6-auto.sh
             ;;
