@@ -1,6 +1,5 @@
 #!/bin/bash
-clear
-cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/'
+
 echo "Downloading the AI model..."
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
