@@ -628,7 +628,6 @@ fi
             ;;
 esac
 
-clear
 cd /root
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6.sh
 chmod a+x 'altaera_install_pt-6.sh'
