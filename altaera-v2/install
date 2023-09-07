@@ -9,6 +9,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
+proot-distro login altaera
 clear
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_model.sh
