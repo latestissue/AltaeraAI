@@ -25,5 +25,3 @@ rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/al
 rm -rf 'initial.sh'
 rm -rf 'bash.bashrc'
 } &> /dev/null 2>&1;
-
-proot-distro login altaera
