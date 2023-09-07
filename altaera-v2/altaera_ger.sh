@@ -11,7 +11,9 @@ OPTIONS=(1 "AltaeraAI starten"
          2 "AltaeraAI aktualisieren"
          3 "Ändern Sie das AI-Modell 🤖"
          4 "Sprache ändern 🌐"
-         5 "Ausfahrt")
+         5 "AltaeraAI neu installieren (fixieren)"
+         6 "AltaeraAI deinstallieren"
+         7 "Ausfahrt")
          
 
 CHOICE=$(dialog --clear \
@@ -43,7 +45,15 @@ case $CHOICE in
             ./altaera-lang.sh
             ./altaera.sh
             ;;
-         5)
+        5)
+            clear
+            ./altaera-reinstall.sh
+            ;;
+        6)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        7)
             clear
             ;;
 esac
