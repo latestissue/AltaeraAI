@@ -13,7 +13,7 @@ OPTIONS=(1 "AltaeraAI 시작"
          4 "언어 변경 🌐"
          5 "AltaeraAI 재설치(수정)"
          6 "AltaeraAI 제거"
-         5 "종료")
+         7 "종료")
          
 
 CHOICE=$(dialog --clear \
