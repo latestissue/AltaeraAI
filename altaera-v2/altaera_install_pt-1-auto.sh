@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 echo "Downloading the AI model..."
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
