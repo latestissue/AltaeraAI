@@ -627,25 +627,9 @@ fi
             "
             ;;
 esac
+
 clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-
-(IGNORE the text on the bottom)
-              |
-              v
-              "
+cd /root
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6.sh
+chmod a+x 'altaera_install_pt-6.sh'
+./altaera_install_pt-6.sh
