@@ -16,7 +16,8 @@ cd 'koboldcpp-altaera'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/klite/klite.embd
 cd /root
-wget wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-4.sh
+exit
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-4.sh
 chmod a+x 'altaera_install_pt-4.sh'
 } &> /dev/null 2>&1;
 ./altaera_install_pt-4.sh
