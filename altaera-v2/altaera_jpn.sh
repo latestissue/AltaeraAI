@@ -11,7 +11,9 @@ OPTIONS=(1 "AltaeraAIを始める"
          2 "AltaeraAIをアップデートする"
          3 "AIモデルの変更 🤖"
          4 "言語を変更する 🌐"
-         5 "終了する")
+         5 "AltaeraAIを再インストール（修正）する"
+         6 "AltaeraAIをアンインストールする"
+         7 "終了する")
          
 
 CHOICE=$(dialog --clear \
@@ -43,7 +45,15 @@ case $CHOICE in
             ./altaera-lang.sh
             ./altaera.sh
             ;;
-         5)
+        5)
+            clear
+            ./altaera-reinstall.sh
+            ;;
+        6)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        7)
             clear
             ;;
 esac
