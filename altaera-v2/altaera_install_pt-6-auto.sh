@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+cd 'koboldcpp-altaera'
 echo "Downloading the AI model..."
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
@@ -34,6 +35,7 @@ echo "Downloading the AI model..."
 	wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -q --show-progress
   mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 fi
+cd /root
 clear
 echo "
 
