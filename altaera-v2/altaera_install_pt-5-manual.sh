@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 HEIGHT=120
 WIDTH=160
 CHOICE_HEIGHT=24
@@ -628,7 +630,4 @@ fi
             ;;
 esac
 
-cd /root
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6.sh
-chmod a+x 'altaera_install_pt-6.sh'
-./altaera_install_pt-6.sh
+proot-distro login altaera
