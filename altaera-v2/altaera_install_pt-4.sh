@@ -10,7 +10,13 @@ cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 } &> /dev/null 2>&1;
 
-cd /root
+echo "Copying the AI model into proper directory...";
+
+{
+cd '/root'
+cp '/data/data/com.termux/files/home/AltaeraAI-temp/model.bin' './koboldcpp-altaera'
+} &> /dev/null 2>&1;
+
 clear
 echo "
 
