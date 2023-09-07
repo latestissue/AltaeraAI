@@ -10,8 +10,6 @@ cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 } &> /dev/null 2>&1;
 
-#!/bin/bash
-
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
