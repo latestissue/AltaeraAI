@@ -12,5 +12,6 @@ distro_setup() {
 	run_proot_cmd apt update && apt upgrade -y
 	run_proot_cmd apt install curl wget procps -y
 	run_proot_cmd wget --no-check-certificate https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-3.sh
+ 	run_proot_cmd chmod a+x 'altaera_install_pt-3.sh'
  	run_proot_cmd bash 'altaera_install_pt-3.sh'
 }
