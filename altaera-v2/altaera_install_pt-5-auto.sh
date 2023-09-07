@@ -35,26 +35,8 @@ echo "Downloading the AI model..."
 	wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -q --show-progress
   mv 'q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin' 'model.bin'
 fi
+
 cd /root
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-
-(IGNORE the text on the bottom)
-              |
-              v
-              "
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-6.sh
+chmod a+x 'altaera_install_pt-6.sh'
+./altaera_install_pt-6.sh
