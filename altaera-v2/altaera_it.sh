@@ -13,7 +13,7 @@ OPTIONS=(1 "Avviare AltaeraAI"
          4 "Cambiare la lingua 🌐"
          5 "Reinstallare (riparare) AltaeraAI"
          6 "Disinstallare AltaeraAI"
-         5 "Uscire")
+         7 "Uscire")
          
 
 CHOICE=$(dialog --clear \
