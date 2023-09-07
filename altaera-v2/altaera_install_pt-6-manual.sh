@@ -3,7 +3,7 @@
 HEIGHT=120
 WIDTH=160
 CHOICE_HEIGHT=24
-BACKTITLE="AltaeraAI - AI Model Settings"
+BACKTITLE="Installing AltaeraAI - AI model"
 TITLE="AI Model Selection"
 MENU="Choose your desired model:"
 
