@@ -1,7 +1,5 @@
 #!/bin/bash
 
-clear
-
 HEIGHT=120
 WIDTH=160
 CHOICE_HEIGHT=24
