@@ -22,11 +22,9 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-auto.sh
-            mv 'altaera_install_pt-1-auto.sh' 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
             ;;
         2)
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-manual.sh
-            mv 'altaera_install_pt-1-manual.sh' 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-manual.sh -O 'altaera_install_pt-1.sh'
             ;;
 esac
