@@ -27,4 +27,7 @@ case $CHOICE in
         2)
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-manual.sh -O 'altaera_install_pt-1.sh'
             ;;
+        255)
+            bash 'altaera_install_model.sh'
+            ;;
 esac
