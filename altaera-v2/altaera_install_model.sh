@@ -8,7 +8,7 @@ TITLE="Installing AltaeraAI - AI model"
 MENU="Choose your desired method"
 
 OPTIONS=(1 "AI model auto-detection [default]"
-         7 "AI model manual selection")
+         2 "AI model manual selection")
          
 
 CHOICE=$(dialog --clear \
