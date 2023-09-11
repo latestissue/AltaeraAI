@@ -7,7 +7,7 @@ dialog --title "Reinstall (fix) Altaera AI" \
 response=$?
 case $response in
    
-   proot-distro remove altaera
+   0)   proot-distro remove altaera
         cd '/data/data/com.termux/files/home'
         rm -rf 'bash.bashrc'
         rm -rf 'altaera-lang.sh'
