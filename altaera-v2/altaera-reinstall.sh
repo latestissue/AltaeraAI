@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HEIGHT=20
-WIDTH=40
+WIDTH=80
 CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI"
 TITLE="Reinstalling AltaeraAI"
