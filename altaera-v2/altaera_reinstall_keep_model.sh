@@ -28,6 +28,7 @@ case $response in
         wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera-debian/proot/altaera.sh -q --show-progress
         proot-distro install altaera
         mv '/data/data/com.termux/files/home/AltaeraAI-temp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin'
+        rm -rf 'altaera_reinstall_keep_model.sh'
         proot-distro login altaera;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
