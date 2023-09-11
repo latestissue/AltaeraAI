@@ -20,7 +20,7 @@ CHOICE=$(dialog --clear \
                 2>&1 >/dev/tty)
 
 clear
-case $response in
+case $CHOICE in
    1)   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_reinstall_keep_model.sh
    chmod a+x 'altaera_reinstall_keep_model.sh'
    bash 'altaera_reinstall_keep_model.sh'
