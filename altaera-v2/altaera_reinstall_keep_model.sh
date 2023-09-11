@@ -31,5 +31,4 @@ case $response in
         proot-distro login altaera;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
-
    esac
