@@ -7,7 +7,8 @@ dialog --title "Reinstall (fix) Altaera AI" \
 response=$?
 case $response in
    
-   0)   proot-distro remove altaera
+   0)   mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '/data/data/com.termux/files/home/AltaeraAI-temp'
+        proot-distro remove altaera
         cd '/data/data/com.termux/files/home'
         rm -rf 'bash.bashrc'
         rm -rf 'altaera-lang.sh'
@@ -19,7 +20,6 @@ case $response in
         rm -rf 'install.sh'
         rm -rf 'altaera-reinstall.sh'
         rm -rf 'altaera-uninstall.sh'
-        mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '/data/data/com.termux/files/home/AltaeraAI-temp'
         clear
         wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-2.sh -q --show-progress
         chmod a+x 'altaera_install_pt-2.sh'
