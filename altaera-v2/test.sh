@@ -58,34 +58,10 @@ python3 koboldcpp.py f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin 1551 --smartc
 
 else
 
-dialog --title "Start AltaeraAI" \
---backtitle "AltaeraAI" \
---yesno "No 'f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' model found on your device. Would you like to download it?" 7 60
-
-response=$?
-case $response in
-   0)   cd 'koboldcpp-altaera'
-   wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-   termux-open-url 'http://localhost:1551'
-    python3 koboldcpp.py f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin 1551 --smartcontext --blasbatchsize 2048 --contextsize 512
-   1) ./altaera.sh;;
-   255) ./altaera.sh;;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/test1.sh
+chmod a+x test1.sh
+./test1.sh
 esac; fi
-fi
-            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
-            rm -rf 'RWKV-model.bin'
-            rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-            mv 'f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin' 'model.bin'
-            cd /root
-            clear
-            echo "
-
-
-            You have succesfully changed the model to 'F16-RWKV-4-World-0.1B-Untuned'
-            "
-            ;;
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
