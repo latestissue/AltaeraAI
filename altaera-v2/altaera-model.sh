@@ -1,14 +1,14 @@
 #!/bin/bash
 
-HEIGHT=120
-WIDTH=160
+HEIGHT=60
+WIDTH=80
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
 MENU="Choose your desired model:"
 
 OPTIONS=(1 "Auto-detection - [Default]"
-         2 "RWKV-4-World")
+         2 "RWKV-4-World [...]")
 
 
 CHOICE=$(dialog --clear \
