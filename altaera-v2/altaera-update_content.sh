@@ -14,6 +14,9 @@ rm -rf 'altaera-model.sh'
 rm -rf '/data/data/com.termux/files/home/altaera-model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model.sh
 chmod a+x 'altaera-model.sh'
+rm -rf 'altaera-model-rwkv-4.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model-rwkv-4.sh
+chmod a+x 'altaera-model-rwkv-4.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
 chmod a+x 'altaera-update.sh'
