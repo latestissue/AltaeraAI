@@ -61,7 +61,7 @@ else
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/test1.sh
 chmod a+x test1.sh
 ./test1.sh
-esac; fi
+; fi
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
