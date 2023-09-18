@@ -34,6 +34,7 @@ Kobold Lite is under the AGPL v3.0 License for the purposes of koboldcpp. Please
 <div id=menuitems>
 <div class=navcontainer>
 <nav class=navbar id=navbar>
+<button class=navbar-toggler type=button onclick=toggleNavWithoutBootstrapJS()>
 <span class=navbar-button-bar></span>
 <span class=navbar-button-bar></span>
 <span class=navbar-button-bar></span>
