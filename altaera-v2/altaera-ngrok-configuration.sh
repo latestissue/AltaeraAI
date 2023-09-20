@@ -12,5 +12,3 @@ case $response in
    1) ./altaera.sh;;
    255) ./altaera.sh;;
    esac
-   
-rm -rf 'altaera-ngrok-configuration.sh'
