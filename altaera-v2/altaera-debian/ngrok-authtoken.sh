@@ -5,4 +5,4 @@ user_input=$(\
 )
 
 ngrok config add-authtoken "$user_input"
-logout
+exit
