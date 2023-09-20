@@ -45,6 +45,9 @@ cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 rm -rf 'altaera-upgrade.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/altaera-upgrade.sh
 chmod a+x 'altaera-upgrade.sh'
+rm -rf 'ngrok-authtoken.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/ngrok-authtoken.sh
+chmod a+x 'ngrok-authtoken.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v2.6/altaera-v2.6.tar.gz
 tar -xf 'altaera-v2.6.tar.gz'
 cd 'koboldcpp-altaera'
