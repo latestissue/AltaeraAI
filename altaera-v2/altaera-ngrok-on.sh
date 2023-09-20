@@ -12,6 +12,7 @@ case $response in
    wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/ngrok/altaera.sh
    chmod a+x 'altaera.sh'
    cd '/data/data/com.termux/files/home'
+   rm -rf 'altaera-ngrok-on.sh'
    ;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
