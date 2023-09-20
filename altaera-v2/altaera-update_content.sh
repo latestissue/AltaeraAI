@@ -26,6 +26,9 @@ chmod a+x 'altaera-update.sh'
 rm -rf 'altaera-update-proot.sh'
 https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update-proot.sh
 chmod a+x 'altaera-update-proot.sh'
+rm -rf 'altaera-ngrok.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok.sh
+chmod a+x 'altaera-ngrok.sh'
 rm -rf 'altaera-reinstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 chmod a+x 'altaera-reinstall.sh'
