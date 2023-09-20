@@ -21,11 +21,11 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-   1) wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
-   ./altaera-ngrok-configuration.sh
+   1)
+./altaera-ngrok-configuration.sh
    ;;
-   2)   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-on.sh
-   ./altaera-ngrok-on.sh
+   2)
+./altaera-ngrok-on.sh
    ;;
    
 esac
