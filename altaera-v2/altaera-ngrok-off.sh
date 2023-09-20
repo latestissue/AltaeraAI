@@ -11,6 +11,7 @@ case $response in
    rm -rf 'altaera.sh'
    wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/altaera.sh
    chmod a+x 'altaera.sh'
+   cd '/data/data/com.termux/files/home'
    ;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
