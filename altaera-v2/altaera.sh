@@ -11,9 +11,10 @@ OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
-         5 "Reinstall (fix) AltaeraAI [...]"
-         6 "Uninstall AltaeraAI"
-         7 "Exit")
+         5 "Configure ngrok Secure Tunneling"
+         6 "Reinstall (fix) AltaeraAI [...]"
+         7 "Uninstall AltaeraAI"
+         8 "Exit")
          
 
 CHOICE=$(dialog --clear \
@@ -47,13 +48,18 @@ case $CHOICE in
             ;;
         5)
             clear
-            ./altaera-reinstall.sh
+            ./altaera-ngrok.sh
+            ./altaera.sh
             ;;
         6)
             clear
-            ./altaera-uninstall.sh
+            ./altaera-reinstall.sh
             ;;
         7)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        8)
             clear
             ;;
 esac
