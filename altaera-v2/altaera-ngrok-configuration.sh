@@ -1,2 +1,2 @@
-proot-distro login altaera -- ./altaera-ngrok-authtoken.sh &
+proot-distro login altaera -- ./ngrok-authtoken.sh &
 ./altaera.sh
