@@ -29,16 +29,19 @@ chmod a+x 'altaera-update-proot.sh'
 rm -rf 'altaera-ngrok.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok.sh
 chmod a+x 'altaera-ngrok.sh'
+rm -rf 'altaera-ngrok-configuration.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
+chmod a+x 'altaera-ngrok-configuration.sh'
+rm -rf 'bash.bashrc'
+rm -rf 'altaera-ngrok-on.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-on.sh
+chmod a+x 'altaera-ngrok-on.sh'
 rm -rf 'altaera-reinstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 chmod a+x 'altaera-reinstall.sh'
 rm -rf 'altaera-uninstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 chmod a+x 'altaera-uninstall.sh'
-rm -rf 'altaera-ngrok-configuration.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
-chmod a+x 'altaera-ngrok-configuration.sh'
-rm -rf 'bash.bashrc'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
