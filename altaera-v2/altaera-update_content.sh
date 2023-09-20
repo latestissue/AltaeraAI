@@ -45,9 +45,9 @@ cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-rm -rf 'altaera-upgrade.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/altaera-upgrade.sh
-chmod a+x 'altaera-upgrade.sh'
+rm -rf 'upgrade.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/upgrade.sh
+chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/ngrok-authtoken.sh
 chmod a+x 'ngrok-authtoken.sh'
