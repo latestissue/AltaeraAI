@@ -20,9 +20,9 @@ chmod a+x 'altaera-model-rwkv-4.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
 chmod a+x 'altaera-update.sh'
-rm -rf 'altaera-update-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update-2.sh
-chmod a+x 'altaera-update-2.sh'
+rm -rf 'altaera-update-proot.sh'
+https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update-proot.sh
+chmod a+x 'altaera-update-proot.sh'
 rm -rf 'altaera-reinstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 chmod a+x 'altaera-reinstall.sh'
@@ -68,7 +68,6 @@ rm -rf 'altaera.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/altaera.sh
 chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
-./altaera-update-2.sh
 } &> /dev/null 2>&1;
 clear
 echo "
