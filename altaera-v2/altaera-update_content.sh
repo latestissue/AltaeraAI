@@ -29,6 +29,9 @@ chmod a+x 'altaera-reinstall.sh'
 rm -rf 'altaera-uninstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 chmod a+x 'altaera-uninstall.sh'
+rm -rf 'altaera-ngrok-configuration.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
+chmod a+x 'altaera-ngrok-configuration.sh'
 rm -rf 'bash.bashrc'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
