@@ -1,7 +1,10 @@
-user_input=$(\
-  dialog --title "ngrok authtoken configuration" \
-         --inputbox "Enter your ngrok authtoken:" 8 40 \
-  3>&1 1>&2 2>&3 3>&- \
-)
+#!/bin/bash
+input=$(dialog --inputbox "Please enter your ngrok authtoken" 0 0 2>&1 >/dev/tty)
+retval=$?
 
-ngrok config add-authtoken "$user_input"
+case $retval in
+0)
+ ngrok config add-authtoken '$input';;
+1)
+ exit
+esac
