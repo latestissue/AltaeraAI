@@ -23,10 +23,10 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 
-alias ae="/data/data/com.termux/files/home/altaera.sh"
-alias altaera="/data/data/com.termux/files/home/altaera.sh"
-alias aelogin="/data/data/com.termux/files/home/altaeralogin.sh"
-alias altaeralogin="/data/data/com.termux/files/home/altaeralogin.sh"
-alias altaera-update="/data/data/com.termux/files/home/altaera-update.sh"
-alias altaera-lang="/data/data/com.termux/files/home/altaera-lang.sh"
-alias altaera-model="/data/data/com.termux/files/home/altaera-model.sh"
+alias ae="/data/data/com.termux/files/home/AltaeraAI/altaera.sh"
+alias altaera="/data/data/com.termux/files/home/AltaeraAI/altaera.sh"
+alias aelogin="/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh"
+alias altaeralogin="/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh"
+alias altaera-update="/data/data/com.termux/files/home/AltaeraAI/altaera-update.sh"
+alias altaera-lang="/data/data/com.termux/files/home/AltaeraAI/altaera-lang.sh"
+alias altaera-model="/data/data/com.termux/files/home/AltaeraAI/altaera-model.sh"
