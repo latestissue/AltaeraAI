@@ -10,6 +10,6 @@ case $response in
         rm -rf 'AltaeraAI'
         clear
         echo "AltaeraAI has been succesfully uninstalled";;
-   1) ./altaera.sh;;
-   255) ./altaera.sh;;
+   1) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
+   255) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
 esac
