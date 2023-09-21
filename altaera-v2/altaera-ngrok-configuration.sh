@@ -7,7 +7,7 @@ dialog --title "ngrok Secure Tunnel Configuration" \
 response=$?
 case $response in
    
-   0)   echo "termux-open-url 'https://altaera.ai/ngrok-secure-tunnells/'"
+   0) termux-open-url 'https://altaera.ai/ngrok-secure-tunnells/'
    ;;
    1) ./altaera.sh;;
    255) ./altaera.sh;;
