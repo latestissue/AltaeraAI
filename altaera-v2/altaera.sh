@@ -11,7 +11,7 @@ OPTIONS=(1 "Start AltaeraAI"
          2 "Update AltaeraAI"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
-         5 "ngrok Secure Tunneling [...]"
+         5 "ngrok Secure Tunnelling [...]"
          6 "Reinstall (fix) AltaeraAI [...]"
          7 "Uninstall AltaeraAI"
          8 "Exit")
