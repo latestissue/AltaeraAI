@@ -8,6 +8,7 @@ case $response in
    0)   proot-distro remove altaera
         cd '/data/data/com.termux/files/home'
         rm -rf 'AltaeraAI'
+        rm -rf 'AltaeraAI-temp'
         clear
         echo "AltaeraAI has been succesfully uninstalled";;
    1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
