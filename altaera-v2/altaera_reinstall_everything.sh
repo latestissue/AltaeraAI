@@ -25,6 +25,6 @@ case $response in
         mv '/data/data/com.termux/files/home/AltaeraAI-temp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
         rm -rf 'altaera_reinstall_everything.sh'
         proot-distro login altaera;;
-   1) ./altaera.sh;;
-   255) ./altaera.sh;;
+   1) ./AltaeraAI/altaera.sh;;
+   255) ./AltaeraAI/altaera.sh;;
    esac
