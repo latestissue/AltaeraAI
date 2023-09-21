@@ -1,7 +1,7 @@
 echo "Updating AltaeraAI...";
 
 {
-mkdir 'AltaeraAI'
+mkdir '/data/data/com.termux/files/home/AltaeraAI'
 mv 'altaera.sh' 'altaeralogin.sh' 'altaera-lang.sh' 'altaera-model' 'altaera-model-rwkv-4.sh' 'altaera-update.sh' 'altaera-update-proot.sh' 'altaera-ngrok.sh' 'altaera-ngrok-configuration.sh' 'altaera-ngrok-on.sh' 'altaera-reinstall.sh' 'altaera-uninstall.sh' './AltaeraAI'
 cd 'AltaeraAI'
 rm -rf 'altaera.sh'
