@@ -5,7 +5,7 @@ WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI"
 TITLE="Installing AltaeraAI - AI model"
-MENU="Choose your desired method"
+MENU="Choose your desired method:"
 
 OPTIONS=(1 "AI Model Auto-detection (RWKV-4-Claude) [Default]"
          2 "AI Model Manual selection")
