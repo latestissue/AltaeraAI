@@ -22,10 +22,10 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
    1)
-./AltaeraAI/altaera-ngrok-configuration.sh
+./data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-configuration.sh
    ;;
    2)
-./AltaeraAI/altaera-ngrok-on.sh
+./data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-on.sh
    ;;
    
 esac
