@@ -10,6 +10,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/alt
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaeralogin.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-lang.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_model.sh
@@ -21,6 +22,7 @@ chmod a+x 'altaera-update.sh'
 chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
 chmod a+x 'altaera.sh'
+chmod a+x 'altaeralogin.sh'
 chmod a+x 'altaera-lang.sh'
 chmod a+x 'altaera-model.sh'
 chmod a+x 'altaera_install_model.sh'
