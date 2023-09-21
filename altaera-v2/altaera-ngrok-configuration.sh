@@ -9,6 +9,6 @@ case $response in
    
    0) termux-open-url 'https://altaera.ai/ngrok-secure-tunnels/'
    ;;
-   1) ./altaera.sh;;
-   255) ./altaera.sh;;
+   1) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
+   255) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
    esac
