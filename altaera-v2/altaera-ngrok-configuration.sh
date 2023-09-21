@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dialog --title "ngrok configuration" \
+dialog --title "ngrok Secure Tunnel Configuration" \
         --backtitle "AltaeraAI" \
         --yesno "You will be forwarded to a website with an instruction on how to get your ngrok authtoken configured. Would you like to continue?" 7 60
 
