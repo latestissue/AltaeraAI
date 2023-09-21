@@ -33,7 +33,7 @@ clear
 case $CHOICE in
         1)
             echo "You chose English"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera.sh
             chmod a+x 'altaera.sh'
@@ -52,7 +52,7 @@ case $CHOICE in
             ;;
         2)
             echo "你选择了中文"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_chn.sh
             mv 'altaera_chn.sh' 'altaera.sh'
@@ -72,7 +72,7 @@ case $CHOICE in
             ;;
         3)
             echo "Sie haben die deutsche Sprache gewählt"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_ger.sh
             mv 'altaera_ger.sh' 'altaera.sh'
@@ -92,7 +92,7 @@ case $CHOICE in
             ;;
         4)
             echo "Ha elegido el español"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_spa.sh
             mv 'altaera_spa.sh' 'altaera.sh'
@@ -112,7 +112,7 @@ case $CHOICE in
             ;;
         5)
             echo "Vous avez choisi le français"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_fr.sh
             mv 'altaera_fr.sh' 'altaera.sh'
@@ -132,7 +132,7 @@ case $CHOICE in
             ;;
         6)
             echo "Avete scelto l'italiano"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_it.sh
             mv 'altaera_it.sh' 'altaera.sh'
@@ -152,7 +152,7 @@ case $CHOICE in
             ;;
         7)
             echo "한국어를 선택하셨습니다."
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_jpn.sh
             mv 'altaera_jpn.sh' 'altaera.sh'
@@ -172,7 +172,7 @@ case $CHOICE in
             ;;
         8)
             echo "あなたは日本語を選択しました"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_krn.sh
             mv 'altaera_krn.sh' 'altaera.sh'
@@ -192,7 +192,7 @@ case $CHOICE in
             ;;
         9)
             echo "Wybrałeś język polski"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_pol.sh
             mv 'altaera_pol.sh' 'altaera.sh'
@@ -212,7 +212,7 @@ case $CHOICE in
             ;;
         10)
             echo "Escolheu Português"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_por.sh
             mv 'altaera_por.sh' 'altaera.sh'
@@ -232,7 +232,7 @@ case $CHOICE in
             ;;
         11)
             echo "Вы выбрали русский язык"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_rus.sh
             mv 'altaera_rus.sh' 'altaera.sh'
@@ -252,7 +252,7 @@ case $CHOICE in
             ;;
         12)
             echo "Ви обрали українську мову"
-            cd '/data/data/com.termux/files/home'
+            cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_ukr.sh
             mv 'altaera_ukr.sh' 'altaera.sh'
