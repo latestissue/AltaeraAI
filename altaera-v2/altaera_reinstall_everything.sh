@@ -9,16 +9,8 @@ case $response in
    
    0)   proot-distro remove altaera
         cd '/data/data/com.termux/files/home'
-        rm -rf 'bash.bashrc'
-        rm -rf 'altaera-lang.sh'
-        rm -rf 'altaera-update.sh'
-        rm -rf 'altaera_install_pt-2.sh'
-        rm -rf 'altaera-model.sh'
-        rm -rf 'altaera.sh'
-        rm -rf 'install'
-        rm -rf 'install.sh'
-        rm -rf 'altaera-reinstall.sh'
-        rm -rf 'altaera-uninstall.sh'
+        rm -rf 'AltaeraAI'
+        rm -rf 'AltaeraAI-temp'
         clear
         wget https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/altaera_install_pt-2.sh -q --show-progress
         chmod a+x 'altaera_install_pt-2.sh'
