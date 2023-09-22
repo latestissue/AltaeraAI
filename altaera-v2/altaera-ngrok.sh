@@ -4,7 +4,7 @@ HEIGHT=20
 WIDTH=80
 CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI"
-TITLE="ngrok configuration"
+TITLE="ngrok Configuration"
 MENU="What would you like to do?:"
 
 OPTIONS=(1 "Configure ngrok Authtoken [Required]"
