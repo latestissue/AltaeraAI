@@ -68,5 +68,5 @@ fi
             "
             ;;
         2)
-  		bash 'altaera-model-rwkv-4.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-rwkv-4.sh'
 esac
