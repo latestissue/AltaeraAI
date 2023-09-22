@@ -7,7 +7,7 @@ BACKTITLE="AltaeraAI"
 TITLE="Welcome!"
 MENU="What would you like to do?"
 
-OPTIONS=(1 "Start AltaeraAI"
+OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
          2 "Update AltaeraAI"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
