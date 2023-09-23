@@ -29,6 +29,21 @@ chmod a+x 'altaera_install_model.sh'
 chmod a+x 'altaera-ngrok.sh'
 chmod a+x 'altaera-ngrok-configuration.sh'
 chmod a+x 'altaera-ngrok-on.sh'
+
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backed-up.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restored-cleanup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-cleaned-up.sh
+
+chmod a+x 'altaera-model_backup-restore.sh'
+chmod a+x 'altaera-model_backup.sh'
+chmod a+x 'altaera-model_restore.sh'
+chmod a+x 'altaera-model_backed-up.sh'
+chmod a+x 'altaera-model_restored-cleanup.sh'
+chmod a+x 'altaera-model_backup-cleaned-up.sh'
+
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
 rm -rf 'bash.bashrc'
