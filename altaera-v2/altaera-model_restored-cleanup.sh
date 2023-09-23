@@ -5,10 +5,10 @@ dialog --title "AltaeraAI - Model Restore [Cleanup]" \
 
 response=$?
 case $response in
-   0)   rm -rf '/sdcard/AltaeraAI-temp/model.bin
+   0)   rm -rf '/sdcard/AltaeraAI-temp/model.bin'
    bash 'altaera-model_restored.sh';;
     
-   1) bash 'altaera-model_restored.sh';;
+   1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
    
-   255) bash 'altaera-model_restored.sh';;
+   255) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
 esac
