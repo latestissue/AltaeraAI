@@ -12,9 +12,10 @@ OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
          5 "ngrok Secure Tunnelling [...]"
-         6 "Reinstall (fix) AltaeraAI [...]"
-         7 "Uninstall AltaeraAI"
-         8 "Exit")
+         6 "AI Model Backup/Restore (/sdcard) [...]"
+         7 "Reinstall (fix) AltaeraAI [...]"
+         8 "Uninstall AltaeraAI"
+         9 "Exit")
          
 
 CHOICE=$(dialog --clear \
@@ -53,13 +54,18 @@ case $CHOICE in
             ;;
         6)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         8)
+            clear
+            './AltaeraAI/altaera-uninstall.sh'
+            ;;
+        9)
             clear
             ;;
 esac
