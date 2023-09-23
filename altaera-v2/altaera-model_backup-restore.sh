@@ -7,8 +7,8 @@ BACKTITLE="AltaeraAI"
 TITLE="AI Model Backup/Restore"
 MENU="Choose your option:"
 
-OPTIONS=(1 "Backup AI Model to '/sdcard/AltaeraAI-temp/'"
-         2 "Restore AI Model from '/sdcard/AltaeraAI-temp/'")
+OPTIONS=(1 "Backup AI Model to '/sdcard/AltaeraAI-tmp/'"
+         2 "Restore AI Model from '/sdcard/AltaeraAI-tmp/'")
 
 
 CHOICE=$(dialog --clear \
