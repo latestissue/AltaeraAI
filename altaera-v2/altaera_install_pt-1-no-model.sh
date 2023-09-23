@@ -5,7 +5,8 @@ dialog --title "Installing AltaeraAI - AI model" \
 
 response=$?
 case $response in
-   0)   clear;;
+   0)   rm -rf 'altaera_install_pt-1.sh'
+   clear;;
    1) bash 'altaera_install_model.sh';;
    255) bash 'altaera_install_model.sh';;
 esac
