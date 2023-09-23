@@ -1,7 +1,7 @@
 #!/bin/bash
 dialog --title "AltaeraAI - Model Restore" \
 --backtitle "AltaeraAI" \
---yesno "Are you sure you want to restore your AI model from '/sdcard/AltaeraAI-temp/'?" 7 60
+--yesno "Are you sure you want to restore your AI model from '/sdcard/AltaeraAI-tmp/'?" 7 60
 
 response=$?
 case $response in
