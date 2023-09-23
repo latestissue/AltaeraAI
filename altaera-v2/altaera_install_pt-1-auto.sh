@@ -2,7 +2,7 @@
 
 clear
 
-cd 'AltaeraAI-temp'
+cd 'AltaeraAI-tmp'
 
 echo "Downloading the AI model..."
 
