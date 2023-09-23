@@ -45,6 +45,28 @@ chmod a+x 'altaera-reinstall.sh'
 rm -rf 'altaera-uninstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
 chmod a+x 'altaera-uninstall.sh'
+
+rm -rf 'altaera-model_backup-restore.sh'
+rm -rf 'altaera-model_backup.sh'
+rm -rf 'altaera-model_restore.sh'
+rm -rf 'altaera-model_backed-up.sh'
+rm -rf 'altaera-model_restored-cleanup.sh'
+rm -rf 'altaera-model_backup-cleaned-up.sh'
+
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backed-up.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restored-cleanup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-cleaned-up.sh
+
+chmod a+x 'altaera-model_backup-restore.sh'
+chmod a+x 'altaera-model_backup.sh'
+chmod a+x 'altaera-model_restore.sh'
+chmod a+x 'altaera-model_backed-up.sh'
+chmod a+x 'altaera-model_restored-cleanup.sh'
+chmod a+x 'altaera-model_backup-cleaned-up.sh'
+
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
