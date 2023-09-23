@@ -6,7 +6,7 @@ dialog --title "AltaeraAI - Model Restore" \
 response=$?
 case $response in
    0)   rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin'
-    cp '~/storage/AltaeraAI-temp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/'
+    cp '~/storage/shared/AltaeraAI-temp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/'
     bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_restored-cleanup.sh';;
     
    1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_backup-restore.sh';;
