@@ -15,7 +15,7 @@ echo "Copying the AI model into proper directory...";
 
 {
 cd '/root'
-cp '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin'
 } &> /dev/null 2>&1;
 
 echo "Cleaning up File System...";
