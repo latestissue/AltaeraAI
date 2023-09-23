@@ -6,6 +6,7 @@ cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 mkdir 'AltaeraAI'
 cd 'AltaeraAI'
+
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
@@ -17,7 +18,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/alt
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-on.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
+
 chmod a+x 'altaera-update.sh'
 chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
@@ -43,6 +44,8 @@ chmod a+x 'altaera-model_restore.sh'
 chmod a+x 'altaera-model_backed-up.sh'
 chmod a+x 'altaera-model_restored-cleanup.sh'
 chmod a+x 'altaera-model_backup-cleaned-up.sh'
+
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
