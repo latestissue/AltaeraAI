@@ -67,6 +67,8 @@ chmod a+x 'altaera-model_backed-up.sh'
 chmod a+x 'altaera-model_restored-cleanup.sh'
 chmod a+x 'altaera-model_backup-cleaned-up.sh'
 
+mv '/data/data/com.termux/files/home/AltaeraAI-temp' '/data/data/com.termux/files/home/AltaeraAI-tmp'
+
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
