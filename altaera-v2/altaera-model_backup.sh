@@ -5,7 +5,9 @@ dialog --title "AltaeraAI - Model Backup" \
 
 response=$?
 case $response in
-   0)   mkdir '~/storage/shared/AltaeraAI-temp'
+   0)   cd '~/storage/shared'
+   mkdir 'AltaeraAI-temp'
+   cd '/data/data/com.termux/files/home'
    cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '~/storage/AltaeraAI-temp'
     bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_backed-up.sh';;
     
