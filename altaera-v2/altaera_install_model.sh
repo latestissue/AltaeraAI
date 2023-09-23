@@ -8,7 +8,8 @@ TITLE="Installing AltaeraAI - AI model"
 MENU="Choose your desired method:"
 
 OPTIONS=(1 "AI Model Auto-detection (RWKV-4-Claude) [Default]"
-         2 "AI Model Manual selection")
+         2 "AI Model Manual selection"
+         3 "Do not download AI model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -26,5 +27,8 @@ case $CHOICE in
             ;;
         2)
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-manual.sh -O 'altaera_install_pt-1.sh'
+            ;;
+        3)
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
             ;;
 esac
