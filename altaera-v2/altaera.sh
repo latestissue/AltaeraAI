@@ -12,7 +12,7 @@ OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
          5 "ngrok Secure Tunnelling [...]"
-         6 "AI Model Backup/Restore (/sdcard) [...]"
+         6 "[!broken] AI Model Backup/Restore (/sdcard) [...]"
          7 "Reinstall (fix) AltaeraAI [...]"
          8 "Uninstall AltaeraAI"
          9 "Exit")
