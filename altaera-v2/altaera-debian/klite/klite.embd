@@ -3246,7 +3246,7 @@ Current version: 68
 			document.getElementById("customendpoint").value =  protocol + localmodehost + ":" + localmodeport;
 			connect_custom_endpoint();
 			document.getElementById("lastreq").innerHTML = document.getElementById("lastreq2").innerHTML =
-			`<span class=color_gray>You're using Kobold Lite Embedded.</span>`;
+			`<span class=color_gray>You're using Kobold Lite Embedded on AltaeraAI.</span>`;
 		}
 		else
 		{
@@ -7517,7 +7517,7 @@ Current version: 68
 		{
 			playbeep();
 		}
-		let lastreq = "<a href=\"#\" onclick=\"show_last_req()\">Last request</a> served by <a href=\"#\" onclick=\"get_and_show_workers()\">" + genworker + "</a> using <span class=\"color_darkgreen\">"+genmdl+ "</span> for " + genkudos + " kudos in " + getTimeTaken() + " seconds.";
+		let lastreq = "<a href=\"#\" onclick=\"show_last_req()\"Last message generated in "+getTimeTaken()+" seconds.";
 		document.getElementById("lastreq").innerHTML = lastreq;
 		document.getElementById("lastreq2").innerHTML = lastreq;
 	}
