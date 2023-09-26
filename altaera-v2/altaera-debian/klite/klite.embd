@@ -7517,7 +7517,7 @@ Current version: 68
 		{
 			playbeep();
 		}
-		let lastreq = "<a href=\"#\" onclick=\"show_last_req()\"Last message generated in "+getTimeTaken()+" seconds.";
+		let lastreq = "<a href=\"#\" onclick=\"show_last_req()\"Last message generated in "+getTimeTaken()+" seconds. - [Remember to frequently perform story backups with the 'Save' button, then store them at a safe place!]";
 		document.getElementById("lastreq").innerHTML = lastreq;
 		document.getElementById("lastreq2").innerHTML = lastreq;
 	}
@@ -8362,7 +8362,7 @@ Current version: 68
 			if (pending_response_id=="") { document.getElementById("chatistyping").classList.add("hidden"); }
 			else {
 				let aiName = ((pending_context_preinjection && pending_context_preinjection.includes(":")) ? pending_context_preinjection.split(":")[0] : "The AI");
-				document.getElementById("chataityping").innerText = aiName + " is typing...";
+				document.getElementById("chataityping").innerText = aiName + " is typing... - Try not to close the tab (you can follow the processing procedure in Termux)";
 				document.getElementById("chatistyping").classList.remove("hidden");
 			}
 			document.getElementById("chat_msg_send_btn").disabled = document.getElementById("btnsend").disabled;
