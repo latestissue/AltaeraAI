@@ -8,7 +8,7 @@ AltaeraAI is a Termux wrapper that packages KoboldCpp and Kobold Lite UI for nat
 The main premise of it is to automate AI Inference using a smartphone, with the help of well-chosen, open tools. This allows you for instant access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality.
 
 AltaeraAI works as a platform in order to provide easy instructions and support AI deployment on Android devices with the use of Termux.
-You can read more at: altaera.ai
+You can read more at: (altaera.ai)
 
 Installation:
 
