@@ -3,7 +3,7 @@
 ![altaerablurredinverted](https://github.com/latestissue/AltaeraAI/assets/121747280/b7fa15ad-925d-44b4-b157-277770565fe4)
 
 
-[b]AltaeraAI[/b] is a [b]Termux[/b] wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and [b]Kobold Lite UI[/b] for native usage on [b]Android[/b] devices.
+AltaeraAI is a Termux wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
 
 The main premise of it is to automate AI Inference using a smartphone, with the help of well-chosen, Open-Source tools and software. This allows you for instant access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality.
 
