@@ -10,13 +10,14 @@ The main premise of it is to automate AI Inference using a smartphone, with the 
 AltaeraAI works as a platform in order to provide easy instructions and support AI deployment on Android devices with the use of Termux.
 You can read more at: [altaera.ai](https://altaera.ai)
 
-Installation:
+## Installation:
 
-- Paste in Termux:
+1. Download and install [Termux](https://f-droid.org/repo/com.termux_118.apk)
+2. Open Termux and paste in:
    `curl -o install https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/install && chmod +x install && ./install`
+- Then press ENTER and wait for the installation to finish. Make sure that you are connected to Wi-Fi because the process will download 3GB+ of data, depending on device. Installation will take 5min+ of time, depending on the device and Internet speed.
 
-
-Launching & Updating:
+## Launching & Updating:
 
 - Open Termux, type in `ae` – you will be welcomed with the MENU screen.
 
