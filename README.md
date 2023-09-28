@@ -10,11 +10,11 @@ The main premise of it is to automate AI Inference using a smartphone, with the 
 Installation:
 
 - Paste in Termux:
-   curl -o install https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/install && chmod +x install && ./install
+   'curl -o install https://raw.githubusercontent.com/latestissue/altaera-packages.github.io/main/altaera-v2/install && chmod +x install && ./install'
 
 
 Launching & Updating:
 
-- Open Termux, type in “ae” – you will be welcomed with the MENU screen.
+- Open Termux, type in 'ae' – you will be welcomed with the MENU screen.
 
 The “Start AltaeraAI” button will forward you to a browser with deployed UI.
