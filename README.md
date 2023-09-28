@@ -19,6 +19,6 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Launching & Updating:
 
-- Open Termux, type in `ae` – you will be welcomed with the MENU screen.
+- Open Termux, type in '`ae`' – you will be welcomed with the MENU screen.
 
 The “Start AltaeraAI” button will forward you to a browser with deployed UI.
