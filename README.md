@@ -1,6 +1,6 @@
 # AltaeraAI
 
-![altaerablurred](https://github.com/latestissue/AltaeraAI/assets/121747280/45f145bf-7240-46d1-983c-a0c83e4de426)
+![altaerablurredinverted](https://github.com/latestissue/AltaeraAI/assets/121747280/44ebda5c-132c-42ee-9172-d9d0ed4e3181)
 
 
 AltaeraAI is a Termux wrapper that packages KoboldCpp and Kobold Lite UI for native usage on Android devices.
