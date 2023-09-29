@@ -35,13 +35,13 @@ case $CHOICE in
             echo "You chose English"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -54,14 +54,14 @@ case $CHOICE in
             echo "你选择了中文"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_chn.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_chn.sh
             mv 'altaera_chn.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Chinese/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Chinese/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -74,14 +74,14 @@ case $CHOICE in
             echo "Sie haben die deutsche Sprache gewählt"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_ger.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ger.sh
             mv 'altaera_ger.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/German/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/German/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -94,14 +94,14 @@ case $CHOICE in
             echo "Ha elegido el español"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_spa.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_spa.sh
             mv 'altaera_spa.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Spanish/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Spanish/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -114,14 +114,14 @@ case $CHOICE in
             echo "Vous avez choisi le français"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_fr.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh
             mv 'altaera_fr.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/French/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/French/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -134,14 +134,14 @@ case $CHOICE in
             echo "Avete scelto l'italiano"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_it.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_it.sh
             mv 'altaera_it.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Italian/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Italian/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -154,14 +154,14 @@ case $CHOICE in
             echo "한국어를 선택하셨습니다."
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_jpn.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_jpn.sh
             mv 'altaera_jpn.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Korean/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Korean/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -174,14 +174,14 @@ case $CHOICE in
             echo "あなたは日本語を選択しました"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_krn.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_krn.sh
             mv 'altaera_krn.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Japanese/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Japanese/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -194,14 +194,14 @@ case $CHOICE in
             echo "Wybrałeś język polski"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_pol.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pol.sh
             mv 'altaera_pol.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Polish/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Polish/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -214,14 +214,14 @@ case $CHOICE in
             echo "Escolheu Português"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_por.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_por.sh
             mv 'altaera_por.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Portugese/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Portugese/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -234,14 +234,14 @@ case $CHOICE in
             echo "Вы выбрали русский язык"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_rus.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_rus.sh
             mv 'altaera_rus.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Russian/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Russian/chat-with-bob.txt
             cd /root
             clear
             echo "
@@ -254,14 +254,14 @@ case $CHOICE in
             echo "Ви обрали українську мову"
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_ukr.sh
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ukr.sh
             mv 'altaera_ukr.sh' 'altaera.sh'
             chmod a+x 'altaera.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
             cd 'prompts'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/Ukrainian/chat-with-bob.txt
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Ukrainian/chat-with-bob.txt
             cd /root
             clear
             echo "
