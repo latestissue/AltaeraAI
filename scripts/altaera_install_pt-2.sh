@@ -7,17 +7,17 @@ rm -rf 'altaera_install.sh'
 mkdir 'AltaeraAI'
 cd 'AltaeraAI'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-update.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-reinstall.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-uninstall.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaeralogin.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-lang.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera_install_model.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-configuration.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-ngrok-on.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-configuration.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-on.sh
 
 chmod a+x 'altaera-update.sh'
 chmod a+x 'altaera-reinstall.sh'
@@ -31,12 +31,12 @@ chmod a+x 'altaera-ngrok.sh'
 chmod a+x 'altaera-ngrok-configuration.sh'
 chmod a+x 'altaera-ngrok-on.sh'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backed-up.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_restored-cleanup.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-model_backup-cleaned-up.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restore.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backed-up.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restored-cleanup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-cleaned-up.sh
 
 chmod a+x 'altaera-model_backup-restore.sh'
 chmod a+x 'altaera-model_backup.sh'
@@ -45,7 +45,7 @@ chmod a+x 'altaera-model_backed-up.sh'
 chmod a+x 'altaera-model_restored-cleanup.sh'
 chmod a+x 'altaera-model_backup-cleaned-up.sh'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/bash.bashrc
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/bash.bashrc
 
 rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
 cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
