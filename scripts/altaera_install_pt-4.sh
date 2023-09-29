@@ -5,7 +5,7 @@ echo "Installing dependencies...";
 {
 cd 'prompts'
 rm -rf 'chat-with-bob.txt'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/altaera-v2/altaera-debian/prompts/chat-with-bob.txt
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
 cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | tee /etc/apt/sources.list.d/ngrok.list && apt update && apt install ngrok
