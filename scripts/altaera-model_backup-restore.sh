@@ -2,7 +2,7 @@
 
 HEIGHT=20
 WIDTH=80
-CHOICE_HEIGHT=24
+CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI"
 TITLE="AI Model Backup/Restore"
 MENU="Choose your option:"
