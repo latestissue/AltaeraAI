@@ -27,6 +27,11 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 The “Start AltaeraAI” button will forward you to a browser with deployed UI.
 
+## Access Inference on external devices
+
+You can access your AI Inference on external devices like PCs, laptops, etc., with the use of Secure Tunnelling [ngrok] - AltaeraAI has this function implemented in its code. You can learn more at:
+[ngrok Secure Tunnels - AltaeraAI](https://altaera.ai/ngrok-secure-tunnels/)
+
 ## License [derived from KoboldCpp]
 
 - The original GGML library and llama.cpp by ggerganov are licensed under the MIT License
