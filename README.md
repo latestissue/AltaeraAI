@@ -26,3 +26,9 @@ You can read more at: [altaera.ai](https://altaera.ai)
 </p>
 
 The “Start AltaeraAI” button will forward you to a browser with deployed UI.
+
+## License [derived from KoboldCpp]
+
+- The original GGML library and llama.cpp by ggerganov are licensed under the MIT License
+- However, Kobold Lite is licensed under the AGPL v3.0 License
+- The other files are also under the AGPL v3.0 License unless otherwise stated
