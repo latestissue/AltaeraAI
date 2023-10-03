@@ -6,6 +6,6 @@ dialog --title "安装 AltaeraAI - 人工智能模型" \
 response=$?
 case $response in
    0)   clear;;
-   1) bash 'altaera_install_model.sh';;
-   255) bash 'altaera_install_model.sh';;
+   1) bash 'altaera_install_model-chn.sh';;
+   255) bash 'altaera_install_model-chn.sh';;
 esac
