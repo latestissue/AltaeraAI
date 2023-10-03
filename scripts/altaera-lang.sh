@@ -4,7 +4,7 @@ HEIGHT=20
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI - Language Settings"
-TITLE="AI Conversation Language"
+TITLE="AI Conversation Language - Prompt Tuning"
 MENU="Choose your desired language:"
 
 OPTIONS=(1 "English [Default]"
