@@ -7,10 +7,12 @@ BACKTITLE="AltaeraAI"
 TITLE="欢迎光临!"
 MENU="你想做什么？"
 
-OPTIONS=(1 "启动 AltaeraAI"
+OPTIONS=(1 "启动 AltaeraAI [KoboldCpp]"
          2 "更新 AltaeraAI"
-         3 "改变人工智能模式 🤖"
+         3 "改变人工智能模式 🤖 [...]"
          4 "更改语言 🌐"
+         5 "ngrok Secure Tunnelling [...]"
+         6 "AI Model Backup/Restore (/sdcard) [...]"
          5 "重新安装（修复）AltaeraAI"
          6 "卸载 AltaeraAI"
          7 "退出")
@@ -44,6 +46,16 @@ case $CHOICE in
             clear
             ./altaera-lang.sh
             ./altaera.sh
+            ;;
+        5)
+            clear
+            ./AltaeraAI/altaera-ngrok.sh
+            ./AltaeraAI/altaera.sh
+            ;;
+        6)
+            clear
+            ./AltaeraAI/altaera-model_backup-restore.sh
+            ./AltaeraAI/altaera.sh
             ;;
         5)
             clear
