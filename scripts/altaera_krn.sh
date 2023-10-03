@@ -7,13 +7,15 @@ BACKTITLE="AltaeraAI"
 TITLE="환영합니다!"
 MENU="무엇을 하시겠습니까?"
 
-OPTIONS=(1 "AltaeraAI 시작"
+OPTIONS=(1 "AltaeraAI 시작 [KoboldCpp]"
          2 "AltaeraAI 업데이트"
          3 "AI 모델 변경 🤖"
          4 "언어 변경 🌐"
-         5 "AltaeraAI 재설치(수정)"
-         6 "AltaeraAI 제거"
-         7 "종료")
+         5 "ngrok Secure Tunnelling [...]"
+         6 "AI Model Backup/Restore (/sdcard) [...]"
+         7 "AltaeraAI 재설치(수정)"
+         8 "AltaeraAI 제거"
+         9 "종료")
          
 
 CHOICE=$(dialog --clear \
@@ -47,13 +49,23 @@ case $CHOICE in
             ;;
         5)
             clear
-            ./altaera-reinstall.sh
+            ./AltaeraAI/altaera-ngrok.sh
+            ./AltaeraAI/altaera.sh
             ;;
         6)
             clear
-            ./altaera-uninstall.sh
+            ./AltaeraAI/altaera-model_backup-restore.sh
+            ./AltaeraAI/altaera.sh
             ;;
         7)
+            clear
+            ./altaera-reinstall.sh
+            ;;
+        8)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        9)
             clear
             ;;
 esac
