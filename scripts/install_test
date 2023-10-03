@@ -59,7 +59,7 @@ proot-distro login altaera
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model-chn.sh -O 'altaera_install_model.sh' -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
