@@ -54,3 +54,4 @@ mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.te
 proot-distro login altaera
 
 ;;
+esac
