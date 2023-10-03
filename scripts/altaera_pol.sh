@@ -34,18 +34,18 @@ case $CHOICE in
             ;;
         2)
             clear
-            ./altaera-update.sh
-            ./altaera.sh
+            './AltaeraAI/altaera-update.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            ./altaera-model.sh
-            ./altaera.sh
+            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            ./altaera-lang.sh
-            ./altaera.sh
+            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
@@ -59,11 +59,11 @@ case $CHOICE in
             ;;
         7)
             clear
-            ./altaera-reinstall.sh
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         8)
             clear
-            ./altaera-uninstall.sh
+            './AltaeraAI/altaera-uninstall.sh'
             ;;
         9)
             clear
