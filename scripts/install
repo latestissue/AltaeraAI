@@ -8,7 +8,7 @@ pkg install wget curl proot-distro -y
 mkdir 'AltaeraAI-tmp'
 
 HEIGHT=20
-WIDTH=40
+WIDTH=60
 CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI Installation - Language Settings"
 TITLE="AI Conversation Language - Prompt Tuning"
