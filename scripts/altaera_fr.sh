@@ -7,13 +7,15 @@ BACKTITLE="AltaeraAI"
 TITLE="Bienvenue !"
 MENU="Qu'aimeriez-vous faire ?"
 
-OPTIONS=(1 "Démarrer AltaeraAI"
+OPTIONS=(1 "Démarrer AltaeraAI [KoboldCpp]"
          2 "Mettre à jour AltaeraAI"
          3 "Changer le modèle d'AI 🤖"
          4 "Changer de langue 🌐"
-         5 "Réinstaller (fixer) AltaeraAI"
-         6 "Désinstaller AltaeraAI"
-         7 "Quitter")
+         5 "ngrok Secure Tunnelling [...]"
+         6 "AI Model Backup/Restore (/sdcard) [...]"
+         7 "Réinstaller (fixer) AltaeraAI"
+         8 "Désinstaller AltaeraAI"
+         9 "Quitter")
          
 
 CHOICE=$(dialog --clear \
@@ -47,13 +49,23 @@ case $CHOICE in
             ;;
         5)
             clear
-            ./altaera-reinstall.sh
+            ./AltaeraAI/altaera-ngrok.sh
+            ./AltaeraAI/altaera.sh
             ;;
         6)
             clear
-            ./altaera-uninstall.sh
+            ./AltaeraAI/altaera-model_backup-restore.sh
+            ./AltaeraAI/altaera.sh
             ;;
         7)
+            clear
+            ./altaera-reinstall.sh
+            ;;
+        8)
+            clear
+            ./altaera-uninstall.sh
+            ;;
+        9)
             clear
             ;;
 esac
