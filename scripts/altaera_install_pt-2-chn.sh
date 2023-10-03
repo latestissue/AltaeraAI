@@ -1,5 +1,5 @@
 clear
-echo "安装初始文件...";
+echo "Installing initial files...";
 
 {
 cd /data/data/com.termux/files/home
@@ -10,7 +10,7 @@ cd 'AltaeraAI'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_chn.sh -O 'altaera.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
