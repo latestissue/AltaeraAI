@@ -14,6 +14,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-configuration.sh
@@ -26,6 +27,7 @@ chmod a+x 'altaera.sh'
 chmod a+x 'altaeralogin.sh'
 chmod a+x 'altaera-lang.sh'
 chmod a+x 'altaera-model.sh'
+chmod a+x 'altaera-model-rwkv-4.sh'
 chmod a+x 'altaera_install_model.sh'
 chmod a+x 'altaera-ngrok.sh'
 chmod a+x 'altaera-ngrok-configuration.sh'
