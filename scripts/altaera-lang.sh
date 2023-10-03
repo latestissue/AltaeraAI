@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HEIGHT=20
-WIDTH=40
+WIDTH=60
 CHOICE_HEIGHT=6
 BACKTITLE="AltaeraAI - Language Settings"
 TITLE="AI Conversation Language - Prompt Tuning"
