@@ -3,18 +3,17 @@ clear
 echo "Installing dependencies...";
 
 {
-cd 'prompts'
-rm -rf 'chat-with-bob.txt'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
 cd /root
 apt install clang python3 libclblast-dev libopenblas-dev -y
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | tee /etc/apt/sources.list.d/ngrok.list && apt update && apt install ngrok
 } &> /dev/null 2>&1;
 
-echo "Moving the AI model into proper directory...";
+echo "Moving the AI model and prompt file into proper directory...";
 
 {
 cd '/root'
+rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts'
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin'
 } &> /dev/null 2>&1;
 
