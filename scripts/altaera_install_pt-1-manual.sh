@@ -59,7 +59,6 @@ clear
 case $CHOICE in
         1)
             echo "You chose 'Auto-detection - [Default]'"
-	    echo "Downloading the AI model..."
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
             rm -rf 'model.bin'
             
