@@ -6,16 +6,12 @@ cd 'AltaeraAI-tmp'
 
 echo "Downloading the AI model..."
 
-{
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
-} &> /dev/null 2>&1;
 	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
   mv 'q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin' 'model.bin'
-  {
 	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "11Gi" ]; then
-} &> /dev/null 2>&1;
 	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
   mv 'q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin' 'model.bin'
 	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
