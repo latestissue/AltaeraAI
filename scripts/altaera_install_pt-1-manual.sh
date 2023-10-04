@@ -61,7 +61,6 @@ case $CHOICE in
             echo "You chose 'Auto-detection - [Default]'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
             rm -rf 'model.bin'
-            
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
 	clear
