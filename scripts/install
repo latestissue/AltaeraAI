@@ -59,25 +59,17 @@ mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.te
 clear
 } &> /dev/null 2>&1;
 
-proot-distro login altaera
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
 clear
-echo "
+} &> /dev/null 2>&1;
 
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
+proot-distro login altaera
 ;;
 
          2)
@@ -110,24 +102,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          3)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -159,24 +133,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          4)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -208,24 +164,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          5)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -257,24 +195,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          6)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -306,24 +226,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          7)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -355,24 +257,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          8)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -404,24 +288,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          9)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -453,24 +319,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          10)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -502,24 +350,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          11)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -551,24 +381,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
          12)
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
@@ -600,24 +412,6 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
-clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
 ;;
 
 esac
