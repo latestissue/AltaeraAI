@@ -22,3 +22,15 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 } &> /dev/null 2>&1;
 
 clear
+
+echo "
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
+      
+      --- Then, open Termux and:
+- To start, please type in 'ae'.
+_______________________________________________________________________
+"
+
+exec <&-
