@@ -236,6 +236,7 @@ clear
 } &> /dev/null 2>&1;
 
 proot-distro login altaera
+exit
 clear
 echo "
 
