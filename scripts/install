@@ -59,16 +59,6 @@ mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.te
 clear
 } &> /dev/null 2>&1;
 
-echo "Cleaning up File System...";
-
-{
-rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
-rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
-rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
-rm -rf '/data/data/com.termux/files/home/install'
-clear
-} &> /dev/null 2>&1;
-
 proot-distro login altaera
 clear
 echo "
