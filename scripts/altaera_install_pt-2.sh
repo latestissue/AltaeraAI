@@ -9,7 +9,6 @@ cd 'Altaera-tmp'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
 cd ..
 
-mkdir 'AltaeraAI'
 cd 'AltaeraAI'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
