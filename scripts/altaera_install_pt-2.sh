@@ -5,7 +5,7 @@ echo "Installing initial files...";
 cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 
-cd 'Altaera-tmp'
+cd 'AltaeraAI-tmp'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
 cd ..
 
