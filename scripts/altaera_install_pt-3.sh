@@ -4,7 +4,7 @@ echo "Installing core files...";
 
 {
 rm -rf "/etc/bash.bashrc"
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/bash.bashrc
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/altaera.sh
