@@ -10,8 +10,8 @@ proot-distro remove altaera
 
 rm -rf 'AltaeraAI'
 rm -rf 'AltaeraAI-tmp'
-mkdir 'AltaeraAI-tmp'
 mkdir 'AltaeraAI'
+mkdir 'AltaeraAI-tmp'
 
 HEIGHT=20
 WIDTH=60
