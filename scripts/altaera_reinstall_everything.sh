@@ -20,7 +20,7 @@ case $response in
         chmod a+x 'altaera_install_model.sh'
         bash 'altaera_install_model.sh'
         cd $PREFIX/etc/proot-distro
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
         proot-distro install altaera
         mv '/data/data/com.termux/files/home/AltaeraAI-temp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
         rm -rf 'altaera_reinstall_everything.sh'
