@@ -8,10 +8,10 @@ pkg install wget curl proot-distro -y
 
 proot-distro remove altaera
 
-rm -rf 'AltaeraAI'
 rm -rf 'AltaeraAI-tmp'
-mkdir 'AltaeraAI'
+rm -rf 'AltaeraAI'
 mkdir 'AltaeraAI-tmp'
+mkdir 'AltaeraAI'
 
 HEIGHT=20
 WIDTH=60
