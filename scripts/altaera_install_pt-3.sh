@@ -7,7 +7,7 @@ rm -rf "/etc/bash.bashrc"
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/altaera.sh
 chmod a+x 'altaera.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v2.7/altaera-v2.7.tar.gz
 tar -xf 'altaera-v2.7.tar.gz'
