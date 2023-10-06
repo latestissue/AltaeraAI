@@ -21,9 +21,11 @@ clear
 echo "
               **********INSTALLATION COMPLETED**********
 _______________________________________________________________________
-      !!!  Please pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-      
+      !!!  - Please, pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
+      !!!  - Or, press 'CTRL+D' twice.                                                !!!
+
       --- Then, open Termux and:
+      
 - To start, please type in 'ae'.
 _______________________________________________________________________
 "
