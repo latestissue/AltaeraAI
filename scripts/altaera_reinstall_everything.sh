@@ -11,6 +11,8 @@ case $response in
         cd '/data/data/com.termux/files/home'
         rm -rf 'AltaeraAI'
         rm -rf 'AltaeraAI-tmp'
+        mkdir 'AltaeraAI'
+        mkdir 'AltaeraAI-tmp'
         clear
         wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
         chmod a+x 'altaera_install_pt-2.sh'
