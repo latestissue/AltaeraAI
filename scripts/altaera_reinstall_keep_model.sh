@@ -8,6 +8,7 @@ response=$?
 case $response in
    
    0)   echo "Making a backup copy of your AI model...";
+   {
 mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '/data/data/com.termux/files/home/AltaeraAI-tmp'
 } &> /dev/null 2>&1;
 
