@@ -24,9 +24,9 @@ rm -rf 'AltaeraAI'
 mkdir 'AltaeraAI'
 
 cd 'AltaeraAI-tmp'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
-chmod a+x 'altaera-reinstall.sh'
-./altaera-reinstall.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall.sh
+chmod a+x 'altaera_reinstall.sh'
+./altaera_reinstall.sh
 ;;
 
    1) ./AltaeraAI/altaera.sh;;
