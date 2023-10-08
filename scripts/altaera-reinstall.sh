@@ -26,7 +26,7 @@ case $CHOICE in
    chmod a+x 'altaera_reinstall_keep_model.sh'
    bash 'altaera_reinstall_keep_model.sh'
    rm -rf 'AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
-   rm -rf 'AltaeraAI-tmp/altaera-reinstall-keep-model.sh'
+   rm -rf 'AltaeraAI-tmp/altaera_reinstall.sh'
    ;;
 
    2)   cd 'AltaeraAI-tmp'
@@ -34,6 +34,7 @@ case $CHOICE in
    chmod a+x 'altaera_reinstall_everything.sh'
    bash 'altaera_reinstall_everything.sh'
    rm -rf 'AltaeraAI-tmp/altaera_reinstall_everything.sh'
+   rm -rf 'AltaeraAI-tmp/altaera_reinstall.sh'
    ;;
    
 esac
