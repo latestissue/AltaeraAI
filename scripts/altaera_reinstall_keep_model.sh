@@ -24,9 +24,9 @@ rm -rf 'AltaeraAI'
 mkdir 'AltaeraAI'
 
 cd 'AltaeraAI-tmp'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall-keep-model.sh
-chmod a+x 'altaera-reinstall-keep-model.sh'
-./altaera-reinstall-keep-model.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
+chmod a+x 'altaera-reinstall.sh'
+./altaera-reinstall.sh
 ;;
 
    1) ./AltaeraAI/altaera.sh;;
