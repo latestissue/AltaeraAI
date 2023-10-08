@@ -11,6 +11,7 @@ case $response in
         proot-distro remove altaera
         cd '/data/data/com.termux/files/home'
         rm -rf 'AltaeraAI'
+        mkdir 'AltaeraAI'
         clear
         wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
         chmod a+x 'altaera_install_pt-2.sh'
