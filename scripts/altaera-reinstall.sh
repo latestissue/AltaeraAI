@@ -21,14 +21,18 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-   1)   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_keep_model.sh
+   1)   cd 'AltaeraAI-tmp'
+   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_keep_model.sh
    chmod a+x 'altaera_reinstall_keep_model.sh'
    bash 'altaera_reinstall_keep_model.sh'
+   rm -rf 'AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
    ;;
 
-   2)   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
+   2)   cd 'AltaeraAI-tmp'
+   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
    chmod a+x 'altaera_reinstall_everything.sh'
    bash 'altaera_reinstall_everything.sh'
+   rm -rf 'AltaeraAI-tmp/altaera_reinstall_everything.sh'
    ;;
    
 esac
