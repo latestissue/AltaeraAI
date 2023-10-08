@@ -7,21 +7,645 @@ dialog --title "Reinstall (fix) Altaera AI" \
 response=$?
 case $response in
    
-   0)   mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '/data/data/com.termux/files/home/AltaeraAI-tmp'
-        proot-distro remove altaera
-        cd '/data/data/com.termux/files/home'
-        rm -rf 'AltaeraAI'
-        mkdir 'AltaeraAI'
-        clear
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
-        chmod a+x 'altaera_install_pt-2.sh'
-        bash 'altaera_install_pt-2.sh'
-        cd $PREFIX/etc/proot-distro
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
-        proot-distro install altaera
-        mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
-        rm -rf 'altaera_reinstall_keep_model.sh'
-        proot-distro login altaera;;
+   0)   echo "Making a backup copy of your AI model...";
+mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/model.bin' '/data/data/com.termux/files/home/AltaeraAI-tmp'
+} &> /dev/null 2>&1;
+
+echo "Removing previous AltaeraAI files...";
+
+{
+proot-distro remove altaera
+
+rm -rf 'AltaeraAI-tmp'
+rm -rf 'AltaeraAI'
+} &> /dev/null 2>&1;
+
+mkdir 'AltaeraAI-tmp'
+mkdir 'AltaeraAI'
+
+HEIGHT=20
+WIDTH=60
+CHOICE_HEIGHT=6
+BACKTITLE="AltaeraAI Installation - Language Settings"
+TITLE="AI Conversation Language - Prompt Tuning"
+MENU="Which language will you use when talking to AI? [You can also change this setting later]:"
+
+OPTIONS=(1 "English [Default]"
+         2 "中国"
+         3 "Deutsch"
+         4 "Español"
+         5 "Français"
+         6 "Italiano"
+         7 "한국어"
+         8 "日本語"
+         9 "Polski"
+         10 "Português"
+         11 "Русский"
+         12 "Українська")
+
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+                
+                
+clear
+case $CHOICE in
+        1)
+        
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+
+         2)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         3)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         4)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         5)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         6)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         7)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         8)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         9)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         10)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         11)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!                                        !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+         12)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+chmod a+x 'altaera_install_pt-2.sh'
+bash 'altaera_install_pt-2.sh'
+cd $PREFIX/etc/proot-distro
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/proot/altaera.sh -q --show-progress
+proot-distro install altaera
+
+echo "Moving the AI model and prompt file into proper directory...";
+
+{
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/prompts/chat-with-bob.txt'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+clear
+} &> /dev/null 2>&1;
+
+echo "Cleaning up File System...";
+
+{
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
+rm -rf '/data/data/com.termux/files/home/install'
+clear
+} &> /dev/null 2>&1;
+
+proot-distro login altaera
+clear
+echo "
+
+              **********INSTALLATION COMPLETED**********
+_______________________________________________________________________
+
+
+      !!!  - Press 'CTRL+D' once again  !!!
+
+      
+      --- Then, open Termux and:
+
+
+- To start, please type in 'ae'.
+
+
+_______________________________________________________________________
+"
+;;
+
    1) ./AltaeraAI/altaera.sh;;
    255) ./AltaeraAI/altaera.sh;;
    esac
