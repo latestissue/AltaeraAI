@@ -3,9 +3,9 @@
 ![altaerablurredinverted](https://github.com/latestissue/AltaeraAI/assets/121747280/b7fa15ad-925d-44b4-b157-277770565fe4)
 
 
-AltaeraAI is a Termux wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
+AltaeraAI is a [Termux](https://github.com/termux) wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
 
-The main premise of it is to automate AI Inference using a smartphone, with the help of well-chosen, Open-Source tools and software. This allows you for instant access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality. The default implemented model is RWKV. The installation process will allow you to either choose AI model via an auto-detection mechanism, or you can select the model size manually. The former runs a simple algorithm to detect amount of RAM installed on device, then downloads an AI model accordingly.
+The main premise of it is to automate AI Inference using a smartphone, with the help of well-chosen, Open-Source tools and software. This allows you for instant access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality. The default implemented model is [RWKV](https://github.com/BlinkDL/RWKV-LM). The installation process will allow you to either choose AI model via an auto-detection mechanism, or you can select the model size manually. The former runs a simple algorithm to detect amount of RAM installed on device, then downloads an AI model accordingly.
 
 AltaeraAI works as a platform in order to provide easy instructions and support for AI deployment on Android devices with the use of Termux.
 You can read more at: [altaera.ai](https://altaera.ai)
