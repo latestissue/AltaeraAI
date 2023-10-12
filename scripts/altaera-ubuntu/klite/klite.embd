@@ -8967,7 +8967,7 @@ Current version: 78
 			if (pending_response_id=="") { document.getElementById("chatistyping").classList.add("hidden"); }
 			else {
 				let aiName = ((pending_context_preinjection && pending_context_preinjection.includes(":")) ? pending_context_preinjection.split(":")[0] : "The AI");
-				document.getElementById("chataityping").innerText = aiName + " is typing...";
+				document.getElementById("chataityping").innerText = aiName + " is typing... - Try not to close the tab. [You can follow the processing procedure in Termux]";
 				document.getElementById("chatistyping").classList.remove("hidden");
 			}
 			document.getElementById("chat_msg_send_btn").disabled = document.getElementById("btnsend").disabled;
