@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
  
  if [ $(bash 'AltaeraAI/version.sh' | awk '/Mem\:/ { print $2 }'
   ) = "v2.8" ]; then
