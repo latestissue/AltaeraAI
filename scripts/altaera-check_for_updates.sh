@@ -4,6 +4,8 @@ cd "AltaeraAI"
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_upstream.sh
 chmod a+x 'altaera-version_upstream.sh'
 cd ..
+
+case in
  
  if [ $(bash 'AltaeraAI/altaera-version_upstream.sh' | awk '/Mem\:/ { print $2 }'
   ) = "v2.8" ]; then
