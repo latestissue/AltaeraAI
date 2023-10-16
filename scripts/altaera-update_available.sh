@@ -6,7 +6,7 @@ dialog --title "AltaeraAI - Check for updates" \
 
 response=$?
 case $response in
-   0)   bash 'AltaeraAI/altaera-update.sh'
+   0)   bash 'AltaeraAI/altaera-update.sh';;
     
    1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
    
