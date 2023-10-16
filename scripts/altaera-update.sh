@@ -7,4 +7,4 @@ chmod a+x 'altaera-update_content.sh'
 bash 'altaera-update_content.sh'
 } &> /dev/null 2>&1;
 clear
-echo "Update completed!"
+bash 'AltaeraAI/altaera-updated_successfully.sh'
