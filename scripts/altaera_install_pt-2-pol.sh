@@ -25,6 +25,10 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-configuration.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-on.sh
 
+chmod a+x 'altaera-check_for_updates.sh'
+chmod a+x 'altaera-up_to_date.sh'
+chmod a+x 'altaera-update_available.sh'
+chmod a+x 'altaera-updated_successfully.sh'
 chmod a+x 'altaera-update.sh'
 chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
