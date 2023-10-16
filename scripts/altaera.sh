@@ -8,7 +8,7 @@ TITLE="Welcome!"
 MENU="What would you like to do?"
 
 OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
-         2 "Check for updates"
+         2 "Check for updates [...]"
          3 "Change the AI model 🤖 [...]"
          4 "Change language 🌐"
          5 "ngrok Secure Tunnelling [...]"
