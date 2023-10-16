@@ -15,7 +15,7 @@ case $response in
          if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
           ) = "v2.8" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
-          bash 'AltaeraAI/altaera-up-to-date.sh'
+          bash 'AltaeraAI/altaera-up_to_date.sh'
           else
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-update_available.sh'
