@@ -12,7 +12,7 @@ case $response in
                 chmod a+x 'altaera-version_upstream.sh'
                 cd ..
  
-         if [ $(bash 'AltaeraAI/altaera-version_upstream.sh' | awk '/Mem\:/ { print $2 }'
+         if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
           ) = "v2.8" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-up-to-date.sh'
