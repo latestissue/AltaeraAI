@@ -1,4 +1,5 @@
 #!/bin/bash
+
 dialog --title "AltaeraAI - Check for updates" \
 --backtitle "AltaeraAI" \
 --yesno "There is an update available. Would you like to update now?'?" 7 60
