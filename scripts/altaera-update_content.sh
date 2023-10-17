@@ -38,6 +38,9 @@ chmod a+x 'altaera-update.sh'
 rm -rf 'altaera-updated_successfully.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully.sh
 chmod a+x 'altaera-updated_successfully.sh'
+rm -rf 'altaera-force_update.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update.sh
+chmod a+x 'altaera-force_update.sh'
 rm -rf 'altaera-update-proot.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update-proot.sh
 chmod a+x 'altaera-update-proot.sh'
