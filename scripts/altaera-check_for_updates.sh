@@ -7,13 +7,18 @@ dialog --title "Check for updates" \
 response=$?
 case $response in
 
-        0)      cd "AltaeraAI"
+        0)      
+        echo "Checking for updates...";
+        
+                {
+                cd "AltaeraAI"
                 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_upstream.sh
                 chmod a+x 'altaera-version_upstream.sh'
                 cd ..
+                } &> /dev/null 2>&1;
  
          if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
-          ) = "v2.8" ]; then
+          ) = "v2.8.1" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-up_to_date.sh'
           else
