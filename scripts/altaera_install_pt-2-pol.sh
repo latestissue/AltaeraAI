@@ -13,6 +13,7 @@ mkdir 'AltaeraAI'
 cd 'AltaeraAI'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pol.sh -O 'altaera.sh'
@@ -30,6 +31,7 @@ chmod a+x 'altaera-up_to_date.sh'
 chmod a+x 'altaera-update_available.sh'
 chmod a+x 'altaera-updated_successfully.sh'
 chmod a+x 'altaera-update.sh'
+chmod a+x 'altaera-force_update.sh'
 chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
 chmod a+x 'altaera.sh'
