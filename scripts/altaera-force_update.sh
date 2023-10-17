@@ -2,7 +2,7 @@
 
 dialog --title "Force update" \
         --backtitle "AltaeraAI" \
-        --yesno "Would you like to force an update, despite the fact that there might not be any?" 7 60
+        --yesno "Would you like to force an update, despite the fact that there might not be any available for you?" 7 60
 
 response=$?
 case $response in
