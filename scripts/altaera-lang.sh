@@ -32,7 +32,9 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            echo "You chose English"
+            echo "Changing language to 'English'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
@@ -44,14 +46,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-            
-            You have succesfully changed the prompt to English.
-            "
+            } &> /dev/null 2>&1;
             ;;
         2)
-            echo "你选择了中文"
+            echo "Changing language to '中国'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_chn.sh
@@ -64,14 +64,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Chinese/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-            
-            你已经成功地将提示改为中文。
-            "
+            } &> /dev/null 2>&1;
             ;;
         3)
-            echo "Sie haben die deutsche Sprache gewählt"
+            echo "Changing language to 'Deutsch'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ger.sh
@@ -84,14 +82,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/German/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Sie haben die Eingabeaufforderung erfolgreich auf Deutsch geändert.
-            "
+            } &> /dev/null 2>&1;
             ;;
         4)
-            echo "Ha elegido el español"
+            echo "Changing language to 'Español'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_spa.sh
@@ -104,14 +100,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Spanish/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Has cambiado con éxito el prompt a español.
-            "
+            } &> /dev/null 2>&1;
             ;;
         5)
-            echo "Vous avez choisi le français"
+            echo "Changing language to 'Français'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh
@@ -124,14 +118,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/French/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Vous avez réussi à changer l'invite en français.
-            "
+            } &> /dev/null 2>&1;
             ;;
         6)
-            echo "Avete scelto l'italiano"
+            echo "Changing language to 'Italiano'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_it.sh
@@ -144,14 +136,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Italian/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Si è riusciti a cambiare il prompt in italiano.
-            "
+            } &> /dev/null 2>&1;
             ;;
         7)
-            echo "한국어를 선택하셨습니다."
+            echo "Changing language to '日本語'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_jpn.sh
@@ -164,14 +154,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Korean/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            프롬프트를 한국어로 성공적으로 변경했습니다.
-            "
+            } &> /dev/null 2>&1;
             ;;
         8)
-            echo "あなたは日本語を選択しました"
+            echo "Changing language to '한국어'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_krn.sh
@@ -184,14 +172,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Japanese/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            プロンプトが日本語に変更されました。
-            "
+            } &> /dev/null 2>&1;
             ;;
         9)
-            echo "Wybrałeś język polski"
+            echo "Changing language to 'Polski'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pol.sh
@@ -204,14 +190,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Polish/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Udało ci się zmienić podpowiedź na język polski.
-            "
+            } &> /dev/null 2>&1;
             ;;
         10)
-            echo "Escolheu Português"
+            echo "Changing language to 'Portugês'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_por.sh
@@ -224,14 +208,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Portugese/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Conseguiu alterar o prompt para português.
-            "
+            } &> /dev/null 2>&1;
             ;;
         11)
-            echo "Вы выбрали русский язык"
+            echo "Changing language to 'Русский'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_rus.sh
@@ -244,14 +226,12 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Russian/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Вы успешно изменили запрос на русский язык.
-            "
+            } &> /dev/null 2>&1;
             ;;
         12)
-            echo "Ви обрали українську мову"
+            echo "Changing language to 'Українська'...";
+
+            {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ukr.sh
@@ -264,10 +244,6 @@ case $CHOICE in
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/prompts/Ukrainian/chat-with-bob.txt
             cd /root
             clear
-            echo "
-
-
-            Ви успішно змінили підказку на російську мову.
-            "
+            } &> /dev/null 2>&1;
             ;;
 esac
