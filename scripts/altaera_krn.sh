@@ -8,14 +8,15 @@ TITLE="환영합니다!"
 MENU="무엇을 하시겠습니까?"
 
 OPTIONS=(1 "AltaeraAI 시작 [KoboldCpp]"
-         2 "AltaeraAI 업데이트"
-         3 "AI 모델 변경 🤖"
-         4 "언어 변경 🌐"
-         5 "ngrok Secure Tunnelling [...]"
-         6 "AI Model Backup/Restore (/sdcard) [...]"
-         7 "AltaeraAI 재설치(수정)"
-         8 "AltaeraAI 제거"
-         9 "종료")
+         2 "업데이트 확인 [...]"
+         3 "강제 업데이트 [...]"
+         4 "AI 모델 변경 🤖"
+         5 "언어 변경 🌐"
+         6 "ngrok Secure Tunnelling [...]"
+         7 "AI Model Backup/Restore (/sdcard) [...]"
+         8 "AltaeraAI 재설치(수정)"
+         9 "AltaeraAI 제거"
+         10 "종료")
          
 
 CHOICE=$(dialog --clear \
@@ -34,38 +35,43 @@ case $CHOICE in
             ;;
         2)
             clear
-            './AltaeraAI/altaera-update.sh'
+            './AltaeraAI/altaera-check_for_updates.sh'
             './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-force_update.sh'
             './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera-model.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
-            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera-lang.sh'
             './AltaeraAI/altaera.sh'
             ;;
         6)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera-ngrok.sh'
             './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         8)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         9)
+            clear
+            './AltaeraAI/altaera-uninstall.sh'
+            ;;
+        10)
             clear
             ;;
 esac
