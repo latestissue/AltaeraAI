@@ -8,7 +8,7 @@ TITLE="Bienvenue !"
 MENU="Qu'aimeriez-vous faire ?"
 
 OPTIONS=(1 "Démarrer AltaeraAI [KoboldCpp]"
-         2 "Vérifier les mises à jour [...]"
+         2 "Vérifier la disponibilité des mises à jour [...]"
          3 "Mise à jour des forces [...]"
          4 "Changer le modèle d'AI 🤖"
          5 "Changer de langue 🌐"
