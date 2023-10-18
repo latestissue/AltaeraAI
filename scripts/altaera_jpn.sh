@@ -8,14 +8,15 @@ TITLE="ようこそ"
 MENU="何をしたいですか？"
 
 OPTIONS=(1 "AltaeraAIを始める [KoboldCpp]"
-         2 "AltaeraAIをアップデートする"
-         3 "AIモデルの変更 🤖"
-         4 "言語を変更する 🌐"
-         5 "ngrok Secure Tunnelling [...]"
-         6 "AI Model Backup/Restore (/sdcard) [...]"
-         7 "AltaeraAIを再インストール（修正）する"
-         8 "AltaeraAIをアンインストールする"
-         9 "終了する")
+         2 "アップデートの確認 [...]"
+         3 "フォース・アップデート [...]"
+         4 "AIモデルの変更 🤖"
+         5 "言語を変更する 🌐"
+         6 "ngrok Secure Tunnelling [...]"
+         7 "AI Model Backup/Restore (/sdcard) [...]"
+         8 "AltaeraAIを再インストール（修正）する"
+         9 "AltaeraAIをアンインストールする"
+         10 "終了する")
          
 
 CHOICE=$(dialog --clear \
@@ -34,38 +35,43 @@ case $CHOICE in
             ;;
         2)
             clear
-            './AltaeraAI/altaera-update.sh'
+            './AltaeraAI/altaera-check_for_updates.sh'
             './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-force_update.sh'
             './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera-model.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
-            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera-lang.sh'
             './AltaeraAI/altaera.sh'
             ;;
         6)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera-ngrok.sh'
             './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         8)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         9)
+            clear
+            './AltaeraAI/altaera-uninstall.sh'
+            ;;
+        10)
             clear
             ;;
 esac
