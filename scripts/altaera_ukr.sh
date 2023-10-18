@@ -8,14 +8,15 @@ TITLE="Ласкаво просимо!"
 MENU="Чим би ви хотіли займатися?"
 
 OPTIONS=(1 "Почати AltaeraAI [KoboldCpp]"
-         2 "Оновити AltaeraAI"
-         3 "Змінити модель AI 🤖"
-         4 "Змінити мову 🌐"
-         5 "ngrok Secure Tunnelling [...]"
-         6 "AI Model Backup/Restore (/sdcard) [...]"
-         7 "Перевстановити (виправити) AltaeraAI"
-         8 "Видалити AltaeraAI"
-         9 "Вийти")
+         2 "Перевірте наявність оновлень [...]"
+         3 "Примусове оновлення [...]"
+         4 "Змінити модель AI 🤖"
+         5 "Змінити мову 🌐"
+         6 "ngrok Безпечне тунелювання [...]"
+         7 "Резервне копіювання/відновлення моделі ШІ (/sdcard) [...]"
+         8 "Перевстановити (виправити) AltaeraAI"
+         9 "Видалити AltaeraAI"
+         10 "Вийти")
          
 
 CHOICE=$(dialog --clear \
@@ -34,38 +35,43 @@ case $CHOICE in
             ;;
         2)
             clear
-            './AltaeraAI/altaera-update.sh'
+            './AltaeraAI/altaera-check_for_updates.sh'
             './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-force_update.sh'
             './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera-model.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
-            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera-lang.sh'
             './AltaeraAI/altaera.sh'
             ;;
         6)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera-ngrok.sh'
             './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         8)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         9)
+            clear
+            './AltaeraAI/altaera-uninstall.sh'
+            ;;
+        10)
             clear
             ;;
 esac
