@@ -8,14 +8,15 @@ TITLE="欢迎光临!"
 MENU="你想做什么？"
 
 OPTIONS=(1 "启动 AltaeraAI [KoboldCpp]"
-         2 "更新 AltaeraAI"
-         3 "改变人工智能模式 🤖 [...]"
-         4 "更改语言 🌐"
-         5 "ngrok Secure Tunnelling [...]"
-         6 "AI Model Backup/Restore (/sdcard) [...]"
-         7 "重新安装（修复）AltaeraAI"
-         8 "卸载 AltaeraAI"
-         9 "退出")
+         2 "检查更新 [...]"
+         3 "部队更新 [...]"
+         4 "改变人工智能模式 🤖 [...]"
+         5 "更改语言 🌐"
+         6 "ngrok 安全隧道 [...]"
+         7 "人工智能模型备份/恢复 (/sdcard) [...]"
+         8 "重新安装（修复）AltaeraAI"
+         9 "卸载 AltaeraAI"
+         10 "退出")
          
 
 CHOICE=$(dialog --clear \
@@ -34,38 +35,43 @@ case $CHOICE in
             ;;
         2)
             clear
-            './AltaeraAI/altaera-update.sh'
+            './AltaeraAI/altaera-check_for_updates.sh'
             './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-force_update.sh'
             './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera-model.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
-            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera-lang.sh'
             './AltaeraAI/altaera.sh'
             ;;
         6)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera-ngrok.sh'
             './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         8)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         9)
+            clear
+            './AltaeraAI/altaera-uninstall.sh'
+            ;;
+        10)
             clear
             ;;
 esac
