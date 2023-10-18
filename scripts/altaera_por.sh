@@ -3,7 +3,7 @@
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AltaeraAI"
+BACKTITLE="AltaeraAI - v2.8.1"
 TITLE="Bem-vindo!"
 MENU="O que é que gostaria de fazer?"
 
