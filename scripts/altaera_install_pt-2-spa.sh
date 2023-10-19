@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_spa.sh -O 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
