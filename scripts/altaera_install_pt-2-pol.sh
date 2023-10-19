@@ -12,7 +12,7 @@ cd ..
 mkdir 'AltaeraAI'
 cd 'AltaeraAI'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_pol.sh -O 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
