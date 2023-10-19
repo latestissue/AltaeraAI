@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dialog --title "检查更新的可用性" \
+dialog --title "检查更新" \
         --backtitle "AltaeraAI" \
         --yesno "您想检查更新吗？" 7 60
 
