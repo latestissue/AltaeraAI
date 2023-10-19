@@ -54,9 +54,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_chn.sh
-            mv 'altaera_chn.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_chn.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_chn.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -72,9 +74,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ger.sh
-            mv 'altaera_ger.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ger.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_ger.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -90,9 +94,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_spa.sh
-            mv 'altaera_spa.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_spa.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_spa.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -108,9 +114,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh
-            mv 'altaera_fr.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_fr.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -126,9 +134,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_it.sh
-            mv 'altaera_it.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_it.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_it.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -144,9 +154,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_jpn.sh
-            mv 'altaera_jpn.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_jpn.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_jpn.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -162,9 +174,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_krn.sh
-            mv 'altaera_krn.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_krn.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_krn.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -180,9 +194,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pol.sh
-            mv 'altaera_pol.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pol.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_pol.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -198,9 +214,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_por.sh
-            mv 'altaera_por.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_por.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_por.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -216,9 +234,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_rus.sh
-            mv 'altaera_rus.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_rus.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_rus.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
@@ -234,9 +254,11 @@ case $CHOICE in
             {
             cd '/data/data/com.termux/files/home/AltaeraAI'
             rm -rf 'altaera.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ukr.sh
-            mv 'altaera_ukr.sh' 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_ukr.sh -O 'altaera.sh'
             chmod a+x 'altaera.sh'
+            rm -rf 'altaera-update.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_ukr.sh -O 'altaera-update.sh'
+            chmod a+x 'altaera-update.sh'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'prompts'
             mkdir 'prompts'
