@@ -47,6 +47,7 @@ case $CHOICE in
             chmod a+x 'altaera-check_for_updates.sh'
             rm -rf 'altaera-update_available.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available.sh
+            chmod 'altaera-update_available.sh'
             rm -rf 'altaera-up_to_date.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
             chmod a+x 'altaera-up_to_date.sh'
