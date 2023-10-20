@@ -8,8 +8,8 @@ TITLE="Bienvenido/a"
 MENU="¿Qué te gustaría hacer?"
 
 OPTIONS=(1 "Iniciar AltaeraAI [KoboldCpp]"
-         2 "Проверка доступности обновлений [...]"
-         3 "Обновление сил [...]"
+         2 "Buscar actualizaciones [...]"
+         3 "Forzar la actualización [...]"
          4 "Cambiar el modelo de AI 🤖"
          5 "Cambiar el idioma 🌐"
          6 "ngrok Túneles seguros [...]"
@@ -28,7 +28,6 @@ CHOICE=$(dialog --clear \
                 2>&1 >/dev/tty)
 
 clear
-case $CHOICE in
 case $CHOICE in
         1)
             clear
