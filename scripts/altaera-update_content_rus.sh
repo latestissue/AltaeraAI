@@ -27,7 +27,7 @@ rm -rf 'altaera-check_for_updates.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates_rus.sh -O 'altaera-check_for_updates.sh'
 chmod a+x 'altaera-check_for_updates.sh'
 rm -rf 'altaera_up-to-date.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date_rus.sh -O 'altaera-up_to_date.sh'
 chmod a+x 'altaera-up_to_date.sh'
 rm -rf 'altaera-update_available.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_rus.sh -O 'altaera-update_available.sh'
