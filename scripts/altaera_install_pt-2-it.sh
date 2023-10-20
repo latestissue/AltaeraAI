@@ -13,9 +13,9 @@ mkdir 'AltaeraAI'
 cd 'AltaeraAI'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates_it.sh -O 'altaera-check_for_updates.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date_it.sh -O 'altaera-up_to_date.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_it.sh -O 'altaera-update_available.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully_it.sh -O 'altaera-updated_successfully.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_it.sh -O 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update_it.sh -O 'altaera-force_update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
