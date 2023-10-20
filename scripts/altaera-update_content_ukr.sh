@@ -24,13 +24,13 @@ rm -rf 'altaera-model-rwkv-4.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4.sh
 chmod a+x 'altaera-model-rwkv-4.sh'
 rm -rf 'altaera-check_for_updates.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates_ukr.sh -O 'altaera-check_for_updates.sh'
 chmod a+x 'altaera-check_for_updates.sh'
 rm -rf 'altaera_up-to-date.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
 chmod a+x 'altaera-up_to_date.sh'
 rm -rf 'altaera-update_available.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_ukr.sh -O 'altaera-update_available.sh'
 chmod a+x 'altaera-update_available.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
