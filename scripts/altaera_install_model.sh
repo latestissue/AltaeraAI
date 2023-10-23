@@ -23,21 +23,27 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+        echo "You chose 'AI Model Auto-detection (RWKV-4-Claude) [Default]...'";
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
+         } &> /dev/null 2>&1;
             ;;
         2)
+        echo "You chose 'AI Model Manual selection...'";
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-manual.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
+         } &> /dev/null 2>&1;
             ;;
         3)
+        echo "You chose 'Do not download AI model (?) - [...]'";
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
+         } &> /dev/null 2>&1;
             ;;
 esac
