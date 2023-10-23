@@ -29,6 +29,6 @@ chmod a+x 'altaera_reinstall-no-model.sh'
 ./altaera_reinstall-no-model.sh
 ;;
 
-   1) ./AltaeraAI/altaera.sh;;
-   255) ./AltaeraAI/altaera.sh;;
+   1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
+   255) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
    esac
