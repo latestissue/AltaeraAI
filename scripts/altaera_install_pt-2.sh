@@ -76,8 +76,6 @@ alias altaera-model='/data/data/com.termux/files/home/AltaeraAI/altaera-model.sh
 cd '/data/data/com.termux/files/home'
 
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/initial.sh'
-rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/bash.bashrc'
 rm -rf 'initial.sh'
-rm -rf 'bash.bashrc'
 cd ..
 } &> /dev/null 2>&1;
