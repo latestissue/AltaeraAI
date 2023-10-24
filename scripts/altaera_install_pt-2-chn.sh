@@ -62,14 +62,21 @@ chmod a+x 'altaera-model_backed-up.sh'
 chmod a+x 'altaera-model_restored-cleanup.sh'
 chmod a+x 'altaera-model_backup-cleaned-up.sh'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/bash.bashrc
+cd '/data/data/com.termux/files/usr/etc/'
 
-rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
-cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
-rm -rf 'bash.bashrc'
+sed -i '/^altaera/d' bash.bashrc
+
+echo "alias ae='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+alias altaera='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+alias aelogin='/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh'
+alias altaeralogin='/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh'
+alias altaera-update='/data/data/com.termux/files/home/AltaeraAI/altaera-update.sh'
+alias altaera-lang='/data/data/com.termux/files/home/AltaeraAI/altaera-lang.sh'
+alias altaera-model='/data/data/com.termux/files/home/AltaeraAI/altaera-model.sh'" >> bash.bashrc
+
+cd '/data/data/com.termux/files/home'
+
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/initial.sh'
-rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/bash.bashrc'
 rm -rf 'initial.sh'
-rm -rf 'bash.bashrc'
 cd ..
 } &> /dev/null 2>&1;
