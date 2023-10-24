@@ -78,5 +78,6 @@ cd '/data/data/com.termux/files/home'
 
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/initial.sh'
 rm -rf 'initial.sh'
+
 cd ..
 } &> /dev/null 2>&1;
