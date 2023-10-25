@@ -19,6 +19,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-customer_support.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
@@ -37,6 +38,7 @@ chmod a+x 'altaera-update.sh'
 chmod a+x 'altaera-force_update.sh'
 chmod a+x 'altaera-reinstall.sh'
 chmod a+x 'altaera-uninstall.sh'
+chmod a+x 'altaera-customer_support.sh'
 chmod a+x 'altaera.sh'
 chmod a+x 'altaeralogin.sh'
 chmod a+x 'altaera-lang.sh'
