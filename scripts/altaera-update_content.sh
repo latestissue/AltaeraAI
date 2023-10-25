@@ -60,6 +60,9 @@ chmod a+x 'altaera-reinstall.sh'
 rm -rf 'altaera-uninstall.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-uninstall.sh
 chmod a+x 'altaera-uninstall.sh'
+rm -rf 'altaera-customer_support.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-customer_support.sh
+chmod a+x 'altaera-customer_support.sh'
 
 rm -rf 'altaera-model_backup-restore.sh'
 rm -rf 'altaera-model_backup.sh'
