@@ -17,8 +17,9 @@ OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
          8 "Reinstall (fix) AltaeraAI [...]"
          9 "Uninstall AltaeraAI"
          10 "Customer Support [...]"
-         11 "Donate 💸 [URL]"
-         12 "Exit")
+         11 "Visit altaera.ai [URL]"
+         12 "Donate 💸 [URL]"
+         13 "Exit")
          
 
 CHOICE=$(dialog --clear \
@@ -79,9 +80,12 @@ case $CHOICE in
             ;;
         11)
             clear
+            termux-open-url 'https://altaera.ai/'
+        12)
+            clear
             termux-open-url 'https://altaera.ai/donate/'
             ;;
-        12)
+        13)
             clear
             ;;
 esac
