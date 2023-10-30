@@ -16,7 +16,10 @@ OPTIONS=(1 "Avviare AltaeraAI [KoboldCpp]"
          7 "Backup/Ripristino del modello AI (/sdcard) [...]"
          8 "Reinstallare (riparare) AltaeraAI"
          9 "Disinstallare AltaeraAI"
-         10 "Uscire")
+         10 "Assistenza ai clienti [...]"
+         11 "Visitare altaera.ai [URL]"
+         12 "Donare 💸 [URL]"
+         13 "Uscire")
          
 
 CHOICE=$(dialog --clear \
@@ -72,6 +75,18 @@ case $CHOICE in
             './AltaeraAI/altaera-uninstall.sh'
             ;;
         10)
+            clear
+            './AltaeraAI/altaera-customer_support.sh'
+            ;;
+        11)
+            clear
+            termux-open-url 'https://altaera.ai/'
+            ;;
+        12)
+            clear
+            termux-open-url 'https://altaera.ai/donate/'
+            ;;
+        13)
             clear
             ;;
 esac
