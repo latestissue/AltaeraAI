@@ -16,7 +16,10 @@ OPTIONS=(1 "AltaeraAI 시작 [KoboldCpp]"
          7 "AI 모델 백업/복원 (/sdcard) [...]"
          8 "AltaeraAI 재설치(수정)"
          9 "AltaeraAI 제거"
-         10 "종료")
+         10 "Apoio ao cliente [...]"
+         11 "Visitar altaera.ai [URL]"
+         12 "Doar 💸 [URL]"
+         13 "종료")
          
 
 CHOICE=$(dialog --clear \
@@ -72,6 +75,18 @@ case $CHOICE in
             './AltaeraAI/altaera-uninstall.sh'
             ;;
         10)
+            clear
+            './AltaeraAI/altaera-customer_support.sh'
+            ;;
+        11)
+            clear
+            termux-open-url 'https://altaera.ai/'
+            ;;
+        12)
+            clear
+            termux-open-url 'https://altaera.ai/donate/'
+            ;;
+        13)
             clear
             ;;
 esac
