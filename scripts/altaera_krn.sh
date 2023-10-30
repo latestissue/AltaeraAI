@@ -16,9 +16,9 @@ OPTIONS=(1 "AltaeraAI 시작 [KoboldCpp]"
          7 "AI 모델 백업/복원 (/sdcard) [...]"
          8 "AltaeraAI 재설치(수정)"
          9 "AltaeraAI 제거"
-         10 "Apoio ao cliente [...]"
-         11 "Visitar altaera.ai [URL]"
-         12 "Doar 💸 [URL]"
+         10 "고객 지원 [...]"
+         11 "altaera.ai 방문 [URL]"
+         12 "기부하기 💸 [URL]"
          13 "종료")
          
 
