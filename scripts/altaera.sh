@@ -81,6 +81,7 @@ case $CHOICE in
         11)
             clear
             termux-open-url 'https://altaera.ai/'
+            ;;
         12)
             clear
             termux-open-url 'https://altaera.ai/donate/'
