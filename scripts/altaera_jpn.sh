@@ -16,7 +16,10 @@ OPTIONS=(1 "AltaeraAIを始める [KoboldCpp]"
          7 "AIモデルのバックアップ/リストア (/sdcard) [...]"
          8 "AltaeraAIを再インストール（修正）する"
          9 "AltaeraAIをアンインストールする"
-         10 "終了する")
+         10 "カスタマーサポート [...]"
+         11 "altaera.aiをご覧ください。[URL]"
+         12 "寄付する💸。[URL]"
+         13 "終了する")
          
 
 CHOICE=$(dialog --clear \
@@ -72,6 +75,18 @@ case $CHOICE in
             './AltaeraAI/altaera-uninstall.sh'
             ;;
         10)
+            clear
+            './AltaeraAI/altaera-customer_support.sh'
+            ;;
+        11)
+            clear
+            termux-open-url 'https://altaera.ai/'
+            ;;
+        12)
+            clear
+            termux-open-url 'https://altaera.ai/donate/'
+            ;;
+        13)
             clear
             ;;
 esac
