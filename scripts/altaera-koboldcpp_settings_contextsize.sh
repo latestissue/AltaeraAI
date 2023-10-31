@@ -36,6 +36,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 2048" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '2048'"
             ;;
@@ -44,6 +45,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 512" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '512'"
             ;;
@@ -52,6 +54,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 1024" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '1024'"
             ;;
@@ -60,6 +63,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 3072" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '3072'"
             ;;
@@ -68,6 +72,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 4096" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '4096'"
             ;;
@@ -76,6 +81,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 6144" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '6144'"
             ;;
@@ -84,6 +90,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 8192" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '8192'"
             ;;
@@ -92,6 +99,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 12288" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '12288'"
             ;;
@@ -100,6 +108,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 16384" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '16384'"
             ;;
@@ -108,6 +117,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 24576" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '24576'"
             ;;
@@ -116,6 +126,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 32768" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '32768'"
             ;;
@@ -124,6 +135,7 @@ case $CHOICE in
             sed -i '/^contextsize/d' bash.bashrc
             echo "--contextsize 65536" >> altaera.sh
             cd '/data/data/com.termux/files/home'
+            bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
 
             echo "You have succesfully changed the Context Size to '65536'"
             ;;
