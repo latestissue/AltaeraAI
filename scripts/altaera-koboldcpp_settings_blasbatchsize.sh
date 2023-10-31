@@ -29,7 +29,7 @@ clear
 case $CHOICE in
         1)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 2048" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -38,7 +38,7 @@ case $CHOICE in
             ;;
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 1" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -47,7 +47,7 @@ case $CHOICE in
             ;;
         3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 32" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -56,7 +56,7 @@ case $CHOICE in
             ;;
         4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 64" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -65,7 +65,7 @@ case $CHOICE in
             ;;
         5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 128" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -74,7 +74,7 @@ case $CHOICE in
             ;;
         6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 256" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -83,7 +83,7 @@ case $CHOICE in
             ;;
         7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 512" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -92,7 +92,7 @@ case $CHOICE in
             ;;
         8)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^blasbatchsize/d' bash.bashrc
+            sed -i '/^blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 1024" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
