@@ -33,7 +33,7 @@ clear
 case $CHOICE in
         1)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 2048" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -42,7 +42,7 @@ case $CHOICE in
             ;;
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 512" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -51,7 +51,7 @@ case $CHOICE in
             ;;
         3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 1024" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -60,7 +60,7 @@ case $CHOICE in
             ;;
         4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 3072" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -69,7 +69,7 @@ case $CHOICE in
             ;;
         5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 4096" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -78,7 +78,7 @@ case $CHOICE in
             ;;
         6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 6144" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -87,7 +87,7 @@ case $CHOICE in
             ;;
         7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 8192" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -96,7 +96,7 @@ case $CHOICE in
             ;;
         8)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 12288" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -105,7 +105,7 @@ case $CHOICE in
             ;;
         9)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 16384" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -114,7 +114,7 @@ case $CHOICE in
             ;;
         10)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 24576" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -123,7 +123,7 @@ case $CHOICE in
             ;;
         11)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 32768" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
@@ -132,7 +132,7 @@ case $CHOICE in
             ;;
         12)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^contextsize/d' bash.bashrc
+            sed -i '/^contextsize/d' altaera.sh
             echo "--contextsize 65536" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
