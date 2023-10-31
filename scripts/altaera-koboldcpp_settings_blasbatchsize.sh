@@ -33,8 +33,6 @@ case $CHOICE in
             echo "--blasbatchsize 2048" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '2048'"
             ;;
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -42,8 +40,6 @@ case $CHOICE in
             echo "--blasbatchsize 1" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '1'"
             ;;
         3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -51,8 +47,6 @@ case $CHOICE in
             echo "--blasbatchsize 32" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '32'"
             ;;
         4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -60,8 +54,6 @@ case $CHOICE in
             echo "--blasbatchsize 64" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '64'"
             ;;
         5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -69,8 +61,6 @@ case $CHOICE in
             echo "--blasbatchsize 128" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '128'"
             ;;
         6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -78,8 +68,6 @@ case $CHOICE in
             echo "--blasbatchsize 256" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '256'"
             ;;
         7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -87,8 +75,6 @@ case $CHOICE in
             echo "--blasbatchsize 512" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '512'"
             ;;
         8)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
@@ -96,7 +82,5 @@ case $CHOICE in
             echo "--blasbatchsize 1024" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             bash '/AltaeraAI/altaera-koboldcpp_settings_property_changed_successfully.sh'
-
-            echo "You have succesfully changed the Context Size to '1024'"
             ;;
 esac
