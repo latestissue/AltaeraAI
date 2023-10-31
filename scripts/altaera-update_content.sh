@@ -72,9 +72,6 @@ chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
 rm -rf 'altaera-koboldcpp_settings_blasbatchsize.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
 chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
-rm -rf 'altaera-koboldcpp_settings_property_changed_successfully.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_property_changed_successfully.sh
-chmod a+x 'altaera-koboldcpp_settings_property_changed_successfully.sh'
 
 rm -rf 'altaera-model_backup-restore.sh'
 rm -rf 'altaera-model_backup.sh'
