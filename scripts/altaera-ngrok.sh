@@ -7,8 +7,9 @@ BACKTITLE="AltaeraAI"
 TITLE="ngrok Configuration"
 MENU="What would you like to do?:"
 
-OPTIONS=(1 "Configure ngrok Authtoken [Required]"
-         2 "Launch ngrok Secure Tunnel")
+OPTIONS=(1 "[...] Go Back"
+         2 "Configure ngrok Authtoken [Required]"
+         3 "Launch ngrok Secure Tunnel")
          
 
 CHOICE=$(dialog --clear \
@@ -21,11 +22,14 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-   1)
-bash '/data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-configuration.sh'
-   ;;
-   2)
-bash '/data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-on.sh'
-   ;;
+        1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            ;;
+        2)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-configuration.sh'
+            ;;
+        3)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-ngrok-on.sh'
+            ;;
    
 esac
