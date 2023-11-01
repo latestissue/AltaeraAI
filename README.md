@@ -22,7 +22,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 - Open Termux, type in '`ae`' – you will be welcomed with the MENU screen.
 
 <p align="center">
-<img src="https://github.com/latestissue/AltaeraAI/assets/121747280/060ab73b-5a9e-467d-87e9-d0b31767b699" width="432" height="520" />
+<img src="https://github.com/latestissue/AltaeraAI/assets/121747280/2d38a785-6992-47ea-a5e4-764082196d23" width="432" height="520" />
 </p>
 
 The “Start AltaeraAI” button will forward you to a browser with deployed UI.
