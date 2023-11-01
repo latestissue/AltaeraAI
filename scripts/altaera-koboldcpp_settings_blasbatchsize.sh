@@ -7,14 +7,15 @@ BACKTITLE="AltaeraAI - KoboldCpp Settings"
 TITLE="Blas Batch Size"
 MENU="Choose the blas batch size:"
 
-OPTIONS=(1 "2048 [Default]"
-         2 "1"
-         3 "32"
-         4 "64"
-         5 "128"
-         6 "256"
-         7 "512"
-         8 "1024")
+OPTIONS=(1 "[...] Go Back"
+         2 "2048 [Default]"
+         3 "1"
+         4 "32"
+         5 "64"
+         6 "128"
+         7 "256"
+         8 "512"
+         9 "1024")
 
 
 CHOICE=$(dialog --clear \
@@ -28,48 +29,51 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-koboldcpp_settings.sh'
+	    ;;
+        2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 2048" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        2)
+        3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 1" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        3)
+        4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 32" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        4)
+        5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 64" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        5)
+        6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 128" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        6)
+        7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 256" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        7)
+        8)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 512" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
-        8)
+        9)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--blasbatchsize/d' altaera.sh
             echo "--blasbatchsize 1024" >> altaera.sh
