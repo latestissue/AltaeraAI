@@ -7,10 +7,11 @@ BACKTITLE="AltaeraAI"
 TITLE="Customer Support"
 MENU="What do you need?"
 
-OPTIONS=(1 "Privacy Policy [URL]"
-         2 "Technical Support [URL]"
-         3 "Contact [URL]"
-         4 "FAQ [URL] - ...in creation")
+OPTIONS=(1 "[...] Go Back"
+         2 "Privacy Policy [URL]"
+         3 "Technical Support [URL]"
+         4 "Contact [URL]"
+         5 "FAQ [URL] - ...in creation")
          
 
 CHOICE=$(dialog --clear \
@@ -24,18 +25,21 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+	    ;;
+        2)
             clear
             termux-open-url 'https://altaera.ai/privacy-policy/'
             ;;
-        2)
+        3)
             clear
             termux-open-url 'https://altaera.ai/technical-support/'
             ;;
-        3)
+        4)
             clear
             termux-open-url 'https://altaera.ai/contact/'
             ;;
-        4)
+        5)
             clear
             termux-open-url 'https://altaera.ai/faq/'
             ;;
