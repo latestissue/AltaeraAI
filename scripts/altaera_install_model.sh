@@ -4,12 +4,12 @@ HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI"
-TITLE="Installing AltaeraAI - AI model"
+TITLE="Installing AltaeraAI - AI Model"
 MENU="Choose your desired method:"
 
 OPTIONS=(1 "AI Model Auto-Detection (RWKV-4-Claude) [Default]"
          2 "AI Model Manual Selection"
-         3 "Do not download AI model (?) - [...]")
+         3 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -23,7 +23,7 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-        echo "You chose 'AI Model Auto-detection (RWKV-4-Claude) [Default]...'";
+        echo "You chose 'AI Model Auto-Detection (RWKV-4-Claude) [Default]...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
@@ -32,7 +32,7 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         2)
-        echo "You chose 'AI Model Manual selection...'";
+        echo "You chose 'AI Model Manual Selection...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-manual.sh -O 'altaera_install_pt-1.sh'
@@ -41,7 +41,7 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         3)
-        echo "You chose 'Do not download AI model (?) - [...]'";
+        echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
