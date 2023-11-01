@@ -7,18 +7,19 @@ BACKTITLE="AltaeraAI - Language Settings"
 TITLE="AI Conversation Language - Prompt Tuning"
 MENU="Choose your desired language:"
 
-OPTIONS=(1 "English [Default]"
-         2 "中国"
-         3 "Deutsch"
-         4 "Español"
-         5 "Français"
-         6 "Italiano"
-         7 "한국어"
-         8 "日本語"
-         9 "Polski"
-         10 "Português"
-         11 "Русский"
-         12 "Українська")
+OPTIONS=(1 "[...] Go Back"
+         2 "English [Default]"
+         3 "中国"
+         4 "Deutsch"
+         5 "Español"
+         6 "Français"
+         7 "Italiano"
+         8 "한국어"
+         9 "日本語"
+         10 "Polski"
+         11 "Português"
+         12 "Русский"
+         13 "Українська")
 
 
 CHOICE=$(dialog --clear \
@@ -32,6 +33,9 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+	    ;;
+        2)
             echo "Changing language to 'English'...";
 
             {
@@ -66,7 +70,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        2)
+        3)
             echo "Changing language to '中国'...";
 
             {
@@ -101,7 +105,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        3)
+        4)
             echo "Changing language to 'Deutsch'...";
 
             {
@@ -136,7 +140,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        4)
+        5)
             echo "Changing language to 'Español'...";
 
             {
@@ -171,7 +175,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        5)
+        6)
             echo "Changing language to 'Français'...";
 
             {
@@ -206,7 +210,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        6)
+        7)
             echo "Changing language to 'Italiano'...";
 
             {
@@ -241,7 +245,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        7)
+        8)
             echo "Changing language to '日本語'...";
 
             {
@@ -276,7 +280,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        8)
+        9)
             echo "Changing language to '한국어'...";
 
             {
@@ -311,7 +315,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        9)
+        10)
             echo "Changing language to 'Polski'...";
 
             {
@@ -346,7 +350,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        10)
+        11)
             echo "Changing language to 'Portugês'...";
 
             {
@@ -381,7 +385,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        11)
+        12)
             echo "Changing language to 'Русский'...";
 
             {
@@ -416,7 +420,7 @@ case $CHOICE in
             clear
             } &> /dev/null 2>&1;
             ;;
-        12)
+        13)
             echo "Changing language to 'Українська'...";
 
             {
