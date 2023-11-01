@@ -7,8 +7,8 @@ BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
 MENU="Choose your desired model:"
 
-OPTIONS=(1 "[...] Go back"
-         2 "Auto-detection (RWKV-4-Claude) - [Default]"
+OPTIONS=(1 "[...] Go Back"
+         2 "Auto-Detection (RWKV-4-Claude) - [Default]"
          3 "RWKV-4-World [...]")
 
 
