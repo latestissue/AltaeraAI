@@ -7,8 +7,9 @@ BACKTITLE="AltaeraAI"
 TITLE="KoboldCpp - Settings"
 MENU="What would you like to change?"
 
-OPTIONS=(1 "Context Size [...]"
-         2 "Blas Batch Size [...]")
+OPTIONS=(1 "[...] Go Back"
+         2 "Context Size [...]"
+         3 "Blas Batch Size [...]")
          
 
 CHOICE=$(dialog --clear \
@@ -22,11 +23,14 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+	    ;;
+        2)
             clear
             './AltaeraAI/altaera-koboldcpp_settings_contextsize.sh'
             './AltaeraAI/altaera-koboldcpp_settings.sh'
             ;;
-        2)
+        3)
             clear
             './AltaeraAI/altaera-koboldcpp_settings_blasbatchsize.sh'
             './AltaeraAI/altaera-koboldcpp_settings.sh'
