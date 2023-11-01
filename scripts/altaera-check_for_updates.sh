@@ -21,9 +21,11 @@ case $response in
           ) = "v2.9.2" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-up_to_date.sh'
+          exit
           else
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-update_available.sh'
+          exit
         fi
           ;;
         1) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
