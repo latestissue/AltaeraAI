@@ -33,7 +33,7 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';
 	    ;;
         2)
             echo "Changing language to 'English'...";
