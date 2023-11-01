@@ -33,7 +33,7 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-koboldcpp_settings.sh'
+            exit
 	    ;;
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
