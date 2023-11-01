@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HEIGHT=30
+HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - AI Model Settings"
