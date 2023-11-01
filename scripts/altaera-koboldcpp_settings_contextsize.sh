@@ -1,7 +1,7 @@
 #!/bin/bash
 
-HEIGHT=60
-WIDTH=80
+HEIGHT=30
+WIDTH=40
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - KoboldCpp Settings"
 TITLE="Context Size"
