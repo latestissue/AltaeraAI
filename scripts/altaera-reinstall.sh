@@ -7,8 +7,9 @@ BACKTITLE="AltaeraAI"
 TITLE="Reinstalling AltaeraAI"
 MENU="Choose your desired method:"
 
-OPTIONS=(1 "Reinstall without re-downloading the AI model (faster)"
-         2 "Reinstall everything, including the AI model (slower)")
+OPTIONS=(1 "[...] Go Back"
+         2 "Reinstall without re-downloading the AI model (faster)"
+         3 "Reinstall everything, including the AI model (slower)")
 
 
 CHOICE=$(dialog --clear \
@@ -21,26 +22,31 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-   1)   echo "You chose 'Reinstall without re-downloading the AI model (faster)'...";
-   {
-   cd 'AltaeraAI-tmp'
-   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_keep_model.sh
-   chmod a+x 'altaera_reinstall_keep_model.sh'
-   } &> /dev/null 2>&1;
-   bash 'altaera_reinstall_keep_model.sh'
-   rm -rf 'AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
-   rm -rf 'AltaeraAI-tmp/altaera_reinstall-no-model.sh'
-   ;;
+        1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+	    ;;
+        2)
+            echo "You chose 'Reinstall without re-downloading the AI model (faster)'...";
+            {
+            cd 'AltaeraAI-tmp'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_keep_model.sh
+            chmod a+x 'altaera_reinstall_keep_model.sh'
+            } &> /dev/null 2>&1;
+            bash 'altaera_reinstall_keep_model.sh'
+            rm -rf 'AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
+            rm -rf 'AltaeraAI-tmp/altaera_reinstall-no-model.sh'
+            ;;
 
-   2)   echo "You chose 'Reinstall everything, including the AI model (slower)'...";
-   {
-   cd 'AltaeraAI-tmp'
-   wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
-   chmod a+x 'altaera_reinstall_everything.sh'
-   } &> /dev/null 2>&1;
-   bash 'altaera_reinstall_everything.sh'
-   rm -rf 'AltaeraAI-tmp/altaera_reinstall_everything.sh'
-   rm -rf 'AltaeraAI-tmp/altaera_reinstall.sh'
-   ;;
+        3)
+            echo "You chose 'Reinstall everything, including the AI model (slower)'...";
+            {
+            cd 'AltaeraAI-tmp'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
+            chmod a+x 'altaera_reinstall_everything.sh'
+            } &> /dev/null 2>&1;
+            bash 'altaera_reinstall_everything.sh'
+            rm -rf 'AltaeraAI-tmp/altaera_reinstall_everything.sh'
+            rm -rf 'AltaeraAI-tmp/altaera_reinstall.sh'
+            ;;
    
 esac
