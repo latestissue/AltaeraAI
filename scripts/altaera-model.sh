@@ -23,7 +23,7 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            exit
 	    ;;
         2)
             echo "You chose 'Auto-detection - [Default]'"
