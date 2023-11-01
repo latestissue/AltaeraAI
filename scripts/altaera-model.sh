@@ -7,8 +7,9 @@ BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
 MENU="Choose your desired model:"
 
-OPTIONS=(1 "Auto-detection (RWKV-4-Claude) - [Default]"
-         2 "RWKV-4-World [...]")
+OPTIONS=(1 "[...] Go back"
+         2 "Auto-detection (RWKV-4-Claude) - [Default]"
+         3 "RWKV-4-World [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -22,6 +23,9 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+            bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+	    ;;
+        2)
             echo "You chose 'Auto-detection - [Default]'"
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
             rm -rf 'RWKV-model.bin'
@@ -67,6 +71,6 @@ fi
             You have succesfully changed the model to 'Auto-detection - [Default]'
             "
             ;;
-        2)
+        3)
   		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-rwkv-4.sh'
 esac
