@@ -95,5 +95,4 @@ case $CHOICE in
         14)
             clear
             exit
-            ;;
 esac
