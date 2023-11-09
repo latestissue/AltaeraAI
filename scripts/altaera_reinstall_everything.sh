@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera_reinstall.sh'
 cd ..
 
-bash 'data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall.sh'
+bash '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall.sh'
 ;;
 
    1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
