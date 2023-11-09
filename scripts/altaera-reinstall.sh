@@ -35,8 +35,8 @@ case $CHOICE in
             chmod a+x 'altaera_reinstall_keep_model.sh'
             } &> /dev/null 2>&1;
             bash 'altaera_reinstall_keep_model.sh'
-            rm -rf 'AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
-            rm -rf 'AltaeraAI-tmp/altaera_reinstall-no-model.sh'
+            rm -rf '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall_keep_model.sh'
+            rm -rf '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall-no-model.sh'
             ;;
 
         3)
@@ -49,8 +49,8 @@ case $CHOICE in
             chmod a+x 'altaera_reinstall_everything.sh'
             } &> /dev/null 2>&1;
             bash 'altaera_reinstall_everything.sh'
-            rm -rf 'AltaeraAI-tmp/altaera_reinstall_everything.sh'
-            rm -rf 'AltaeraAI-tmp/altaera_reinstall.sh'
+            rm -rf '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall_everything.sh'
+            rm -rf '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall.sh'
             ;;
    
 esac
