@@ -11,15 +11,8 @@ case $response in
 
 {
 proot-distro remove altaera
-
-rm -rf 'AltaeraAI-tmp'
-rm -rf 'AltaeraAI'
 } &> /dev/null 2>&1;
 
-mkdir 'AltaeraAI-tmp'
-mkdir 'AltaeraAI'
-
-cd 'AltaeraAI-tmp'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall.sh
 chmod a+x 'altaera_reinstall.sh'
 cd ..
