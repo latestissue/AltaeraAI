@@ -18,12 +18,8 @@ echo "Removing previous AltaeraAI files...";
 {
 proot-distro remove altaera
 
-rm -rf 'AltaeraAI'
 } &> /dev/null 2>&1;
 
-mkdir 'AltaeraAI'
-
-cd 'AltaeraAI-tmp'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-no-model.sh
 chmod a+x 'altaera_reinstall-no-model.sh'
 ./altaera_reinstall-no-model.sh
