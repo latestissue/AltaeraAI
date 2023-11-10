@@ -9,9 +9,9 @@ cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/altaera.sh
 chmod a+x 'altaera.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v2.9/altaera-v2.9.tar.gz
-tar -xf 'altaera-v2.9.tar.gz'
-rm -rf 'altaera-v2.9.tar.gz'
+wget https://github.com/latestissue/AltaeraAI/releases/download/v3.0/altaera-v3.0.tar.gz
+tar -xf 'altaera-v3.0.tar.gz'
+rm -rf 'altaera-v3.0.tar.gz'
 cd 'koboldcpp-altaera'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/klite/klite.embd
