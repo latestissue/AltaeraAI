@@ -1,16 +1,14 @@
-DISTRO_NAME="Ubuntu_AltaeraAI"
-DISTRO_COMMENT="Current LTS release (jammy). Not available for x86 32-bit (i686) CPUs."
+DISTRO_NAME="Fedora_AltaeraAI"
+DISTRO_COMMENT="Fedora 38 utilised by the AltaeraAI project"
 
-TARBALL_URL['aarch64']="https://github.com/termux/proot-distro/releases/download/v3.10.0/ubuntu-aarch64-pd-v3.10.0.tar.xz"
-TARBALL_SHA256['aarch64']="e367c1cf89f4ff71a081903d12a99e3a7619fcb71e805851b25e70f556d12184"
-TARBALL_URL['arm']="https://github.com/termux/proot-distro/releases/download/v3.10.0/ubuntu-arm-pd-v3.10.0.tar.xz"
-TARBALL_SHA256['arm']="b07857afabf71d62c9a7727c3cb336c5a7e050e64628ab74ab2919cab22872ca"
-TARBALL_URL['x86_64']="https://github.com/termux/proot-distro/releases/download/v3.10.0/ubuntu-x86_64-pd-v3.10.0.tar.xz"
-TARBALL_SHA256['x86_64']="51a1da5b4db87ec35853d0865b1d7bf2472d39007f698ecd7ae4fa68edeb700b"
+TARBALL_URL['aarch64']="https://github.com/termux/proot-distro/releases/download/v3.15.2/fedora-aarch64-pd-v3.15.2.tar.xz"
+TARBALL_SHA256['aarch64']="d6aa1a51f8d1f11a3388ed32a30643410345d5c8d22cb7c33e36cfa60942bbb1"
+TARBALL_URL['x86_64']="https://github.com/termux/proot-distro/releases/download/v3.15.2/fedora-x86_64-pd-v3.15.2.tar.xz"
+TARBALL_SHA256['x86_64']="167732ad9389523ca88ca9fdba470413322be15b3110845fa865e17b81e3ffaa"
 
 distro_setup() {
-	run_proot_cmd apt update && apt upgrade -y
-	run_proot_cmd apt install curl wget procps -y
+	run_proot_cmd dnf update -y
+	run_proot_cmd dnf install curl wget procps -y
 	run_proot_cmd wget --no-check-certificate https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-3.sh
  	run_proot_cmd chmod a+x 'altaera_install_pt-3.sh'
  	run_proot_cmd bash 'altaera_install_pt-3.sh'
