@@ -1,4 +1,4 @@
-echo "Updating AltaeraAI...";
+echo "Updating AltaeraAI files...";
 
 {
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
@@ -147,7 +147,14 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;
+
+echo "Updating AltaeraAI proot-distro environment (Ubuntu)...";
+
+{
+proot-distro login altaera -- apt update && apt upgrade -y &
+exit
 clear
+} &> /dev/null 2>&1;
 echo "
 
 
