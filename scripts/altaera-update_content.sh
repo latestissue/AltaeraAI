@@ -152,8 +152,7 @@ cd '/data/data/com.termux/files/home'
 echo "Updating AltaeraAI proot-distro environment (Ubuntu)...";
 
 {
-proot-distro login altaera -- apt update && apt upgrade -y && wget https://github.com/latestissue/AltaeraAI/releases/download/glibc_2.38/glibc_2.38-1_arm64.deb && dpkg -i 'glibc_2.38-1_arm64.deb' && rm -rf 'glibc_2.38-1_arm64.deb' &
-exit
+proot-distro login altaera -- ./upgrade.sh &
 clear
 } &> /dev/null 2>&1;
 echo "
