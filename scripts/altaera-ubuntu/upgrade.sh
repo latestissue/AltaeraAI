@@ -6,4 +6,4 @@ yes | pacman -Syu
 ### dpkg -i 'glibc_2.38-1_arm64.deb'
 ### rm -rf 'glibc_2.38-1_arm64.deb'
 
-logout
+exit
