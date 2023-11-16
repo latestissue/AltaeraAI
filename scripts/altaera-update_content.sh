@@ -150,7 +150,7 @@ chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;
 
-echo "Updating AltaeraAI proot-distro environment (Artix Linux)...";
+echo "Updating AltaeraAI PRoot-Distro environment (Artix Linux)...";
 
 {
 proot-distro login altaera -- ./upgrade.sh &
