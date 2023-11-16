@@ -135,7 +135,13 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;
+
+echo "Оновлення середовища AltaeraAI PRoot-Distro (Artix Linux)...";
+
+{
+proot-distro login altaera -- ./upgrade.sh &
 clear
+} &> /dev/null 2>&1;
 echo "
 
 
