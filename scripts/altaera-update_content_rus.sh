@@ -11,7 +11,7 @@ rm -rf 'altaeralogin.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 chmod a+x 'altaeralogin.sh'
 rm -rf 'lang.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/lang.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/lang.sh
 chmod a+x 'lang.sh'
 rm -rf 'altaera-lang.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
@@ -97,14 +97,14 @@ cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 rm -rf 'upgrade.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/upgrade.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/upgrade.sh
 chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
 tar -xf 'altaera-v3.1.tar.gz'
 cd 'koboldcpp-altaera'
 rm -rf 'klite.embd'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/klite/klite.embd
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
 cd ..
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary/RWKV-model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
@@ -131,7 +131,7 @@ mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 rm -rf 'klite.embd'
 rm -rf 'altaera.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ubuntu/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera.sh
 chmod a+x 'altaera.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;
