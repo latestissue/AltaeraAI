@@ -11,7 +11,7 @@ if [ ${#files[@]} -eq 0 ]; then
     clear
     echo "No .bin files found in $directory"
 else
-    file=$(dialog --stdout --title "Select an AI Model:" --cancel-label "Back" --menu "Choose a file:" 0 0 0 "${files[@]}")
+    file=$(dialog --stdout --title "Select an AI Model:" --menu "Choose a file:" 0 0 0 "${files[@]}")
 fi
 
 RESULT=$?
