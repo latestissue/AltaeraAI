@@ -1,4 +1,4 @@
-echo "Updating AltaeraAI...";
+echo "Aktualizowanie AltaeraAI...";
 
 {
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
