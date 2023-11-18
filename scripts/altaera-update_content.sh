@@ -78,9 +78,11 @@ chmod a+x 'altaera-manage_models.sh'
 rm -rf 'altaera-model_remove.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove.sh
 chmod a+x 'altaera-model_remove.sh'
-rm -rf 'altaera-model_remove_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove_pt-2.sh
-chmod a+x 'altaera-model_remove_pt-2.sh'
+cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
+rm -rf 'altaera-model_remove_in.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove_in.sh
+chmod a+x 'altaera-model_remove_in.sh'
+cd '/data/data/com.termux/files'
 
 rm -rf 'altaera-model_backup-restore.sh'
 rm -rf 'altaera-model_backup.sh'
