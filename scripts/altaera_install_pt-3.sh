@@ -9,7 +9,7 @@ cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera.sh
 chmod a+x 'altaera.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove_in.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
 tar -xf 'altaera-v3.1.tar.gz'
