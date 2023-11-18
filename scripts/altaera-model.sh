@@ -5,7 +5,7 @@ WIDTH=60
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
-MENU="Choose your desired model:"
+MENU="Choose a model to download:"
 
 OPTIONS=(1 "[...] Go Back"
          2 "Auto-Detection (RWKV-4-Claude) - [Default]"
