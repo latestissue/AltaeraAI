@@ -1,5 +1,7 @@
 #!/bin/bash
 
+proot-distro login altaera &&
+
 files=() #blank the variable so its empty for next use
 # Loop folder, add files to array
 while IFS= read -r -d $'\0' file; do
@@ -25,6 +27,8 @@ if [ $RESULT -eq 0 ]; then
     
     You have successfully removed $file
     "
+clear
+exit
     cd '/data/data/com.termux/files/home/'
     ./AltaeraAI/altaera-manage_models.sh
 else
