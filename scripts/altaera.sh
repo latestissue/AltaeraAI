@@ -39,50 +39,50 @@ case $CHOICE in
             ;;
         2)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-check_for_updates.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-check_for_updates.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         3)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-force_update.sh'
+            './AltaeraAI/altaera-force_update.sh'
             './AltaeraAI/altaera.sh'
             ;;
         4)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-manage_models.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-manage_models.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         5)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-lang.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-lang.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         6)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-koboldcpp_settings.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-koboldcpp_settings.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-ngrok.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         8)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-model_backup-restore.sh'
-            './data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
             ;;
         9)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         10)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-uninstall.sh'
             ;;
         11)
             clear
-            './data/data/com.termux/files/home/AltaeraAI/altaera-customer_support.sh'
+            './AltaeraAI/altaera-customer_support.sh'
             ;;
         12)
             clear
