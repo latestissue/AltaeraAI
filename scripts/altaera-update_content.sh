@@ -80,7 +80,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera-model_remove.sh'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 rm -rf 'altaera-model_remove_in.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove_in.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 cd '/data/data/com.termux/files'
 
