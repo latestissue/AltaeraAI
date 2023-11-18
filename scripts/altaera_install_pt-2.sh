@@ -32,6 +32,8 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_contextsize.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove.sh
 
 chmod a+x 'altaera-check_for_updates.sh'
 chmod a+x 'altaera-up_to_date.sh'
@@ -54,6 +56,8 @@ chmod a+x 'altaera-ngrok-on.sh'
 chmod a+x 'altaera-koboldcpp_settings.sh'
 chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
 chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
+chmod a+x 'altaera-manage_models.sh'
+chmod a+x 'altaera-model_remove.sh'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-restore.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup.sh
