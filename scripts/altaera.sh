@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd '/data/data/com.termux/files/home'
+
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
