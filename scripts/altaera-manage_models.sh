@@ -3,8 +3,8 @@
 HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=24
-BACKTITLE="AltaeraAI - AI Model Settings"
-TITLE="AI Model Selection"
+BACKTITLE="AltaeraAI - AI Models Management"
+TITLE="AI Models Settings"
 MENU="What would you like to do?:"
 
 OPTIONS=(1 "[...] Go Back"
