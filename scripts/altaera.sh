@@ -49,7 +49,7 @@ case $CHOICE in
             ;;
         4)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-manage_models.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
