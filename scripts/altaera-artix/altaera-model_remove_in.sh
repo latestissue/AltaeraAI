@@ -26,8 +26,9 @@ if [ $RESULT -eq 0 ]; then
 clear
 exit
     cd '/data/data/com.termux/files/home/'
-    ./AltaeraAI/altaera-manage_models.sh
+    exit
 else
 clear
+exit
 exit
 fi
