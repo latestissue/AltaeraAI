@@ -30,5 +30,4 @@ exit
 else
 clear
 exit
-exit
 fi
