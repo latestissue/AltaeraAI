@@ -27,8 +27,10 @@ case $CHOICE in
 	    ;;
         2)
             proot-distro login altaera -- ./altaera-model_backup.sh
+	    exit
             ;;
         3)
             bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_restore.sh'
+	    exit
             ;;
 esac
