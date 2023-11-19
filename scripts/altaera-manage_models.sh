@@ -9,7 +9,8 @@ MENU="What would you like to do?:"
 
 OPTIONS=(1 "[...] Go Back"
          2 "Download Models"
-         3 "Remove Models")
+         3 "Remove Models"
+	 4 "AI Model Backup/Restore [/sdcard/Download]")
 
 
 CHOICE=$(dialog --clear \
@@ -35,4 +36,9 @@ case $CHOICE in
             './AltaeraAI/altaera-model_remove.sh'
             './AltaeraAI/altaera.sh'
             ;;
+	4)
+            clear
+            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera.sh'
+	    ;;
 esac
