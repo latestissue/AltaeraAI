@@ -11,6 +11,9 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
+rm -rf 'altaera-model_backup.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_backup.sh
+chmod a+x 'altaera-model_backup.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
 tar -xf 'altaera-v3.1.tar.gz'
 rm -rf 'altaera-v3.1.tar.gz'
