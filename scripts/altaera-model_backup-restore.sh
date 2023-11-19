@@ -26,7 +26,7 @@ case $CHOICE in
             exit
 	    ;;
         2)
-            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_backup.sh'
+            proot-distro login altaera -- ./altaera-model_backup.sh
             ;;
         3)
             bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_restore.sh'
