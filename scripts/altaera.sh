@@ -16,13 +16,12 @@ OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
          5 "Change language 🌐"
          6 "Change KoboldCpp Settings [...]"
          7 "ngrok Secure Tunnelling [...]"
-         8 "AI Model Backup/Restore (/sdcard) [...]"
-         9 "Reinstall (fix) AltaeraAI [...]"
-         10 "Uninstall AltaeraAI"
-         11 "Customer Support [...]"
-         12 "Visit altaera.ai [URL]"
-         13 "Donate 💸 [URL]"
-         14 "Exit")
+         8 "Reinstall (fix) AltaeraAI [...]"
+         9 "Uninstall AltaeraAI"
+         10 "Customer Support [...]"
+         11 "Visit altaera.ai [URL]"
+         12 "Donate 💸 [URL]"
+         13 "Exit")
          
 
 CHOICE=$(dialog --clear \
@@ -71,30 +70,25 @@ case $CHOICE in
             ;;
         8)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
-            './AltaeraAI/altaera.sh'
+            './AltaeraAI/altaera-reinstall.sh'
             ;;
         9)
             clear
-            './AltaeraAI/altaera-reinstall.sh'
+            './AltaeraAI/altaera-uninstall.sh'
             ;;
         10)
             clear
-            './AltaeraAI/altaera-uninstall.sh'
+            './AltaeraAI/altaera-customer_support.sh'
             ;;
         11)
             clear
-            './AltaeraAI/altaera-customer_support.sh'
+            termux-open-url 'https://altaera.ai/'
             ;;
         12)
             clear
-            termux-open-url 'https://altaera.ai/'
-            ;;
-        13)
-            clear
             termux-open-url 'https://altaera.ai/donate/'
             ;;
-        14)
+        13)
             clear
             exit
 esac
