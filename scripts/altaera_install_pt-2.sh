@@ -60,18 +60,10 @@ chmod a+x 'altaera-manage_models.sh'
 chmod a+x 'altaera-model_remove.sh'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backed-up.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restored-cleanup.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-cleaned-up.sh
 
 chmod a+x 'altaera-model_backup-restore.sh'
-chmod a+x 'altaera-model_backup.sh'
 chmod a+x 'altaera-model_restore.sh'
-chmod a+x 'altaera-model_backed-up.sh'
-chmod a+x 'altaera-model_restored-cleanup.sh'
-chmod a+x 'altaera-model_backup-cleaned-up.sh'
 
 cd '/data/data/com.termux/files/usr/etc/'
 
