@@ -59,7 +59,7 @@ clear
 case $CHOICE in
         1)
             echo "You chose 'Auto-detection - [Default]'"
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
 ) = "15Gi" ]; then
@@ -105,7 +105,7 @@ fi
         2)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
             cd ..
@@ -114,7 +114,7 @@ fi
         3)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
             cd ..
@@ -123,7 +123,7 @@ fi
         4)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
             cd ..
@@ -132,7 +132,7 @@ fi
         5)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
             cd ..
@@ -141,7 +141,7 @@ fi
         6)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
             cd ..
@@ -150,7 +150,7 @@ fi
         7)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
             cd ..
@@ -159,7 +159,7 @@ fi
         8)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
             cd ..
@@ -168,7 +168,7 @@ fi
         9)
             echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
             cd ..
@@ -177,7 +177,7 @@ fi
         10)
             echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
             cd ..
@@ -186,7 +186,7 @@ fi
         11)
             echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
             cd ..
@@ -195,7 +195,7 @@ fi
         12)
             echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
             cd ..
@@ -204,7 +204,7 @@ fi
         13)
             echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
             cd ..
@@ -213,7 +213,7 @@ fi
         14)
             echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
             cd ..
@@ -222,7 +222,7 @@ fi
         15)
             echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
             cd ..
@@ -231,7 +231,7 @@ fi
         16)
             echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
             cd ..
@@ -240,7 +240,7 @@ fi
         17)
             echo "你选择了 'Q4_0-RWKV-4-World-3B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
             cd ..
@@ -249,7 +249,7 @@ fi
         18)
             echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
             cd ..
@@ -258,7 +258,7 @@ fi
         19)
             echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
             cd ..
@@ -267,7 +267,7 @@ fi
         20)
             echo "You chose 'Q5_0-RWKV-4-World-3B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
             cd ..
@@ -276,7 +276,7 @@ fi
         21)
             echo "你选择了 'Q5_0-RWKV-4-World-3B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
             cd ..
@@ -285,7 +285,7 @@ fi
         22)
             echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
             cd ..
@@ -294,7 +294,7 @@ fi
         23)
             echo "你选择了 'Q5_1-RWKV-4-World-3B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
             cd ..
@@ -303,7 +303,7 @@ fi
         24)
             echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
             cd ..
@@ -312,7 +312,7 @@ fi
         25)
             echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
             cd ..
@@ -321,7 +321,7 @@ fi
         26)
             echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
             cd ..
@@ -330,7 +330,7 @@ fi
         27)
             echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
             cd ..
@@ -339,7 +339,7 @@ fi
         28)
             echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
             cd ..
@@ -348,7 +348,7 @@ fi
         29)
             echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
             cd ..
@@ -357,7 +357,7 @@ fi
         30)
             echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
             cd ..
@@ -366,7 +366,7 @@ fi
         31)
             echo "You chose 'Q4_0-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin
             cd ..
@@ -375,7 +375,7 @@ fi
         32)
             echo "You chose 'Q4_1-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_1.bin
             cd ..
@@ -384,7 +384,7 @@ fi
         33)
             echo "You chose 'Q5_0-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_0.bin
             cd ..
@@ -393,7 +393,7 @@ fi
         34)
             echo "You chose 'Q5_1-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_1.bin
             cd ..
@@ -402,7 +402,7 @@ fi
         35)
             echo "You chose 'Q8_0-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q8_0.bin
             cd ..
@@ -411,7 +411,7 @@ fi
         36)
             echo "You chose 'F16-open-llama-3b'"
 	    echo "Downloading the AI model..."
-            cd '/data/data/com.termux/files/home/AltaeraAI-tmp'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-f16.bin
             cd ..
