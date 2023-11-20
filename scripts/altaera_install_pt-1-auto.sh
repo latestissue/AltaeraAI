@@ -2,7 +2,7 @@
 
 clear
 
-cd 'AltaeraAI-tmp'
+cd 'AltaeraAI-tmp/models'
 
 
    if [ $(free -h | awk '/Mem\:/ { print $2 }'
