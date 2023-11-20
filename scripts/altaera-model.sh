@@ -27,7 +27,7 @@ case $CHOICE in
 	    ;;
         2)
             echo "You chose 'Auto-detection - [Default]'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             
