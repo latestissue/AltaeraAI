@@ -29,16 +29,16 @@ case $CHOICE in
         2)
             clear
             './AltaeraAI/altaera-model.sh'
-            './AltaeraAI/altaera.sh'
+            exit
             ;;
         3)
             clear
             './AltaeraAI/altaera-model_remove.sh'
-            './AltaeraAI/altaera.sh'
+            exit
             ;;
 	4)
             clear
             './AltaeraAI/altaera-model_backup-restore.sh'
-            './AltaeraAI/altaera.sh'
+            exit
 	    ;;
 esac
