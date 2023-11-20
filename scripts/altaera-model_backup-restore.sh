@@ -30,7 +30,7 @@ case $CHOICE in
 	    exit
             ;;
         3)
-            bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model_restore.sh'
+            './AltaeraAI/altaera-model_restore.sh'
 	    exit
             ;;
 esac
