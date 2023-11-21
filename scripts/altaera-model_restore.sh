@@ -15,7 +15,7 @@ fi
 RESULT=$?
 if [ $RESULT -eq 0 ]; then
 
-    cp $file '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/models'
+    cp $file '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
 
     echo  "
 

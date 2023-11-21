@@ -50,7 +50,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -65,7 +65,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -79,7 +79,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -93,7 +93,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -107,7 +107,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -121,7 +121,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -135,7 +135,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -149,7 +149,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -163,7 +163,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -177,7 +177,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -191,7 +191,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
@@ -205,7 +205,7 @@ bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
-mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera'
+mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
