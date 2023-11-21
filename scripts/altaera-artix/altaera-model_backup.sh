@@ -15,7 +15,7 @@ fi
 RESULT=$?
 if [ $RESULT -eq 0 ]; then
 
-    cd '/root/koboldcpp-altaera/models'
+    cd '/root/kcpp-ae/models'
     cp $file '/sdcard/Download'
 
     echo  "
