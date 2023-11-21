@@ -99,7 +99,7 @@ case $CHOICE in
 	echo "Downloading the AI model..."
 	wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
 fi
-            cd ..
+            cd ../..
             clear
 	    ;;
         2)
@@ -108,7 +108,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         3)
@@ -117,7 +117,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         4)
@@ -126,7 +126,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         5)
@@ -135,7 +135,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         6)
@@ -144,7 +144,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         7)
@@ -153,7 +153,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         8)
@@ -162,7 +162,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         9)
@@ -171,7 +171,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         10)
@@ -180,7 +180,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         11)
@@ -189,7 +189,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         12)
@@ -198,7 +198,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         13)
@@ -207,7 +207,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         14)
@@ -216,7 +216,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         15)
@@ -225,7 +225,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         16)
@@ -234,7 +234,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         17)
@@ -243,7 +243,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         18)
@@ -252,7 +252,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         19)
@@ -261,7 +261,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         20)
@@ -270,7 +270,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         21)
@@ -279,7 +279,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         22)
@@ -288,7 +288,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         23)
@@ -297,7 +297,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         24)
@@ -306,7 +306,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         25)
@@ -315,7 +315,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         26)
@@ -324,7 +324,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         27)
@@ -333,7 +333,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         28)
@@ -342,7 +342,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         29)
@@ -351,7 +351,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         30)
@@ -360,7 +360,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin
-            cd ..
+            cd ../..
             clear
             ;;
         31)
@@ -369,7 +369,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin
-            cd ..
+            cd ../..
             clear
             ;;
         32)
@@ -378,7 +378,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_1.bin
-            cd ..
+            cd ../..
             clear
             ;;
         33)
@@ -387,7 +387,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_0.bin
-            cd ..
+            cd ../..
             clear
             ;;
         34)
@@ -396,7 +396,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q5_1.bin
-            cd ..
+            cd ../..
             clear
             ;;
         35)
@@ -405,7 +405,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q8_0.bin
-            cd ..
+            cd ../..
             clear
             ;;
         36)
@@ -414,7 +414,7 @@ fi
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'model.bin'
             wget https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-f16.bin
-            cd ..
+            cd ../..
             clear
             ;;
 esac
