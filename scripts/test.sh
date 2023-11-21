@@ -52,7 +52,7 @@ case $CHOICE in
         1)
 shopt -s nullglob dotglob     # To include hidden files
 files=(/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/koboldcpp-altaera/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin)
-if [ ${#files[@]} -gt 0 ]; then cd "koboldcpp-altaera"
+if [ ${#files[@]} -gt 0 ]; then cd "kcpp-ae"
 termux-open-url 'http://localhost:1551'
 python3 koboldcpp.py f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin 1551 --smartcontext --blasbatchsize 2048 --contextsize 512
 

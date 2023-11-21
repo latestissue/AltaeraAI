@@ -102,7 +102,7 @@ chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
 tar -xf 'altaera-v3.1.tar.gz'
-cd 'koboldcpp-altaera'
+cd 'kcpp-ae'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
 cd ..
