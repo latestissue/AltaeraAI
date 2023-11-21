@@ -17,7 +17,7 @@ fi
 RESULT=$?
 if [ $RESULT -eq 0 ]; then
 
-    cd koboldcpp-altaera
+    cd kcpp-ae
     python3 koboldcpp.py $file 1551
     --smartcontext
     --blasbatchsize 2048
