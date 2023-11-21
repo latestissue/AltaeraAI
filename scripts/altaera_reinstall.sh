@@ -34,6 +34,7 @@ clear
 case $CHOICE in
         1)
         
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -84,6 +85,8 @@ _______________________________________________________________________
 ;;
 
          2)
+         
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -133,6 +136,8 @@ _______________________________________________________________________
 "
 ;;
          3)
+         
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -182,6 +187,8 @@ _______________________________________________________________________
 "
 ;;
          4)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -231,6 +238,8 @@ _______________________________________________________________________
 "
 ;;
          5)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -280,6 +289,8 @@ _______________________________________________________________________
 "
 ;;
          6)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -329,6 +340,8 @@ _______________________________________________________________________
 "
 ;;
          7)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -378,6 +391,8 @@ _______________________________________________________________________
 "
 ;;
          8)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -427,6 +442,8 @@ _______________________________________________________________________
 "
 ;;
          9)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -476,6 +493,8 @@ _______________________________________________________________________
 "
 ;;
          10)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -525,6 +544,8 @@ _______________________________________________________________________
 "
 ;;
          11)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
@@ -574,6 +595,8 @@ _______________________________________________________________________
 "
 ;;
          12)
+
+mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
