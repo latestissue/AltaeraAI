@@ -1,6 +1,6 @@
 # AltaeraAI
 
-![altaeragithublogo](https://github.com/latestissue/AltaeraAI/assets/121747280/3ad2fcc5-4854-433f-a858-06f5e207c431)
+![altaeragithublogo](https://github.com/latestissue/AltaeraAI/assets/121747280/b7b44006-6889-4939-9e9f-4f80bfc0b946)
 
 
 AltaeraAI is a [Termux](https://github.com/termux) wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
