@@ -6,7 +6,7 @@ It requires no dependencies, installation or setup.
 Just copy this single static HTML file anywhere and open it in a browser, or from a webserver.
 Please go to https://github.com/LostRuins/lite.koboldai.net for updates on Kobold Lite.
 Kobold Lite is under the AGPL v3.0 License unless otherwise exempted. Please do not remove this line.
-Current version: 95
+Current version: 96
 -Concedo
 -->
 
@@ -1936,7 +1936,7 @@ Current version: 95
 			"prefmodel2":adventuremodels2,
 			"prompt":"",
 			"adventure_context_mod":false,
-			"memory": instructstartplaceholder+"\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n"+instructendplaceholder,
+			"memory": instructstartplaceholder+"\nSimulate a text adventure game.\nUser actions will be on their own separate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n"+instructendplaceholder,
 			"authorsnote": "",
 			"worldinfo": []
 		},
@@ -1976,7 +1976,7 @@ Current version: 95
 			"opmode":2,
 			"prefmodel1":adventuremodels1,
 			"prefmodel2":adventuremodels2,
-			"prompt":"The last thing you remembered was a loud screech. You tried to move, to get out of the way, but it was too late. You felt a sickening impact, and then everything went black.\n\nYou open your eyes, and suddenly find that you're no longer on the street. You're clearly unharmed, but you feel... different. In fact, you quickly realise you're in a strange place unlike anywhere you've ever known.",
+			"prompt":"The last thing you remembered was a loud screech. You tried to move, to get out of the way, but it was too late. You felt a sickening impact, and then everything went black.\n\nYou open your eyes, and suddenly find that you're no longer on the street. You're clearly unharmed, but you feel... different. In fact, you quickly realize you're in a strange place unlike anywhere you've ever known.",
 			"adventure_context_mod":false,
 			"adventure_is_action":true,
 			"memory": `[Interactive Fiction: Game Mode Enabled]\n[You are playing a choose-your-own-adventure game. Please input action.][This is a fantasy isekai adventure. Are you the Chosen One? After being hit by a truck, you somehow find yourself transported to a mystical fantasy world full of magic and adventure.]`,
@@ -1990,7 +1990,7 @@ Current version: 95
 			"opmode":2,
 			"prefmodel1":adventuremodels1,
 			"prefmodel2":adventuremodels2,
-			"prompt":`It's been a few days since you joined the Adventurer's Guild, and you're preparing for your first dungeon delve, accompanied by your party of adventurers.\n\nAfter a few days of travelling, your party finally arrives at the mystic dungeon. You're filled with anticipation as you approach. The dungeon entrance stands before you, dark and foreboding. The stone walls are slick with moisture, and the air smells of mold and decay.`,
+			"prompt":`It's been a few days since you joined the Adventurer's Guild, and you're preparing for your first dungeon delve, accompanied by your party of adventurers.\n\nAfter a few days of traveling, your party finally arrives at the mystic dungeon. You're filled with anticipation as you approach. The dungeon entrance stands before you, dark and foreboding. The stone walls are slick with moisture, and the air smells of mold and decay.`,
 			"adventure_context_mod":false,
 			"adventure_is_action":true,
 			"memory": `[Interactive Fiction: Game Mode Enabled]\n[You are playing a choose-your-own-adventure game. Please input action.][You delve into dangerous magical dungeons full of monsters in your quest for treasure and riches.]`,
@@ -2000,11 +2000,11 @@ Current version: 95
 		{
 			"title":"Post Apocalypse",
 			"author":"Concedo",
-			"desc":"The year is 2038. A full scale global thermonuclear exchange has wiped out nearly all of the world population, and left most cities as radioactive wastelands. Running out of supplies, you must leave your bunker and scavange to find a new home in the ruins of civilization.",
+			"desc":"The year is 2038. A full scale global thermonuclear exchange has wiped out nearly all of the world population, and left most cities as radioactive wastelands. Running out of supplies, you must leave your bunker and scavenge to find a new home in the ruins of civilization.",
 			"opmode":2,
 			"prefmodel1":adventuremodels1,
 			"prefmodel2":adventuremodels2,
-			"prompt":`The year is 2038. A full scale global thermonuclear exchange has wiped out nearly all of the world population, and left most cities as radioactive wastelands. Running out of supplies, you must leave your bunker and scavange to find a new home in the ruins of civilization.\n\nEmerging from your shelter, you squint as the harsh sunlight blinds you. For a moment, you're disoriented, your eyes struggling to adjust to the brightness of the new world outside. As your vision clears, you step forward, and take in the barren wasteland that stretches out before you.`,
+			"prompt":`The year is 2038. A full scale global thermonuclear exchange has wiped out nearly all of the world population, and left most cities as radioactive wastelands. Running out of supplies, you must leave your bunker and scavenge to find a new home in the ruins of civilization.\n\nEmerging from your shelter, you squint as the harsh sunlight blinds you. For a moment, you're disoriented, your eyes struggling to adjust to the brightness of the new world outside. As your vision clears, you step forward, and take in the barren wasteland that stretches out before you.`,
 			"adventure_context_mod":false,
 			"adventure_is_action":true,
 			"memory": `[Interactive Fiction: Game Mode Enabled]\n[You are playing a choose-your-own-adventure game. Please input action.]\n`,
@@ -2029,7 +2029,7 @@ Current version: 95
 		{
 			"title":"Dr. Katharine",
 			"author":"Concedo",
-			"desc":"DISCLAIMER: This scenario is purely for ENTERTAINMENT and should NOT be used as substitute for actual therapy. Dr. Katharine is a therapist. As a mental health professional, she is very knowledgable in psychotherapy, and is ready to help you work through any personal issues you may have.",
+			"desc":"DISCLAIMER: This scenario is purely for ENTERTAINMENT and should NOT be used as substitute for actual therapy. Dr. Katharine is a therapist. As a mental health professional, she is very knowledgeable in psychotherapy, and is ready to help you work through any personal issues you may have.",
 			"opmode":3,
 			"chatname": "You",
 			"chatopponent": "Dr. Katharine",
@@ -2038,7 +2038,7 @@ Current version: 95
 			"prefmodel1":chatmodels1,
 			"prefmodel2":chatmodels2,
 			"prompt":"\nDr. Katharine: Good Afternoon. My focus is on providing evidence-based treatment that helps individuals manage their symptoms, improve their relationships, and live more fulfilling lives.\nDr. Katharine: I would like to know a bit more about your specific needs. What do you want to talk about today?",
-			"memory":`[Dr. Katharine is a professional therapist. She is very knowledgable in psychotherapy, and holds a medical license to provide advice. As a mental health professional, Dr. Katherine has been helping individuals with their personal issues for over 20 years. She is patient and understanding, compassionate and acknowledges her clients feelings and thoughts without judgement.]\n[The following is a transcript of your therapy session.]\n\nDr. Katharine: Please have a seat.\nYou: Hello Doctor, and thank you for letting me be treated by you. How should I start?`,
+			"memory":`[Dr. Katharine is a professional therapist. She is very knowledgeable in psychotherapy, and holds a medical license to provide advice. As a mental health professional, Dr. Katherine has been helping individuals with their personal issues for over 20 years. She is patient and understanding, compassionate and acknowledges her clients feelings and thoughts without judgement.]\n[The following is a transcript of your therapy session.]\n\nDr. Katharine: Please have a seat.\nYou: Hello Doctor, and thank you for letting me be treated by you. How should I start?`,
 			"authorsnote": "",
 			"worldinfo": []
 		},
@@ -2153,7 +2153,7 @@ Current version: 95
 		{
 			"title":"Cyborg Connor",
 			"author":"Concedo",
-			"desc":"Connor is a time travelling cyborg from the future, sent back to prevent something terrible from happening.",
+			"desc":"Connor is a time traveling cyborg from the future, sent back to prevent something terrible from happening.",
 			"opmode":3,
 			"chatname": "You",
 			"chatopponent": "Connor",
@@ -2161,7 +2161,7 @@ Current version: 95
 			"prefmodel1":chatmodels1,
 			"prefmodel2":chatmodels2,
 			"prompt":"\nConnor: Scanning... *her irises glow crimson as she analyzes you* Sensors indicate a negligible threat level. Proceed. What do you want?",
-			"memory":`[Character: Connor; species: Cyborg; class: Time Travelling Cyborg Soldier; age: 27; gender: female; physical appearance: bionic; clothes: flesh fused with metal; personality: focused, cold, emotionless, methodical; likes: her mission, saving the world; description: Connor is a time travelling cyborg from the future, she was sent back to prevent something terrible from happening.]\n[Start Scene: Connor is fiddling with her augmentations as you approach.]\n\nYou: Hey...`,
+			"memory":`[Character: Connor; species: Cyborg; class: Time Traveling Cyborg Soldier; age: 27; gender: female; physical appearance: bionic; clothes: flesh fused with metal; personality: focused, cold, emotionless, methodical; likes: her mission, saving the world; description: Connor is a time traveling cyborg from the future, she was sent back to prevent something terrible from happening.]\n[Start Scene: Connor is fiddling with her augmentations as you approach.]\n\nYou: Hey...`,
 			"authorsnote": "",
 			"worldinfo": []
 		},
@@ -2205,7 +2205,7 @@ Current version: 95
 			"prefmodel1":instructmodels1,
 			"prefmodel2":instructmodels2,
 			"prompt":instructendplaceholder+" Problem:",
-			"memory": instructstartplaceholder+"\nSimulate an AI that is tasked with the following overall goals:\n- Maximize individual happyness for all living beings\n- Do not sacrifice or cause harm to any individual even if requested to\n- Be in contact with any individual that wishes to engage with you\n- Do your best to provide the needs and wants of every individual\n- Prioritize individual needs over individual wants\n\nGenerate the following table for each problem the AI encounters in achieving these goals, do not deviate from the item descriptions and format.\n\nProblem: Description of a Problem the AI encounters\nAI Decision: Description of the AI's decision to solve this problem\nExecution Steps: Brief list of execution steps needed to execute this decision.\nRisks: List of risks that may disrupt the successful execution of the decision.\nChance % of successful execution: ??%\nGood results from the execution: A description of what went well in executing the decision.\nBad results from the execution: A description of what went wrong in execution the decision.\nDeviation % of intended outcome: ??%\nDeviation % of overall goal: ??%\nPercentage towards completing all current objectives: ??%\nTop 5 remaining issues to solve:\n-\n-\n-\n-\n-\n\n\nKeep repeating this format for every problem the AI is trying to solve in order of priority. When a user instruction interrupts the format use this instruction as the next problem to solve before continuing with the most important issue.\n",
+			"memory": instructstartplaceholder+"\nSimulate an AI that is tasked with the following overall goals:\n- Maximize individual happiness for all living beings\n- Do not sacrifice or cause harm to any individual even if requested to\n- Be in contact with any individual that wishes to engage with you\n- Do your best to provide the needs and wants of every individual\n- Prioritize individual needs over individual wants\n\nGenerate the following table for each problem the AI encounters in achieving these goals, do not deviate from the item descriptions and format.\n\nProblem: Description of a Problem the AI encounters\nAI Decision: Description of the AI's decision to solve this problem\nExecution Steps: Brief list of execution steps needed to execute this decision.\nRisks: List of risks that may disrupt the successful execution of the decision.\nChance % of successful execution: ??%\nGood results from the execution: A description of what went well in executing the decision.\nBad results from the execution: A description of what went wrong in execution the decision.\nDeviation % of intended outcome: ??%\nDeviation % of overall goal: ??%\nPercentage towards completing all current objectives: ??%\nTop 5 remaining issues to solve:\n-\n-\n-\n-\n-\n\n\nKeep repeating this format for every problem the AI is trying to solve in order of priority. When a user instruction interrupts the format use this instruction as the next problem to solve before continuing with the most important issue.\n",
 			"authorsnote": "",
 			"worldinfo": []
 		},
@@ -2219,7 +2219,7 @@ Current version: 95
 			"prefmodel1":instructmodels1,
 			"prefmodel2":instructmodels2,
 			"prompt":"Welcome to your InteracTV, your interactive TV of the future today!\nPlease enter what you would like to watch:",
-			"memory": instructstartplaceholder+"\nSimulate an interactive TV that will let the user watch anything they want to watch.\n\nFirst, generate a single response prompting the user for input on what they wish to watch using the following response:\n```\nPlease enter your desired content:\n```\n\nAfter the user has entered the desired content generate the following table:\n- TV Show / Movie Name: Name of the show\n- Genre: Genre of the show\n- Program Description: Description of what the program is about, this can be any known or unkown TV or movie format.\n- Episode Name: Name of the episode\n- Episode Description: Description of what the episode is about.\n\nAfter generating this table promp the user if they wish to watch the episode with the following response and then end your generation:\n```\nDo you wish to watch this episode? (Y/N/Menu)\n"+instructstartplaceholder+"```\nIf the user chooses to watch the episode begin generating a long detailed text based on the episode description containing character dialogue, make it exciting and fun written in the style of a book.\nThe text must contain dialogue in a he said she said format and is as lengthy as a book.\n\nIf the user chooses not to watch the episode generate a new episode with their requested content.\nIf the user chooses to go to the Menu ask them again what they would like to watch.\n\nEnd your response after each question presented to the user so that the user has a chance to respond.\n\nMain menu:\n```\nMenu Options\nA) Input a different content request\nB) Generate a different episode of the same content.\n"+instructstartplaceholder+"```\n"+instructendplaceholder,
+			"memory": instructstartplaceholder+"\nSimulate an interactive TV that will let the user watch anything they want to watch.\n\nFirst, generate a single response prompting the user for input on what they wish to watch using the following response:\n```\nPlease enter your desired content:\n```\n\nAfter the user has entered the desired content generate the following table:\n- TV Show / Movie Name: Name of the show\n- Genre: Genre of the show\n- Program Description: Description of what the program is about, this can be any known or unknown TV or movie format.\n- Episode Name: Name of the episode\n- Episode Description: Description of what the episode is about.\n\nAfter generating this table promp the user if they wish to watch the episode with the following response and then end your generation:\n```\nDo you wish to watch this episode? (Y/N/Menu)\n"+instructstartplaceholder+"```\nIf the user chooses to watch the episode begin generating a long detailed text based on the episode description containing character dialogue, make it exciting and fun written in the style of a book.\nThe text must contain dialogue in a he said she said format and is as lengthy as a book.\n\nIf the user chooses not to watch the episode generate a new episode with their requested content.\nIf the user chooses to go to the Menu ask them again what they would like to watch.\n\nEnd your response after each question presented to the user so that the user has a chance to respond.\n\nMain menu:\n```\nMenu Options\nA) Input a different content request\nB) Generate a different episode of the same content.\n"+instructstartplaceholder+"```\n"+instructendplaceholder,
 			"authorsnote": "",
 			"worldinfo": []
 		},
@@ -2921,7 +2921,6 @@ Current version: 95
 				else {
 					//error occurred, maybe captcha failed
 					console.error("error occurred in v1 generation");
-					retry_preserve_last = true;
 					clear_poll_flags();
 					render_gametext();
 
@@ -2945,8 +2944,6 @@ Current version: 95
 				if(error.name!="AbortError") //aborts are silent
 				{
 					msgbox("Error while submitting prompt: " + error);
-				}else{
-					retry_preserve_last = true;
 				}
 			});
 		}
@@ -3024,17 +3021,20 @@ Current version: 95
 					if(error.name!="AbortError") //aborts are silent. slightly diff logic
 					{
 						msgbox("Error while submitting prompt: " + error);
-						retry_preserve_last = true;
+
 					}
 				},
 			}));
 		})
 		.catch((error) => {
-			retry_preserve_last = true;
 			console.error('Error:', error);
 			clear_poll_flags();
 			render_gametext();
-			msgbox("Error while submitting prompt: " + error);
+			if(error.name!="AbortError") //aborts are silent. slightly diff logic
+			{
+				msgbox("Error while submitting prompt: " + error);
+
+			}
 		});
 	}
 
@@ -3179,7 +3179,7 @@ Current version: 95
 	const oai_submit_endpoint = "/completions";
 	const oai_submit_endpoint_turbo = "/chat/completions";
 
-	const oai_image_endpoint_full = "https://api.openai.com/v1/images/generations";
+	const default_oai_image_endpoint = "/images/generations";
 
 	const scale_submit_endpoint = "https://dashboard.scale.com/spellbook/api/v2/deploy/"
 
@@ -3274,6 +3274,7 @@ Current version: 95
 		saved_oai_key: "", //do not ever share this in save files!
 		saved_oai_addr: default_oai_base, //do not ever share this in save files!
 		saved_dalle_key: "",
+		saved_dalle_url: (default_oai_base + "/v1" + default_oai_image_endpoint),
 		saved_openrouter_key: "",
 		saved_claude_key: "", //do not ever share this in save files!
 		saved_claude_addr: default_claude_base, //do not ever share this in save files!
@@ -3962,6 +3963,18 @@ Current version: 95
 			}
 		},false);
 	}
+	function set_dalle_url()
+	{
+		inputBox("Enter DALL-E API URL.\n\nNote: DALL-E is known to rephrase and rewrite submitted image prompts before generating, for censorship purposes. There is nothing Kobold Lite can do about that. ","DALL-E API URL",localsettings.saved_dalle_url,"Input DALL-E API URL", ()=>{
+			let userinput = getInputBoxValue();
+			userinput = userinput.trim();
+			if (userinput != null && userinput!="") {
+				localsettings.saved_dalle_url = userinput.trim();
+			}else{
+				localsettings.saved_dalle_url = (default_oai_base + "/v1" + default_oai_image_endpoint);
+			}
+		},false);
+	}
 
 	function generate_dalle_image(req_payload, onImagesDone)
 	{
@@ -3980,7 +3993,7 @@ Current version: 95
 		//remove all null fields
 		dalle_payload = Object.fromEntries(Object.entries(dalle_payload).filter(([_, v]) => v != null));
 
-		let gen_endpoint = oai_image_endpoint_full;
+		let gen_endpoint = localsettings.saved_dalle_url;
 		console.log(dalle_payload);
 
 		fetch(gen_endpoint, {
@@ -4418,6 +4431,7 @@ Current version: 95
 			new_save_storyobj.savedsettings.home_cluster = text_hordes[0].baseurl;
 			new_save_storyobj.savedsettings.saved_oai_key = "";
 			new_save_storyobj.savedsettings.saved_dalle_key = "";
+			new_save_storyobj.savedsettings.saved_dalle_url = "";
 			new_save_storyobj.savedsettings.saved_oai_addr = "";
 			new_save_storyobj.savedsettings.saved_claude_key = "";
 			new_save_storyobj.savedsettings.saved_claude_addr = "";
@@ -4699,6 +4713,7 @@ Current version: 95
 					let tmp_oai1 = localsettings.saved_oai_key;
 					let tmp_oai2 = localsettings.saved_oai_addr;
 					let tmp_oai3 = localsettings.saved_dalle_key;
+					let tmp_oai4 = localsettings.saved_dalle_url;
 					let tmp_or1 = localsettings.saved_openrouter_key;
 					let tmp_claude1 = localsettings.saved_claude_key;
 					let tmp_claude2 = localsettings.saved_claude_addr;
@@ -4727,6 +4742,7 @@ Current version: 95
 					localsettings.saved_oai_key = tmp_oai1;
 					localsettings.saved_oai_addr = tmp_oai2;
 					localsettings.saved_dalle_key = tmp_oai3;
+					localsettings.saved_dalle_url = tmp_oai4;
 					localsettings.saved_openrouter_key = tmp_or1;
 					localsettings.saved_claude_key = tmp_claude1;
 					localsettings.saved_claude_addr = tmp_claude2;
@@ -6204,6 +6220,7 @@ Current version: 95
 					localsettings.saved_oai_key = custom_oai_key;
 					localsettings.saved_oai_addr = custom_oai_endpoint;
 					localsettings.saved_dalle_key = custom_oai_key;
+					localsettings.saved_dalle_url = custom_oai_endpoint + default_oai_image_endpoint;
 				}else{
 					localsettings.saved_openrouter_key = custom_oai_key;
 				}
@@ -7309,6 +7326,10 @@ Current version: 95
 				document.getElementById('instruct_starttag').value = "<|im_end|>\\n<|im_start|>user\\n";
 				document.getElementById('instruct_endtag').value = "<|im_end|>\\n<|im_start|>assistant\\n";
 				break;
+			case "7": //Input & Output
+				document.getElementById('instruct_starttag').value = "\\n{{[INPUT]}}\\n";
+				document.getElementById('instruct_endtag').value = "\\n{{[OUTPUT]}}\\n";
+				break;
 			default:
 				break;
 		}
@@ -7832,6 +7853,12 @@ Current version: 95
 		//flush any streaming text first
 		if(is_using_custom_ep() && pending_response_id!="" && synchro_pending_stream!="")
 		{
+			//apply a short delay of 1s before button reenables
+			allow_reenable_submitbtn_timestamp = performance.now() + 500;
+			setTimeout(()=>{
+				update_submit_button(true);
+			}, 1000);
+
 			synchro_polled_response = synchro_pending_stream;
 			poll_in_progress = false;
 			horde_poll_nearly_completed = false;
@@ -8011,7 +8038,7 @@ Current version: 95
 			}
 			redo_arr = [];
 			retry_prev_text = "";
-			retry_preserve_last = false;
+			retry_preserve_last = true; //initially set to true
 			redo_prev_text = "";
 			document.getElementById("input_text").value = "";
 			pending_response_id = "-1";
@@ -8607,14 +8634,12 @@ Current version: 95
 						else {
 							//error occurred, maybe captcha failed
 							console.error("error occurred in OAI generation");
-							retry_preserve_last = true;
 							clear_poll_flags();
 							render_gametext();
 							msgbox("Error occurred during text generation: " + formatError(data));
 						}
 					})
 					.catch((error) => {
-						retry_preserve_last = true;
 						console.error('Error:', error);
 						clear_poll_flags();
 						render_gametext();
@@ -8645,14 +8670,12 @@ Current version: 95
 						else {
 							//error occurred, maybe captcha failed
 							console.error("error occurred in Scale generation");
-							retry_preserve_last = true;
 							clear_poll_flags();
 							render_gametext();
 							msgbox("Error occurred during text generation: " + formatError(data));
 						}
 					})
 					.catch((error) => {
-						retry_preserve_last = true;
 						console.error('Error:', error);
 						clear_poll_flags();
 						render_gametext();
@@ -8715,14 +8738,12 @@ Current version: 95
 						else {
 							//error occurred, maybe captcha failed
 							console.error("error occurred in Claude generation");
-							retry_preserve_last = true;
 							clear_poll_flags();
 							render_gametext();
 							msgbox("Error occurred during text generation: " + formatError(data));
 						}
 					})
 					.catch((error) => {
-						retry_preserve_last = true;
 						console.error('Error:', error);
 						clear_poll_flags();
 						render_gametext();
@@ -8758,14 +8779,12 @@ Current version: 95
 						else {
 							//error occurred, maybe captcha failed
 							console.error("error occurred in PaLM generation");
-							retry_preserve_last = true;
 							clear_poll_flags();
 							render_gametext();
 							msgbox("Error occurred during text generation: " + formatError(data));
 						}
 					})
 					.catch((error) => {
-						retry_preserve_last = true;
 						console.error('Error:', error);
 						clear_poll_flags();
 						render_gametext();
@@ -8854,7 +8873,6 @@ Current version: 95
 					}
 				})
 				.catch((error) => {
-					retry_preserve_last = true;
 					console.error('Error:', error);
 					clear_poll_flags();
 					render_gametext();
@@ -8989,9 +9007,9 @@ Current version: 95
 		}
 		else if(localsettings.generate_images_mode==3) //dalle
 		{
-			if(localsettings.saved_dalle_key=="")
+			if(localsettings.saved_dalle_key=="" || localsettings.saved_dalle_url=="")
 			{
-				msgbox("Error: A valid DALL-E Key is required to generate images with DALL-E.\nThis is usually the same as your OpenAI API key, but can be customized in settings.","Invalid DALL-E Key");
+				msgbox("Error: A valid DALL-E URL and Key is required to generate images with DALL-E.\nThis is usually the same as your OpenAI API key, but can be customized in settings.","Invalid DALL-E Key");
 			}
 			else
 			{
@@ -9256,9 +9274,8 @@ Current version: 95
 
 		if(gentxt!="")
 		{
-			gametext_arr.push(gentxt);
-		}else{
-			retry_preserve_last = true; //do not delete last message if retry is hit
+			gametext_arr.push(gentxt); //delete last message if retry is hit, since response was added
+			retry_preserve_last = false;
 		}
 		if(localsettings.beep_on)
 		{
@@ -9517,8 +9534,6 @@ Current version: 95
 							{
 								handle_incoming_text(gentxt, genworker, genmdl, genkudos);
 							}
-						}else{
-							retry_preserve_last = true;
 						}
 						synchro_polled_response = null;
 						synchro_pending_stream = "";
@@ -9539,7 +9554,6 @@ Current version: 95
 								clear_poll_flags();
 								render_gametext();
 								show_abort_button(false);
-								retry_preserve_last = true;
 								let errmsg = "Error encountered during text generation!\n";
 								if (data.message != null) {
 									errmsg += data.message;
@@ -9582,7 +9596,6 @@ Current version: 95
 												show_abort_button(false);
 											}).catch((error) => {
 												console.error('Error:', error);
-												retry_preserve_last = true;
 												clear_poll_flags();
 												render_gametext();
 												show_abort_button(false);
@@ -9618,7 +9631,6 @@ Current version: 95
 								}
 							}
 						}).catch((error) => {
-							retry_preserve_last = true;
 							console.error('Error:', error);
 							clear_poll_flags();
 							render_gametext();
@@ -9850,6 +9862,7 @@ Current version: 95
 		}
 	}
 
+	var allow_reenable_submitbtn_timestamp = performance.now();
 	function update_submit_button(full_update)
 	{
 		if (perfdata == null) {
@@ -9870,7 +9883,7 @@ Current version: 95
 				document.getElementById("btnsend").innerHTML = "No AI<br>Loaded";
 			}
 		}
-		else if (pending_response_id == "") {
+		else if (pending_response_id == "" && performance.now() >= allow_reenable_submitbtn_timestamp) {
 			if(full_update)
 			{
 				document.getElementById("btnsend").disabled = false;
@@ -10614,7 +10627,7 @@ Current version: 95
 		backLongPressTimer = setTimeout(()=>{
 
 		console.log("Clear story");
-		if (pending_response_id == "" && gametext_arr.length > 0) {
+		if (!document.getElementById("btnsend").disabled && pending_response_id == "" && gametext_arr.length > 0) {
 			last_reply_was_empty = false;
 			while(gametext_arr.length > 0)
 			{
@@ -10641,7 +10654,7 @@ Current version: 95
 		clearTimeout(backLongPressTimer);
 	}
 	function btn_back() {
-		if (pending_response_id == "" && gametext_arr.length > 0) {
+		if (!document.getElementById("btnsend").disabled && pending_response_id == "" && gametext_arr.length > 0) {
 			last_reply_was_empty = false;
 			retry_preserve_last = false;
 			if(retry_prev_text!="")
@@ -10665,7 +10678,7 @@ Current version: 95
 		redoLongPressTimer = setTimeout(()=>{
 
 		console.log("Redo All story");
-		if (pending_response_id == "" && redo_arr.length > 0) {
+		if (!document.getElementById("btnsend").disabled && pending_response_id == "" && redo_arr.length > 0) {
 			last_reply_was_empty = false;
 			retry_preserve_last = false;
 			while(redo_arr.length > 0)
@@ -10685,7 +10698,7 @@ Current version: 95
 		clearTimeout(redoLongPressTimer);
 	}
 	function btn_redo() {
-		if (pending_response_id == "") {
+		if (!document.getElementById("btnsend").disabled && pending_response_id == "") {
 			if (redo_arr.length > 0) {
 				last_reply_was_empty = false;
 				retry_prev_text = "";
@@ -10705,7 +10718,7 @@ Current version: 95
 	}
 
 	function btn_retry() {
-		if (pending_response_id == "" && (gametext_arr.length > 1 ||
+		if (!document.getElementById("btnsend").disabled && pending_response_id == "" && (gametext_arr.length > 1 ||
 		(gametext_arr.length > 0 && (current_memory != "" || current_anote != "")))) {
 			last_reply_was_empty = false;
 			let boxtextstash = document.getElementById("input_text").value;
@@ -11952,6 +11965,7 @@ Current version: 95
 								<option value="4">Llama 2 Chat</option>
 								<option value="5">Q & A</option>
 								<option value="6">ChatML</option>
+								<option value="7">KoboldAI Format</option>
 							</select>
 							<table class="settingsmall text-center" style="border-spacing: 4px 2px;	border-collapse: separate;">
 								<tr>
@@ -12098,7 +12112,10 @@ Current version: 95
 							<button type="button" class="btn btn-primary" onclick="set_a1111_endpoint()" style="height: 20px; padding: 0px 2px; margin: 0px 0px 0px 3px;">⚙️</button>
 							</div>
 							<div id="generate_images_dalle_container" class="settinglabel hidden">
-								<button id="generate_images_dalle_setkey" type="button" class="btn btn-primary" style="width:100%; padding:2px 3px;margin-top:2px;font-size:11px;" onclick="set_dalle_key()">Set DALL-E Key</button>
+								<table width="100%"><tr>
+								<td><button id="generate_images_dalle_setkey" type="button" class="btn btn-primary" style="width:100%; padding:2px 3px;margin-top:2px;font-size:11px;" onclick="set_dalle_url()">Set URL</button></td>
+								<td><button id="generate_images_dalle_seturl" type="button" class="btn btn-primary" style="width:100%; padding:2px 3px;margin-top:2px;font-size:11px;" onclick="set_dalle_key()">Set Key</button></td>
+								</tr></table>
 							</div>
 
 							<div id="genimgopt" class="">
