@@ -203,3 +203,4 @@ case $CHOICE in
             You have succesfully changed the model to 'Q8_0-llama-2-7b-chat'
             "
             ;;
+esac
