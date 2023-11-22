@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "v3.2"
+echo "v3.2.1"
 
 exit
