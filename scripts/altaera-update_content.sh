@@ -111,6 +111,7 @@ rm -rf 'ngrok-authtoken.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.2/altaera-v3.2.tar.gz
 tar -xf 'altaera-v3.2.tar.gz'
 cd 'kcpp-ae'
+rm -rf 'models'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/models' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
