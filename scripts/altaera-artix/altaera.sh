@@ -18,11 +18,11 @@ RESULT=$?
 if [ $RESULT -eq 0 ]; then
 
     cd kcpp-ae
+    termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
     --smartcontext
     --blasbatchsize 2048
     --contextsize 2048
-    termux-open-url 'http://localhost:1551/?streaming=1#'
 
 else
 clear
