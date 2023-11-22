@@ -9,7 +9,8 @@ MENU="Choose a model to download:"
 
 OPTIONS=(1 "[...] Go Back"
          2 "Auto-Detection (RWKV-4-Claude) - [Default]"
-         3 "RWKV-4-World [...]")
+         3 "RWKV-4-World ***broken since v3.2!*** [...]"
+	 4 "Llama-2-7B-Chat-GGUF")
 
 
 CHOICE=$(dialog --clear \
@@ -63,6 +64,12 @@ fi
             You have succesfully changed the model to 'Auto-detection - [Default]'
             "
             ;;
+	    
         3)
   		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-rwkv-4.sh'
+    		;;
+      
+    	4)	
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-2-7b-chat.sh'
+
 esac
