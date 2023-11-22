@@ -22,6 +22,7 @@ if [ $RESULT -eq 0 ]; then
     --smartcontext
     --blasbatchsize 2048
     --contextsize 2048
+    termux-open-url 'http://localhost:1551/?streaming=1#'
 
 else
 clear
