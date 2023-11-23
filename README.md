@@ -9,12 +9,12 @@ The main premise of it is to automate AI Inference using a smartphone, with the 
 
 The default implemented model is [RWKV](https://github.com/BlinkDL/RWKV-LM), [LLaMA-2](https://ai.meta.com/llama/) being another option at this very moment. The installation process will allow you to either choose AI model via an auto-detection mechanism, or you can select the model size manually. The former runs a simple algorithm to detect amount of RAM installed on device, then downloads an AI model accordingly.
 
+AltaeraAI works as a platform in order to provide easy instructions and support for AI deployment on Android devices with the use of Termux.
+You can read more at: [altaera.ai](https://altaera.ai)
+
 ## Current Models List:
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) (GGML)
 - [LLaMA-2](https://ai.meta.com/llama/) (GGUF)
-
-AltaeraAI works as a platform in order to provide easy instructions and support for AI deployment on Android devices with the use of Termux.
-You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Installation
 
