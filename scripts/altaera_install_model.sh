@@ -7,7 +7,7 @@ BACKTITLE="AltaeraAI"
 TITLE="Installing AltaeraAI - AI Model"
 MENU="Choose your desired method:"
 
-OPTIONS=(1 "RWKV-4-Claude-for-Mobile [Default]"
+OPTIONS=(1 "RWKV-4-World-Claude-for-Mobile [Default]"
          2 "RWKV-4 World"
          3 "LLaMA-2-7B-Chat"
          4 "Do not download AI Model (?) - [...]")
@@ -27,7 +27,7 @@ case $CHOICE in
         echo "You chose 'RWKV-4-Claude-for-Mobile [Default]...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-claude-for-mobile.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world-claude-for-mobile.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
