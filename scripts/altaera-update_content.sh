@@ -20,6 +20,9 @@ rm -rf 'altaera-model.sh'
 rm -rf '/data/data/com.termux/files/home/altaera-model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
 chmod a+x 'altaera-model.sh'
+rm -rf 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4-world-claude-for-mobile.sh
+chmod a+x 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
 rm -rf 'altaera-model-rwkv-4.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4.sh
 chmod a+x 'altaera-model-rwkv-4.sh'
