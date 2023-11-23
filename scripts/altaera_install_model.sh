@@ -7,10 +7,11 @@ BACKTITLE="AltaeraAI"
 TITLE="Installing AltaeraAI - AI Model"
 MENU="Choose your desired method:"
 
-OPTIONS=(1 "RWKV-4-World-Claude-for-Mobile [Default]"
-         2 "RWKV-4 World"
-         3 "LLaMA-2-7B-Chat"
-         4 "Do not download AI Model (?) - [...]")
+OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
+         2 "RWKV-4-World-Claude-for-Mobile"
+         3 "RWKV-4-World"
+         4 "LLaMA-2-7B-Chat"
+         5 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -24,7 +25,16 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-        echo "You chose 'RWKV-4-Claude-for-Mobile [Default]...'";
+        echo "You chose 'Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        2)
+        echo "You chose 'RWKV-4-World-Claude-for-Mobile...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world-claude-for-mobile.sh -O 'altaera_install_pt-1.sh'
@@ -32,8 +42,8 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        2)
-        echo "You chose 'RWKV-4 World...'";
+        3)
+        echo "You chose 'RWKV-4-World...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world.sh -O 'altaera_install_pt-1.sh'
@@ -41,7 +51,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        3)
+        4)
         echo "You chose 'LLaMA-2-7B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -50,7 +60,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        4)
+        5)
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
