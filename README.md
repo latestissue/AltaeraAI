@@ -8,7 +8,7 @@ AltaeraAI is a [Termux](https://github.com/termux) wrapper that packages [Kobold
 
 ## What is it about?
 
-AltaeraAI is a Free and Open Source solution for running GGML models with the power of your smartphone. It wraps around Termux instructions for installing Artix Linux with all the necessary dependencies in the “PRoot-Distro” environment, and then installs KoboldCpp as both the back-end and the front-end UI (KoboldLite). Lastly, it adds lines of arguments in your “bash.bashrc” file, so that you can easily reach out for MENU by simply typing “ae“.
+AltaeraAI is a Free and Open Source solution for running GGML/GGUF models with the power of your smartphone. It wraps around Termux instructions for installing Artix Linux with all the necessary dependencies in the “PRoot-Distro” environment, and then installs KoboldCpp as both the back-end and the front-end UI (KoboldLite). Lastly, it adds lines of arguments in your “bash.bashrc” file, so that you can easily reach out for MENU by simply typing “ae“.
 
 The main premise of it is to automate AI Inference using a smartphone, with the help of cherry-picked, Open-Source tools and software. This allows you for instant, localized access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality, in the form of a self contained distributable.
 
