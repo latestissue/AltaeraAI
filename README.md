@@ -19,7 +19,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Current Models List:
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) (GGML)
-- [LLaMA-2](https://ai.meta.com/llama/) (GGUF)
+- [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [[OpenBLAS]](https://www.openblas.net/)
 
 ## Installation
 
