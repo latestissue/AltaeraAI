@@ -9,7 +9,7 @@ MENU="Choose your desired method:"
 
 OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
          2 "RWKV-4-World-Claude-for-Mobile"
-         3 "RWKV-4-World"
+         3 "RWKV-4-World ***broken since v3.2!***"
          4 "LLaMA-2-7B-Chat"
          5 "Do not download AI Model (?) - [...]")
 
