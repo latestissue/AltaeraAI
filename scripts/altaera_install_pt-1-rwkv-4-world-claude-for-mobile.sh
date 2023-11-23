@@ -1,56 +1,93 @@
 #!/bin/bash
 
-clear
+HEIGHT=120
+WIDTH=160
+CHOICE_HEIGHT=24
+BACKTITLE="AltaeraAI - AI Model Settings"
+TITLE="AI Model Selection"
+MENU="Choose your desired RWKV-4-World-Claude-for-Mobile model size:"
 
-cd 'AltaeraAI-tmp/models'
+OPTIONS=(1 "f16-RWKV-for-mobile-4-world-1.5B  3.16GB"
+         2 "f32-RWKV-for-mobile-4-world-1.5B  6.31GB"
+         3 "q4_0-RWKV-for-mobile-4-world-1.5B  1.28GB"
+         4 "q4_1-RWKV-for-mobile-4-world-1.5B  1.36GB"
+         5 "q5_0-RWKV-for-mobile-4-world-1.5B  1.44GB"
+         6 "q5_1-RWKV-for-mobile-4-world-1.5B  1.52GB"
+         7 "q8_0-RWKV-for-mobile-4-world-1.5B  1.93GB")
 
 
-   if [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "15Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "11Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "7Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "5Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "3Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-  	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "2.8Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "2Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -q --show-progress
-	elif [ $(free -h | awk '/Mem\:/ { print $2 }'
-) = "1Gi" ]; then
-	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -q --show-progress
-  else
-  	clear
-	echo "Downloading the AI model..."
-	wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -q --show-progress
-fi
-
-cd ..
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
 
 clear
+case $CHOICE in
+
+        1)
+            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f16-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        2)
+            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f32-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        3)
+            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        4)
+            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        5)
+            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        6)
+            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+        7)
+            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin
+            cd ../..
+            clear
+            ;;
+esac
