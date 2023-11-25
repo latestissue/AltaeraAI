@@ -28,7 +28,7 @@ then
 elif [[ $file == *.bin ]]
 then
     echo "*****Launching in Compatiblity-Mode [GGML/bin]*****"
-    cd 'kcpp-ae/kcpp-ae_cm'
+    cd kcpp-ae_cm
     termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
     --smartcontext
