@@ -18,6 +18,14 @@ wget https://github.com/latestissue/AltaeraAI/releases/download/v3.2/altaera-v3.
 tar -xf 'altaera-v3.2.tar.gz'
 rm -rf 'altaera-v3.2.tar.gz'
 cd 'kcpp-ae'
+      wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
+      tar -xf 'altaera-v3.1.tar.gz'
+      mv 'koboldcpp-altaera' 'kcpp-ae_bc'
+      rm -rf 'altaera-v3.1.tar.gz'
+      cd 'kcpp-ae_bc'
+      rm -rf 'klite.embd'
+      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+      cd ..
 rm -rf 'models'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
