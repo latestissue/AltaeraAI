@@ -51,7 +51,7 @@ case $CHOICE in
 
         1)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f16-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
@@ -65,7 +65,7 @@ case $CHOICE in
             ;;
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f32-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
@@ -79,7 +79,7 @@ case $CHOICE in
             ;;
         3)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin -O 'f16-RWKV-4-World-0.4B-v1-ctx4096.bin' -q --show-progress
@@ -93,7 +93,7 @@ case $CHOICE in
             ;;
         4)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin -O 'f32-RWKV-4-World-0.4B-v1-ctx4096.bin' -q --show-progress
@@ -107,7 +107,7 @@ case $CHOICE in
             ;;
         5)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q4_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
@@ -121,7 +121,7 @@ case $CHOICE in
             ;;
         6)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q4_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
@@ -135,7 +135,7 @@ case $CHOICE in
             ;;
         7)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q4_1-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
@@ -149,7 +149,7 @@ case $CHOICE in
             ;;
         8)
             echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q4_1-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
@@ -163,7 +163,7 @@ case $CHOICE in
             ;;
         9)
             echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q5_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
@@ -177,7 +177,7 @@ case $CHOICE in
             ;;
         10)
             echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q5_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
@@ -191,7 +191,7 @@ case $CHOICE in
             ;;
         11)
             echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q5_1-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
@@ -205,7 +205,7 @@ case $CHOICE in
             ;;
         12)
             echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q5_1-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
@@ -219,7 +219,7 @@ case $CHOICE in
             ;;
         13)
             echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q8_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
@@ -233,7 +233,7 @@ case $CHOICE in
             ;;
         14)
             echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q8_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
@@ -247,7 +247,7 @@ case $CHOICE in
             ;;
         15)
             echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q4_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
@@ -261,7 +261,7 @@ case $CHOICE in
             ;;
         16)
             echo "你选择了 'Q4_0-RWKV-4-World-3B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q4_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
@@ -275,7 +275,7 @@ case $CHOICE in
             ;;
         17)
             echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q4_1-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
@@ -289,7 +289,7 @@ case $CHOICE in
             ;;
         18)
             echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q4_1-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
@@ -303,7 +303,7 @@ case $CHOICE in
             ;;
         19)
             echo "You chose 'Q5_0-RWKV-4-World-3B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q5_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
@@ -317,7 +317,7 @@ case $CHOICE in
             ;;
         20)
             echo "你选择了 'Q5_0-RWKV-4-World-3B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q5_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
@@ -331,7 +331,7 @@ case $CHOICE in
             ;;
         21)
             echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q5_1-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
@@ -345,7 +345,7 @@ case $CHOICE in
             ;;
         22)
             echo "你选择了 'Q5_1-RWKV-4-World-3B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q5_1-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
@@ -359,7 +359,7 @@ case $CHOICE in
             ;;
         23)
             echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q8_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
@@ -373,7 +373,7 @@ case $CHOICE in
             ;;
         24)
             echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q8_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
@@ -387,7 +387,7 @@ case $CHOICE in
             ;;
         25)
             echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q4_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
@@ -401,7 +401,7 @@ case $CHOICE in
             ;;
         26)
             echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q4_1-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
@@ -415,7 +415,7 @@ case $CHOICE in
             ;;
         27)
             echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q5_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
@@ -429,7 +429,7 @@ case $CHOICE in
             ;;
         28)
             echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q5_1-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
@@ -443,7 +443,7 @@ case $CHOICE in
             ;;
         29)
             echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q8_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
