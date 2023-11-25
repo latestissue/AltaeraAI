@@ -17,12 +17,24 @@ fi
 RESULT=$?
 if [ $RESULT -eq 0 ]; then
 
+if [[ $file == *.gguf ]]
+then
     cd kcpp-ae
     termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
     --smartcontext
     --blasbatchsize 2048
     --contextsize 2048
+elif [[ $file == *.bin ]]
+then
+    cd kcpp-ae_cm
+    termux-open-url 'http://localhost:1551/?streaming=1#'
+    python3 koboldcpp.py $file 1551
+    --smartcontext
+    --blasbatchsize 2048
+    --contextsize 2048
+fi
+fi
 
 else
 clear
