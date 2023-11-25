@@ -18,6 +18,8 @@ wget https://github.com/latestissue/AltaeraAI/releases/download/v3.2/altaera-v3.
 tar -xf 'altaera-v3.2.tar.gz'
 rm -rf 'altaera-v3.2.tar.gz'
 cd 'kcpp-ae'
+      rm -rf 'koboldcpp-altaera'
+      rm -rf 'kcpp-ae_cm'
       wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
       tar -xf 'altaera-v3.1.tar.gz'
       mv 'koboldcpp-altaera' 'kcpp-ae_cm'
