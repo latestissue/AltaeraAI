@@ -29,7 +29,7 @@ case $CHOICE in
 
         1)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f16-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f16-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -38,7 +38,7 @@ case $CHOICE in
             ;;
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f32-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f32-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -47,7 +47,7 @@ case $CHOICE in
             ;;
         3)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -56,7 +56,7 @@ case $CHOICE in
             ;;
         4)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -65,7 +65,7 @@ case $CHOICE in
             ;;
         5)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -74,7 +74,7 @@ case $CHOICE in
             ;;
         6)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
@@ -83,7 +83,7 @@ case $CHOICE in
             ;;
         7)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models'
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q8_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
