@@ -114,19 +114,37 @@ rm -rf 'upgrade.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/upgrade.sh
 chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v3.2/altaera-v3.2.tar.gz
-tar -xf 'altaera-v3.2.tar.gz'
-      rm -rf 'koboldcpp-altaera'
-      rm -rf 'kcpp-ae_cm'
-      wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
-      tar -xf 'altaera-v3.1.tar.gz'
-      mv 'koboldcpp-altaera' 'kcpp-ae_cm'
-      rm -rf 'altaera-v3.1.tar.gz'
-      cd 'kcpp-ae_cm'
-      rm -rf 'klite.embd'
-      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
-      cd ..
-cd 'kcpp-ae'
+
+            wget https://github.com/latestissue/AltaeraAI/releases/download/v3.2/altaera-v3.2.tar.gz
+            tar -xf 'altaera-v3.2.tar.gz'
+
+                {
+                cd "/data/data/com.termux/files/home/AltaeraAI"
+                wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/kcpp-ae_cm-version_upstream.sh
+                chmod a+x 'kcpp-ae_cm-version_upstream.sh'
+                cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
+                } &> /dev/null 2>&1;
+ 
+         if [ $(bash 'AltaeraAI/kcpp-ae_cm-version_upstream.sh'
+          ) = "1.49" ]; then
+          rm -rf '/data/data/com.termux/files/home/AltaeraAI/kcpp-ae_cm-version_upstream.sh'
+          exit
+          else
+            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
+            rm -rf 'koboldcpp-altaera'
+            rm -rf 'kcpp-ae_cm'
+            wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
+            tar -xf 'altaera-v3.1.tar.gz'
+            mv 'koboldcpp-altaera' 'kcpp-ae_cm'
+            rm -rf 'altaera-v3.1.tar.gz'
+            cd 'kcpp-ae_cm'
+            rm -rf 'klite.embd'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+            cd ..
+          exit
+      fi
+
+cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
