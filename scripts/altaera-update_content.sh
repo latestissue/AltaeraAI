@@ -125,7 +125,7 @@ rm -rf 'ngrok-authtoken.sh'
                 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
                 } &> /dev/null 2>&1;
  
-         if [ $(bash 'AltaeraAI/kcpp-ae_cm-version_upstream.sh'
+         if [ $(bash '/data/data/com.termux/files/home/AltaeraAI/kcpp-ae_cm-version_upstream.sh'
           ) = "1.49" ]; then
           rm -rf '/data/data/com.termux/files/home/AltaeraAI/kcpp-ae_cm-version_upstream.sh'
           exit
