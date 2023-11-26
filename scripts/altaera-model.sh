@@ -10,7 +10,7 @@ MENU="Choose a model to download:"
 OPTIONS=(1 "[...] Go Back"
          2 "Auto-Detection (RWKV-4-World-Claude-for-Mobile) - [Default]"
 	 3 "RWKV-4-World-Claude-for-Mobile"
-         4 "RWKV-4-World ***broken since v3.2!*** [...]"
+         4 "RWKV-4-World[...]"
 	 5 "Llama-2-7B-Chat-GGUF")
 
 
