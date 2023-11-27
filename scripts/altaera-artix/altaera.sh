@@ -31,6 +31,7 @@ then
     cd kcpp-ae_cm
     termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
+    --noshift
     --smartcontext
     --blasbatchsize 2048
     --contextsize 2048
