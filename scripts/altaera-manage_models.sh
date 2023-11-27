@@ -8,9 +8,10 @@ TITLE="AI Models Settings"
 MENU="What would you like to do?:"
 
 OPTIONS=(1 "[...] Go Back"
-         2 "Download Models"
-         3 "Remove Models"
-	 4 "AI Model Backup/Restore [/sdcard/Download]")
+         2 "List Installed Models"
+         3 "Download Models"
+         4 "Remove Models"
+	 5 "AI Model Backup/Restore [/sdcard/Download]")
 
 
 CHOICE=$(dialog --clear \
@@ -28,15 +29,20 @@ case $CHOICE in
 	    ;;
         2)
             clear
+            proot-distro login altaera -- ./altaera-model_list.sh
+	    exit
+            ;;
+        3)
+            clear
             './AltaeraAI/altaera-model.sh'
             exit
             ;;
-        3)
+        4)
             clear
             './AltaeraAI/altaera-model_remove.sh'
             exit
             ;;
-	4)
+	5)
             clear
             './AltaeraAI/altaera-model_backup-restore.sh'
             exit
