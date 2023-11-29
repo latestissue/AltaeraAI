@@ -11,7 +11,8 @@ OPTIONS=(1 "[...] Go Back"
          2 "List Installed Models"
          3 "Download Models"
          4 "Remove Models"
-	 5 "AI Model Backup/Restore [/sdcard/Download]")
+	 5 "Custom AI Model [URL]"
+	 6 "AI Model Backup/Restore [/sdcard/Download]")
 
 
 CHOICE=$(dialog --clear \
@@ -42,7 +43,11 @@ case $CHOICE in
             './AltaeraAI/altaera-model_remove.sh'
             exit
             ;;
-	5)
+        5)
+            clear
+	    termux-open-url 'https://altaera.ai/custom-ai-model/'
+            ;;
+	6)
             clear
             './AltaeraAI/altaera-model_backup-restore.sh'
             exit
