@@ -25,11 +25,18 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4-world-claude-for-mobile.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-2-7b-chat.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-configuration.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-on.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_contextsize.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove.sh
 
 chmod a+x 'altaera-check_for_updates.sh'
 chmod a+x 'altaera-up_to_date.sh'
@@ -44,18 +51,24 @@ chmod a+x 'altaera.sh'
 chmod a+x 'altaeralogin.sh'
 chmod a+x 'altaera-lang.sh'
 chmod a+x 'altaera-model.sh'
+chmod a+x 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
 chmod a+x 'altaera-model-rwkv-4.sh'
+chmod a+x 'altaera-model-llama-2-7b-chat.sh'
 chmod a+x 'altaera_install_model.sh'
 chmod a+x 'altaera-ngrok.sh'
 chmod a+x 'altaera-ngrok-configuration.sh'
 chmod a+x 'altaera-ngrok-on.sh'
+chmod a+x 'altaera-koboldcpp_settings.sh'
+chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
+chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
+chmod a+x 'altaera-manage_models.sh'
+chmod a+x 'altaera-model_remove.sh'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restore.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backed-up.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restored-cleanup.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-cleaned-up.sh
+
+chmod a+x 'altaera-model_backup-restore.sh'
+chmod a+x 'altaera-model_restore.sh'
 
 cd '/data/data/com.termux/files/usr/etc/'
 
