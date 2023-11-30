@@ -20,13 +20,21 @@ rm -rf 'altaera-model.sh'
 rm -rf '/data/data/com.termux/files/home/altaera-model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model.sh
 chmod a+x 'altaera-model.sh'
+rm -rf 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4-world-claude-for-mobile.sh
+chmod a+x 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
 rm -rf 'altaera-model-rwkv-4.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-rwkv-4.sh
 chmod a+x 'altaera-model-rwkv-4.sh'
+rm -rf 'altaera-model-llama-2-7b-chat.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-2-7b-chat.sh
+chmod a+x 'altaera-model-llama-2-7b-chat.sh'
 rm -rf 'altaera-check_for_updates.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates_por.sh -O 'altaera-check_for_updates.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates.sh
 chmod a+x 'altaera-check_for_updates.sh'
-rm -rf 'altaera_up-to-date.sh'
+rm -rf 'altaera-up_to_date.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
+chmod a+x 'altaera-up_to_date.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date_por.sh -O 'altaera-up_to_date.sh'
 chmod a+x 'altaera-up_to_date.sh'
 rm -rf 'altaera-update_available.sh'
