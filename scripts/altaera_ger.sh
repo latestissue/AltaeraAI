@@ -1,19 +1,21 @@
 #!/bin/bash
 
+cd '/data/data/com.termux/files/home'
+
 HEIGHT=30
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AltaeraAI - v2.9.1"
+BACKTITLE="AltaeraAI - v3.2.5"
 TITLE="Willkommen!"
 MENU="Was würden Sie gerne tun?"
 
 OPTIONS=(1 "AltaeraAI starten [KoboldCpp]"
          2 "Verfügbarkeit von Updates prüfen [...]"
          3 "Aktualisierung der Kräfte [...]"
-         4 "Ändern Sie das AI-Modell 🤖"
+         4 "AI-Modelle verwalten 🤖 [...]"
          5 "Sprache ändern 🌐"
-         6 "ngrok Sicheres Tunnelling [...]"
-         7 "AI-Modell sichern/wiederherstellen (/sdcard) [...]"
+         6 "KoboldCpp Einstellungen ändern [...]"
+         7 "ngrok Sicheres Tunnelling [...]"
          8 "AltaeraAI neu installieren (fixieren)"
          9 "AltaeraAI deinstallieren"
          10 "Kundenbetreuung [...]"
@@ -34,7 +36,7 @@ clear
 case $CHOICE in
         1)
             clear
-            proot-distro login altaera -- ./altaera.sh &
+            proot-distro login altaera -- ./altaera.sh
             ;;
         2)
             clear
@@ -48,7 +50,7 @@ case $CHOICE in
             ;;
         4)
             clear
-            './AltaeraAI/altaera-model.sh'
+            './AltaeraAI/altaera-manage_models.sh'
             './AltaeraAI/altaera.sh'
             ;;
         5)
@@ -58,12 +60,12 @@ case $CHOICE in
             ;;
         6)
             clear
-            './AltaeraAI/altaera-ngrok.sh'
+            './AltaeraAI/altaera-koboldcpp_settings.sh'
             './AltaeraAI/altaera.sh'
             ;;
         7)
             clear
-            './AltaeraAI/altaera-model_backup-restore.sh'
+            './AltaeraAI/altaera-ngrok.sh'
             './AltaeraAI/altaera.sh'
             ;;
         8)
@@ -88,5 +90,5 @@ case $CHOICE in
             ;;
         13)
             clear
-            ;;
+            exit
 esac
