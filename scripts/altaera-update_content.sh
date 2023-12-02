@@ -1,4 +1,6 @@
-echo "Updating AltaeraAI shell files...";
+echo "Updating AltaeraAI shell files...
+
+";
 
 {
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
@@ -100,7 +102,9 @@ chmod a+x 'altaera-model_restore.sh'
 
 } &> /dev/null 2>&1;
 
-echo "Updating AltaeraAI core files...";
+echo "Updating AltaeraAI core files...
+
+";
 
 {
 mv '/data/data/com.termux/files/home/AltaeraAI-temp' '/data/data/com.termux/files/home/AltaeraAI-tmp'
