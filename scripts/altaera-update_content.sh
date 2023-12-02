@@ -1,4 +1,4 @@
-echo "Updating AltaeraAI files...";
+echo "Updating AltaeraAI shell files...";
 
 {
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
@@ -98,6 +98,11 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera-model_backup-restore.sh'
 chmod a+x 'altaera-model_restore.sh'
 
+} &> /dev/null 2>&1;
+
+echo "Updating AltaeraAI core files...";
+
+{
 mv '/data/data/com.termux/files/home/AltaeraAI-temp' '/data/data/com.termux/files/home/AltaeraAI-tmp'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/bash.bashrc
@@ -165,14 +170,9 @@ chmod a+x 'altaera-model_backup.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;
 
-echo "Updating AltaeraAI PRoot-Distro environment (Artix Linux)...";
+echo "Updating AltaeraAI PRoot Distro environment (Artix Linux)...";
 
 {
 proot-distro login altaera -- ./upgrade.sh &
 clear
 } &> /dev/null 2>&1;
-echo "
-
-
-      Update completed!
-      "
