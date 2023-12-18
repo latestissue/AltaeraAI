@@ -19,6 +19,7 @@ if [ $RESULT -eq 0 ]; then
 
 if [[ $file == *.gguf ]]
 then
+    clear
     cd kcpp-ae
     termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
@@ -27,6 +28,7 @@ then
     --contextsize 2048
 elif [[ $file == *.bin ]]
 then
+    clear
     echo "*****Launching in Compatiblity-Mode [GGML/bin]*****" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols)
     cd kcpp-ae_cm
     termux-open-url 'http://localhost:1551/?streaming=1#'
