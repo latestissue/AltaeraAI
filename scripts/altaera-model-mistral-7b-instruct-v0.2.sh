@@ -33,8 +33,10 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'mistral-7b-instruct-v0.2.Q2_K.gguf"
+            echo "You chose 'mistral-7b-instruct-v0.2.Q2_K.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -44,7 +46,9 @@ case $CHOICE in
             ;;
         2)
             echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_L.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -53,8 +57,10 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "mistral-7b-instruct-v0.2.Q3_K_M.gguf'"
+            echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_M.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -64,7 +70,9 @@ case $CHOICE in
             ;;
         4)
             echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_S.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -74,7 +82,9 @@ case $CHOICE in
             ;;
         5)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_0.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -84,7 +94,9 @@ case $CHOICE in
             ;;
         6)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_K_M.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -94,7 +106,9 @@ case $CHOICE in
             ;;
         7)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_K_S.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -104,7 +118,9 @@ case $CHOICE in
             ;;
         8)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_0.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -114,7 +130,9 @@ case $CHOICE in
             ;;
         9)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_K_M.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -125,7 +143,9 @@ case $CHOICE in
 
         10)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_K_S.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -136,7 +156,9 @@ case $CHOICE in
 
         11)
             echo "You chose 'mistral-7b-instruct-v0.2.Q6_K.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -147,7 +169,9 @@ case $CHOICE in
 
         12)
             echo "You chose 'mistral-7b-instruct-v0.2.Q8_0.gguf'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
