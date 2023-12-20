@@ -41,11 +41,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q2_K.gguf -O 'Q2_K-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'llama-2-7b-chat.Q2_K'
-            "
             ;;
         2)
             echo "You chose 'Q3_K_L-llama-2-7b-chat'"
@@ -56,11 +51,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'llama-2-7b-chat.Q3_K_L'
-            "
             ;;
         3)
             echo "You chose 'Q3_K_M-llama-2-7b-chat'"
@@ -71,11 +61,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_M.gguf -O 'Q3_K_M-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'llama-2-7b-chat.Q3_K_M'
-            "
             ;;
         4)
             echo "You chose 'Q3_K_S-llama-2-7b-chat'"
@@ -86,11 +71,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_S.gguf -O 'Q3_K_S-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'llama-2-7b-chat.Q3_K_S'
-            "
             ;;
         5)
             echo "You chose 'Q4_0-llama-2-7b-chat'"
@@ -101,11 +81,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf -O 'Q4_0-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'llama-2-7b-chat.Q4_0'
-            "
             ;;
         6)
             echo "You chose 'Q4_K_M-llama-2-7b-chat'"
@@ -116,11 +91,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf -O 'Q4_K_M-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_K_M-llama-2-7b-chat'
-            "
             ;;
         7)
             echo "You chose 'Q4_K_S-llama-2-7b-chat'"
@@ -131,11 +101,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf -O 'Q4_K_S-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_K_S-llama-2-7b-chat'
-            "
             ;;
         8)
             echo "You chose 'Q5_0-llama-2-7b-chat'"
@@ -146,11 +111,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_0.gguf -O 'Q5_0-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_0-llama-2-7b-chat'
-            "
             ;;
         9)
             echo "You chose 'Q5_K_M-llama-2-7b-chat'"
@@ -161,11 +121,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_K_M.gguf -O 'Q5_K_M-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_K_M-llama-2-7b-chat'
-            "
             ;;
 
         10)
@@ -177,11 +132,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_K_S.gguf -O 'Q5_K_S-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_K_S-llama-2-7b-chat'
-            "
             ;;
 
         11)
@@ -193,11 +143,6 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q6_K.gguf -O 'Q6_K-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q6_K-llama-2-7b-chat'
-            "
             ;;
 
         12)
@@ -209,10 +154,5 @@ case $CHOICE in
             wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q8_0.gguf -O 'Q8_0-llama-2-7b-chat.gguf' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q8_0-llama-2-7b-chat'
-            "
             ;;
 esac
