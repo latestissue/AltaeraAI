@@ -51,408 +51,292 @@ case $CHOICE in
 
         1)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f16-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'F16-RWKV-4-World-0.1B-Untuned'
-            "
             ;;
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f32-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'F32-RWKV-4-World-0.1B-Untuned'
-            "
             ;;
         3)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin -O 'f16-RWKV-4-World-0.4B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'F16-RWKV-4-World-0.4B-Untuned'
-            "
             ;;
         4)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.4B-v1-20230529-ctx4096.bin -O 'f32-RWKV-4-World-0.4B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'F32-RWKV-4-World-0.4B-Untuned'
-            "
             ;;
         5)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q4_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_0-RWKV-4-World-1.5B-Untuned'
-            "
             ;;
         6)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q4_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q4_0-RWKV-4-World-1.5B-CHNtuned'
-            "
             ;;
         7)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q4_1-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_1-RWKV-4-World-1.5B-Untuned'
-            "
             ;;
         8)
             echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q4_1-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q4_1-RWKV-4-World-1.5B-CHNtuned'
-            "
             ;;
         9)
             echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q5_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_0-RWKV-4-World-1.5B-Untuned'
-            "
             ;;
         10)
             echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q5_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q5_0-RWKV-4-World-1.5B-CHNtuned'
-            "
             ;;
         11)
             echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q5_1-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_1-RWKV-4-World-1.5B-Untuned'
-            "
             ;;
         12)
             echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q5_1-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q5_1-RWKV-4-World-1.5B-CHNtuned'
-            "
             ;;
         13)
             echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-1.5B-v1-fixed-20230612-ctx4096.bin -O 'q8_0-RWKV-4-World-1.5B-v1-fixed-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q8_0-RWKV-4-World-1.5B-Untuned'
-            "
             ;;
         14)
             echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-1.5B-v1-20230620-ctx4096.bin -O 'q8_0-RWKV-4-World-CHNtuned-1.5B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q8_0-RWKV-4-World-1.5B-CHNtuned'
-            "
             ;;
         15)
             echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q4_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_0-RWKV-4-World-3B-Untuned'
-            "
             ;;
         16)
             echo "你选择了 'Q4_0-RWKV-4-World-3B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q4_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q4_0-RWKV-4-World-3B-CHNtuned'
-            "
             ;;
         17)
             echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q4_1-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_1-RWKV-4-World-3B-Untuned'
-            "
             ;;
         18)
             echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q4_1-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q4_1-RWKV-4-World-3B-CHNtuned'
-            "
             ;;
         19)
             echo "You chose 'Q5_0-RWKV-4-World-3B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q5_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_0-RWKV-4-World-3B-Untuned'
-            "
             ;;
         20)
             echo "你选择了 'Q5_0-RWKV-4-World-3B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q5_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q5_0-RWKV-4-World-3B-CHNtuned'
-            "
             ;;
         21)
             echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q5_1-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_1-RWKV-4-World-3B-Untuned'
-            "
             ;;
         22)
             echo "你选择了 'Q5_1-RWKV-4-World-3B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q5_1-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q5_1-RWKV-4-World-3B-CHNtuned'
-            "
             ;;
         23)
             echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-3B-v1-20230619-ctx4096.bin -O 'q8_0-RWKV-4-World-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q8_0-RWKV-4-World-3B-Untuned'
-            "
             ;;
         24)
             echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-CHNtuned-3B-v1-20230625-ctx4096.bin -O 'q8_0-RWKV-4-World-CHNtuned-3B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            你已经成功地将模型改为 'Q8_0-RWKV-4-World-3B-CHNtuned'
-            "
             ;;
         25)
             echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q4_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_0-RWKV-4-World-7B-Untuned'
-            "
             ;;
         26)
             echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q4_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q4_1-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q4_1-RWKV-4-World-7B-Untuned'
-            "
             ;;
         27)
             echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q5_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_0-RWKV-4-World-7B-Untuned'
-            "
             ;;
         28)
             echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q5_1-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q5_1-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q5_1-RWKV-4-World-7B-Untuned'
-            "
             ;;
         29)
             echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/latestissue/rwkv-4-world-ggml-quantized/resolve/main/q8_0-RWKV-4-World-7B-v1-20230626-ctx4096.bin -O 'q8_0-RWKV-4-World-7B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
-            echo "
-
-
-            You have succesfully changed the model to 'Q8_0-RWKV-4-World-7B-Untuned'
-            "
             ;;
 esac
