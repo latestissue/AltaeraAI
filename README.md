@@ -12,7 +12,7 @@ AltaeraAI is a Free and Open Source solution for running GGML/GGUF models with t
 
 The main premise of it is to automate AI Inference using a smartphone, with the help of cherry-picked, Open-Source tools and software. This allows you for instant, localized access to Artificial Intelligence - whether that be companionship, assistance or just text generation. At the same time, you maintain 100% privacy over your stories - you own the software due to the nature of locality, in the form of a self contained distributable.
 
-The default implemented model is [RWKV](https://github.com/BlinkDL/RWKV-LM), [LLaMA-2](https://ai.meta.com/llama/) being another option at this very moment. The installation process will allow you to either choose AI model via an auto-detection mechanism (currently reserved for 'RWKV-4-World-Claude-for-Mobile'), or you can select the model size manually. The former runs a simple algorithm to detect amount of RAM installed on device, then downloads an AI model accordingly.
+The default implemented model is [RWKV](https://github.com/BlinkDL/RWKV-LM), [LLaMA-2](https://ai.meta.com/llama/) and [Mistral-7B-Instruct](https://mistral.ai/) being other options at this very moment. The installation process will allow you to either choose AI model via an auto-detection mechanism (currently reserved for 'RWKV-4-World-Claude-for-Mobile'), or you can select the model size manually. The former runs a simple algorithm to detect amount of RAM installed on device, then downloads an AI model accordingly.
 
 AltaeraAI works as a platform in order to provide easy instructions and support for AI deployment on Android devices with the use of Termux.
 You can read more at: [altaera.ai](https://altaera.ai)
@@ -20,6 +20,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 ## Current Models List:
 - [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML)
 - [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [[OpenBLAS]](https://www.openblas.net/)
+- [Mistral-7B-Instruct](https://mistral.ai/) (GGUF) - [[OpenBLAS]](https://www.openblas.net/)
 
 ## Installation
 
