@@ -11,7 +11,8 @@ OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
          2 "RWKV-4-World-Claude-for-Mobile"
          3 "RWKV-4-World"
          4 "LLaMA-2-7B-Chat"
-         5 "Do not download AI Model (?) - [...]")
+         5 "Mistral-7B-Instruct"
+         6 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -61,6 +62,15 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         5)
+        echo "You chose 'Mistral-7B-Instruct...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-mistral-7b-instruct-v0.2.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        6)
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
