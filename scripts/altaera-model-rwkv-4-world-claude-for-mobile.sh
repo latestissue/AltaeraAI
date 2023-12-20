@@ -29,6 +29,7 @@ case $CHOICE in
 
         1)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -38,6 +39,7 @@ case $CHOICE in
             ;;
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -47,6 +49,7 @@ case $CHOICE in
             ;;
         3)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -56,6 +59,7 @@ case $CHOICE in
             ;;
         4)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -65,6 +69,7 @@ case $CHOICE in
             ;;
         5)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -74,6 +79,7 @@ case $CHOICE in
             ;;
         6)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -83,6 +89,7 @@ case $CHOICE in
             ;;
         7)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
+            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
