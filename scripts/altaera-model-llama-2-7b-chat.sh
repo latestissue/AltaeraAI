@@ -34,7 +34,9 @@ case $CHOICE in
 
         1)
             echo "You chose 'Q2_K-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -44,7 +46,9 @@ case $CHOICE in
             ;;
         2)
             echo "You chose 'Q3_K_L-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -54,7 +58,9 @@ case $CHOICE in
             ;;
         3)
             echo "You chose 'Q3_K_M-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -64,7 +70,9 @@ case $CHOICE in
             ;;
         4)
             echo "You chose 'Q3_K_S-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -74,7 +82,9 @@ case $CHOICE in
             ;;
         5)
             echo "You chose 'Q4_0-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -84,7 +94,9 @@ case $CHOICE in
             ;;
         6)
             echo "You chose 'Q4_K_M-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -94,7 +106,9 @@ case $CHOICE in
             ;;
         7)
             echo "You chose 'Q4_K_S-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -104,7 +118,9 @@ case $CHOICE in
             ;;
         8)
             echo "You chose 'Q5_0-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -114,7 +130,9 @@ case $CHOICE in
             ;;
         9)
             echo "You chose 'Q5_K_M-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -125,7 +143,9 @@ case $CHOICE in
 
         10)
             echo "You chose 'Q5_K_S-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -136,7 +156,9 @@ case $CHOICE in
 
         11)
             echo "You chose 'Q6_K-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -147,7 +169,9 @@ case $CHOICE in
 
         12)
             echo "You chose 'Q8_0-llama-2-7b-chat'"
+            {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            } &> /dev/null 2>&1;
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
