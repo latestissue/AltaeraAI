@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_list.sh
-chmod a+x 'altaera-model_list.sh
+chmod a+x 'altaera-model_list.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 rm -rf 'altaera-model_backup.sh'
