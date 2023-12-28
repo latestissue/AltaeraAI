@@ -7725,7 +7725,7 @@ Current version: 100
 
 		dispatch_submit_generation(submit_payload,false);
 		render_gametext();
-		document.getElementById("memorytext").value = "[<|Generating summary, do not close window...|>]"
+		document.getElementById("memorytext").value = "[<|Generating a memory, do not close window...|>]"
 		};
 
 		if(gametext_arr.length==0 || (gametext_arr.length==1 && gametext_arr[0].trim()==""))
@@ -7775,11 +7775,11 @@ Current version: 100
 		gentxt = end_trim_to_sentence(gentxt,true);
 		if(temp_automem_store.trim()=="")
 		{
-			document.getElementById("memorytext").value = "[Summary: "+gentxt+"]";
+			document.getElementById("memorytext").value = "[Memory Formed: "+gentxt+"]";
 		}
 		else
 		{
-			document.getElementById("memorytext").value = temp_automem_store + "\n\n[Summary Continued: "+gentxt+"]";
+			document.getElementById("memorytext").value = temp_automem_store + "\n\n[Memory Formation Continued: "+gentxt+"]";
 		}
 
 	}
