@@ -4,8 +4,16 @@ echo "Installing dependencies...";
 
 {
 cd '/root'
-pacman -S clang python3 blas-openblas --noconfirm ### [No longer needed since v3.1 due to own tarball file]
-## curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | tee /etc/apt/sources.list.d/ngrok.list && apt update && apt install ngrok ### [Will need an Artix implementation]
+pacman -S git clang python3 blas-openblas fakeroot --noconfirm
+useradd tempuser
+passwd -d tempuser
+git clone https://aur.archlinux.org/ngrok.git
+cd ngrok
+makepkg -si
+exit
+pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
+cd ..
+rm -rf 'ngrok'
 } &> /dev/null 2>&1;
 
 echo "Cleaning up File System...";
