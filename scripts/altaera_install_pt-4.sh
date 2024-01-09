@@ -12,7 +12,7 @@ cd ngrok
 su tempuser
 makepkg -si
 exit
-pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
+pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz' --noconfirm
 cd ..
 rm -rf 'ngrok'
 } &> /dev/null 2>&1;
