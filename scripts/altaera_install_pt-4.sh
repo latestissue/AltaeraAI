@@ -9,6 +9,7 @@ useradd tempuser
 passwd -d tempuser
 git clone https://aur.archlinux.org/ngrok.git
 cd ngrok
+su tempuser
 makepkg -si
 exit
 pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
