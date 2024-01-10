@@ -60,6 +60,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -112,6 +113,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -163,6 +165,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -214,6 +217,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -265,6 +269,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -316,6 +321,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -367,6 +373,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -418,6 +425,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -469,6 +477,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -520,6 +529,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -571,6 +581,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
@@ -622,6 +633,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh
+chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
 
