@@ -1,6 +1,6 @@
 pacman -Syu --noconfirm
 
-pacman -S fakeroot --noconfirm
+pacman -S fakeroot make --noconfirm
 useradd tempuser
 passwd -d tempuser
 git clone https://aur.archlinux.org/ngrok.git
