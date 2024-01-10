@@ -34,5 +34,9 @@ cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+cd '/root'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-4.sh
+chmod a+x 'altaera_install_pt-4.sh'
 } &> /dev/null 2>&1;
-;;
+
+./altaera_install_pt-4.sh
