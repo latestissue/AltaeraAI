@@ -62,6 +62,7 @@ cd $PREFIX/etc/proot-distro
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
+clear
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
