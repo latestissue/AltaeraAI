@@ -102,6 +102,7 @@ make LLAMA_OPENBLAS=1
 
 esac
 
+{
 cd '/root'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-4.sh
 chmod a+x 'altaera_install_pt-4.sh'
