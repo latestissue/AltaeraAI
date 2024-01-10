@@ -75,6 +75,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -126,6 +127,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -176,6 +178,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -226,6 +229,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -276,6 +280,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -326,6 +331,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -376,6 +382,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -426,6 +433,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -476,6 +484,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -526,6 +535,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -576,6 +586,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
@@ -626,6 +637,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf 'altaera-install_method.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 clear
