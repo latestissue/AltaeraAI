@@ -24,11 +24,10 @@ clear
 case $CHOICE in
         1)
         wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/proot/altaera-fast.sh -O 'altaera.sh' -q --show-progress
-        clear
         ;;
         
         2)
         wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/proot/altaera-fast.sh -O 'altaera.sh' -q --show-progress
-        clear
+        ;;
         
         esac
