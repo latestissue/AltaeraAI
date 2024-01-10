@@ -8,7 +8,7 @@ TITLE="Please choose your method of installing AltaeraAI"
 MENU="Which installation method do you prefer?:"
 
 OPTIONS=(1 "Install pre-packaged KoboldCpp [Fast] - [Default]"
-         2 "Clone KoboldCpp repository and build from scratch [Slow]")
+         2 "Build KoboldCpp from scratch [Slow]")
          
          
 CHOICE=$(dialog --clear \
