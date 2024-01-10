@@ -27,7 +27,7 @@ case $CHOICE in
         ;;
         
         2)
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/proot/altaera-fast.sh -O 'altaera.sh' -q --show-progress
+        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/proot/altaera-slow.sh -O 'altaera.sh' -q --show-progress
         ;;
         
         esac
