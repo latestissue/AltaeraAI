@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 HEIGHT=20
 WIDTH=60
