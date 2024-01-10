@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 echo "Installing core files (please be patient)...";
 
 {
