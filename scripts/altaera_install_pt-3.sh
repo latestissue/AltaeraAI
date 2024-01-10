@@ -25,7 +25,7 @@ case $CHOICE in
 
         1)
         
-echo "Installing core files...";
+echo "Installing core files..."
 
 {
 rm -rf "/etc/bash.bashrc"
@@ -59,11 +59,12 @@ cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+} &> /dev/null 2>&1;
 ;;
 
         2)
 
-echo "Installing core files (please be patient)...";
+echo "Installing core files (please be patient)..."
 
 {
 rm -rf "/etc/bash.bashrc"
@@ -96,6 +97,7 @@ rm -rf 'klite.embd'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
 cd '/root/kcpp-ae'
 make LLAMA_OPENBLAS=1
+} &> /dev/null 2>&1;
 ;;
 
 esac
