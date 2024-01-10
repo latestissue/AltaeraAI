@@ -2,7 +2,19 @@
 clear
 echo "Installing dependencies...";
 
-
+##{
+##cd '/root'
+##useradd tempuser
+##passwd -d tempuser
+##git clone https://aur.archlinux.org/ngrok.git
+##cd ngrok
+##su tempuser
+##makepkg -si
+##exit
+##pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz' --noconfirm
+##cd '/root'
+##rm -rf 'ngrok'
+##} &> /dev/null 2>&1;
 
 echo "Cleaning up File System...";
 
