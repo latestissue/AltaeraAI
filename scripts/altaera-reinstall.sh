@@ -8,8 +8,8 @@ TITLE="Reinstalling AltaeraAI"
 MENU="Choose your desired method:"
 
 OPTIONS=(1 "[...] Go Back"
-         2 "Reinstall without re-downloading the AI model (faster)"
-         3 "Reinstall everything, including the AI model (slower)")
+         2 "Reinstall without re-downloading the AI model (Faster)"
+         3 "Reinstall everything, including the AI model (Slower)")
 
 
 CHOICE=$(dialog --clear \
