@@ -4,7 +4,6 @@ echo "Installing dependencies...";
 
 {
 cd '/root'
-pacman -S git clang python3 blas-openblas fakeroot --noconfirm
 useradd tempuser
 passwd -d tempuser
 git clone https://aur.archlinux.org/ngrok.git
