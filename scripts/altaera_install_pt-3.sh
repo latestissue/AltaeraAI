@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 
 HEIGHT=20
