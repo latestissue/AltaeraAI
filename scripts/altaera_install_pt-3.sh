@@ -25,7 +25,7 @@ case $CHOICE in
 
         1)
         
-echo "Installing core files..."
+echo "Installing core files...";
 
 {
 rm -rf "/etc/bash.bashrc"
@@ -64,7 +64,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 
         2)
 
-echo "Installing core files (please be patient)..."
+echo "Installing core files (please be patient)...";
 
 {
 rm -rf "/etc/bash.bashrc"
