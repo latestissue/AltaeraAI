@@ -131,7 +131,8 @@ chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
 cd 'kcpp-ae'
 rm -rf 'klite.embd'
- if [ $(bash 'AltaeraAI/gitpull.sh'
+clear
+ if [ $(bash 'git pull'
           ) = "Already up to date." ]; then
           :
           else
