@@ -132,8 +132,7 @@ rm -rf 'ngrok-authtoken.sh'
 cd 'kcpp-ae'
 rm -rf 'klite.embd'
 clear
- if [ $(bash 'git pull'
-          ) = "Already up to date." ]; then
+ if git pull | grep 'Already up to date.'; then
           :
           else
           make LLAMA_OPENBLAS=1
