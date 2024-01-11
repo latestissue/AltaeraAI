@@ -1,7 +1,7 @@
 #!/bin/bash
 
-HEIGHT=120
-WIDTH=160
+HEIGHT=30
+WIDTH=130
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - Update"
 TITLE="Choosing updating method"
