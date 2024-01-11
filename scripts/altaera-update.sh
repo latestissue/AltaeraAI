@@ -24,7 +24,9 @@ case $CHOICE in
 
         1)
             clear
-            echo "Initializing update...";
+            echo "Initializing update...
+            
+            ";
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-fast.sh -O 'altaera-update_content.sh'
@@ -36,7 +38,9 @@ case $CHOICE in
             ;;
         2)
             clear
-            echo "Initializing update...";
+            echo "Initializing update...
+            
+            ";
             {
             rm -rf 'altaera-update_content'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow.sh -O 'altaera-update_content.sh'
