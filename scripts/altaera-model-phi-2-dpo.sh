@@ -149,7 +149,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_S.gguf -q --show-progress
+            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_S.gguf -q --show-progress
             cd /root
             clear
             ;;
