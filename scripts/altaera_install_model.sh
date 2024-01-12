@@ -66,7 +66,7 @@ case $CHOICE in
         echo "You chose 'Mistral-7B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-mistral-7b-instruct-v0.2.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-mistral-7b-instruct-v0.2.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
