@@ -40,6 +40,9 @@ chmod a+x 'altaera-model-mistral-7b-instruct-v0.2.sh'
 rm -rf 'altaera-model-phi-2-dpo.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-2-dpo.sh
 chmod a+x 'altaera-model-phi-2-dpo.sh'
+rm -rf 'altaera-model-vicuna-7b-v1.5.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-vicuna-7b-v1.5.sh
+chmod a+x 'altaera-model-vicuna-7b-v1.5.sh'
 rm -rf 'altaera-check_for_updates.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-check_for_updates.sh
 chmod a+x 'altaera-check_for_updates.sh'
