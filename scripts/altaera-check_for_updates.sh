@@ -18,7 +18,7 @@ case $response in
                 } &> /dev/null 2>&1;
  
          if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
-          ) = "v3.8" ]; then
+          ) = "v3.8.1" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           bash 'AltaeraAI/altaera-up_to_date.sh'
           exit
