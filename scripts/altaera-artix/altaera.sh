@@ -30,7 +30,7 @@ elif [[ $file == *.bin ]]
 then
     clear
    ###CM no longer needed### echo "*****Launching in Compatiblity-Mode [GGML/.bin]*****" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols)
- ###CM no longer needed###   cd kcpp-ae_cm
+   ###CM no longer needed### cd kcpp-ae_cm
     cd kcpp-ae
     termux-open-url 'http://localhost:1551/?streaming=1#'
     python3 koboldcpp.py $file 1551
