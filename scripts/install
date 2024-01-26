@@ -1,10 +1,11 @@
 #!/bin/bash
 
 termux-change-repo
+pkg install termux-am
 termux-setup-storage
 apt update && apt -o DPkg::Options::="--force-confnew" -y upgrade
 apt-get -o DPkg::Options::="--force-confnew" -y install openssl-1.1 wget
-pkg install wget curl proot-distro termux-am -y
+pkg install wget curl proot-distro -y
 
 echo "Removing previous AltaeraAI files [if there are any]...";
 
