@@ -3,8 +3,7 @@
 termux-change-repo
 pkg install termux-am
 clear
-echo " You will be asked for access to your Internal Storage. This step is necessary for further installation procedure. " sleep 5 &>/dev/null
-termux-setup-storage sleep 3 &>/dev/null
+termux-setup-storage
 apt update && apt -o DPkg::Options::="--force-confnew" -y upgrade
 apt-get -o DPkg::Options::="--force-confnew" -y install openssl-1.1 wget
 pkg install wget curl proot-distro -y
