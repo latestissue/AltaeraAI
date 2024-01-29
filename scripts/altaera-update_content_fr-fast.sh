@@ -10,7 +10,7 @@ rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
 chmod a+x 'altaera-update.sh'
 rm -rf 'altaera.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_fr.sh -O 'altaera.sh'
 chmod a+x 'altaera.sh'
 rm -rf 'altaeralogin.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
@@ -50,16 +50,16 @@ rm -rf 'altaera-up_to_date.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
 chmod a+x 'altaera-up_to_date.sh'
 rm -rf 'altaera-update_available.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_fr.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_fr.sh -O altaera-update_available.sh
 chmod a+x 'altaera-update_available.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
 chmod a+x 'altaera-update.sh'
 rm -rf 'altaera-updated_successfully.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully_fr.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-updated_successfully_fr.sh -O altaera-updated_successfully.sh
 chmod a+x 'altaera-updated_successfully.sh'
 rm -rf 'altaera-force_update.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update_fr.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-force_update_fr.sh -O altaera-force_update.sh
 chmod a+x 'altaera-force_update.sh'
 rm -rf 'altaera-update-proot.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update-proot.sh
