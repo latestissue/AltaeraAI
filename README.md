@@ -5,14 +5,14 @@
 README parts:
 
 - [What is it?](#what-is-it)
-- [What is it about?](https://github.com/latestissue/AltaeraAI/tree/main#what-is-it-about)
-- [Current Models List](https://github.com/latestissue/AltaeraAI/tree/main#current-models-list)
-- [Installation](https://github.com/latestissue/AltaeraAI/tree/main#installation)
-- [Launching & Updating](https://github.com/latestissue/AltaeraAI/tree/main#launching--updating)
-- [Access Inference on external devices](https://github.com/latestissue/AltaeraAI/tree/main#access-inference-on-external-devices)
-- [Technical Support](https://github.com/latestissue/AltaeraAI/tree/main#technical-support)
-- [License](https://github.com/latestissue/AltaeraAI/tree/main#license-derived-from-koboldcpp)
-- [TODO](https://github.com/latestissue/AltaeraAI/tree/main#todo)
+- [What is it about?](#what-is-it-about)
+- [Current Models List](#current-models-list)
+- [Installation](#installation)
+- [Launching & Updating](#launching-updating)
+- [Access Inference on external devices](#access-inference-on-external-devices)
+- [Technical Support](#technical-support)
+- [License](#license)
+- [TODO](#todo)
 
 ## What is it?
 
