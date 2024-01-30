@@ -4,7 +4,7 @@
 
 README parts:
 
-- [What is it?](https://github.com/latestissue/AltaeraAI/tree/main?tab=readme-ov-file#what-is-it)
+- [What is it?](#what-is-it)
 - [What is it about?](https://github.com/latestissue/AltaeraAI/tree/main#what-is-it-about)
 - [Current Models List](https://github.com/latestissue/AltaeraAI/tree/main#current-models-list)
 - [Installation](https://github.com/latestissue/AltaeraAI/tree/main#installation)
