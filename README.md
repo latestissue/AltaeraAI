@@ -8,7 +8,7 @@ README parts:
 - [What is it about?](#what-is-it-about)
 - [Current Models List](#current-models-list)
 - [Installation](#installation)
-- [Launching & Updating](#launching-&-updating)
+- [Launching & Updating](#launching--updating)
 - [Access Inference on external devices](#access-inference-on-external-devices)
 - [Technical Support](#technical-support)
 - [License](#license)
