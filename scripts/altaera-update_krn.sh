@@ -8,7 +8,7 @@ TITLE="업데이트 방법 선택"
 MENU="미리 패키징된 KoboldCpp로 업데이트하시겠습니까 [더 빠르게], 아니면 직접 빌드하여 업데이트하시겠습니까? [느리게]"
 
 OPTIONS=(1 "사전 패키징된 KoboldCpp로 업데이트 [더 빠르게]"
-         2 "자체 코볼트Cpp 구축으로 업데이트 [느림]")
+         2 "자체 KoboldCpp 구축으로 업데이트 [느림]")
 
 
 CHOICE=$(dialog --clear \
