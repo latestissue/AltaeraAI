@@ -16,7 +16,7 @@ rm -rf 'altaeralogin.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 chmod a+x 'altaeralogin.sh'
 rm -rf 'lang.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/lang.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/lang.sh
 chmod a+x 'lang.sh'
 rm -rf 'altaera-lang.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-lang.sh
@@ -132,7 +132,7 @@ cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 rm -rf 'upgrade.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/upgrade.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/upgrade.sh
 chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.9/altaera-v3.9.tar.gz
@@ -140,11 +140,11 @@ tar -xf 'altaera-v3.9.tar.gz'
 cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
       cd ..
       cd 'kcpp-ae_cm'
       rm -rf 'klite.embd'
-      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/models' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/prompts'
@@ -172,16 +172,16 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
 rm -rf 'klite.embd'
 rm -rf 'altaera.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera.sh
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_list.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_list.sh
 chmod a+x 'altaera-model_list.sh'
 rm -rf 'altaera-model_remove_in.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 rm -rf 'altaera-model_backup.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
 cd '/data/data/com.termux/files/home'
 } &> /dev/null 2>&1;

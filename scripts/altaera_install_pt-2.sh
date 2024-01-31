@@ -6,7 +6,7 @@ cd /data/data/com.termux/files/home
 rm -rf 'altaera_install.sh'
 
 cd 'AltaeraAI-tmp'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/prompts/chat-with-bob.txt
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/prompts/chat-with-bob.txt
 cd ..
 
 cd 'AltaeraAI'

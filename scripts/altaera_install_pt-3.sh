@@ -28,18 +28,18 @@ echo "Installing core files...";
 
 {
 rm -rf "/etc/bash.bashrc"
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/bash.bashrc
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera.sh
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_list.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_list.sh
 chmod a+x 'altaera-model_list.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 rm -rf 'altaera-model_backup.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.7/altaera-v3.9.tar.gz
 tar -xf 'altaera-v3.9.tar.gz'
@@ -52,12 +52,12 @@ rm -rf 'altaera-v3.9.tar.gz'
       rm -rf 'altaera-v3.1.tar.gz'
       cd 'kcpp-ae_cm'
       rm -rf 'klite.embd'
-      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
       cd ..
 cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
 } &> /dev/null 2>&1;
 ;;
 
@@ -67,18 +67,18 @@ echo "Installing core files (please be patient)...";
 
 {
 rm -rf "/etc/bash.bashrc"
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/bash.bashrc
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera.sh
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_list.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_list.sh
 chmod a+x 'altaera-model_list.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_remove_in.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
 rm -rf 'altaera-model_backup.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/altaera-model_backup.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
 git clone https://github.com/LostRuins/koboldcpp
 mv 'koboldcpp' 'kcpp-ae'
@@ -88,12 +88,12 @@ mv 'koboldcpp' 'kcpp-ae'
       rm -rf 'altaera-v3.1.tar.gz'
       cd 'kcpp-ae_cm'
       rm -rf 'klite.embd'
-      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+      wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
       cd ..
 cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-artix/klite/klite.embd
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-arch/klite/klite.embd
 cd '/root/kcpp-ae'
 make LLAMA_OPENBLAS=1
 } &> /dev/null 2>&1;
