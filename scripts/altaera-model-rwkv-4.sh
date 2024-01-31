@@ -57,7 +57,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f16-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
+            wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f16-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f16-RWKV-4-World-0.1B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -69,7 +69,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f32-RWKV-4-World-0.1B-v1-ctx4096.bin -q --show-progress
+            wget https://huggingface.co/latestissue/rwkv-4-world-ggml/resolve/main/f32-RWKV-4-World-0.1B-v1-20230520-ctx4096.bin -O 'f32-RWKV-4-World-0.1B-v1-ctx4096.bin' -q --show-progress
             cd /root
             clear
             ;;
