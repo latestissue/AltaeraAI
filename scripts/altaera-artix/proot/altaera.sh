@@ -1,5 +1,5 @@
 DISTRO_NAME="Arch Linux - AltaeraAI"
-DISTRO_COMMENT="Artix Linux utilised by the AltaeraAI project"
+DISTRO_COMMENT="Arch Linux utilised by the AltaeraAI project"
 
 
 TARBALL_URL['arm']="https://github.com/termux/proot-distro/releases/download/v4.6.0/archlinux-arm-pd-v4.6.0.tar.xz"
