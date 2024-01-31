@@ -24,12 +24,12 @@ clear
 case $CHOICE in
         1)
         cd $PREFIX/etc/proot-distro
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/proot/altaera-fast.sh -O 'altaera.sh' -q --show-progress
+        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-fast.sh -O 'altaera.sh' -q --show-progress
         ;;
         
         2)
         cd $PREFIX/etc/proot-distro
-        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/proot/altaera-slow.sh -O 'altaera.sh' -q --show-progress
+        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
         ;;
         
         esac
