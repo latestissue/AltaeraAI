@@ -10,17 +10,10 @@ rm -rf 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
 } &> /dev/null 2>&1;
 
 {
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          pacman -Rcns 'blas-openblas' --noconfirm
-          rm -rf 'altaera-print_architecture.sh'
-          else
-          rm -rf 'altaera-print_architecture.sh'
-        fi
-        
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install-architecture.sh
+chmod a+x 'altaera_install-architecture.sh'
+bash 'altaera_install-architecture.sh'
+rm -rf 'altaera_install-architecture.sh'
 } &> /dev/null 2>&1;
 
 echo "Cleaning up File System...";
