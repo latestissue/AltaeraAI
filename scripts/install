@@ -60,28 +60,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -132,28 +113,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -203,28 +165,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -274,28 +217,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -345,28 +269,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -416,28 +321,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -487,28 +373,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -558,28 +425,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -629,28 +477,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -700,28 +529,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -771,28 +581,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
@@ -842,28 +633,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-{
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
-chmod a+x 'altaera-print_architecture.sh'
-
-         if [ $(bash 'altaera-print_architecture.sh'
-          ) = "arm" ]; then
-          
-            cd $PREFIX/etc/proot-distro
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
-        
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-          else
-          
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
-            chmod a+x 'altaera-install_method.sh'
-            
-          rm -rf '/data/data/com.termux/files/home/altaera-print_architecture.sh'
-          
-        fi
-        
-} &> /dev/null 2>&1;
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install_architecture.sh
+chmod a+x 'install_architecture.sh'
+bash 'install_architecture.sh'
 clear
 proot-distro install altaera
 
