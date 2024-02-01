@@ -13,7 +13,6 @@ rm -rf 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install-architecture.sh
 chmod a+x 'altaera_install-architecture.sh'
 bash 'altaera_install-architecture.sh'
-rm -rf 'altaera_install-architecture.sh'
 } &> /dev/null 2>&1;
 
 echo "Cleaning up File System...";
@@ -22,6 +21,7 @@ echo "Cleaning up File System...";
 rm -rf 'chat-with-bob.txt'
 rm -rf 'altaera_install_pt-3.sh'
 rm -rf 'altaera_install_pt-4.sh'
+rm -rf 'altaera_install-architecture.sh'
 } &> /dev/null 2>&1;
 
 clear
