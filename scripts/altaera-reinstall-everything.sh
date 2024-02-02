@@ -33,15 +33,16 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+        
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -85,15 +86,15 @@ _______________________________________________________________________
 ;;
 
          2)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -136,15 +137,15 @@ _______________________________________________________________________
 "
 ;;
          3)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -187,15 +188,15 @@ _______________________________________________________________________
 "
 ;;
          4)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -238,15 +239,15 @@ _______________________________________________________________________
 "
 ;;
          5)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -289,15 +290,15 @@ _______________________________________________________________________
 "
 ;;
          6)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -340,15 +341,15 @@ _______________________________________________________________________
 "
 ;;
          7)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -391,15 +392,15 @@ _______________________________________________________________________
 "
 ;;
          8)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -442,15 +443,15 @@ _______________________________________________________________________
 "
 ;;
          9)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -493,15 +494,15 @@ _______________________________________________________________________
 "
 ;;
          10)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -544,15 +545,15 @@ _______________________________________________________________________
 "
 ;;
          11)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -595,15 +596,15 @@ _______________________________________________________________________
 "
 ;;
          12)
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+chmod a+x 'altaera_install_model.sh'
+bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
-chmod a+x 'altaera_install_model.sh'
-bash 'altaera_install_model.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
