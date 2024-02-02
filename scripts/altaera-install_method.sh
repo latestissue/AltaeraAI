@@ -8,7 +8,8 @@ TITLE="Please choose your method of installing AltaeraAI"
 MENU="Which installation method do you prefer?:"
 
 OPTIONS=(1 "Install pre-packaged KoboldCpp (Faster) - [Default]"
-         2 "Build KoboldCpp from scratch (Slower)")
+         2 "Build KoboldCpp from scratch (Slower)"
+         3 "Build KoboldCpp [No-Blas] (Slower)")
          
          
 CHOICE=$(dialog --clear \
@@ -30,6 +31,11 @@ case $CHOICE in
         2)
         cd $PREFIX/etc/proot-distro
         wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow.sh -O 'altaera.sh' -q --show-progress
+        ;;
+        
+        3)
+        cd $PREFIX/etc/proot-distro
+        wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera-slow_no-blas.sh -O 'altaera.sh' -q --show-progress
         ;;
         
         esac
