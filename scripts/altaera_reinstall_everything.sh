@@ -15,9 +15,7 @@ proot-distro remove altaera
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall-everything.sh
 chmod a+x 'altaera-reinstall-everything.sh'
-cd ..
-
-bash '/data/data/com.termux/files/home/AltaeraAI-tmp/altaera_reinstall.sh'
+bash 'altaera-reinstall-everything.sh'
 ;;
 
    1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
