@@ -40,8 +40,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -90,8 +91,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -139,8 +141,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -188,8 +191,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -237,8 +241,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -286,8 +291,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -335,8 +341,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -384,8 +391,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -433,8 +441,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -482,8 +491,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -531,8 +541,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
@@ -580,8 +591,9 @@ bash 'altaera_install_model.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/rootfs/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+chmod a+x 'altaera-install_method.sh'
+bash 'altaera-install_method.sh'
 proot-distro install altaera
 
 echo "Moving the AI model and prompt file into proper directory...";
