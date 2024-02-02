@@ -60,6 +60,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -111,6 +112,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -161,6 +163,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -211,6 +214,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -261,6 +265,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -311,6 +316,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -361,6 +367,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -411,6 +418,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -461,6 +469,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -511,6 +520,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -561,6 +571,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
@@ -611,6 +622,7 @@ rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
+rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
 clear
 } &> /dev/null 2>&1;
 
