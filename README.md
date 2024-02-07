@@ -57,7 +57,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 <img src="https://github.com/latestissue/AltaeraAI/assets/121747280/d93f951a-c198-4e15-b96f-b5591032013e" width="432" height="520" />
 </p>
 
-The “Start AltaeraAI” button will forward you to a browser with deployed UI.
+The “Start AltaeraAI” button will ask you to choose from currently installed models, and then forward you to a browser with deployed UI.
 
 ## Access Inference on external devices
 
