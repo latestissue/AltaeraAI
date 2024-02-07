@@ -46,7 +46,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 - Then press ENTER and wait for the installation to finish. Make sure that you are connected to Wi-Fi because the process will download 3GB+ of data, depending on device. Installation will take 5min+ of time, depending on the device and Internet speed.
 
 <p align="center">
-<img src="https://altaera.ai/wp-content/uploads/2024/02/installation.mp4" width="720" height="1560" />
+<video src="https://altaera.ai/wp-content/uploads/2024/02/installation.mp4" width="720" height="1560" />
 </p>
 
 ## Launching & Updating
