@@ -43,7 +43,7 @@ case $CHOICE in
             
             ";
             {
-            rm -rf 'altaera-update_content'
+            rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
@@ -57,7 +57,7 @@ case $CHOICE in
             
             ";
             {
-            rm -rf 'altaera-update_content'
+            rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
