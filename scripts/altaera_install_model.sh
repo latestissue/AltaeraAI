@@ -10,11 +10,12 @@ MENU="Choose your desired method:"
 OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
          2 "RWKV-4-World-Claude-for-Mobile"
          3 "RWKV-4-World"
-         4 "LLaMA-2-7B-Chat"
-         5 "Mistral-7B-Instruct"
-         6 "Vicuna-7B-v1.5"
-         7 "Phi-2-DPO"
-         8 "Do not download AI Model (?) - [...]")
+         4 "LLaMA-3-8B-Instruct"
+         5 "LLaMA-2-7B-Chat"
+         6 "Mistral-7B-Instruct"
+         7 "Vicuna-7B-v1.5"
+         8 "Phi-2-DPO"
+         9 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -55,6 +56,15 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         4)
+        echo "You chose 'LLaMA-3-8B-Instruct...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-llama-3-8b-instruct.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        5)
         echo "You chose 'LLaMA-2-7B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -63,7 +73,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        5)
+        6)
         echo "You chose 'Mistral-7B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -72,7 +82,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        6)
+        7)
         echo "You chose 'Vicuna-7B-v1.5...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -81,7 +91,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        7)
+        8)
         echo "You chose 'Phi-2-DPO...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -90,7 +100,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        8)
+        9)
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
