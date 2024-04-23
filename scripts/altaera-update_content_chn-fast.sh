@@ -37,6 +37,9 @@ chmod a+x 'altaera-model-llama-3-8b-instruct.sh'
 rm -rf 'altaera-model-llama-2-7b-chat.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-2-7b-chat.sh
 chmod a+x 'altaera-model-llama-2-7b-chat.sh'
+rm -rf 'altaera-model-llama-3-8b-instruct.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-3-8b-instruct.sh
+chmod a+x 'altaera-model-llama-3-8b-instruct.sh'
 rm -rf 'altaera-model-mistral-7b-instruct-v0.2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-mistral-7b-instruct-v0.2.sh
 chmod a+x 'altaera-model-mistral-7b-instruct-v0.2.sh'
