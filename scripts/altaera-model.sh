@@ -11,10 +11,11 @@ OPTIONS=(1 "[...] Go Back"
          2 "Auto-Detection (RWKV-4-World-Claude-for-Mobile) - [Default]"
 	 3 "RWKV-4-World-Claude-for-Mobile"
          4 "RWKV-4-World[...]"
-	 5 "Llama-2-7B-Chat-GGUF"
-	 6 "Mistral-7B-Instruct-GGUF"
-	 7 "Vicuna-7B-v1.5-GGUF"
-  	 8 "Phi-2-DPO-GGUF")
+	 5 "Llama-3-8B-Instruct-GGUF"
+	 6 "Llama-2-7B-Chat-GGUF"
+	 7 "Mistral-7B-Instruct-GGUF"
+	 8 "Vicuna-7B-v1.5-GGUF"
+  	 9 "Phi-2-DPO-GGUF")
 
 
 CHOICE=$(dialog --clear \
@@ -76,19 +77,23 @@ fi
   		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-rwkv-4.sh'
     		;;
       
-    	5)	
+        5)
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-3-8b-instruct.sh'
+    		;;
+      
+    	6)	
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-2-7b-chat.sh'
     		;;
       
-    	6)
+    	7)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-mistral-7b-instruct-v0.2.sh'
     		;;
       
-    	7)
+    	8)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-vicuna-7b-v1.5.sh'
     		;;
       
-    	8)
+    	9)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
        
 esac
