@@ -32,11 +32,11 @@ AltaeraAI works as a platform in order to provide easy instructions and support 
 You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Current Models List:
-- [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML) - [[No-Blas]]
-- [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [[No-Blas]]/[[OpenBLAS]](https://www.openblas.net/)
-- [Mistral](https://mistral.ai/) (GGUF) - [[No-Blas]]/[[OpenBLAS]](https://www.openblas.net/)
-- [Vicuna-v1.5](https://lmsys.org/blog/2023-03-30-vicuna/) (GGUF) - [[No-Blas]]/[[OpenBLAS]](https://www.openblas.net/)
-- [Phi-2](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/) (GGUF) - [[No-Blas]]/[[OpenBLAS]](https://www.openblas.net/)
+- [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML) - [No-Blas]
+- [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [No-Blas]/[[OpenBLAS]](https://www.openblas.net/)
+- [Mistral](https://mistral.ai/) (GGUF) - [No-Blas]/[[OpenBLAS]](https://www.openblas.net/)
+- [Vicuna-v1.5](https://lmsys.org/blog/2023-03-30-vicuna/) (GGUF) - [No-Blas]/[[OpenBLAS]](https://www.openblas.net/)
+- [Phi-2](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/) (GGUF) - [No-Blas]/[[OpenBLAS]](https://www.openblas.net/)
 
 ## Installation
 
