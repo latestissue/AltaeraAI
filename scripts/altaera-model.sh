@@ -81,7 +81,7 @@ fi
     		;;
       
         5)
-  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-altaera-model-kobbletiny.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-kobbletiny.sh'
     		;;
       
         6)
