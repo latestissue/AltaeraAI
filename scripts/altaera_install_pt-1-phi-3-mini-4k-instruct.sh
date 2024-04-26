@@ -19,11 +19,11 @@ OPTIONS=(1 "phi-3-mini-4k-instruct.Q2_K.gguf"
          10 "phi-3-mini-4k-instruct.Q5_0.gguf"
          11 "phi-3-mini-4k-instruct.Q5_1.gguf"
          12 "phi-3-mini-4k-instruct.Q5_K.gguf"
-         12 "phi-3-mini-4k-instruct.Q5_K_M.gguf"
-         12 "phi-3-mini-4k-instruct.Q5_K_S.gguf"
-         12 "phi-3-mini-4k-instruct.Q6_K.gguf"
-         12 "phi-3-mini-4k-instruct.Q8_0.gguf"
-         12 "phi-3-mini-4k-instruct.fp16.gguf")
+         13 "phi-3-mini-4k-instruct.Q5_K_M.gguf"
+         14 "phi-3-mini-4k-instruct.Q5_K_S.gguf"
+         15 "phi-3-mini-4k-instruct.Q6_K.gguf"
+         16 "phi-3-mini-4k-instruct.Q8_0.gguf"
+         17 "phi-3-mini-4k-instruct.fp16.gguf")
 
 
 CHOICE=$(dialog --clear \
@@ -42,7 +42,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q2_K.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q2_K.gguf -O 'Q2_K.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -51,7 +51,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_L.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_L.gguf -O 'Q3_K_L.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -60,7 +60,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_M.gguf -O 'Q3_K_M.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -69,7 +69,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_S.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_S.gguf -O 'Q3_K_S.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -78,7 +78,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_0.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_0.gguf -O 'Q4_0.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -87,7 +87,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_M.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_1.gguf -O 'Q4_1.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -96,7 +96,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_S.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_K.gguf -O 'Q4_K.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -105,7 +105,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_0.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_K_M.gguf -O 'Q4_K_M.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -114,7 +114,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_M.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_K_S.gguf -O 'Q4_K_S.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -124,7 +124,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_S.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_0.gguf -O 'Q5_0.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -134,7 +134,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q6_K.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_1.gguf -O 'Q5_1.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -144,7 +144,52 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q8_0.gguf -q --show-progress
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_K.gguf -O 'Q5_K.phi-3-mini-4k-instruct.gguf' -q --show-progress
+            cd ../..
+            clear
+            ;;
+        13)
+            echo "You chose 'phi-3-mini-4k-instruct.Q5_K_M.gguf'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_K_M.gguf -O 'Q5_K_M.phi-3-mini-4k-instruct.gguf' -q --show-progress
+            cd ../..
+            clear
+            ;;
+        14)
+            echo "You chose 'phi-3-mini-4k-instruct.Q5_K_S.gguf'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_K_S.gguf -O 'Q5_K_S.phi-3-mini-4k-instruct.gguf' -q --show-progress
+            cd ../..
+            clear
+            ;;
+        15)
+            echo "You chose 'phi-3-mini-4k-instruct.Q6_K.gguf'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q6_K.gguf -O 'Q6_K.phi-3-mini-4k-instruct.gguf' -q --show-progress
+            cd ../..
+            clear
+            ;;
+        16)
+            echo "You chose 'phi-3-mini-4k-instruct.Q8_0.gguf'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q8_0.gguf -O 'Q8_0.phi-3-mini-4k-instruct.gguf' -q --show-progress
+            cd ../..
+            clear
+            ;;
+        17)
+            echo "You chose 'phi-3-mini-4k-instruct.fp16.gguf'"
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
+            rm -rf 'RWKV-model.bin'
+            rm -rf 'model.bin'
+            wget https://huggingface.co/SanctumAI/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.fp16.gguf -O 'fp16.phi-3-mini-4k-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
