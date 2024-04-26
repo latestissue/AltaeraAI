@@ -5,7 +5,7 @@ WIDTH=160
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
-MENU="Choose your desired Phi-2-DPO model size/strategy:"
+MENU="Choose your desired Phi-3-mini-4k-instruct-GGUF model size/strategy:"
 
 OPTIONS=(1 "phi-3-mini-4k-instruct.Q2_K.gguf"
          2 "phi-3-mini-4k-instruct.Q3_K_L.gguf"
@@ -39,149 +39,113 @@ case $CHOICE in
 
         1)
             echo "You chose 'phi-3-mini-4k-instruct.Q2_K.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q2_K.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         2)
             echo "You chose 'phi-3-mini-4k-instruct.Q3_K_L.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_L.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         3)
             echo "You chose 'phi-3-mini-4k-instruct.Q3_K_M.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         4)
             echo "You chose 'phi-3-mini-4k-instruct.Q3_K_S.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_S.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         5)
             echo "You chose 'phi-3-mini-4k-instruct.Q4_0.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_0.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         6)
             echo "You chose 'phi-3-mini-4k-instruct.Q4_1.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_M.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         7)
             echo "You chose 'phi-3-mini-4k-instruct.Q4_K.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_S.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         8)
             echo "You chose 'phi-3-mini-4k-instruct.Q4_K_M.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_0.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         9)
             echo "You chose 'phi-3-mini-4k-instruct.Q4_K_S.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_M.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
 
         10)
             echo "You chose 'phi-3-mini-4k-instruct.Q5_0.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_S.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
 
         11)
             echo "You chose 'phi-3-mini-4k-instruct.Q5_1.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q6_K.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
 
         12)
             echo "You chose 'phi-3-mini-4k-instruct.Q5_K.gguf'"
-            {
-            mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
-            } &> /dev/null 2>&1;
-            cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
+            cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q8_0.gguf -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
 esac
