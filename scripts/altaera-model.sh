@@ -12,12 +12,13 @@ OPTIONS=(1 "[...] Go Back"
 	 3 "RWKV-4-World-Claude-for-Mobile [...]"
          4 "RWKV-4-World [...]"
 	 5 "KobbleTiny-GGUF [...]"
-	 6 "Llama-3-8B-Instruct-GGUF [...]"
-	 7 "Llama-2-7B-Chat-GGUF [...]"
-	 8 "Mistral-7B-Instruct-GGUF [...]"
-	 9 "Vicuna-7B-v1.5-GGUF [...]"
-	 10 "Phi-3-mini-4k-instruct-GGUF [...]"
-  	 11 "Phi-2-DPO-GGUF [...]")
+	 6 "TinyLlama-1.1B-Chat-v1.0-GGUF [...]"
+	 7 "Llama-3-8B-Instruct-GGUF [...]"
+	 8 "Llama-2-7B-Chat-GGUF [...]"
+	 9 "Mistral-7B-Instruct-GGUF [...]"
+	 10 "Vicuna-7B-v1.5-GGUF [...]"
+	 11 "Phi-3-mini-4k-instruct-GGUF [...]"
+  	 12 "Phi-2-DPO-GGUF [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -84,26 +85,30 @@ fi
     		;;
       
         6)
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinyllama-1.1b-chat-v1.0.sh'
+    		;;
+      
+        7)
   		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-3-8b-instruct.sh'
     		;;
       
-    	7)	
+    	8)	
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-2-7b-chat.sh'
     		;;
       
-    	8)
+    	9)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-mistral-7b-instruct-v0.2.sh'
     		;;
       
-    	9)
+    	10)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-vicuna-7b-v1.5.sh'
     		;;
       
-    	10)
+    	11)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-3-mini-4k-instruct.sh'
     		;;
 
-    	11)
+    	12)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
     		;;
       
