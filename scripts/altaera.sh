@@ -2,7 +2,7 @@
 
 cd '/data/data/com.termux/files/home'
 
-HEIGHT=30
+HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI - v4.6.1"
