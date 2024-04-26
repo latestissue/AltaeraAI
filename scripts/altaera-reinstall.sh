@@ -44,6 +44,7 @@ case $CHOICE in
             {
 	    rm -rf 'AltaeraAI'
 	    mkdir 'AltaeraAI'
+	    mkdir 'AltaeraAI-tmp/models'
             cd 'AltaeraAI-tmp'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
             chmod a+x 'altaera_reinstall_everything.sh'
