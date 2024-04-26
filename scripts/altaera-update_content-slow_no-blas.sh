@@ -34,6 +34,9 @@ chmod a+x 'altaera-model-rwkv-4.sh'
 rm -rf 'altaera-model-llama-2-7b-chat.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-2-7b-chat.sh
 chmod a+x 'altaera-model-llama-2-7b-chat.sh'
+rm -rf 'altaera-model-phi-3-mini-4k-instruct.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-3-mini-4k-instruct.sh
+chmod a+x 'altaera-model-phi-3-mini-4k-instruct.sh'
 rm -rf 'altaera-model-kobbletiny.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-kobbletiny.sh
 chmod a+x 'altaera-model-kobbletiny.sh'
