@@ -17,8 +17,9 @@ OPTIONS=(1 "[...] Go Back"
 	 8 "Llama-2-7B-Chat [...]"
 	 9 "Mistral-7B-Instruct [...]"
 	 10 "Vicuna-7B-v1.5 [...]"
-	 11 "Phi-3-mini-4k-instruct [...]"
-  	 12 "Phi-2-DPO-GGUF [...]")
+	 11 "Mamba [...]"
+	 12 "Phi-3-mini-4k-instruct [...]"
+  	 13 "Phi-2-DPO-GGUF [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -103,12 +104,16 @@ fi
     	10)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-vicuna-7b-v1.5.sh'
     		;;
-      
+
     	11)
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-mamba.sh'
+    		;;
+      
+    	12)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-3-mini-4k-instruct.sh'
     		;;
 
-    	12)
+    	13)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
     		;;
       
