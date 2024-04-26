@@ -33,9 +33,13 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Current Models List:
 - [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML) - [No-Blas]
+- [KobbleTiny](https://huggingface.co/concedo/KobbleTiny) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [TinyLlama](https://github.com/jzhang38/TinyLlama) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [LLaMa-3](https://llama.meta.com/llama3/) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [Mistral](https://mistral.ai/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [Vicuna-v1.5](https://lmsys.org/blog/2023-03-30-vicuna/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [Phi-3](https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-started-generative-ai-with-phi-3-mini-a-guide-to/ba-p/4121315) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [Phi-2](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 
 ## Installation
