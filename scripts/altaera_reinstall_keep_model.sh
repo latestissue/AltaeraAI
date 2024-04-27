@@ -16,6 +16,8 @@ mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaer
 echo "Removing previous AltaeraAI files...";
 
 {
+rm -rf '/data/data/com.termux/files/home/AltaeraAI'
+mkdir '/data/data/com.termux/files/home/AltaeraAI'
 proot-distro remove altaera
 
 } &> /dev/null 2>&1;
