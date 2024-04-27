@@ -28,8 +28,6 @@ case $CHOICE in
         2)
             echo "You chose 'Reinstall without re-downloading the AI model (faster)'...";
             {
-	    rm -rf 'AltaeraAI'
-	    mkdir 'AltaeraAI'
             cd 'AltaeraAI-tmp'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_keep_model.sh
             chmod a+x 'altaera_reinstall_keep_model.sh'
@@ -42,8 +40,6 @@ case $CHOICE in
         3)
             echo "You chose 'Reinstall everything, including the AI model (slower)'...";
             {
-	    rm -rf 'AltaeraAI'
-	    mkdir 'AltaeraAI'
 	    mkdir 'AltaeraAI-tmp/models'
             cd 'AltaeraAI-tmp'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
