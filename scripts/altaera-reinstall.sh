@@ -40,7 +40,6 @@ case $CHOICE in
         3)
             echo "You chose 'Reinstall everything, including the AI model (slower)'...";
             {
-	    mkdir 'AltaeraAI-tmp/models'
             cd 'AltaeraAI-tmp'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall_everything.sh
             chmod a+x 'altaera_reinstall_everything.sh'
