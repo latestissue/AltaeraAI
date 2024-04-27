@@ -12,6 +12,7 @@ case $response in
 {
 rm -rf '/data/data/com.termux/files/home/AltaeraAI'
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
+mkdir 'AltaeraAI-tmp/models'
 proot-distro remove altaera
 } &> /dev/null 2>&1;
 
