@@ -9,7 +9,7 @@ MENU="Choose the blas batch size:"
 
 OPTIONS=(1 "[...] Go Back"
          2 "2048 [Default]"
-	 3 "-1"
+	 3 "-1 [Good for low RAM]"
          4 "1"
          5 "32"
          6 "64"
