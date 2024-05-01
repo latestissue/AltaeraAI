@@ -33,7 +33,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 ## Current Models List:
 - [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML) - [No-Blas]
-- [KobbleTiny](https://huggingface.co/concedo/KobbleTiny) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [KobbleTinyV2](https://huggingface.co/concedo/KobbleTiny) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [LLaMa-3](https://llama.meta.com/llama3/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
