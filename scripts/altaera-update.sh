@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HEIGHT=10
+HEIGHT=20
 WIDTH=100
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - Update"
@@ -9,7 +9,8 @@ MENU="Would you like to update with the pre-packaged KoboldCpp [Faster], or by b
 
 OPTIONS=(1 "Update with pre-packaged KoboldCpp [Faster]"
          2 "Update with building your own KoboldCpp [Slower]"
-         3 "Update with building your own KoboldCpp (No-Blas) [Slower]")
+         3 "Update with building your own KoboldCpp (No-Blas) [Slower]"
+         4 "Update shell files only")
 
 
 CHOICE=$(dialog --clear \
@@ -59,6 +60,20 @@ case $CHOICE in
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas.sh -O 'altaera-update_content.sh'
+            chmod a+x 'altaera-update_content.sh'
+            } &> /dev/null 2>&1;
+            bash 'altaera-update_content.sh'
+            clear
+            bash 'AltaeraAI/altaera-updated_successfully.sh'
+            ;;
+        4)
+            clear
+            echo "Initializing update...
+            
+            ";
+            {
+            rm -rf 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
