@@ -120,6 +120,7 @@ rm -rf 'altaera-model_restore.sh'
 rm -rf 'altaera-model_backed-up.sh'
 rm -rf 'altaera-model_restored-cleanup.sh'
 rm -rf 'altaera-model_backup-cleaned-up.sh'
+rm -rf '/data/data/com.termux/files/home/altaera-update_content.sh'
 
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_backup-restore.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_restore.sh
