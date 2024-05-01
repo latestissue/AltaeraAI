@@ -6,6 +6,9 @@ echo "Updating AltaeraAI shell files...
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
 mv 'altaera.sh' 'altaeralogin.sh' 'altaera-lang.sh' 'altaera-model' 'altaera-model-rwkv-4.sh' 'altaera-update.sh' 'altaera-update-proot.sh' 'altaera-ngrok.sh' 'altaera-ngrok-configuration.sh' 'altaera-ngrok-on.sh' 'altaera-reinstall.sh' 'altaera-uninstall.sh' './AltaeraAI'
 cd 'AltaeraAI'
+rm -rf 'altaera_pre-update.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pre-update.sh
+chmod a+x 'altaera_pre-update.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
 chmod a+x 'altaera-update.sh'
