@@ -64,6 +64,9 @@ chmod a+x 'altaera-up_to_date.sh'
 rm -rf 'altaera-update_available.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available.sh
 chmod a+x 'altaera-update_available.sh'
+rm -rf 'altaera_pre-update.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pre-update.sh
+chmod a+x 'altaera_pre-update.sh'
 rm -rf 'altaera-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
 chmod a+x 'altaera-update.sh'
