@@ -125,6 +125,9 @@ chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
 rm -rf 'altaera-koboldcpp_settings_blasbatchsize.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
 chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
+rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
+chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
 rm -rf 'altaera-manage_models.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
 chmod a+x 'altaera-manage_models.sh'
