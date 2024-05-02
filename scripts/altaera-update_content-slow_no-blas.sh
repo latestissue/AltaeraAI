@@ -55,6 +55,9 @@ chmod a+x 'altaera-model-mistral-7b-instruct-v0.2.sh'
 rm -rf 'altaera-model-phi-2-dpo.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-2-dpo.sh
 chmod a+x 'altaera-model-phi-2-dpo.sh'
+rm -rf 'altaera-model-phi-3-mini-4k-instruct.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-3-mini-4k-instruct.sh
+chmod a+x 'altaera-model-phi-3-mini-4k-instruct.sh'
 rm -rf 'altaera-model-tinydolphin-2.8-1.1b-imatrix.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-tinydolphin-2.8-1.1b-imatrix.sh
 chmod a+x 'altaera-model-tinydolphin-2.8-1.1b-imatrix.sh'
