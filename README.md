@@ -35,6 +35,8 @@ You can read more at: [altaera.ai](https://altaera.ai)
 - [RWKV-4](https://github.com/BlinkDL/RWKV-LM) (GGML) - [No-Blas]
 - [KobbleTinyV2](https://huggingface.co/concedo/KobbleTiny) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [TinyDolphin](https://ollama.com/library/tinydolphin) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
+- [TinyVicuna](https://anakin.ai/blog/tiny-vicuna-1b/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [LLaMa-3](https://llama.meta.com/llama3/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [LLaMA-2](https://ai.meta.com/llama/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
 - [Mistral](https://mistral.ai/) (GGUF) - [No-Blas] / [[OpenBLAS]](https://www.openblas.net/)
