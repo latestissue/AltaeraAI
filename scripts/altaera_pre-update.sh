@@ -24,5 +24,5 @@
           bash 'altaera-updated_successfully.sh'
           exit
           else
-          bash 'altaera-update.sh'
+          bash 'AltaeraAI/altaera-update.sh'
          fi
