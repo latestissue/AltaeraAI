@@ -59,6 +59,9 @@ chmod a+x 'altaera-model-tinyllama-1.1b-chat-v1.0.sh'
 rm -rf 'altaera-model-kobbletiny.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-kobbletiny.sh
 chmod a+x 'altaera-model-kobbletiny.sh'
+rm -rf 'altaera-model-kobbletiny-imatrix.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-kobbletiny-imatrix.sh
+chmod a+x 'altaera-model-kobbletiny-imatrix.sh'
 rm -rf 'altaera-model-mamba.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-mamba.sh
 chmod a+x 'altaera-model-mamba.sh'
