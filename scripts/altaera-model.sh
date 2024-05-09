@@ -11,18 +11,19 @@ OPTIONS=(1 "[...] Go Back"
          2 "Auto-Detection (RWKV-4-World-Claude-for-Mobile) - [Default]"
 	 3 "RWKV-4-World-Claude-for-Mobile [...]"
          4 "RWKV-4-World [...]"
-	 5 "KobbleTiny [...]"
-	 6 "Tiny-Vicuna-1B [...]"
-  	 7 "TinyDolphin-2.8-1.1b-imatrix [...]"
-  	 8 "TinyDolphin-2.8.2-1.1B-laser [...]"
-	 9 "TinyLlama-1.1B-Chat-v1.0 [...]"
-	 10 "Llama-3-8B-Instruct [...]"
-	 11 "Llama-2-7B-Chat [...]"
-	 12 "Mistral-7B-Instruct [...]"
-	 13 "Vicuna-7B-v1.5 [...]"
-	 14 "Mamba [...]"
-	 15 "Phi-3-mini-4k-instruct [...]"
-  	 16 "Phi-2-DPO-GGUF [...]")
+	 5 "KobbleTinyV2 [...]"
+	 6 "KobbleTinyV2-1.1B_iMatrix [...]"
+	 7 "Tiny-Vicuna-1B [...]"
+  	 8 "TinyDolphin-2.8-1.1b-imatrix [...]"
+  	 9 "TinyDolphin-2.8.2-1.1B-laser [...]"
+	 10 "TinyLlama-1.1B-Chat-v1.0 [...]"
+	 11 "Llama-3-8B-Instruct [...]"
+	 12 "Llama-2-7B-Chat [...]"
+	 13 "Mistral-7B-Instruct [...]"
+	 14 "Vicuna-7B-v1.5 [...]"
+	 15 "Mamba [...]"
+	 16 "Phi-3-mini-4k-instruct [...]"
+  	 17 "Phi-2-DPO-GGUF [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -89,46 +90,50 @@ fi
     		;;
       
         6)
-  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tiny-vicuna-1b.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-kobbletiny-imatrix.sh'
     		;;
       
         7)
-  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinydolphin-2.8-1.1b-imatrix.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tiny-vicuna-1b.sh'
     		;;
       
         8)
-  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinydolphin-2.8.2-1.1b-laser.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinydolphin-2.8-1.1b-imatrix.sh'
     		;;
       
         9)
-  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinyllama-1.1b-chat-v1.0.sh'
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinydolphin-2.8.2-1.1b-laser.sh'
     		;;
       
         10)
+  		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-tinyllama-1.1b-chat-v1.0.sh'
+    		;;
+      
+        11)
   		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-3-8b-instruct.sh'
     		;;
       
-    	11)	
+    	12)	
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-llama-2-7b-chat.sh'
     		;;
       
-    	12)
+    	13)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-mistral-7b-instruct-v0.2.sh'
     		;;
       
-    	13)
+    	14)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-vicuna-7b-v1.5.sh'
     		;;
 
-    	14)
+    	15)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-mamba.sh'
     		;;
       
-    	15)
+    	16)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-3-mini-4k-instruct.sh'
     		;;
 
-    	16)
+    	17)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
     		;;
       
