@@ -5,7 +5,7 @@ cd '/data/data/com.termux/files/home'
 HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AltaeraAI - v4.8"
+BACKTITLE="AltaeraAI - v4.8.1"
 TITLE="Welcome!"
 MENU="What would you like to do?"
 
