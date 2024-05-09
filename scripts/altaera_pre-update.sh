@@ -5,6 +5,7 @@
         
                 {
                 cd "AltaeraAI"
+                rm -rf 'altaera-version_package.sh'
                 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_package.sh
                 chmod a+x 'altaera-version_package.sh'
                 cd ..
