@@ -30,7 +30,7 @@ case $CHOICE in
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf -O 'Q4_K-KobbleTiny.gguf' -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         2)
@@ -39,7 +39,7 @@ case $CHOICE in
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q6_K.gguf -O 'Q6_K-KobbleTiny.gguf' -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         3)
@@ -48,7 +48,7 @@ case $CHOICE in
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q8_0.gguf -O 'Q8_0-KobbleTiny.gguf' -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
         4)
@@ -57,7 +57,7 @@ case $CHOICE in
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
             wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-f16.gguf -O 'f16-KobbleTiny.gguf' -q --show-progress
-            cd /root
+            cd ../..
             clear
             ;;
 esac
