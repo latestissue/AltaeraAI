@@ -2,6 +2,8 @@
 
 cd '/data/data/com.termux/files/home'
 
+'./AltaeraAI/altaera_auto-check.sh'
+
 HEIGHT=25
 WIDTH=60
 CHOICE_HEIGHT=7
