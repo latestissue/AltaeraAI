@@ -2,7 +2,7 @@
 
 dialog --backtitle "AltaeraAI" \
 --title "AltaeraAI - Check for updates" \
---msgbox 'v4.8.3 – added an optional “auto-update” mechanism, which automatically checks for updates whenever you type in “ae” in order to start AltaeraAI
+--msgbox 'v4.8.4 – added an optional “auto-update” mechanism, which automatically checks for updates whenever you type in “ae” in order to start AltaeraAI
 added “AltaeraAI Settings” into the MENU
 v4.8.2 – added information about device RAM and free storage in the main MENU
 v4.8.1 – added KobbleTinyV2-1.1B (imatrix) weights to the list of models

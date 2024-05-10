@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "v4.8.3"
+echo "v4.8.4"
 
 exit
