@@ -128,6 +128,12 @@ chmod a+x 'altaera-uninstall.sh'
 rm -rf 'altaera-customer_support.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-customer_support.sh
 chmod a+x 'altaera-customer_support.sh'
+rm -rf 'altaera-settings.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings.sh
+chmod a+x 'altaera-settings.sh'
+rm -rf 'altaera-settings_auto_updates.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings_auto_updates.sh
+chmod a+x 'altaera-settings_auto_updates.sh'
 rm -rf 'altaera-koboldcpp_settings.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
 chmod a+x 'altaera-koboldcpp_settings.sh'
