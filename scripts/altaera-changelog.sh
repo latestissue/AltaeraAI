@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HEIGHT=20
+HEIGHT=10
 WIDTH=40
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - Changelog"
@@ -26,7 +26,7 @@ case $CHOICE in
             exit
             ;;
         2)
-            './AltaeraAI/altaera-changelog_cli'
+            './AltaeraAI/altaera-changelog_cli.sh'
             './AltaeraAI/changelog.sh'
             ;;
         3)
