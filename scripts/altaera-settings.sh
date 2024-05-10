@@ -27,6 +27,6 @@ case $CHOICE in
         2)
             clear
             './AltaeraAI/altaera-settings_auto_updates.sh'
-            './AltaeraAI/altaera-koboldcpp_settings.sh'
+            './AltaeraAI/altaera-settings.sh'
             ;;
 esac
