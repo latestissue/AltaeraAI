@@ -12,7 +12,7 @@ cd '/data/data/com.termux/files/home'
                 } &> /dev/null 2>&1;
  
          if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
-          ) = "v4.8.2" ]; then
+          ) = "v4.8.3" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           else
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
@@ -22,7 +22,7 @@ cd '/data/data/com.termux/files/home'
 HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AltaeraAI - v4.8.2 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
+BACKTITLE="AltaeraAI - v4.8.3 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
 TITLE="Welcome!"
 MENU="What would you like to do?"
 
