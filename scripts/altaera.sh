@@ -2,7 +2,7 @@
 
 cd '/data/data/com.termux/files/home'
 
-HEIGHT=25
+HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI - v4.8.4 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
