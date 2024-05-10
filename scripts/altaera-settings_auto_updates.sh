@@ -29,14 +29,14 @@ case $CHOICE in
             clear
             rm -rf './AltaeraAI/altaera.sh'
             cd './AltaeraAI'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_auto-check.sh -O 'altaera.sh'
-            chmod a+x 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_auto-check.sh
+            chmod a+x 'altaera_auto-check.sh'
             ;;
         3)
             clear
             rm -rf './AltaeraAI/altaera.sh'
             cd './AltaeraAI'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
-            chmod a+x 'altaera.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_auto-check_empty.sh -O 'altaera_auto-check.sh'
+            chmod a+x 'altaera_auto-check.sh'
             ;;
 esac
