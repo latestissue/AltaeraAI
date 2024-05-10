@@ -16,7 +16,7 @@ cd '/data/data/com.termux/files/home'
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
           else
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
-          bash 'AltaeraAI/altaera-update_available.sh'
+          bash 'AltaeraAI/altaera-auto-update_available.sh'
         fi
 
 HEIGHT=20
