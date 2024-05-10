@@ -4,7 +4,7 @@ dialog --backtitle "AltaeraAI" \
 --title "AltaeraAI - Changelog [CLI]" \
 --msgbox '
     * v4.8.4 – added a changelog to the main MENU
-    * v4.8.3 – added an optional “auto-update” mechanism, which automatically
+    * v4.8.3 – added an optional (set by default) “auto-update” mechanism, which automatically
       checks for updates whenever you type in “ae” in order to start AltaeraAI
     * added “AltaeraAI Settings” into the MENU
     * v4.8.2 – added information about device RAM and free storage in the main
