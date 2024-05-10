@@ -119,6 +119,12 @@ chmod a+x 'altaera-customer_support.sh'
 rm -rf 'altaera-settings.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings.sh
 chmod a+x 'altaera-settings.sh'
+rm -rf 'altaera-changelog.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-changelog.sh
+chmod a+x 'altaera-changelog.sh'
+rm -rf 'altaera-changelog_cli.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-changelog_cli.sh
+chmod a+x 'altaera-changelog_cli.sh'
 rm -rf 'altaera-settings_auto_updates.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings_auto_updates.sh
 chmod a+x 'altaera-settings_auto_updates.sh'
