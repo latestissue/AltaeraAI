@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HEIGHT=10
+HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=24
 BACKTITLE="AltaeraAI - Changelog"
