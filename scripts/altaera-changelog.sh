@@ -27,7 +27,6 @@ case $CHOICE in
             ;;
         2)
             './AltaeraAI/altaera-changelog_cli.sh'
-            './AltaeraAI/changelog.sh'
             ;;
         3)
             termux-open-url 'https://altaera.ai/changelog/'
