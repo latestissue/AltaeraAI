@@ -2,6 +2,8 @@
 
 cd '/data/data/com.termux/files/home'
 
+clear
+
         echo "Automatically checking for updates...";
         
                 {
