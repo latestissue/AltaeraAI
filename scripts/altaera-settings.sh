@@ -8,7 +8,7 @@ TITLE="AltaeraAI - Settings"
 MENU="What would you like to change?"
 
 OPTIONS=(1 "[...] Go Back"
-         2 "Automatic update checks [...])
+         2 "Automatic update checks [...]")
          
 
 CHOICE=$(dialog --clear \
