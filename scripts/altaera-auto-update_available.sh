@@ -8,7 +8,7 @@ response=$?
 case $response in
    0)   bash 'AltaeraAI/altaera_pre-update.sh';;
     
-   1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
+   1) bash '/data/data/com.termux/files/home/AltaeraAI/altaera_no-check.sh';;
    
-   255) bash '/data/data/com.termux/files/home/AltaeraAI/altaera.sh';;
+   255) bash '/data/data/com.termux/files/home/AltaeraAI/altaera_no-check.sh';;
 esac
