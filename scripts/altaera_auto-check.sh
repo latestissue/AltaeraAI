@@ -15,7 +15,11 @@ if
 if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
           ) = "v4.8.4" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
-
+elif
+[ $(cat < /dev/null > /dev/tcp/8.8.8.8/53; echo $?
+          ) = "bash: connect: Network is unreachable                   bash: /dev/tcp/8.8.8.8/53: Network is unreachable       1" ]; then
+rm -rf 'AltaeraAI/altaera-version_upstream.sh'
+fi
 else
 rm -rf 'AltaeraAI/altaera-version_upstream.sh'
 
