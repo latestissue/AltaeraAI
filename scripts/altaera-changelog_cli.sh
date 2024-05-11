@@ -3,7 +3,8 @@
 dialog --backtitle "AltaeraAI" \
 --title "AltaeraAI - Changelog [CLI]" \
 --msgbox '
-    * v4.8.5 – added a changelog to the main MENU
+    * v4.8.5 - fixed a bug which always informed the user about an available update, when launching AltaeraAI in offline mode
+    * v4.8.4 – added a changelog to the main MENU
     * v4.8.3 – added an optional (set by default) “auto-update” mechanism, which automatically
       checks for updates whenever you type in “ae” in order to start AltaeraAI
     * added “AltaeraAI Settings” into the MENU
