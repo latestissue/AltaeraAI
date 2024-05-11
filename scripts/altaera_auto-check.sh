@@ -11,8 +11,9 @@ clear
                 cd ..
                 } &> /dev/null 2>&1;
  
-         if [ $(curl -Is  http://www.github.com | head -n 1) = ":" ]; then
-          :  
+         if [ $(curl -Is  http://www.github.com | head -n 1
+          ) = ":" ]; then
+          rm -rf 'AltaeraAI/altaera-version_upstream.sh'
          elif [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
           ) = "v4.8.4" ]; then
           rm -rf 'AltaeraAI/altaera-version_upstream.sh'
