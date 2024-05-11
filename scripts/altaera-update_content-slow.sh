@@ -18,6 +18,9 @@ chmod a+x 'altaera.sh'
 rm -rf 'altaeralogin.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaeralogin.sh
 chmod a+x 'altaeralogin.sh'
+rm -rf 'altaera_no-check.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_no-check.sh
+chmod a+x 'altaera_no-check.sh'
 rm -rf 'lang.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/lang.sh
 chmod a+x 'lang.sh'
