@@ -4,13 +4,13 @@ clear
 
                 {
                 cd "AltaeraAI"
-                wget https://raw.githubusercontent.com/>
+                wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_upstream.sh
                 chmod a+x 'altaera-version_upstream.sh'
                 cd ..
                 } &> /dev/null 2>&1;
 
 if
-         [ $(cat < /dev/null > /dev/tcp/8.8.8.8/53; ech>
+         [ $(cat < /dev/null > /dev/tcp/8.8.8.8/53; echo $?
           ) = "0" ]; then
 if [ $(bash 'AltaeraAI/altaera-version_upstream.sh'
           ) = "v4.8.4" ]; then
