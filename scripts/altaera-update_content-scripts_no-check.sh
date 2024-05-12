@@ -10,7 +10,7 @@ rm -rf 'altaera_pre-update.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pre-update.sh
 chmod a+x 'altaera_pre-update.sh'
 rm -rf 'altaera-update.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_no-check.sh -O 'altaera-update.sh'
 chmod a+x 'altaera-update.sh'
 rm -rf 'altaera.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera.sh
