@@ -9,7 +9,7 @@ BACKTITLE="AltaeraAI - v4.9 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1
 TITLE="Welcome!"
 MENU="What would you like to do?"
 
-OPTIONS=(1 "Start AltaeraAI [KoboldCpp]"
+OPTIONS=(1 "Start AltaeraAI [KoboldCpp 1.65]"
          2 "Check for updates [...]"
          3 "Force update [...]"
          4 "Changelog [...]"

@@ -9,7 +9,7 @@ BACKTITLE="AltaeraAI - v4.9"
 TITLE="Benvenuti!"
 MENU="Cosa ti piacerebbe fare?"
 
-OPTIONS=(1 "Avviare AltaeraAI [KoboldCpp]"
+OPTIONS=(1 "Avviare AltaeraAI [KoboldCpp 1.65]"
          2 "Verificare la disponibilità degli aggiornamenti [...]"
          3 "Aggiornamento della forza [...]"
          4 "Gestire i modelli AI 🤖 [...]"

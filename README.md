@@ -16,7 +16,7 @@ README parts:
 
 ## What is it?
 
-AltaeraAI is a [Termux](https://github.com/termux) wrapper that packages [KoboldCpp](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
+AltaeraAI is a [Termux](https://github.com/termux) wrapper that packages [KoboldCpp 1.65](https://github.com/LostRuins/koboldcpp) and Kobold Lite UI for native usage on Android devices.
 
 ## What is it about?
 
