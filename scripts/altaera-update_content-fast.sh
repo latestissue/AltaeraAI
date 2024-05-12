@@ -189,7 +189,7 @@ rm -rf 'upgrade.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/upgrade.sh
 chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v4.8/altaera-v4.9.tar.gz
+wget https://github.com/latestissue/AltaeraAI/releases/download/v4.9/altaera-v4.9.tar.gz
 tar -xf 'altaera-v4.9.tar.gz'
 cd 'kcpp-ae'
 rm -rf 'models'

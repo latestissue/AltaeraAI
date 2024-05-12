@@ -19,7 +19,7 @@ chmod a+x 'altaera-model_remove_in.sh'
 rm -rf 'altaera-model_backup.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v4.8/altaera-v4.9.tar.gz
+wget https://github.com/latestissue/AltaeraAI/releases/download/v4.9/altaera-v4.9.tar.gz
 tar -xf 'altaera-v4.9.tar.gz'
 rm -rf 'altaera-v4.9.tar.gz'
       rm -rf 'koboldcpp-altaera'
