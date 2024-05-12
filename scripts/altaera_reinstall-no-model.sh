@@ -37,6 +37,9 @@ case $CHOICE in
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts.sh
+chmod a+x 'altaera_reinstall-scripts.sh'
+bash 'altaera_reinstall-scripts.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
@@ -55,6 +58,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_reinstall-scripts.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
