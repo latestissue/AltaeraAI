@@ -9,7 +9,7 @@ BACKTITLE="AltaeraAI - v4.9"
 TITLE="ようこそ"
 MENU="何をしたいですか？"
 
-OPTIONS=(1 "AltaeraAIを始める [KoboldCpp 1.65]"
+OPTIONS=(1 "AltaeraAIを始める [KoboldCpp v1.65]"
          2 "アップデートの有無を確認する [...]"
          3 "フォース・アップデート [...]"
          4 "AIモデルの管理 🤖 [...]"
