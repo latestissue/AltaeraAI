@@ -55,6 +55,24 @@ chmod a+x 'altaera-model.sh'
 chmod a+x 'altaera-model-rwkv-4-world-claude-for-mobile.sh'
 chmod a+x 'altaera-model-rwkv-4.sh'
 chmod a+x 'altaera-model-llama-2-7b-chat.sh'
+rm -rf 'altaera-settings.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings.sh
+chmod a+x 'altaera-settings.sh'
+rm -rf 'altaera-changelog.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-changelog.sh
+chmod a+x 'altaera-changelog.sh'
+rm -rf 'altaera-changelog_cli.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-changelog_cli.sh
+chmod a+x 'altaera-changelog_cli.sh'
+rm -rf 'altaera-settings_auto_updates.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings_auto_updates.sh
+chmod a+x 'altaera-settings_auto_updates.sh'
+rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
+chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
+rm -rf 'altaera_pre-update.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_pre-update.sh
+chmod a+x 'altaera_pre-update.sh'
 rm -rf 'altaera-model-tinyllama-1.1b-chat-v1.0.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-tinyllama-1.1b-chat-v1.0.sh
 chmod a+x 'altaera-model-tinyllama-1.1b-chat-v1.0.sh'
