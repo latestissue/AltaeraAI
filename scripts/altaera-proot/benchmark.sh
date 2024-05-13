@@ -64,6 +64,6 @@ fi
 else
 clear
 exit
-fi
+fi;;
         255) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
 esac
