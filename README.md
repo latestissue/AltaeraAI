@@ -50,6 +50,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 
 1. Download and install [Termux](https://f-droid.org/repo/com.termux_118.apk)
 2. Open Termux and paste in:
+   
    ```
    curl -o install https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install && chmod +x install && ./install
    ```
