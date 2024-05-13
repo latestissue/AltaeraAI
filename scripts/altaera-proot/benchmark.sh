@@ -39,11 +39,6 @@ then
     cd kcpp-ae
     python3 koboldcpp.py $file --benchmark '/sdcard/result.csv'
 fi
-
-else
-clear
-exit
-fi
           ;;
         1)
         
@@ -60,13 +55,10 @@ then
     cd kcpp-ae
     python3 koboldcpp.py $file --benchmark '/sdcard/result.csv'
 fi
-
-else
-clear
-exit
-fi;;
+          ;;
         255) 
         clear
         exit
         ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
 esac
+fi
