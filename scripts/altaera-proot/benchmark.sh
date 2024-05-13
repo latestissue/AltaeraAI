@@ -14,6 +14,9 @@ else
     file=$(dialog --stdout --title "Select an AI Model:" --menu "Choose a file:" 0 0 0 "${files[@]}")
 fi
 
+RESULT=$?
+if [ $RESULT -eq 0 ]; then
+
 dialog --title "Benchmark" \
         --backtitle "AltaeraAI" \
         --yesno "Would you like to save results to a file [/sdcard]?" 7 60
@@ -21,10 +24,8 @@ dialog --title "Benchmark" \
 response=$?
 case $response in
 
-        0)      
-        RESULT=$?
-if [ $RESULT -eq 0 ]; then
-
+        0)
+        
 if [[ $file == *.gguf ]]
 then
     clear
@@ -44,9 +45,8 @@ clear
 exit
 fi
           ;;
-        1) RESULT=$?
-if [ $RESULT -eq 0 ]; then
-
+        1)
+        
 if [[ $file == *.gguf ]]
 then
     clear
@@ -65,5 +65,8 @@ else
 clear
 exit
 fi;;
-        255) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
+        255) 
+        clear
+        exit
+        ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
 esac
