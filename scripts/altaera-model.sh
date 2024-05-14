@@ -23,7 +23,8 @@ OPTIONS=(1 "[...] Go Back"
 	 14 "Vicuna-7B-v1.5 [...]"
 	 15 "Mamba [...]"
 	 16 "Phi-3-mini-4k-instruct [...]"
-  	 17 "Phi-2-DPO-GGUF [...]")
+  	 17 "Phi-2-DPO-GGUF [...]"
+  	 18 "Yi-1.5-6B-Chat" [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -135,6 +136,10 @@ fi
 
     	17)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
+    		;;
+      
+    	18)
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-yi-1.5-6b-chat.sh'
     		;;
       
 esac
