@@ -3,7 +3,8 @@
 dialog --backtitle "AltaeraAI" \
 --title "AltaeraAI - Changelog [CLI]" \
 --msgbox '
-    * v4.9.2 - added "Benchmark" mode to test AI models (--benchmark flag - KoboldCpp), into the MENU
+    * v4.9.2 - added Yi-1.5-6B-Chat weights to the list of models
+    * v4.9.1 - added "Benchmark" mode to test AI models (--benchmark flag - KoboldCpp), into the MENU
     * v4.9 – updated to koboldcpp-1.65
     * v4.8.5 - fixed a bug which always informed the user about an available update, when launching AltaeraAI in offline mode
     * v4.8.4 – added a changelog to the main MENU
