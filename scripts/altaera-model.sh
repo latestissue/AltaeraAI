@@ -24,7 +24,7 @@ OPTIONS=(1 "[...] Go Back"
 	 15 "Mamba [...]"
 	 16 "Phi-3-mini-4k-instruct [...]"
   	 17 "Phi-2-DPO-GGUF [...]"
-  	 18 "Yi-1.5-6B-Chat" [...]")
+  	 18 "Yi-1.5-6B-Chat [...]")
 
 
 CHOICE=$(dialog --clear \
