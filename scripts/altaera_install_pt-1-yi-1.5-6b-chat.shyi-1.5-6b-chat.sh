@@ -31,9 +31,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'Yi-1.5-6B-Chat.Q2_K.gguf'
-            
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q2_K.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -42,9 +40,7 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_L.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_L.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -53,9 +49,7 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_M.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_M.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -64,9 +58,7 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_S.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q3_K_S.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -75,9 +67,7 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Yi-1.5-6B-Chat.Q4_K_M.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q4_K_M.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -86,9 +76,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'Yi-1.5-6B-Chat.Q4_K_S.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q4_K_S.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -97,9 +85,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Yi-1.5-6B-Chat.Q5_K_M.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q5_K_M.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -108,9 +94,7 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "You chose 'Yi-1.5-6B-Chat.Q5_K_S.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q5_K_S.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -119,9 +103,7 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'Yi-1.5-6B-Chat.Q6_K.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat.Q6_K.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -131,9 +113,7 @@ case $CHOICE in
             ;;
 
         10)
-            echo "You chose 'Yi-1.5-6B-Chat-Q8_0.gguf'
-                        
-            To abort download, press 'Ctrl+C'"
+            echo "You chose 'Yi-1.5-6B-Chat-Q8_0.gguf'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
