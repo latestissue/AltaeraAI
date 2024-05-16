@@ -46,7 +46,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ1_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ1_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -58,7 +62,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_M.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_M.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -70,7 +78,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -82,7 +94,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XS.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XS.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -94,7 +110,11 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XXS.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XXS.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -106,7 +126,11 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_M.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_M.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -118,7 +142,11 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -130,7 +158,11 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XS.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XS.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -142,7 +174,11 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XXS.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XXS.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -155,7 +191,11 @@ case $CHOICE in
             ;;
 
         10)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ4_NL.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ4_NL.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -168,7 +208,11 @@ case $CHOICE in
             ;;
 
         11)
-            echo "You chose 'tinydolphin-2.8-1.1b.IQ4_XS.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.IQ4_XS.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -181,7 +225,11 @@ case $CHOICE in
             ;;
 
         12)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q2_K.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q2_K.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -193,7 +241,11 @@ case $CHOICE in
             clear
             ;;
         13)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q2_K_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q2_K_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -205,7 +257,11 @@ case $CHOICE in
             clear
             ;;
         14)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_L.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_L.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -217,7 +273,11 @@ case $CHOICE in
             clear
             ;;
         15)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_M.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_M.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -229,7 +289,11 @@ case $CHOICE in
             clear
             ;;
         16)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -241,7 +305,11 @@ case $CHOICE in
             clear
             ;;
         17)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q4_0.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q4_0.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -253,7 +321,11 @@ case $CHOICE in
             clear
             ;;
         18)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_M.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_M.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -265,7 +337,11 @@ case $CHOICE in
             clear
             ;;
         19)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -277,7 +353,11 @@ case $CHOICE in
             clear
             ;;
         20)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q5_0.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q5_0.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -289,7 +369,11 @@ case $CHOICE in
             clear
             ;;
         21)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q5_1.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q5_1.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -302,7 +386,11 @@ case $CHOICE in
             ;;
 
         22)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_M.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_M.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -315,7 +403,11 @@ case $CHOICE in
             ;;
 
         23)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_S.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_S.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -328,7 +420,11 @@ case $CHOICE in
             ;;
 
         24)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q6_K.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q6_K.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -340,7 +436,11 @@ case $CHOICE in
             clear
             ;;
         25)
-            echo "You chose 'tinydolphin-2.8-1.1b.Q8_0.imx.gguf'"
+            echo "You chose 'tinydolphin-2.8-1.1b.Q8_0.imx.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
