@@ -30,7 +30,8 @@ case $CHOICE in
         1)
             echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -46,7 +47,8 @@ case $CHOICE in
         2)
             echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -62,7 +64,8 @@ case $CHOICE in
         3)
             echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -78,7 +81,8 @@ case $CHOICE in
         4)
             echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -94,7 +98,8 @@ case $CHOICE in
         5)
             echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -110,7 +115,8 @@ case $CHOICE in
         6)
             echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -126,7 +132,8 @@ case $CHOICE in
         7)
             echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {

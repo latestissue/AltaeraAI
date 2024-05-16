@@ -35,7 +35,8 @@ case $CHOICE in
         1)
             echo "You chose 'Q2_K-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -51,7 +52,8 @@ case $CHOICE in
         2)
             echo "You chose 'Q3_K_L-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -67,7 +69,8 @@ case $CHOICE in
         3)
             echo "You chose 'Q3_K_M-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -83,7 +86,8 @@ case $CHOICE in
         4)
             echo "You chose 'Q3_K_S-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -99,7 +103,8 @@ case $CHOICE in
         5)
             echo "You chose 'Q4_0-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -115,7 +120,8 @@ case $CHOICE in
         6)
             echo "You chose 'Q4_K_M-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -131,7 +137,8 @@ case $CHOICE in
         7)
             echo "You chose 'Q4_K_S-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -147,7 +154,8 @@ case $CHOICE in
         8)
             echo "You chose 'Q5_0-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -163,7 +171,8 @@ case $CHOICE in
         9)
             echo "You chose 'Q5_K_M-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -180,7 +189,8 @@ case $CHOICE in
         10)
             echo "You chose 'Q5_K_S-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -197,7 +207,8 @@ case $CHOICE in
         11)
             echo "You chose 'Q6_K-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
@@ -214,7 +225,8 @@ case $CHOICE in
         12)
             echo "You chose 'Q8_0-llama-2-7b-chat'
                         
-            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
+            To abort download, press 'Ctrl+C'
+            (don't forget to delete the file afterwards!)
             
             "
             {
