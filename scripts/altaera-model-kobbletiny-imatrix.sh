@@ -36,7 +36,7 @@ case $CHOICE in
         1)
             echo "You chose 'KobbleTiny-1.1B_Q3km.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -52,7 +52,7 @@ case $CHOICE in
         2)
             echo "You chose 'KobbleTiny-1.1B_Q4km.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -68,7 +68,7 @@ case $CHOICE in
         3)
             echo "You chose 'KobbleTiny-1.1B_Q4ks.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -84,7 +84,7 @@ case $CHOICE in
         4)
             echo "You chose 'KobbleTiny-1.1B_Q5km.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -100,7 +100,7 @@ case $CHOICE in
         5)
             echo "You chose 'KobbleTiny-1.1B_Q5ks.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -116,7 +116,7 @@ case $CHOICE in
         6)
             echo "You chose 'KobbleTiny-1.1B_Q6k.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -132,7 +132,7 @@ case $CHOICE in
         7)
             echo "You chose 'KobbleTiny-1.1B_Q8.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -148,7 +148,7 @@ case $CHOICE in
         8)
             echo "You chose 'KobbleTiny-1.1B_iQ2m.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -164,7 +164,7 @@ case $CHOICE in
         9)
             echo "You chose 'KobbleTiny-1.1B_iQ2xxs.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -180,7 +180,7 @@ case $CHOICE in
         10)
             echo "You chose 'KobbleTiny-1.1B_iQ3m.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -196,7 +196,7 @@ case $CHOICE in
         11)
             echo "You chose 'KobbleTiny-1.1B_iQ3xxs.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -212,7 +212,7 @@ case $CHOICE in
         12)
             echo "You chose 'KobbleTiny-1.1B_iQ4nl.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -228,7 +228,7 @@ case $CHOICE in
         13)
             echo "You chose 'KobbleTiny-1.1B_iQ4xs.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {

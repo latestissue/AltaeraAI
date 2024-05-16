@@ -35,7 +35,7 @@ case $CHOICE in
         1)
             echo "You chose 'mistral-7b-instruct-v0.2.Q2_K.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -51,7 +51,7 @@ case $CHOICE in
         2)
             echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_L.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -67,7 +67,7 @@ case $CHOICE in
         3)
             echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -83,7 +83,7 @@ case $CHOICE in
         4)
             echo "You chose 'mistral-7b-instruct-v0.2.Q3_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -99,7 +99,7 @@ case $CHOICE in
         5)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_0.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -115,7 +115,7 @@ case $CHOICE in
         6)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -131,7 +131,7 @@ case $CHOICE in
         7)
             echo "You chose 'mistral-7b-instruct-v0.2.Q4_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -147,7 +147,7 @@ case $CHOICE in
         8)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_0.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -163,7 +163,7 @@ case $CHOICE in
         9)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -180,7 +180,7 @@ case $CHOICE in
         10)
             echo "You chose 'mistral-7b-instruct-v0.2.Q5_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -197,7 +197,7 @@ case $CHOICE in
         11)
             echo "You chose 'mistral-7b-instruct-v0.2.Q6_K.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
@@ -214,7 +214,7 @@ case $CHOICE in
         12)
             echo "You chose 'mistral-7b-instruct-v0.2.Q8_0.gguf'
                         
-            To abort download, press 'Ctrl+C'
+            To abort download, press 'Ctrl+C' [don't forget to delete the file afterwards!]
             
             "
             {
