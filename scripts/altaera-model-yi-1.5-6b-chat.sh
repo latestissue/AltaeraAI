@@ -34,7 +34,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q2_K.gguf'
             
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -51,7 +51,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_L.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -68,7 +68,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -85,7 +85,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -102,7 +102,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q4_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -119,7 +119,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q4_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -136,7 +136,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q5_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -153,7 +153,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q5_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -170,7 +170,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat.Q6_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -188,7 +188,7 @@ case $CHOICE in
             echo "You chose 'Yi-1.5-6B-Chat-Q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {

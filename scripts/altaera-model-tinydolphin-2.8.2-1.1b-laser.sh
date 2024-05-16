@@ -41,7 +41,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.F16.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -58,7 +58,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.IQ3_XXS.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -75,7 +75,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q2_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -92,7 +92,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q3_K_L.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -109,7 +109,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q3_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -126,7 +126,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q3_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -143,7 +143,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q3_K_XS.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -160,7 +160,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q4_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -177,7 +177,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q4_1.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -195,7 +195,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q4_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -213,7 +213,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q4_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -231,7 +231,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q5_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -248,7 +248,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q5_1.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -265,7 +265,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q5_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -283,7 +283,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q5_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -301,7 +301,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q6_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
@@ -319,7 +319,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8.2-1.1b-laser.Q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            (don't forget to delete the file afterwards!)
+            [don't forget to delete the file afterwards!]
             
             "
             {
