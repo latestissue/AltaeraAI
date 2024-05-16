@@ -182,7 +182,7 @@ chmod a+x 'altaera-model_restore.sh'
 
 echo "Updating AltaeraAI core files...
 
-";
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);;
 
 {
 mv '/data/data/com.termux/files/home/AltaeraAI-temp' '/data/data/com.termux/files/home/AltaeraAI-tmp'
