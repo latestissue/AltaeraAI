@@ -35,7 +35,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'mamba-2.8b-q2_k.gguf'"
+            echo "You chose 'mamba-2.8b-q2_k.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -47,7 +51,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'mamba-2.8b-q3_k_l.gguf'"
+            echo "You chose 'mamba-2.8b-q3_k_l.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -59,7 +67,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'mamba-2.8b-q3_k_m.gguf'"
+            echo "You chose 'mamba-2.8b-q3_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -71,7 +83,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'mamba-2.8b-q3_k_s.gguf'"
+            echo "You chose 'mamba-2.8b-q3_k_s.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -83,7 +99,11 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'mamba-2.8b-q4_0.gguf'"
+            echo "You chose 'mamba-2.8b-q4_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -95,7 +115,11 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'mamba-2.8b-q4_k_m.gguf'"
+            echo "You chose 'mamba-2.8b-q4_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -107,7 +131,11 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'mamba-2.8b-q4_k_s.gguf'"
+            echo "You chose 'mamba-2.8b-q4_k_s.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -119,7 +147,11 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "You chose 'mamba-2.8b-q5_0.gguf'"
+            echo "You chose 'mamba-2.8b-q5_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -131,7 +163,11 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'mamba-2.8b-q5_k_m.gguf'"
+            echo "You chose 'mamba-2.8b-q5_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -144,7 +180,11 @@ case $CHOICE in
             ;;
 
         10)
-            echo "You chose 'mamba-2.8b-q5_k_s.gguf'"
+            echo "You chose 'mamba-2.8b-q5_k_s.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -157,7 +197,11 @@ case $CHOICE in
             ;;
 
         11)
-            echo "You chose 'mamba-2.8b-q6_k.gguf'"
+            echo "You chose 'mamba-2.8b-q6_k.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -170,7 +214,11 @@ case $CHOICE in
             ;;
 
         12)
-            echo "You chose 'mamba-2.8b-q8_0.gguf'"
+            echo "You chose 'mamba-2.8b-q8_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -183,7 +231,11 @@ case $CHOICE in
             ;;
             
         13)
-            echo "You chose 'mamba-2.8b-f16.gguf'"
+            echo "You chose 'mamba-2.8b-f16.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -195,7 +247,11 @@ case $CHOICE in
             clear
             ;;
         14)
-            echo "You chose 'mamba-2.8b-f32.gguf'"
+            echo "You chose 'mamba-2.8b-f32.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
