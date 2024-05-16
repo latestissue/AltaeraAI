@@ -33,7 +33,9 @@ case $CHOICE in
         1)
             echo "You chose 'Yi-1.5-6B-Chat.Q2_K.gguf'
             
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -47,7 +49,9 @@ case $CHOICE in
         2)
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_L.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -61,7 +65,9 @@ case $CHOICE in
         3)
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -75,7 +81,9 @@ case $CHOICE in
         4)
             echo "You chose 'Yi-1.5-6B-Chat.Q3_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -89,7 +97,9 @@ case $CHOICE in
         5)
             echo "You chose 'Yi-1.5-6B-Chat.Q4_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -103,7 +113,9 @@ case $CHOICE in
         6)
             echo "You chose 'Yi-1.5-6B-Chat.Q4_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -117,7 +129,9 @@ case $CHOICE in
         7)
             echo "You chose 'Yi-1.5-6B-Chat.Q5_K_M.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -131,7 +145,9 @@ case $CHOICE in
         8)
             echo "You chose 'Yi-1.5-6B-Chat.Q5_K_S.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -145,7 +161,9 @@ case $CHOICE in
         9)
             echo "You chose 'Yi-1.5-6B-Chat.Q6_K.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -160,7 +178,9 @@ case $CHOICE in
         10)
             echo "You chose 'Yi-1.5-6B-Chat-Q8_0.gguf'
                         
-            To abort download, press 'Ctrl+C'"
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
