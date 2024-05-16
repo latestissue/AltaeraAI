@@ -26,9 +26,24 @@ case $CHOICE in
 
         1)
             clear
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v4.9.2
+ 
+  "
             echo "Initializing update...
             
-            ";
+            " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-fast.sh -O 'altaera-update_content.sh'
@@ -40,9 +55,24 @@ case $CHOICE in
             ;;
         2)
             clear
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v4.9.2
+ 
+  "
             echo "Initializing update...
             
-            ";
+            " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow.sh -O 'altaera-update_content.sh'
@@ -54,9 +84,24 @@ case $CHOICE in
             ;;
         3)
             clear
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v4.9.2
+ 
+  "
             echo "Initializing update...
             
-            ";
+            " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas.sh -O 'altaera-update_content.sh'
@@ -68,9 +113,24 @@ case $CHOICE in
             ;;
         4)
             clear
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v4.9.2
+ 
+  "
             echo "Initializing update...
             
-            ";
+            " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
