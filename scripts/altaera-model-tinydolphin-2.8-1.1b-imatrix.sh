@@ -49,7 +49,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ1_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -66,7 +66,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ2_M.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -83,7 +83,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ2_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -100,7 +100,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XS.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -117,7 +117,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ2_XXS.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -134,7 +134,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ3_M.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -151,7 +151,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ3_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -168,7 +168,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XS.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -185,7 +185,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ3_XXS.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -203,7 +203,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ4_NL.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -221,7 +221,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.IQ4_XS.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -239,7 +239,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q2_K.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -256,7 +256,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q2_K_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -273,7 +273,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_L.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -290,7 +290,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_M.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -307,7 +307,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q3_K_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -324,7 +324,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q4_0.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -341,7 +341,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_M.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -358,7 +358,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q4_K_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -375,7 +375,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q5_0.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -392,7 +392,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q5_1.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -410,7 +410,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_M.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -428,7 +428,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q5_K_S.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -446,7 +446,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q6_K.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -463,7 +463,7 @@ case $CHOICE in
             echo "You chose 'tinydolphin-2.8-1.1b.Q8_0.imx.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {

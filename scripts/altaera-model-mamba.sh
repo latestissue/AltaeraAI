@@ -38,7 +38,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q2_k.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -55,7 +55,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q3_k_l.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -72,7 +72,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q3_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -89,7 +89,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q3_k_s.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -106,7 +106,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q4_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -123,7 +123,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q4_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -140,7 +140,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q4_k_s.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -157,7 +157,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q5_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -174,7 +174,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q5_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -192,7 +192,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q5_k_s.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -210,7 +210,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q6_k.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -228,7 +228,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -246,7 +246,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-f16.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -263,7 +263,7 @@ case $CHOICE in
             echo "You chose 'mamba-2.8b-f32.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {

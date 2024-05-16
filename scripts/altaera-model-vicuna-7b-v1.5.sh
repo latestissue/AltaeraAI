@@ -36,7 +36,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q2_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -53,7 +53,7 @@ case $CHOICE in
             echo "vicuna-7b-v1.5.Q3_K_L.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -70,7 +70,7 @@ case $CHOICE in
             echo "vicuna-7b-v1.5.Q3_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -87,7 +87,7 @@ case $CHOICE in
             echo "vicuna-7b-v1.5.Q3_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -104,7 +104,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q4_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -121,7 +121,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q4_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -138,7 +138,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q4_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -155,7 +155,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q5_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -172,7 +172,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q5_K_M.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -190,7 +190,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q5_K_S.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -208,7 +208,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q6_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -226,7 +226,7 @@ case $CHOICE in
             echo "You chose 'vicuna-7b-v1.5.Q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {

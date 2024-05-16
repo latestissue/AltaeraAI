@@ -30,7 +30,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q2_k.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -47,7 +47,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q3_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -64,7 +64,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q4_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -81,7 +81,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q5_k_m.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -98,7 +98,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q6_k.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -115,7 +115,7 @@ case $CHOICE in
             echo "You chose 'tiny-vicuna-1b.q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {

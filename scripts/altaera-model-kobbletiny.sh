@@ -28,7 +28,7 @@ case $CHOICE in
             echo "You chose 'KobbleTiny-Q4_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -45,7 +45,7 @@ case $CHOICE in
             echo "You chose 'KobbleTiny-Q6_K.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -62,7 +62,7 @@ case $CHOICE in
             echo "You chose 'KobbleTiny-Q8_0.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
@@ -79,7 +79,7 @@ case $CHOICE in
             echo "You chose 'KobbleTiny-f16.gguf'
                         
             To abort download, press 'Ctrl+C'
-            [don't forget to delete the file afterwards!]
+            [don't forget to delete the file afterwards]
             
             "
             {
