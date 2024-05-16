@@ -28,7 +28,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
+            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -40,7 +44,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
+            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -52,7 +60,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
+            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -64,7 +76,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
+            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -76,7 +92,11 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
+            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -88,7 +108,11 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
+            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -100,7 +124,11 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
+            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
