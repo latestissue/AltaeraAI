@@ -33,7 +33,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q2_K.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q2_K.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -45,7 +49,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -57,7 +65,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -69,7 +81,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -81,7 +97,11 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_0.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -93,7 +113,11 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -105,7 +129,11 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -117,7 +145,11 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_0.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -129,7 +161,11 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -142,7 +178,11 @@ case $CHOICE in
             ;;
 
         10)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -155,7 +195,11 @@ case $CHOICE in
             ;;
 
         11)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q6_K.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q6_K.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -168,7 +212,11 @@ case $CHOICE in
             ;;
 
         12)
-            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q8_0.gguf'"
+            echo "You chose 'tinyllama-1.1b-chat-v1.0.Q8_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
