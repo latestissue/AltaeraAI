@@ -27,7 +27,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'tiny-vicuna-1b.q2_k.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q2_k.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -39,7 +43,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'tiny-vicuna-1b.q3_k_m.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q3_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -51,7 +59,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'tiny-vicuna-1b.q4_k_m.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q4_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -63,7 +75,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'tiny-vicuna-1b.q5_k_m.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q5_k_m.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -75,7 +91,11 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'tiny-vicuna-1b.q6_k.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q6_k.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -87,7 +107,11 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'tiny-vicuna-1b.q8_0.gguf'"
+            echo "You chose 'tiny-vicuna-1b.q8_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
