@@ -25,7 +25,11 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'KobbleTiny-Q4_K.gguf'"
+            echo "You chose 'KobbleTiny-Q4_K.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -37,7 +41,11 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'KobbleTiny-Q6_K.gguf'"
+            echo "You chose 'KobbleTiny-Q6_K.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -49,7 +57,11 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'KobbleTiny-Q8_0.gguf'"
+            echo "You chose 'KobbleTiny-Q8_0.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
@@ -61,7 +73,11 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'KobbleTiny-f16.gguf'"
+            echo "You chose 'KobbleTiny-f16.gguf'
+                        
+            To abort download, press 'Ctrl+C'
+            
+            "
             {
             mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             } &> /dev/null 2>&1;
