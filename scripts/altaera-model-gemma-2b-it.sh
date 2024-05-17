@@ -43,7 +43,7 @@ case $CHOICE in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -80,7 +80,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -117,7 +117,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -154,7 +154,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -191,7 +191,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -228,7 +228,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -265,7 +265,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -302,7 +302,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -339,7 +339,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -376,7 +376,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -413,7 +413,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -450,7 +450,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -487,7 +487,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
@@ -524,7 +524,7 @@ case $response in
         --backtitle "AltaeraAI - Notice" \
         --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
 
-By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
+By confirming, you are stating that you accept the Terms of Use provided in the previous window, as well as the Use Restrictions found in Section 3.2 of the attached URL link" 10 60
 
 response=$?
 case $response in
