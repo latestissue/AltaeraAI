@@ -39,9 +39,16 @@ case $CHOICE in
             termux-open-url 'https://ai.google.dev/gemma/terms'
             ;;
         2)
-            dialog --title "Check for updates" \
-        --backtitle "AltaeraAI" \
-        --yesno "Would you like to check for updates?" 7 60
+            dialog --title "Gemma-2B-it GGUF" \
+        --backtitle "AltaeraAI - Notice" \
+        --yesno "Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
+By confirming, you are stating that you accept Terms of Use provided in the previous window, as well as those below:"
+                    Use Restrictions
+            You must not use any of the Gemma Services:
+
+for the restricted uses set forth in the Gemma Prohibited Use Policy at ai.google.dev/gemma/prohibited_use_policy ("Prohibited Use Policy"), which is hereby incorporated by reference into this Agreement; or
+in violation of applicable laws and regulations.
+To the maximum extent permitted by law, Google reserves the right to restrict (remotely or otherwise) usage of any of the Gemma Services that Google reasonably believes are in violation of this Agreement. 7 60
 
 response=$?
 case $response in
