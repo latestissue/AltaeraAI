@@ -24,7 +24,9 @@ OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
          15 "Phi-3-mini-4k-instruct [...]"
          16 "Phi-2-DPO [...]"
          17 "Yi-1.5-6B-Chat [...]"
-         18 "Do not download AI Model (?) - [...]")
+         18 "Gemma-2B-it [...]"
+         19 "Gemma-7B-it [...]"
+         20 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -191,6 +193,24 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         18)
+        echo "You chose 'Gemma-2B-it...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-2b-it.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        19)
+        echo "You chose 'Gemma-7B-it...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-7b-it.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        20)
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -199,4 +219,5 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
+            
 esac
