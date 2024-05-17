@@ -38,7 +38,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.2
+  AltaeraAI - v4.9.3
  
   "
             echo "Initializing update...
@@ -67,7 +67,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.2
+  AltaeraAI - v4.9.3
  
   "
             echo "Initializing update...
@@ -96,7 +96,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.2
+  AltaeraAI - v4.9.3
  
   "
             echo "Initializing update...
@@ -125,7 +125,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.2
+  AltaeraAI - v4.9.3
  
   "
             echo "Initializing update...
