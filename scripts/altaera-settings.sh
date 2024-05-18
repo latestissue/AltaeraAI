@@ -8,7 +8,8 @@ TITLE="AltaeraAI - Settings"
 MENU="What would you like to change?"
 
 OPTIONS=(1 "[...] Go Back"
-         2 "Automatic update checks [...]")
+         2 "Automatic Update Checks [...]"
+	 3 "Dialog Theme")
          
 
 CHOICE=$(dialog --clear \
@@ -27,6 +28,11 @@ case $CHOICE in
         2)
             clear
             './AltaeraAI/altaera-settings_auto_updates.sh'
+            './AltaeraAI/altaera-settings.sh'
+            ;;
+        3)
+            clear
+            './AltaeraAI/altaera-settings_dialog_theme.sh'
             './AltaeraAI/altaera-settings.sh'
             ;;
 esac
