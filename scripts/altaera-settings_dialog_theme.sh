@@ -4,8 +4,8 @@ HEIGHT=20
 WIDTH=60
 CHOICE_HEIGHT=7
 BACKTITLE="AltaeraAI - Settings"
-TITLE="Dialog Theme"
-MENU="Would you like to turn ON, or turn OFF black dialog theme?"
+TITLE="Dialog Theme [MENU]"
+MENU="Would you like to turn ON, or turn OFF black dialog theme [MENU]?"
 
 OPTIONS=(1 "[...] Go Back"
          2 "Turn ON"
