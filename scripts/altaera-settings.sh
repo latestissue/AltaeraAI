@@ -9,7 +9,7 @@ MENU="What would you like to change?"
 
 OPTIONS=(1 "[...] Go Back"
          2 "Automatic Update Checks [...]"
-	 3 "Dialog Theme [...]")
+	 3 "Dialog Theme (MENU) [...]")
          
 
 CHOICE=$(dialog --clear \
