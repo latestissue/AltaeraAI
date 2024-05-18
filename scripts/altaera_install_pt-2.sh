@@ -67,6 +67,9 @@ chmod a+x 'altaera-changelog_cli.sh'
 rm -rf 'altaera-settings_auto_updates.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings_auto_updates.sh
 chmod a+x 'altaera-settings_auto_updates.sh'
+rm -rf 'altaera-settings_dialog_theme.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-settings_dialog_theme.sh
+chmod a+x 'altaera-settings_dialog_theme.sh
 rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
 chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
