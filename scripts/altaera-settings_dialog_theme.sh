@@ -40,6 +40,6 @@ sed -i '/^screen_color = (CYAN,BLACK,ON)/d' ~/.dialogrc
 echo "screen_color = (CYAN,BLUE,ON)" >> ~/.dialogrc
 proot-distro login altaera -- ./dialog_theme-off.sh &
 exit
-} &> /dev/null 2>&1;'
+} &> /dev/null 2>&1;
             ;;
 esac
