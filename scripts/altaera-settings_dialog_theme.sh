@@ -35,6 +35,7 @@ exit
 } &> /dev/null 2>&1;
             ;;
         3)
+            {
             dialog --create-rc ~/.dialogrc
 sed -i '/^screen_color = (CYAN,BLACK,ON)/d' ~/.dialogrc
 echo "screen_color = (CYAN,BLUE,ON)" >> ~/.dialogrc
