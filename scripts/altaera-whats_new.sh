@@ -8,6 +8,6 @@ dialog --backtitle "AltaeraAI" \
     * v4.9.2 - added Yi-1.5-6B-Chat weights to the list of models
     * v4.9.1 - added "Benchmark" mode to test AI models (--benchmark flag - KoboldCpp), into the MENU
     * v4.9 – updated to koboldcpp-1.65
-' 300 100
+' 100 100
 
 exit
