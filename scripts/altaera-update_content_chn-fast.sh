@@ -112,6 +112,9 @@ chmod a+x 'altaera-check_for_updates.sh'
 rm -rf 'altaera-up_to_date.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-up_to_date.sh
 chmod a+x 'altaera-up_to_date.sh'
+rm -rf 'altaera-whats_new.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-whats_new.sh
+chmod a+x 'altaera-whats_new.sh'
 rm -rf 'altaera-update_available.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_available_chn.sh -O 'altaera-update_available.sh'
 chmod a+x 'altaera-update_available.sh'
