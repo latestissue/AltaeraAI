@@ -48,7 +48,7 @@ case $CHOICE in
 
   	function random_message() {
     # Array of random messages
-    messages=("that Whitney Houston's debut LP, called simply Whitney Houston, had four number-one singles on it?" "that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
 
     # Generate a random index
     index=$(( RANDOM % ${#messages[@]} ))
@@ -102,7 +102,7 @@ echo "________________________________________________________________
 
   	function random_message() {
     # Array of random messages
-    messages=("that Whitney Houston's debut LP, called simply Whitney Houston, had four number-one singles on it?" "that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
 
     # Generate a random index
     index=$(( RANDOM % ${#messages[@]} ))
@@ -156,7 +156,7 @@ echo "________________________________________________________________
 
   	function random_message() {
     # Array of random messages
-    messages=("that Whitney Houston's debut LP, called simply Whitney Houston, had four number-one singles on it?" "that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
 
     # Generate a random index
     index=$(( RANDOM % ${#messages[@]} ))
@@ -210,7 +210,7 @@ echo "________________________________________________________________
 
   	function random_message() {
     # Array of random messages
-    messages=("that Whitney Houston's debut LP, called simply Whitney Houston, had four number-one singles on it?" "that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
 
     # Generate a random index
     index=$(( RANDOM % ${#messages[@]} ))
