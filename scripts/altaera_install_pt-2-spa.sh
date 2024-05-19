@@ -33,10 +33,13 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-configuration.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-ngrok-on.sh
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_contextsize.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model_remove.sh
+
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_no-check.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-whats_new.sh
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-auto-update_available.sh
+chmod a+x 'altaera_no-check'
+chmod a+x 'altaera-whats_new.sh'
+chmod a+x 'altaera-auto-update_available.sh'
 
 chmod a+x 'altaera-check_for_updates.sh'
 chmod a+x 'altaera-up_to_date.sh'
