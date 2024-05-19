@@ -115,6 +115,12 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera-model_backup-restore.sh'
 chmod a+x 'altaera-model_restore.sh'
 
+cd '/data/data/com.termux/files/home'
+
+dialog --create-rc ~/.dialogrc
+sed -i '/^screen_color = (CYAN,BLUE,ON)/d' ~/.dialogrc
+echo "screen_color = (CYAN,BLACK,ON)" >> ~/.dialogrc
+
 cd '/data/data/com.termux/files/usr/etc/'
 
 sed -i '/^altaera/d' bash.bashrc

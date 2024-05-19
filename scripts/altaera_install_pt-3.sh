@@ -31,6 +31,9 @@ rm -rf "/etc/bash.bashrc"
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
+dialog --create-rc ~/.dialogrc
+sed -i '/^screen_color = (CYAN,BLUE,ON)/d' ~/.dialogrc
+echo "screen_color = (CYAN,BLACK,ON)" >> ~/.dialogrc
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera.sh
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
@@ -76,6 +79,9 @@ rm -rf "/etc/bash.bashrc"
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/bash.bashrc
 cp 'bash.bashrc' "/etc"
 rm -rf 'bash.bashrc'
+dialog --create-rc ~/.dialogrc
+sed -i '/^screen_color = (CYAN,BLUE,ON)/d' ~/.dialogrc
+echo "screen_color = (CYAN,BLACK,ON)" >> ~/.dialogrc
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera.sh
 chmod a+x 'altaera.sh'
 rm -rf 'altaera-model_list.sh'
