@@ -38,7 +38,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.4
+  AltaeraAI - v4.9.3
 
   "
 
@@ -66,13 +66,6 @@ random_message
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
-echo "
- --------
-  Update
- --------
- 
-  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
-
             echo "Initializing update...
 
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
@@ -94,12 +87,12 @@ echo "
       ██  █
      ██   █
      █    ████████
-    ██    █                                                    --------
+    ██    █
    ████████
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.4
+  AltaeraAI - v4.9.3
 
   "
 
@@ -126,13 +119,6 @@ random_message
 
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
-
-echo "
- --------
-  Update
- --------
- 
-  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
             echo "Initializing update...
 
@@ -155,12 +141,12 @@ echo "
       ██  █
      ██   █
      █    ████████
-    ██    █                                                    --------
+    ██    █
    ████████
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.4
+  AltaeraAI - v4.9.3
 
   "
 
@@ -187,13 +173,6 @@ random_message
 
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
-
-echo "
- --------
-  Update
- --------
- 
-  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
             echo "Initializing update...
 
@@ -216,12 +195,12 @@ echo "
       ██  █
      ██   █
      █    ████████
-    ██    █                                                    --------
+    ██    █
    ████████
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.4
+  AltaeraAI - v4.9.3
 
   "
 
@@ -248,13 +227,6 @@ random_message
 
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
-
-echo "
- --------
-  Update
- --------
- 
-  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
             echo "Initializing update...
 
