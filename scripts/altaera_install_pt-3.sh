@@ -36,18 +36,16 @@ sed -i '/^screen_color = (CYAN,BLUE,ON)/d' ~/.dialogrc
 echo "screen_color = (CYAN,BLACK,ON)" >> ~/.dialogrc
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera.sh
 chmod a+x 'altaera.sh'
-rm -rf 'altaera-model_list.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/benchmark.sh
+chmod a+x 'benchmark.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_list.sh
 chmod a+x 'altaera-model_list.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
-rm -rf 'altaera-model_backup.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
-rm -rf 'dialog_theme_on.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-on.sh
 chmod a+x 'dialog_theme_on.sh'
-rm -rf 'dialog_theme_off.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-off.sh
 chmod a+x 'dialog_theme_off.sh'
 wget https://github.com/latestissue/AltaeraAI/releases/download/v3.7/altaera-v4.9.tar.gz
@@ -84,18 +82,16 @@ sed -i '/^screen_color = (CYAN,BLUE,ON)/d' ~/.dialogrc
 echo "screen_color = (CYAN,BLACK,ON)" >> ~/.dialogrc
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera.sh
 chmod a+x 'altaera.sh'
-rm -rf 'altaera-model_list.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/benchmark.sh
+chmod a+x 'benchmark.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_list.sh
 chmod a+x 'altaera-model_list.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_remove_in.sh
 chmod a+x 'altaera-model_remove_in.sh'
-rm -rf 'altaera-model_backup.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/altaera-model_backup.sh
 chmod a+x 'altaera-model_backup.sh'
-rm -rf 'dialog_theme_on.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-on.sh
 chmod a+x 'dialog_theme_on.sh'
-rm -rf 'dialog_theme_off.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-off.sh
 chmod a+x 'dialog_theme_off.sh'
 git clone https://github.com/LostRuins/koboldcpp
