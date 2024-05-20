@@ -239,7 +239,6 @@ echo "________________________________________________________________
             bash 'altaera-update_content.sh'
             clear
             bash 'AltaeraAI/altaera-updated_successfully.sh'
-            exit
             ;;
 
 esac
