@@ -9,7 +9,6 @@ case $response in
 
         0)      
         bash 'AltaeraAI/altaera-update.sh'
-        exit
           ;;
         1) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
         255) ./data/data/com.termux/files/home/AltaeraAI/altaera.sh;;
