@@ -187,4 +187,3 @@ echo "Updating AltaeraAI PRoot Distro environment (Artix Linux)..." | sed  -e :a
 proot-distro login altaera -- ./upgrade.sh &
 clear
 } &> /dev/null 2>&1;
-exit
