@@ -8,20 +8,20 @@ TITLE="AI Model Selection"
 MENU="Choose your desired Gemma-2B-it GGUF model size/strategy:"
 
 OPTIONS=(1 "Gemma Terms of Use [URL] - [Must Read Before]"
-         2 "gemma-2b-it.Q2_K.gguf"
-         3 "gemma-2b-it.Q3_K_L.gguf"
-         4 "gemma-2b-it.Q3_K_M.gguf"
-         5 "gemma-2b-it.Q3_K_S.gguf"
-         6 "gemma-2b-it.Q4_0.gguf"
-         7 "gemma-2b-it.Q4_1.gguf"
-         8 "gemma-2b-it.Q4_K_M.gguf"
-         9 "gemma-2b-it.Q4_K_S.gguf"
-         10 "gemma-2b-it.Q5_0.gguf"
-         11 "gemma-2b-it.Q5_1.gguf"
-         12 "gemma-2b-it.Q5_K_M.gguf"
-         13 "gemma-2b-it.Q5_K_S.gguf"
-         14 "gemma-2b-it.Q6_K.gguf"
-         15 "gemma-2b-it.Q8_0.gguf")
+         2 "gemma-2b-it.Q2_K.gguf \ 900 MB"
+         3 "gemma-2b-it.Q3_K_L.gguf \ 1.26 GB"
+         4 "gemma-2b-it.Q3_K_M.gguf \ 1.18 GB"
+         5 "gemma-2b-it.Q3_K_S.gguf \ 1.08 GB"
+         6 "gemma-2b-it.Q4_0.gguf \ 1.42 GB"
+         7 "gemma-2b-it.Q4_1.gguf \ 1.57 GB"
+         8 "gemma-2b-it.Q4_K_M.gguf \ 1.5 GB"
+         9 "gemma-2b-it.Q4_K_S.gguf \ 1.42 GB"
+         10 "gemma-2b-it.Q5_0.gguf \ 1.73 GB"
+         11 "gemma-2b-it.Q5_1.gguf \ 1.89 GB"
+         12 "gemma-2b-it.Q5_K_M.gguf \ 1.77 GB"
+         13 "gemma-2b-it.Q5_K_S.gguf \ 1.73 GB"
+         14 "gemma-2b-it.Q6_K.gguf \ 2.06 GB"
+         15 "gemma-2b-it.Q8_0.gguf \ 2.67 GB")
 
 
 CHOICE=$(dialog --clear \
@@ -50,7 +50,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q2_K.gguf'
+                    echo "You chose 'gemma-2b-it.Q2_K.gguf \ 900 MB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -87,7 +87,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q3_K_L.gguf'
+                    echo "You chose 'gemma-2b-it.Q3_K_L.gguf \ 1.26 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -124,7 +124,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q3_K_M.gguf'
+                    echo "You chose 'gemma-2b-it.Q3_K_M.gguf \ 1.18 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -161,7 +161,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q3_K_S.gguf'
+                    echo "You chose 'gemma-2b-it.Q3_K_S.gguf \ 1.08 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -198,7 +198,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q4_0.gguf'
+                    echo "You chose 'gemma-2b-it.Q4_0.gguf \ 1.42 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -235,7 +235,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q4_1.gguf'
+                    echo "You chose 'gemma-2b-it.Q4_1.gguf \ 1.57 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -272,7 +272,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q4_K_M.gguf'
+                    echo "You chose 'gemma-2b-it.Q4_K_M.gguf \ 1.5 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -309,7 +309,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q4_K_S.gguf'
+                    echo "You chose 'gemma-2b-it.Q4_K_S.gguf \ 1.42 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -346,7 +346,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q5_0.gguf'
+                    echo "You chose 'gemma-2b-it.Q5_0.gguf \ 1.73 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -383,7 +383,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q5_1.gguf'
+                    echo "You chose 'gemma-2b-it.Q5_1.gguf \ 1.89 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -420,7 +420,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q5_K_M.gguf'
+                    echo "You chose 'gemma-2b-it.Q5_K_M.gguf \ 1.77 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -457,7 +457,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q5_K_S.gguf'
+                    echo "You chose 'gemma-2b-it.Q5_K_S.gguf \ 1.73 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -494,7 +494,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q6_K.gguf'
+                    echo "You chose 'gemma-2b-it.Q6_K.gguf \ 2.06 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -531,7 +531,7 @@ case $response in
 
         0)      
                     clear
-                    echo "You chose 'gemma-2b-it.Q8_0.gguf'
+                    echo "You chose 'gemma-2b-it.Q8_0.gguf \ 2.67 GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
