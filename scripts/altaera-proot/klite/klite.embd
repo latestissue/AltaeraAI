@@ -9273,11 +9273,11 @@ Current version: 138
 		gentxt = end_trim_to_sentence(gentxt,true);
 		if(temp_automem_store.trim()=="")
 		{
-			document.getElementById("memorytext").value = "[Memory Formed: "+gentxt+"]";
+			document.getElementById("memorytext").value = "[Summary: "+gentxt+"]";
 		}
 		else
 		{
-			document.getElementById("memorytext").value = temp_automem_store + "\n\n[Memory Formation Continued: "+gentxt+"]";
+			document.getElementById("memorytext").value = temp_automem_store + "\n\n[Summary Continued: "+gentxt+"]";
 		}
 
 	}
