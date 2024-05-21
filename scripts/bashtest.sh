@@ -62,7 +62,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
         
@@ -88,7 +88,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -105,7 +105,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -122,7 +122,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -139,7 +139,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -156,7 +156,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -173,7 +173,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -190,7 +190,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -207,7 +207,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -224,7 +224,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -241,7 +241,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -258,7 +258,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -275,7 +275,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -292,7 +292,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -309,7 +309,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -326,7 +326,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -343,7 +343,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -360,7 +360,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -377,7 +377,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -394,7 +394,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
@@ -411,7 +411,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'Q3_K_L-llama-2-7b-chat.gguf' -q --show-progress
+            wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf -O 'llama-2-7b-chat.Q3_K_L.gguf \ 3.6 GB' -q --show-progress
             cd /root
             clear
             ;;
