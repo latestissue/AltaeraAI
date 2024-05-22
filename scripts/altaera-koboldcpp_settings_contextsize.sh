@@ -42,27 +42,27 @@ case $CHOICE in
             ;;
         3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/--contextsize/c\--contextsize 8888' altaera.sh
+            sed -i '/--contextsize/c\--contextsize 512' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/--contextsize/c\--contextsize 512' altaera.sh
+            sed -i '/--contextsize/c\--contextsize 1024' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/--contextsize/c\--contextsize 1024' altaera.sh
+            sed -i '/--contextsize/c\--contextsize 3072' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/--contextsize/c\--contextsize 3072' altaera.sh
+            sed -i '/--contextsize/c\--contextsize 4096' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/--contextsize/c\--contextsize 4096' altaera.sh
+            sed -i '/--contextsize/c\--contextsize 6144' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         8)
