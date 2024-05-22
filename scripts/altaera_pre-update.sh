@@ -29,7 +29,7 @@
   ██      █
   █       ████████
 
-  AltaeraAI - v4.9.4
+  AltaeraAI - v4.9.5
 
   "
 
