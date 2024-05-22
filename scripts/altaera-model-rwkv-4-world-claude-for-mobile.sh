@@ -7,13 +7,13 @@ BACKTITLE="AltaeraAI - AI Model Settings"
 TITLE="AI Model Selection"
 MENU="Choose your desired RWKV-4-World-Claude-for-Mobile model size:"
 
-OPTIONS=(1 "f16-RWKV-for-mobile-4-world-1.5B  3.16GB"
-         2 "f32-RWKV-for-mobile-4-world-1.5B  6.31GB"
-         3 "q4_0-RWKV-for-mobile-4-world-1.5B  1.28GB"
-         4 "q4_1-RWKV-for-mobile-4-world-1.5B  1.36GB"
-         5 "q5_0-RWKV-for-mobile-4-world-1.5B  1.44GB"
-         6 "q5_1-RWKV-for-mobile-4-world-1.5B  1.52GB"
-         7 "q8_0-RWKV-for-mobile-4-world-1.5B  1.93GB")
+OPTIONS=(1 "f16-RWKV-for-mobile-4-world-1.5B \ 3.16GB"
+         2 "f32-RWKV-for-mobile-4-world-1.5B \ 6.31GB"
+         3 "q4_0-RWKV-for-mobile-4-world-1.5B \ 1.28GB"
+         4 "q4_1-RWKV-for-mobile-4-world-1.5B \ 1.36GB"
+         5 "q5_0-RWKV-for-mobile-4-world-1.5B \ 1.44GB"
+         6 "q5_1-RWKV-for-mobile-4-world-1.5B \ 1.52GB"
+         7 "q8_0-RWKV-for-mobile-4-world-1.5B \ 1.93GB")
 
 
 CHOICE=$(dialog --clear \
