@@ -38,73 +38,73 @@ case $CHOICE in
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 2048" >> altaera.sh
+            echo "--contextsize 2048 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         3)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 512" >> altaera.sh
+            echo "--contextsize 512 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         4)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 1024" >> altaera.sh
+            echo "--contextsize 1024 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         5)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 3072" >> altaera.sh
+            echo "--contextsize 3072 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         6)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 4096" >> altaera.sh
+            echo "--contextsize 4096 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         7)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 6144" >> altaera.sh
+            echo "--contextsize 6144 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         8)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 8192" >> altaera.sh
+            echo "--contextsize 8192 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         9)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 12288" >> altaera.sh
+            echo "--contextsize 12288 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         10)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 16384" >> altaera.sh
+            echo "--contextsize 16384 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         11)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 24576" >> altaera.sh
+            echo "--contextsize 24576 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         12)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 32768" >> altaera.sh
+            echo "--contextsize 32768 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         13)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
             sed -i '/^--contextsize/d' altaera.sh
-            echo "--contextsize 65536" >> altaera.sh
+            echo "--contextsize 65536 /" >> altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
 esac
