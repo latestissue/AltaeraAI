@@ -27,8 +27,7 @@ case $CHOICE in
             ;;
         2)
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root'
-            sed -i '/^--flashattention/d' altaera.sh
-            echo "--flashattention" >> altaera.sh
+            sed -i '/python3 koboldcpp.py $file 1551 \\/c\python3 koboldcpp.py $file 1551 \\ \n--flashattention \\' altaera.sh
             cd '/data/data/com.termux/files/home'
             ;;
         3)
