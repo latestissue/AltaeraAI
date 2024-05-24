@@ -37,7 +37,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf \ 668 MB -O 'Q4_K-KobbleTiny.gguf' -q --show-progress
+            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q4_K.gguf -O 'Q4_K-KobbleTiny.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -54,7 +54,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q6_K.gguf \ 903 MB -O 'Q6_K-KobbleTiny.gguf' -q --show-progress
+            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q6_K.gguf -O 'Q6_K-KobbleTiny.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -71,7 +71,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q8_0.gguf \ 1.17 GB -O 'Q8_0-KobbleTiny.gguf' -q --show-progress
+            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-Q8_0.gguf -O 'Q8_0-KobbleTiny.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -88,7 +88,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-f16.gguf \ 2.2 GB -O 'f16-KobbleTiny.gguf' -q --show-progress
+            wget https://huggingface.co/concedo/KobbleTinyV2-1.1B-GGUF/resolve/main/KobbleTiny-f16.gguf -O 'f16-KobbleTiny.gguf' -q --show-progress
             cd /root
             clear
             ;;
