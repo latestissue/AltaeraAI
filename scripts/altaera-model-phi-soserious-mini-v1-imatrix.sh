@@ -48,7 +48,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'Phi-SoSerious-Mini-V1-IQ1_M.gguf \ 917 MB'Phi-SoSerious-Mini-V1-IQ1_S.gguf \ 842 MB
+            echo "You chose 'Phi-SoSerious-Mini-V1-IQ1_M.gguf \ 917 MB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
