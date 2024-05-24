@@ -22,11 +22,13 @@ OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
          13 "Vicuna-7B-v1.5 [...]"
          14 "Mamba [...]"
          15 "Phi-3-mini-4k-instruct [...]"
-         16 "Phi-2-DPO [...]"
-         17 "Yi-1.5-6B-Chat [...]"
-         18 "Gemma-2B-it [...]"
-         19 "Gemma-7B-it [...]"
-         20 "Do not download AI Model (?) - [...]")
+         16 "Phi-SoSerious-Mini-V1 [...]"
+         17 "Phi-SoSerious-Mini-V1-imatrix [...]"
+         18 "Phi-2-DPO [...]"
+         19 "Yi-1.5-6B-Chat [...]"
+         20 "Gemma-2B-it [...]"
+         21 "Gemma-7B-it [...]"
+         22 "Do not download AI Model (?) - [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -175,6 +177,24 @@ case $CHOICE in
             bash altaera_install_pt-1.sh
             ;;
         16)
+        echo "You chose 'Phi-SoSerious-Mini-V1...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        17)
+        echo "You chose 'Phi-SoSerious-Mini-V1-imatrix...'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1-imatrix.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        18)
         echo "You chose 'Phi-2-DPO...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -183,7 +203,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        17)
+        19)
         echo "You chose 'Yi-1.5-6B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -192,7 +212,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        18)
+        20)
         echo "You chose 'Gemma-2B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -201,7 +221,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        19)
+        21)
         echo "You chose 'Gemma-7B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -210,7 +230,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        20)
+        22)
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
