@@ -101,6 +101,12 @@ chmod a+x 'altaera-model-mamba.sh'
 rm -rf 'altaera-model-llama-3-8b-instruct.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-llama-3-8b-instruct.sh
 chmod a+x 'altaera-model-llama-3-8b-instruct.sh'
+rm -rf 'altaera-model-phi-soserious-mini-v1.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-soserious-mini-v1.sh
+chmod a+x 'altaera-model-phi-soserious-mini-v1.sh'
+rm -rf 'altaera-model-phi-soserious-mini-v1-imatrix.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-phi-soserious-mini-v1-imatrix.sh
+chmod a+x 'altaera-model-phi-soserious-mini-v1-imatrix.sh'
 rm -rf 'altaera-model-mistral-7b-instruct-v0.2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-mistral-7b-instruct-v0.2.sh
 chmod a+x 'altaera-model-mistral-7b-instruct-v0.2.sh'
