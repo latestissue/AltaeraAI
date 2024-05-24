@@ -58,7 +58,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q2_K.gguf \ 3.48 GB -O 'Q2_K.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q2_K.gguf -O 'Q2_K.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -95,7 +95,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_L.gguf \ 4.71 GB -O 'Q3_K_L.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_L.gguf -O 'Q3_K_L.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -132,7 +132,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_M.gguf \ 4.37 GB -O 'Q3_K_M.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_M.gguf -O 'Q3_K_M.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -169,7 +169,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_S.gguf \ 3.98 GB -O 'Q3_K_S.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q3_K_S.gguf -O 'Q3_K_S.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -206,7 +206,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q4_K_M.gguf \ 5.33 GB -O 'Q4_K_M.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q4_K_M.gguf -O 'Q4_K_M.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -243,7 +243,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q4_K_S.gguf \ 5.05 GB -O 'Q4_K_S.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q4_K_S.gguf -O 'Q4_K_S.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -280,7 +280,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q5_K_M.gguf \ 6.14 GB -O 'Q5_K_M.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q5_K_M.gguf -O 'Q5_K_M.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -317,7 +317,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q5_K_S.gguf \ 5.98 GB -O 'Q5_K_S.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q5_K_S.gguf -O 'Q5_K_S.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -354,7 +354,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q6_K.gguf \ 7.01 GB -O 'Q6_K.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q6_K.gguf -O 'Q6_K.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
@@ -391,7 +391,7 @@ case $response in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q8_0.gguf \ 9.08 GB -O 'Q8_0.gemma-7b-it.gguf' -q --show-progress
+            wget https://huggingface.co/brittlewis12/gemma-7b-it-GGUF/resolve/main/gemma-7b-it.Q8_0.gguf -O 'Q8_0.gemma-7b-it.gguf' -q --show-progress
             cd /root
             clear
         
