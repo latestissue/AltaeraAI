@@ -23,10 +23,12 @@ OPTIONS=(1 "[...] Go Back"
 	 14 "Vicuna-7B-v1.5 [...]"
 	 15 "Mamba [...]"
 	 16 "Phi-3-mini-4k-instruct [...]"
-  	 17 "Phi-2-DPO-GGUF [...]"
-  	 18 "Yi-1.5-6B-Chat [...]"
-  	 19 "Gemma-2B-it [...]"
-  	 20 "Gemma-7B-it [...]")
+	 17 "Phi-SoSerious-Mini-V1 [...]"
+	 18 "Phi-SoSerious-Mini-V1-imatrix [...]"
+  	 19 "Phi-2-DPO-GGUF [...]"
+  	 20 "Yi-1.5-6B-Chat [...]"
+  	 21 "Gemma-2B-it [...]"
+  	 22 "Gemma-7B-it [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -137,18 +139,26 @@ fi
     		;;
 
     	17)
-     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-soserious-mini-v1.sh'
     		;;
       
     	18)
-     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-yi-1.5-6b-chat.sh'
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-soserious-mini-v1-imatrix.sh'
     		;;
-      
+
     	19)
-     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-gemma-2b-it.sh'
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-phi-2-dpo.sh'
     		;;
       
     	20)
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-yi-1.5-6b-chat.sh'
+    		;;
+      
+    	21)
+     		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-gemma-2b-it.sh'
+    		;;
+      
+    	22)
      		bash '/data/data/com.termux/files/home/AltaeraAI/altaera-model-gemma-7b-it.sh'
     		;;
       
