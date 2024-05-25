@@ -39,7 +39,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q2_k.gguf \ 482 MB -O 'q2_k.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q2_k.gguf -O 'q2_k.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -56,7 +56,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q3_k_m.gguf \ 550 MB -O 'q3_k_m.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q3_k_m.gguf -O 'q3_k_m.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -73,7 +73,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q4_k_m.gguf \ 668 MB -O 'q4_k_m.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q4_k_m.gguf -O 'q4_k_m.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -90,7 +90,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q5_k_m.gguf \ 782 MB -O 'q5_k_m.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q5_k_m.gguf -O 'q5_k_m.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -107,7 +107,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q6_k.gguf \ 903 MB -O 'q6_k.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q6_k.gguf -O 'q6_k.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
@@ -124,7 +124,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q8_0.gguf \ 1.17 GB -O 'q8_0.tiny-vicuna-1b.gguf' -q --show-progress
+            wget https://huggingface.co/afrideva/Tiny-Vicuna-1B-GGUF/resolve/main/tiny-vicuna-1b.q8_0.gguf -O 'q8_0.tiny-vicuna-1b.gguf' -q --show-progress
             cd /root
             clear
             ;;
