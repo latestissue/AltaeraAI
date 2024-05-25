@@ -228,8 +228,8 @@ rm -rf 'upgrade.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/upgrade.sh
 chmod a+x 'upgrade.sh'
 rm -rf 'ngrok-authtoken.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v4.9/altaera-v4.9.tar.gz
-tar -xf 'altaera-v4.9.tar.gz'
+wget https://github.com/latestissue/AltaeraAI/releases/download/v5.0/altaera-v5.0.tar.gz
+tar -xf 'altaera-v5.0.tar.gz'
 cd 'kcpp-ae'
 rm -rf 'models'
 rm -rf 'klite.embd'
@@ -252,7 +252,7 @@ rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/al
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-v2.9.tar.gz'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-v3.0.tar.gz'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-v3.1.tar.gz'
-rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-v4.9.tar.gz'
+rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-v5.0.tar.gz'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/chat-with-bob.txt'
 rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera_install_pt-3.sh'
