@@ -50,7 +50,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'
+            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned \ 0.39GB / min. 1.5GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -67,7 +67,7 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'
+            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned \ 0.78GB / min. 3GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -84,7 +84,7 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'
+            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned \ 0.92GB / min. 4GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -101,7 +101,7 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'
+            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned \ 1.85GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -118,7 +118,7 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned \ 1.19GB / min. 4GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -135,7 +135,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned \ 1.69GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -152,7 +152,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned \ 1.26GB / min. 4GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -169,7 +169,7 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q4_1-RWKV-4-World-1.5B-CHNtuned \ 1.76GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -186,7 +186,7 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q5_0-RWKV-4-World-1.5B-Untuned \ 1.34GB / min. 4/6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -203,7 +203,7 @@ case $CHOICE in
             clear
             ;;
         10)
-            echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q5_0-RWKV-4-World-1.5B-CHNtuned \ 1.84GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -220,7 +220,7 @@ case $CHOICE in
             clear
             ;;
         11)
-            echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q5_1-RWKV-4-World-1.5B-Untuned \ 1.42GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -237,7 +237,7 @@ case $CHOICE in
             clear
             ;;
         12)
-            echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q5_1-RWKV-4-World-1.5B-CHNtuned \ 1.92GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -254,7 +254,7 @@ case $CHOICE in
             clear
             ;;
         13)
-            echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q8_0-RWKV-4-World-1.5B-Untuned \ 1.8GB / min. 6GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -271,7 +271,7 @@ case $CHOICE in
             clear
             ;;
         14)
-            echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q8_0-RWKV-4-World-1.5B-CHNtuned \ 2.3GB / min. 8GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -288,7 +288,7 @@ case $CHOICE in
             clear
             ;;
         15)
-            echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned'
+            echo "You chose 'Q4_0-RWKV-4-World-3B-Untuned \ 2.06GB / min. 8GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -322,7 +322,7 @@ case $CHOICE in
             clear
             ;;
         17)
-            echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned'
+            echo "You chose 'Q4_1-RWKV-4-World-3B-Untuned \ 2.22GB / min. 8GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -339,7 +339,7 @@ case $CHOICE in
             clear
             ;;
         18)
-            echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned'
+            echo "你选择了 'Q4_1-RWKV-4-World-3B-CHNtuned \ 2.22GB / min. 8GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -390,7 +390,7 @@ case $CHOICE in
             clear
             ;;
         21)
-            echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned'
+            echo "You chose 'Q5_1-RWKV-4-World-3B-Untuned \ 2.53GB / min. 8/12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -407,7 +407,7 @@ case $CHOICE in
             clear
             ;;
         22)
-            echo "你选择了 'Q5_1-RWKV-4-World-3B-CHNtuned'
+            echo "你选择了 'Q5_1-RWKV-4-World-3B-Untuned \ 2.53GB / min. 8/12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -424,7 +424,7 @@ case $CHOICE in
             clear
             ;;
         23)
-            echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned'
+            echo "You chose 'Q8_0-RWKV-4-World-3B-Untuned \ 3.33GB / min. 12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -441,7 +441,7 @@ case $CHOICE in
             clear
             ;;
         24)
-            echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned'
+            echo "你选择了 'Q8_0-RWKV-4-World-3B-CHNtuned \ 3.33GB / min. 12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -458,7 +458,7 @@ case $CHOICE in
             clear
             ;;
         25)
-            echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned'
+            echo "You chose 'Q4_0-RWKV-4-World-7B-Untuned \ 4.66GB / min. 12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -475,7 +475,7 @@ case $CHOICE in
             clear
             ;;
         26)
-            echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned'
+            echo "You chose 'Q4_1-RWKV-4-World-7B-Untuned \ 5.07GB / min. 12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -492,7 +492,7 @@ case $CHOICE in
             clear
             ;;
         27)
-            echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned'
+            echo "You chose 'Q5_0-RWKV-4-World-7B-Untuned \ 5.47GB / min. 12GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -509,7 +509,7 @@ case $CHOICE in
             clear
             ;;
         28)
-            echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned'
+            echo "You chose 'Q5_1-RWKV-4-World-7B-Untuned \ 5.88GB / min. 12/16GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -526,7 +526,7 @@ case $CHOICE in
             clear
             ;;
         29)
-            echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned'
+            echo "You chose 'Q8_0-RWKV-4-World-7B-Untuned \ 7.91GB / min. 16GB RAM'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
