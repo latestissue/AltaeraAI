@@ -28,7 +28,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'
+            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned \ 3.16GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -45,7 +45,7 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'
+            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned \ 6.31GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -62,7 +62,7 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'
+            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned \ 1.28GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -79,7 +79,7 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'
+            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned \ 1.36GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -96,7 +96,7 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned \ 1.44GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -113,7 +113,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'
+            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned \ 1.52GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
@@ -130,7 +130,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'
+            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned \ 1.93GB'
                         
             To abort download, press 'Ctrl+C'
             [don't forget to delete the file afterwards]
