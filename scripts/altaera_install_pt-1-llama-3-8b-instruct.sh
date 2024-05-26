@@ -39,7 +39,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q2_K.gguf \ 3.18 GB -O 'Q2_K-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q2_K.gguf -O 'Q2_K-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -48,7 +48,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_L.gguf \ 4.32 GB -O 'Q3_K_L-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_L.gguf -O 'Q3_K_L-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -57,7 +57,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_M.gguf \ 4.02 GB -O 'Q3_K_M-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_M.gguf -O 'Q3_K_M-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -66,7 +66,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_S.gguf \ 3.67 GB -O 'Q3_K_S-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_S.gguf -O 'Q3_K_S-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -75,7 +75,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_0.gguf \ 4.66 GB -O 'Q4_0-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_0.gguf -O 'Q4_0-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -84,7 +84,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB \ 5.13 GB -O 'Q4_1-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_1.gguf -O 'Q4_1-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -102,7 +102,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_S.gguf \ 4.69 GB -O 'Q4_K_S-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_S.gguf -O 'Q4_K_S-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -111,7 +111,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_0.gguf \ 5.6 GB -O 'Q5_0-llama-3-8b-chat.instruct' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_0.gguf -O 'Q5_0-llama-3-8b-chat.instruct' -q --show-progress
             cd ../..
             clear
             ;;
@@ -121,7 +121,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_1.gguf \ 6.07 GB -O 'Q5_1-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_1.gguf -O 'Q5_1-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -131,7 +131,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf \ 5.73 GB -O 'Q5_K_M-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf -O 'Q5_K_M-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -141,7 +141,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_S.gguf \ 5.6 GB -O 'Q5_K_S-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_S.gguf -O 'Q5_K_S-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -151,7 +151,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q6_K.gguf \ 6.6 GB -O 'Q6_K-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q6_K.gguf -O 'Q6_K-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -161,7 +161,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q8_0.gguf \ 8.54 GB -O 'Q8_0-llama-3-8b-instruct.gguf' -q --show-progress
+            wget https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q8_0.gguf -O 'Q8_0-llama-3-8b-instruct.gguf' -q --show-progress
             cd ../..
             clear
             ;;
