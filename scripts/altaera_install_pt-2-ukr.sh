@@ -105,6 +105,30 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera-model-tinydolphin-2.8.2-1.1b-laser.sh'
 rm -rf 'altaera-model-vicuna-7b-v1.5.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-model-vicuna-7b-v1.5.sh
+rm -rf 'altaera-koboldcpp_settings.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
+chmod a+x 'altaera-koboldcpp_settings.sh'
+rm -rf 'altaera-koboldcpp_settings_contextsize.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_contextsize.sh
+chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
+rm -rf 'altaera-koboldcpp_settings_blasbatchsize.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
+chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
+rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
+chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
+rm -rf 'altaera-koboldcpp_settings.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
+chmod a+x 'altaera-koboldcpp_settings.sh'
+rm -rf 'altaera-koboldcpp_settings_contextsize.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_contextsize.sh
+chmod a+x 'altaera-koboldcpp_settings_contextsize.sh'
+rm -rf 'altaera-koboldcpp_settings_blasbatchsize.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_blasbatchsize.sh
+chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
+rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
+chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
 chmod a+x 'altaera-model-vicuna-7b-v1.5.sh'
 chmod a+x 'altaera_install_model.sh'
 chmod a+x 'altaera-ngrok.sh'
