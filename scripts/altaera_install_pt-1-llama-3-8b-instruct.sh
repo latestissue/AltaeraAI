@@ -12,8 +12,8 @@ OPTIONS=(1 "Meta-Llama-3-8B-Instruct.Q2_K.gguf \ 3.18 GB"
          3 "Meta-Llama-3-8B-Instruct.Q3_K_M.gguf \ 4.02 GB"
          4 "Meta-Llama-3-8B-Instruct.Q3_K_S.gguf \ 3.67 GB"
          5 "Meta-Llama-3-8B-Instruct.Q4_0.gguf \ 4.66 GB"
-         6 "Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB \ 5.13 GB"
-         7 "Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB \ 5.13 GB"
+         6 "Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB"
+         7 "Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB"
          8 "Meta-Llama-3-8B-Instruct.Q4_K_S.gguf \ 4.69 GB"
          9 "Meta-Llama-3-8B-Instruct.Q5_0.gguf \ 5.6 GB"
          10 "Meta-Llama-3-8B-Instruct.Q5_1.gguf \ 6.07 GB"
@@ -80,7 +80,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB \ 5.13 GB'"
+            echo "You chose 'Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -89,7 +89,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB \ 5.13 GB'"
+            echo "You chose 'Meta-Llama-3-8B-Instruct.Q4_1.gguf \ 4.92 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
