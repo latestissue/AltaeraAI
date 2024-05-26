@@ -42,7 +42,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.F16.gguf \ 2.2 GB -O 'F16.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.F16.gguf -O 'F16.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -51,7 +51,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.IQ3_XXS.gguf \ 484 MB -O 'IQ3_XXS.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.IQ3_XXS.gguf -O 'IQ3_XXS.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -60,7 +60,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q2_K.gguf \ 432 MB -O 'Q2_K.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q2_K.gguf -O 'Q2_K.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -69,7 +69,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_L.gguf \ 592 MB -O 'Q3_K_L.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_L.gguf -O 'Q3_K_L.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -78,7 +78,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_M.gguf \ 548 MB -O 'Q3_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_M.gguf -O 'Q3_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -87,7 +87,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_S.gguf \ 499 MB -O 'Q3_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_S.gguf -O 'Q3_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -96,7 +96,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_XS.gguf \ 473 MB -O 'Q3_K_XS.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q3_K_XS.gguf -O 'Q3_K_XS.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -105,7 +105,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_0.gguf \ 637 MB -O 'Q4_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_0.gguf -O 'Q4_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -114,7 +114,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_1.gguf \ 701 MB -O 'Q4_1.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_1.gguf -O 'Q4_1.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -124,7 +124,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_K_M.gguf \ 668 MB -O 'Q4_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_K_M.gguf -O 'Q4_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -134,7 +134,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_K_S.gguf \ 640 MB -O 'Q4_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q4_K_S.gguf -O 'Q4_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -144,7 +144,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_0.gguf \ 766 MB -O 'Q5_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_0.gguf -O 'Q5_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -153,7 +153,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_1.gguf \ 831 MB -O 'Q5_1.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_1.gguf -O 'Q5_1.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -162,7 +162,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_K_M.gguf \ 782 MB -O 'Q5_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_K_M.gguf -O 'Q5_K_M.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -172,7 +172,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_K_S.gguf \ 766 MB -O 'Q5_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q5_K_S.gguf -O 'Q5_K_S.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -182,7 +182,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q6_K.gguf \ 903 MB -O 'Q6_K.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q6_K.gguf -O 'Q6_K.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -192,7 +192,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q8_0.gguf \ 1.17 GB -O 'Q8_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8.2-1.1B-laser-GGUF/resolve/main/tinydolphin-2.8.2-1.1b-laser.Q8_0.gguf -O 'Q8_0.tinydolphin-2.8.2-1.1b-laser.gguf' -q --show-progress
             cd ../..
             clear
             ;;
