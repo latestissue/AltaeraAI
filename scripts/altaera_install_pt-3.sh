@@ -23,8 +23,50 @@ CHOICE=$(dialog --clear \
 case $CHOICE in
 
         1)
-        
-echo "Installing core files...";
+
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v5.0
+
+  "
+
+  echo "Did you know...
+
+  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+  	function random_message() {
+    # Array of random messages
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+
+    # Generate a random index
+    index=$(( RANDOM % ${#messages[@]} ))
+
+    # Get the random message
+    message=${messages[$index]}
+
+    # Print the random message
+    echo $message | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+}
+
+# Call the function
+random_message
+
+echo "________________________________________________________________
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+echo "Installing core files...;
+
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
 {
 rm -rf "/etc/bash.bashrc"
@@ -70,7 +112,49 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 
         2)
 
-echo "Installing core files (please be patient)...";
+            echo "
+
+        ██████████
+       ██ █
+      ██  █
+     ██   █
+     █    ████████
+    ██    █
+   ████████
+  ██      █
+  █       ████████
+
+  AltaeraAI - v5.0
+
+  "
+
+  echo "Did you know...
+
+  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+  	function random_message() {
+    # Array of random messages
+    messages=("that KobbleTiny is the world's sweetest child?" "that KobbleTiny is concedo's designed mind?")
+
+    # Generate a random index
+    index=$(( RANDOM % ${#messages[@]} ))
+
+    # Get the random message
+    message=${messages[$index]}
+
+    # Print the random message
+    echo $message | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+}
+
+# Call the function
+random_message
+
+echo "________________________________________________________________
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+echo "Installing core files (please be patient)...;
+
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
 {
 rm -rf "/etc/bash.bashrc"
