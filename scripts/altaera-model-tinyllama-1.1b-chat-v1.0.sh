@@ -3,7 +3,7 @@
 HEIGHT=25
 WIDTH=160
 CHOICE_HEIGHT=24
-BACKTITLE="AltaeraAI - AI Model Settings"
+BACKTITLE="AltaeraAI - v5.0 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
 TITLE="AI Model Selection"
 MENU="Choose your desired TinyLlama-1.1B-Chat-v1.0-GGUF model size/strategy:"
 
