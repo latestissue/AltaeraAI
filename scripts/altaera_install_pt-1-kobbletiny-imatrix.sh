@@ -38,7 +38,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q3km.gguf \ 548 MB -O 'Q3km_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q3km.gguf -O 'Q3km_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -47,7 +47,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q4km.gguf \ 668 MB -O 'Q4km_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q4km.gguf -O 'Q4km_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -56,7 +56,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q4ks.gguf \ 640 MB -O 'Q4ks_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q4ks.gguf -O 'Q4ks_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -65,7 +65,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q5km.gguf \ 782 MB -O 'Q5km_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q5km.gguf -O 'Q5km_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -74,7 +74,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q5ks.gguf \ 766 MB -O 'Q5ks_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q5ks.gguf -O 'Q5ks_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -83,7 +83,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q6k.gguf \ 903 MB -O 'Q6k_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q6k.gguf -O 'Q6k_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -92,7 +92,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q8.gguf \ 1.17 GB -O 'Q8_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_Q8.gguf -O 'Q8_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -101,7 +101,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ2m.gguf \ 400 MB -O 'iQ2m_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ2m.gguf -O 'iQ2m_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -110,7 +110,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ2xxs.gguf \ 323 MB -O 'iQ2xxs_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ2xxs.gguf -O 'iQ2xxs_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -119,7 +119,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ3m.gguf \ 516 MB -O 'iQ3m_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ3m.gguf -O 'iQ3m_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -128,7 +128,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ3xxs.gguf \ 445 MB -O 'iQ3xxs_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ3xxs.gguf -O 'iQ3xxs_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -137,7 +137,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ4nl.gguf \ 638 MB -O 'iQ4nl_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ4nl.gguf -O 'iQ4nl_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -146,7 +146,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ4xs.gguf \ 606 MB -O 'iQ4xs_KobbleTiny-1.1B.gguf' -q --show-progress
+            wget https://huggingface.co/MarsupialAI/KobbleTiny-1.1B_iMatrix_GGUF/resolve/main/KobbleTiny-1.1B_iQ4xs.gguf -O 'iQ4xs_KobbleTiny-1.1B.gguf' -q --show-progress
             cd ../..
             clear
             ;;
