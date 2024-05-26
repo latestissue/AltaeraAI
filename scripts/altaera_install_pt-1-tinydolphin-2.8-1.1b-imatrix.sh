@@ -50,7 +50,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ1_S.imx.gguf \ 270 MB -O 'IQ1_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ1_S.imx.gguf -O 'IQ1_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -59,7 +59,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_M.imx.gguf \ 400 MB -O 'IQ2_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_M.imx.gguf -O 'IQ2_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -68,7 +68,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_S.imx.gguf \ 374 MB -O 'IQ2_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_S.imx.gguf -O 'IQ2_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -77,7 +77,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_XS.imx.gguf \ 352 MB -O 'IQ2_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_XS.imx.gguf -O 'IQ2_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -86,7 +86,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_XXS.imx.gguf \ 323 MB -O 'IQ2_XXS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ2_XXS.imx.gguf -O 'IQ2_XXS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -95,7 +95,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_M.imx.gguf \ 516 MB -O 'IQ3_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_M.imx.gguf -O 'IQ3_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -104,7 +104,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_S.imx.gguf \ 501 MB -O 'IQ3_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_S.imx.gguf -O 'IQ3_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -113,7 +113,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_XS.imx.gguf \ 476 MB -O 'IQ3_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_XS.imx.gguf -O 'IQ3_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -122,7 +122,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_XXS.imx.gguf \ 445 MB -O 'IQ3_XXS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ3_XXS.imx.gguf -O 'IQ3_XXS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -132,7 +132,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ4_NL.imx.gguf \ 638 MB -O 'IQ4_NL.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ4_NL.imx.gguf -O 'IQ4_NL.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -142,7 +142,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ4_XS.imx.gguf \ 606 MB -O 'IQ4_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.IQ4_XS.imx.gguf -O 'IQ4_XS.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -152,7 +152,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q2_K.imx.gguf \ 432 MB -O 'Q2_K.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q2_K.imx.gguf -O 'Q2_K.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -161,7 +161,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q2_K_S.imx.gguf \ 402 MB -O 'Q2_K_S.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q2_K_S.imx.gguf -O 'Q2_K_S.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -170,7 +170,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_L.imx.gguf \ 592 MB -O 'Q3_K_L.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_L.imx.gguf -O 'Q3_K_L.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -179,7 +179,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_M.imx.gguf \ 548 MB -O 'Q3_K_M.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_M.imx.gguf -O 'Q3_K_M.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -188,7 +188,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_S.imx.gguf \ 499 MB -O 'Q3_K_S.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q3_K_S.imx.gguf -O 'Q3_K_S.tinydolphin-2.8-1.1b.imx.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -197,7 +197,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_0.imx.gguf \ 638 MB -O 'Q4_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_0.imx.gguf -O 'Q4_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -206,7 +206,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_K_M.imx.gguf \ 668 MB -O 'Q4_K_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_K_M.imx.gguf -O 'Q4_K_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -215,7 +215,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_K_S.imx.gguf \ 640 MB -O 'Q4_K_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q4_K_S.imx.gguf -O 'Q4_K_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -224,7 +224,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_0.imx.gguf \ 767 MB -O 'Q5_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_0.imx.gguf -O 'Q5_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -233,7 +233,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_1.imx.gguf \ 831 MB -O 'Q5_1.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_1.imx.gguf -O 'Q5_1.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -243,7 +243,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_K_M.imx.gguf \ 782 MB -O 'Q5_K_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_K_M.imx.gguf -O 'Q5_K_M.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -253,7 +253,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_K_S.imx.gguf \ 766 MB -O 'Q5_K_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q5_K_S.imx.gguf -O 'Q5_K_S.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -263,7 +263,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q6_K.imx.gguf \ 903 MB -O 'Q6_K.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q6_K.imx.gguf -O 'Q6_K.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
@@ -272,7 +272,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q8_0.imx.gguf \ 1.17 GB -O 'Q8_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
+            wget https://huggingface.co/Crataco/TinyDolphin-2.8-1.1b-imatrix-GGUF/resolve/main/tinydolphin-2.8-1.1b.Q8_0.imx.gguf -O 'Q8_0.imx.tinydolphin-2.8-1.1b.gguf' -q --show-progress
             cd ../..
             clear
             ;;
