@@ -33,7 +33,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'Q2_K-llama-2-7b-chat'"
+            echo "You chose 'Q2_K-llama-2-7b-chat \ 2.83 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -42,7 +42,7 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'Q3_K_L-llama-2-7b-chat'"
+            echo "You chose 'Q3_K_L-llama-2-7b-chat \ 3.6 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -51,7 +51,7 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'Q3_K_M-llama-2-7b-chat'"
+            echo "You chose 'Q3_K_M-llama-2-7b-chat \ 3.3 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -60,7 +60,7 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'Q3_K_S-llama-2-7b-chat'"
+            echo "You chose 'Q3_K_S-llama-2-7b-chat \ 2.95 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -69,7 +69,7 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Q4_0-llama-2-7b-chat'"
+            echo "You chose 'Q4_0-llama-2-7b-chat \ 3.83 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -78,7 +78,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "You chose 'Q4_K_M-llama-2-7b-chat'"
+            echo "You chose 'Q4_K_M-llama-2-7b-chat \ 4.08 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -87,7 +87,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Q4_K_S-llama-2-7b-chat'"
+            echo "You chose 'Q4_K_S-llama-2-7b-chat \ 3.86 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -96,7 +96,7 @@ case $CHOICE in
             clear
             ;;
         8)
-            echo "You chose 'Q5_0-llama-2-7b-chat'"
+            echo "You chose 'Q5_0-llama-2-7b-chat \ 4.65 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -105,7 +105,7 @@ case $CHOICE in
             clear
             ;;
         9)
-            echo "You chose 'Q5_K_M-llama-2-7b-chat'"
+            echo "You chose 'Q5_K_M-llama-2-7b-chat \ 4.78 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -115,7 +115,7 @@ case $CHOICE in
             ;;
 
         10)
-            echo "You chose 'Q5_K_S-llama-2-7b-chat'"
+            echo "You chose 'Q5_K_S-llama-2-7b-chat \ 4.65 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -125,7 +125,7 @@ case $CHOICE in
             ;;
 
         11)
-            echo "You chose 'Q6_K-llama-2-7b-chat'"
+            echo "You chose 'Q6_K-llama-2-7b-chat \ 5.53 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -135,7 +135,7 @@ case $CHOICE in
             ;;
 
         12)
-            echo "You chose 'Q8_0-llama-2-7b-chat'"
+            echo "You chose 'Q8_0-llama-2-7b-chat \ 7.16 GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
