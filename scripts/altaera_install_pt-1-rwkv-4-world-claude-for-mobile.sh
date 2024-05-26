@@ -28,7 +28,7 @@ clear
 case $CHOICE in
 
         1)
-            echo "You chose 'F16-RWKV-4-World-0.1B-Untuned'"
+            echo "You chose 'f16-RWKV-for-mobile-4-world-1.5B \ 3.16GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -37,7 +37,7 @@ case $CHOICE in
             clear
             ;;
         2)
-            echo "You chose 'F32-RWKV-4-World-0.1B-Untuned'"
+            echo "You chose 'f32-RWKV-for-mobile-4-world-1.5B \ 6.31GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -46,7 +46,7 @@ case $CHOICE in
             clear
             ;;
         3)
-            echo "You chose 'F16-RWKV-4-World-0.4B-Untuned'"
+            echo "You chose 'q4_0-RWKV-for-mobile-4-world-1.5B \ 1.28GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -55,7 +55,7 @@ case $CHOICE in
             clear
             ;;
         4)
-            echo "You chose 'F32-RWKV-4-World-0.4B-Untuned'"
+            echo "You chose 'q4_1-RWKV-for-mobile-4-world-1.5B \ 1.36GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -64,7 +64,7 @@ case $CHOICE in
             clear
             ;;
         5)
-            echo "You chose 'Q4_0-RWKV-4-World-1.5B-Untuned'"
+            echo "You chose 'q5_0-RWKV-for-mobile-4-world-1.5B \ 1.44GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -73,7 +73,7 @@ case $CHOICE in
             clear
             ;;
         6)
-            echo "你选择了 'Q4_0-RWKV-4-World-1.5B-CHNtuned'"
+            echo "You chose 'q5_1-RWKV-for-mobile-4-world-1.5B \ 1.52GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
@@ -82,7 +82,7 @@ case $CHOICE in
             clear
             ;;
         7)
-            echo "You chose 'Q4_1-RWKV-4-World-1.5B-Untuned'"
+            echo "You chose 'q8_0-RWKV-for-mobile-4-world-1.5B \ 1.93GB'"
             cd '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
