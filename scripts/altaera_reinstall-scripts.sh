@@ -1,6 +1,6 @@
 echo "Updating AltaeraAI shell files...
 
-  " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
 {
 mkdir '/data/data/com.termux/files/home/AltaeraAI'
