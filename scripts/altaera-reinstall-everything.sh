@@ -42,7 +42,7 @@ chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts.sh
 chmod a+x 'altaera_reinstall-scripts.sh'
-bash 'altaera_reinstall-scripts.sh'
+bash 'altaera_reinstall-scripts.sh' | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
