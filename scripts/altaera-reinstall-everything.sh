@@ -33,7 +33,11 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-        
+
+rm -rf 'altaera_install_model.sh'
+rm -rf 'altaera_install_pt-2.sh'
+rm -rf 'altaera_reinstall-scripts.sh'
+rm -rf 'altaera-install_method.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
