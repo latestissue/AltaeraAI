@@ -117,6 +117,9 @@ chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
 rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
 chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
+rm -rf 'altaera-manage_models.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
+chmod a+x 'altaera-manage_models.sh'
 rm -rf 'altaera-koboldcpp_settings.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings.sh
 chmod a+x 'altaera-koboldcpp_settings.sh'
@@ -129,6 +132,9 @@ chmod a+x 'altaera-koboldcpp_settings_blasbatchsize.sh'
 rm -rf 'altaera-koboldcpp_settings_flashattention.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-koboldcpp_settings_flashattention.sh
 chmod a+x 'altaera-koboldcpp_settings_flashattention.sh'
+rm -rf 'altaera-manage_models.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-manage_models.sh
+chmod a+x 'altaera-manage_models.sh'
 chmod a+x 'altaera-model-vicuna-7b-v1.5.sh'
 chmod a+x 'altaera_install_model.sh'
 chmod a+x 'altaera-ngrok.sh'
