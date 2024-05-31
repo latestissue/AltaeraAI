@@ -43,8 +43,8 @@ bash 'altaera_install_pt-2.sh'
 {
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts_.sh
 chmod a+x 'altaera_reinstall-scripts.sh'
-bash 'altaera_reinstall-scripts.sh'
 } &> /dev/null 2>&1;
+bash 'altaera_reinstall-scripts.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
