@@ -38,13 +38,10 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 {
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts_no-echo.sh
-chmod a+x 'altaera_reinstall-scripts_no-echo.sh'
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts.sh
+chmod a+x 'altaera_reinstall-scripts.sh'
 } &> /dev/null 2>&1;
-bash 'altaera_reinstall-scripts_no-echo.sh'
-echo "Updating AltaeraAI shell files...
-
-" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+bash 'altaera_reinstall-scripts.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
@@ -63,7 +60,7 @@ echo "Cleaning up File System...";
 {
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-1.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_pt-2.sh'
-rm -rf '/data/data/com.termux/files/home/altaera_reinstall-scripts_no-echo.sh'
+rm -rf '/data/data/com.termux/files/home/altaera_reinstall-scripts.sh'
 rm -rf '/data/data/com.termux/files/home/altaera_install_model.sh'
 rm -rf '/data/data/com.termux/files/home/install'
 rm -rf '/data/data/com.termux/files/home/altaera-install_method.sh'
