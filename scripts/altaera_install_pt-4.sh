@@ -41,7 +41,18 @@ random_message
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
-echo "Installing dependencies...;
+echo "________________________________________________________________
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+echo "Installing initial files ✔
+
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+echo "Installing core files ✔
+
+" | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
+
+echo "Installing dependencies...
 
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
@@ -58,7 +69,9 @@ chmod a+x 'altaera_install-architecture.sh'
 bash 'altaera_install-architecture.sh'
 } &> /dev/null 2>&1;
 
-echo "Cleaning up File System...;
+clear
+
+echo "Cleaning up File System...
 
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
