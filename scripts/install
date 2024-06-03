@@ -87,7 +87,7 @@ clear
 
 proot-distro login altaera
 clear
-rm -rf '/data/data/com.termux/files/home/altaera-installation_completed.sh'
+rm -rf '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-installation_completed.sh'
 ;;
 
          2)
