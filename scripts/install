@@ -92,8 +92,7 @@ echo "**********INSTALLATION COMPLETED**********
 echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 echo "
-      !!!  - Please, pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-      !!!  - Or, press 'CTRL+D' twice.                                                !!!
+      !!!  - Press 'CTRL+D' once again  !!!
 
       --- Then, open Termux and:
       
