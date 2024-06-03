@@ -73,7 +73,7 @@ clear
 
 echo "**********INSTALLATION COMPLETED**********
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
-echo "_________________________________________________________
+echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 echo "
       !!!  - Please, pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
@@ -82,7 +82,7 @@ echo "
       --- Then, open Termux and:
       
 - To start, please type in 'ae'."
-echo "________________________________________________________
+echo "________________________________________________________________
 " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
 
 exec <&-
