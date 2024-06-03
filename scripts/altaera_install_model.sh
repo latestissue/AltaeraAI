@@ -7,28 +7,28 @@ BACKTITLE="AltaeraAI"
 TITLE="Installing AltaeraAI - AI Model"
 MENU="Choose your desired method:"
 
-OPTIONS=(1 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
-         2 "RWKV-4-World-Claude-for-Mobile [...]"
-         3 "RWKV-4-World [...]"
-         4 "KobbleTinyV2-1.1B [...]"
-         5 "KobbleTinyV2-1.1B_iMatrix [...]"
-         6 "Tiny-Vicuna-1B [...]"
-         7 "TinyDolphin-2.8-1.1b-imatrix [...]"
-         8 "TinyDolphin-2.8.2-1.1B-laser [...]"
-         9 "TinyLlama-1.1B-Chat-v1.0 [...]"
-         10 "LLaMA-3-8B-Instruct [...]"
-         11 "LLaMA-2-7B-Chat [...]"
-         12 "Mistral-7B-Instruct [...]"
-         13 "Vicuna-7B-v1.5 [...]"
-         14 "Mamba [...]"
-         15 "Phi-3-mini-4k-instruct [...]"
-         16 "Phi-SoSerious-Mini-V1 [...]"
-         17 "Phi-SoSerious-Mini-V1-imatrix [...]"
-         18 "Phi-2-DPO [...]"
-         19 "Yi-1.5-6B-Chat [...]"
-         20 "Gemma-2B-it [...]"
-         21 "Gemma-7B-it [...]"
-         22 "Do not download AI Model (?) - [...]")
+OPTIONS=(1 "Do not download AI Model (?) - [...]"
+         2 "Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]"
+         3 "RWKV-4-World-Claude-for-Mobile [...]"
+         4 "RWKV-4-World [...]"
+         5 "KobbleTinyV2-1.1B [...]"
+         6 "KobbleTinyV2-1.1B_iMatrix [...]"
+         7 "Tiny-Vicuna-1B [...]"
+         8 "TinyDolphin-2.8-1.1b-imatrix [...]"
+         9 "TinyDolphin-2.8.2-1.1B-laser [...]"
+         10 "TinyLlama-1.1B-Chat-v1.0 [...]"
+         11 "LLaMA-3-8B-Instruct [...]"
+         12 "LLaMA-2-7B-Chat [...]"
+         13 "Mistral-7B-Instruct [...]"
+         14 "Vicuna-7B-v1.5 [...]"
+         15 "Mamba [...]"
+         16 "Phi-3-mini-4k-instruct [...]"
+         17 "Phi-SoSerious-Mini-V1 [...]"
+         18 "Phi-SoSerious-Mini-V1-imatrix [...]"
+         19 "Phi-2-DPO [...]"
+         20 "Yi-1.5-6B-Chat [...]"
+         21 "Gemma-2B-it [...]"
+         22 "Gemma-7B-it [...]")
 
 
 CHOICE=$(dialog --clear \
@@ -42,6 +42,15 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
+        echo "You chose 'Do not download AI Model (?) - [...]'";
+        {
+            rm -rf 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
+            chmod a+x 'altaera_install_pt-1.sh'
+         } &> /dev/null 2>&1;
+            bash altaera_install_pt-1.sh
+            ;;
+        2)
         echo "You chose 'Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -50,7 +59,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        2)
+        3)
         echo "You chose 'RWKV-4-World-Claude-for-Mobile...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -59,7 +68,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        3)
+        4)
         echo "You chose 'RWKV-4-World...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -68,7 +77,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        4)
+        5)
         echo "You chose 'KobbleTiny...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -77,7 +86,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        5)
+        6)
         echo "You chose 'KobbleTinyV2-1.1B_iMatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -86,7 +95,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        6)
+        7)
         echo "You chose 'Tiny-Vicuna-1B...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -95,7 +104,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        7)
+        8)
         echo "You chose 'TinyDolphin-2.8-1.1b-imatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -104,7 +113,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        8)
+        9)
         echo "You chose 'TinyDolphin-2.8.2-1.1B-laser...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -113,7 +122,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        9)
+        10)
         echo "You chose 'TinyLlama-1.1B-Chat-v1.0...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -122,7 +131,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        10)
+        11)
         echo "You chose 'LLaMA-3-8B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -131,7 +140,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        11)
+        12)
         echo "You chose 'LLaMA-2-7B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -140,7 +149,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        12)
+        13)
         echo "You chose 'Mistral-7B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -149,7 +158,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        13)
+        14)
         echo "You chose 'Vicuna-7B-v1.5...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -158,7 +167,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        14)
+        15)
         echo "You chose 'Mamba...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -167,7 +176,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        15)
+        16)
         echo "You chose 'Phi-3-mini-4k-instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -176,7 +185,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        16)
+        17)
         echo "You chose 'Phi-SoSerious-Mini-V1...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -185,7 +194,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        17)
+        18)
         echo "You chose 'Phi-SoSerious-Mini-V1-imatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -194,7 +203,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        18)
+        19)
         echo "You chose 'Phi-2-DPO...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -203,7 +212,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        19)
+        20)
         echo "You chose 'Yi-1.5-6B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -212,7 +221,7 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        20)
+        21)
         echo "You chose 'Gemma-2B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
@@ -221,20 +230,11 @@ case $CHOICE in
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
             ;;
-        21)
+        22)
         echo "You chose 'Gemma-7B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
             wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-7b-it.sh -O 'altaera_install_pt-1.sh'
-            chmod a+x 'altaera_install_pt-1.sh'
-         } &> /dev/null 2>&1;
-            bash altaera_install_pt-1.sh
-            ;;
-        22)
-        echo "You chose 'Do not download AI Model (?) - [...]'";
-        {
-            rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
