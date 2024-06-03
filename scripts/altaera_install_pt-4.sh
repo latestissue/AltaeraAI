@@ -71,16 +71,8 @@ rm -rf 'altaera_install-architecture.sh'
 
 clear
 
-echo "
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-      !!!  - Please, pull down the notification bar, expand 'Termux' and press 'Exit'  !!!
-      !!!  - Or, press 'CTRL+D' twice.                                                !!!
-
-      --- Then, open Termux and:
-      
-- To start, please type in 'ae'.
-_______________________________________________________________________
-"
+wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-installation_completed.sh
+chmod a+x 'altaera-installation_completed.sh'
+bash 'altaera-installation_completed.sh'
 
 exec <&-
