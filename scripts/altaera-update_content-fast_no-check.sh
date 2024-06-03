@@ -15,6 +15,7 @@
 
     by ThinkThroughLabs
 
+
   "
 
   echo "Did you know...
@@ -247,6 +248,7 @@ chmod a+x 'altaera-model_restore.sh'
 
     by ThinkThroughLabs
 
+
   "
 
   echo "Did you know...
@@ -378,6 +380,7 @@ cd '/data/data/com.termux/files/home'
   AltaeraAI - v5.0
 
     by ThinkThroughLabs
+
 
   "
 

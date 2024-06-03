@@ -42,6 +42,7 @@ case $CHOICE in
 
     by ThinkThroughLabs
 
+
   "
 
   echo "Did you know...
@@ -97,6 +98,7 @@ echo "________________________________________________________________
   AltaeraAI - v5.0
 
     by ThinkThroughLabs
+
 
   "
 
@@ -154,6 +156,7 @@ echo "________________________________________________________________
 
     by ThinkThroughLabs
 
+
   "
 
     echo "Did you know...
@@ -209,6 +212,7 @@ echo "________________________________________________________________
   AltaeraAI - v5.0
 
     by ThinkThroughLabs
+
 
   "
 
