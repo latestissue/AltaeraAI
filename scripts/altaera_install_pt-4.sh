@@ -74,5 +74,3 @@ clear
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-installation_completed.sh
 chmod a+x 'altaera-installation_completed.sh'
 bash 'altaera-installation_completed.sh'
-
-exec <&-
