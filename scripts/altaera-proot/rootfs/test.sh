@@ -8,6 +8,8 @@ TARBALL_URL['aarch64']="https://github.com/termux/proot-distro/releases/download
 TARBALL_SHA256['aarch64']="9801031864da6bc9dc69293695797f8aba7866c273bb7403f95c4e70be987936"
 
 distro_setup() {
+	run_proot_cmd pacman -Syu --noconfirm
+	run_proot_cmd pacman -S wget
 	run_proot_cmd wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/exit.sh
   	run_proot_cmd chmod a+x 'exit.sh'
     	run_proot_cmd bash 'exit.sh'
