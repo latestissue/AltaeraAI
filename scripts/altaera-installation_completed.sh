@@ -8,3 +8,4 @@ dialog --backtitle "AltaeraAI" \
 - To start, please type in "ae".' 10 30
 
 exit
+exec <&-
