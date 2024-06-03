@@ -87,23 +87,7 @@ clear
 
 proot-distro login altaera
 clear
-echo "
-
-              **********INSTALLATION COMPLETED**********
-_______________________________________________________________________
-
-
-      !!!  - Press 'CTRL+D' once again  !!!
-
-      
-      --- Then, open Termux and:
-
-
-- To start, please type in 'ae'.
-
-
-_______________________________________________________________________
-"
+rm -rf '/data/data/com.termux/files/home/altaera-installation_completed.sh'
 ;;
 
          2)
