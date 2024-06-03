@@ -15,8 +15,6 @@
 
   AltaeraAI - v5.0
 
-    by ThinkThroughLabs
-
   "
 
   echo "Did you know...

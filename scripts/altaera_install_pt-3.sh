@@ -38,8 +38,6 @@ case $CHOICE in
 
   AltaeraAI - v5.0
 
-    by ThinkThroughLabs
-
   "
 
   echo "Did you know...
@@ -134,8 +132,6 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
   █       ████████
 
   AltaeraAI - v5.0
-
-    by ThinkThroughLabs
 
   "
 
