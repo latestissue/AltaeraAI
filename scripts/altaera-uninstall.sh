@@ -13,7 +13,7 @@ case $response in
         sed -i '/^screen_color = (CYAN,BLACK,ON)/d' ~/.dialogrc
         echo "screen_color = (CYAN,BLUE,ON)" >> ~/.dialogrc
         cd '/data/data/com.termux/files/usr/etc/'
-        sed -i '/^altaera/d' bash.bashrc
+        sed -i '/altaera/d' bash.bashrc
         cd '/data/data/com.termux/files/home'
         clear
         echo "AltaeraAI has been succesfully uninstalled";;

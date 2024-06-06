@@ -234,7 +234,7 @@ chmod a+x 'altaera-model_restore.sh'
 
 cd '/data/data/com.termux/files/usr/etc/'
 
-sed -i '/^altaera/d' bash.bashrc
+sed -i '/altaera/d' bash.bashrc
 
 echo "alias ae='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
 alias altaera='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
