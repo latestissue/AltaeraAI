@@ -311,11 +311,7 @@ echo "Updating AltaeraAI core files...
 {
 mv '/data/data/com.termux/files/home/AltaeraAI-temp' '/data/data/com.termux/files/home/AltaeraAI-tmp'
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/bash.bashrc
-rm -rf '/data/data/com.termux/files/usr/etc/bash.rc'
-cp 'bash.bashrc' '/data/data/com.termux/files/usr/etc/'
-cd '/data/data/com.termux/files/home'
-rm -rf 'bash.bashrc'
+
 mkdir '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary'
 mv '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/models' '/data/data/com.termux/files/home/AltaeraAI-tmp'
 cp '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae/prompts/chat-with-bob.txt' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/altaera-temporary'
