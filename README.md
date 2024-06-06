@@ -1,6 +1,8 @@
 # AltaeraAI
 
+<p align="center">
 This repository is deprecated and was shifted into an organisational one: https://github.com/ThinkThroughLabs/AltaeraAI
+</p>
 
 ![altaeragithublogo](https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/7cea65dc-6592-453c-9b16-0522040cf078)
 
