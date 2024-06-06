@@ -149,6 +149,8 @@ sed -i '/altaera/d' bash.bashrc
 
 echo "alias ae='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
 alias altaera='/data/data/com.termux/files/home/AltaeraAI/altaera.sh'
+alias aef='/data/data/com.termux/files/home/AltaeraAI/altaera_no-check.sh'
+alias altaeraforce='/data/data/com.termux/files/home/AltaeraAI/altaera_no-check.sh'
 alias aelogin='/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh'
 alias altaeralogin='/data/data/com.termux/files/home/AltaeraAI/altaeralogin.sh'
 alias altaera-update='/data/data/com.termux/files/home/AltaeraAI/altaera-update.sh'
