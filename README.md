@@ -1,6 +1,6 @@
 # AltaeraAI
 
-![altaeragithublogo](https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/3f44e8f6-f330-44eb-8353-7f4c458890dd)
+![altaeragithublogo](https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/7cea65dc-6592-453c-9b16-0522040cf078)
 
 README parts:
 
