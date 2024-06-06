@@ -41,14 +41,14 @@ clear
 case $CHOICE in
         1)
         
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
@@ -56,154 +56,154 @@ proot-distro login altaera
 ;;
 
          2)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          3)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          4)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          5)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          6)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          7)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          8)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          9)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          10)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          11)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera
 
 ;;
          12)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 cd $PREFIX/etc/proot-distro
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-debian/proot/altaera.sh -q --show-progress
 proot-distro install altaera
 mv '/data/data/com.termux/files/home/AltaeraAI-tmp/model.bin' '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/kcpp-ae'
 proot-distro login altaera

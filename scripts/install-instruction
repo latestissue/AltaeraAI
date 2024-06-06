@@ -1,1 +1,1 @@
-curl -o install https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install && chmod +x install && ./install
+curl -o install https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/install && chmod +x install && ./install

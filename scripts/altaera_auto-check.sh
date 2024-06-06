@@ -8,7 +8,7 @@ if
 
                 {
                 cd "AltaeraAI"
-                wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_upstream.sh
+                wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-version_upstream.sh
                 chmod a+x 'altaera-version_upstream.sh'
                 cd ..
                 } &> /dev/null 2>&1;

@@ -16,7 +16,7 @@ mkdir '/data/data/com.termux/files/home/AltaeraAI-tmp/models'
 proot-distro remove altaera
 } &> /dev/null 2>&1;
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-reinstall-everything.sh
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-reinstall-everything.sh
 chmod a+x 'altaera-reinstall-everything.sh'
 bash 'altaera-reinstall-everything.sh'
 ;;

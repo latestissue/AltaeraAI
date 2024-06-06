@@ -61,13 +61,13 @@ echo "Installing dependencies...
 
 {
 cd '/root'
-wget https://github.com/latestissue/AltaeraAI/releases/download/ngrok-3.5.0-1-aarch64.pkg.tar.xz/ngrok-3.5.0-1-aarch64.pkg.tar.xz
+wget https://github.com/ThinkThroughLabs/AltaeraAI/releases/download/ngrok-3.5.0-1-aarch64.pkg.tar.xz/ngrok-3.5.0-1-aarch64.pkg.tar.xz
 pacman -U 'ngrok-3.5.0-1-aarch64.pkg.tar.xz' --noconfirm
 rm -rf 'ngrok-3.5.0-1-aarch64.pkg.tar.xz'
 } &> /dev/null 2>&1;
 
 {
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install-architecture.sh
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install-architecture.sh
 chmod a+x 'altaera_install-architecture.sh'
 bash 'altaera_install-architecture.sh'
 } &> /dev/null 2>&1;

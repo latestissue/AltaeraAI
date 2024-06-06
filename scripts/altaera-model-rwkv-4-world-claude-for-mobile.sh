@@ -40,7 +40,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f16-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f16-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f16-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f16-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -57,7 +57,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f32-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f32-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml/resolve/main/f32-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'f32-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -74,7 +74,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -91,7 +91,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q4_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q4_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -108,7 +108,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -125,7 +125,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q5_1-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q5_1-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;
@@ -142,7 +142,7 @@ case $CHOICE in
             cd '/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/altaera/root/models'
             rm -rf 'RWKV-model.bin'
             rm -rf 'model.bin'
-            wget https://huggingface.co/latestissue/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q8_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
+            wget https://huggingface.co/ThinkThroughLabs/rwkv-claude-for-mobile-v4-world-1.5b-16k-ggml-quantized/resolve/main/q8_0-RWKV-for-mobile-4-world-1.5B-20230906-ctx16k.bin -O 'q8_0-RWKV-for-mobile-4-world-1.5B-ctx16k.bin' -q --show-progress
             cd /root
             clear
             ;;

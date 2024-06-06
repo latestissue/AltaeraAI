@@ -1,6 +1,6 @@
 # AltaeraAI
 
-![altaeragithublogo](https://github.com/latestissue/AltaeraAI/assets/121747280/3f44e8f6-f330-44eb-8353-7f4c458890dd)
+![altaeragithublogo](https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/3f44e8f6-f330-44eb-8353-7f4c458890dd)
 
 README parts:
 
@@ -56,12 +56,12 @@ You can read more at: [altaera.ai](https://altaera.ai)
 2. Open Termux and paste in:
    
    ```
-   curl -o install https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/install && chmod +x install && ./install
+   curl -o install https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/install && chmod +x install && ./install
    ```
 - Then press ENTER and wait for the installation to finish. Make sure that you are connected to Wi-Fi because the process will download 3GB+ of data, depending on device. Installation will take 5min+ of time, depending on the device and Internet speed.
 
 <p align="center">
-<video src="https://github.com/latestissue/AltaeraAI/assets/121747280/4fb1a268-cf8f-450b-b5ea-eb41bb874547" width="720" height="1560" />
+<video src="https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/4fb1a268-cf8f-450b-b5ea-eb41bb874547" width="720" height="1560" />
 </p>
 
 ## Launching & Updating
@@ -69,7 +69,7 @@ You can read more at: [altaera.ai](https://altaera.ai)
 - Open Termux, type in '`ae`' – you will be welcomed with the MENU screen.
 
 <p align="center">
-<img src="https://github.com/latestissue/AltaeraAI/assets/121747280/f6efe9f6-c82d-4fdf-9397-c630efef1dfb" width="324" height="390" />
+<img src="https://github.com/ThinkThroughLabs/AltaeraAI/assets/121747280/f6efe9f6-c82d-4fdf-9397-c630efef1dfb" width="324" height="390" />
 </p>
 
 The “Start AltaeraAI” button will ask you to choose from currently installed models, and then forward you to a browser with deployed UI.

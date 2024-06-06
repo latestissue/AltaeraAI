@@ -22,7 +22,7 @@ proot-distro remove altaera
 
 } &> /dev/null 2>&1;
 
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-no-model.sh
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_reinstall-no-model.sh
 chmod a+x 'altaera_reinstall-no-model.sh'
 ./altaera_reinstall-no-model.sh
 ;;

@@ -10,7 +10,7 @@ TARBALL_SHA256['aarch64']="9801031864da6bc9dc69293695797f8aba7866c273bb7403f95c4
 distro_setup() {
 	run_proot_cmd pacman -Syu --noconfirm
 	run_proot_cmd pacman -S curl wget procps git clang make python3 blas-openblas fakeroot --noconfirm
-	run_proot_cmd wget --no-check-certificate https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-3-fast.sh -O 'altaera_install_pt-3.sh'
+	run_proot_cmd wget --no-check-certificate https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-3-fast.sh -O 'altaera_install_pt-3.sh'
  	run_proot_cmd chmod a+x 'altaera_install_pt-3.sh'
  	run_proot_cmd bash 'altaera_install_pt-3.sh'
 }

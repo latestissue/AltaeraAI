@@ -6,7 +6,7 @@
                 {
                 cd "AltaeraAI"
                 rm -rf 'altaera-version_package.sh'
-                wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-version_package.sh
+                wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-version_package.sh
                 chmod a+x 'altaera-version_package.sh'
                 cd ..
                 } &> /dev/null 2>&1;
@@ -64,7 +64,7 @@ echo "________________________________________________________________
 
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
           {
-          wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
+          wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
           chmod a+x 'altaera-update_content.sh'
           } &> /dev/null 2>&1;
           bash 'altaera-update_content.sh'

@@ -1,5 +1,5 @@
 {
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-print_architecture.sh
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-print_architecture.sh
 chmod a+x 'altaera-print_architecture.sh'
 
          if [ $(bash 'altaera-print_architecture.sh'

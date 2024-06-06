@@ -24,19 +24,19 @@ clear
 case $CHOICE in
         1)
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-auto-chn.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-auto-chn.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
             ;;
         2)
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-manual-chn.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-manual-chn.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
             ;;
         3)
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model-chn.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-no-model-chn.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
             bash altaera_install_pt-1.sh
             ;;

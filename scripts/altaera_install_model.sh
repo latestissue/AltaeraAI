@@ -45,7 +45,7 @@ case $CHOICE in
         echo "You chose 'Do not download AI Model (?) - [...]'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-no-model.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -54,7 +54,7 @@ case $CHOICE in
         echo "You chose 'Auto-Detection: RWKV-4-World-Claude-for-Mobile [Default]...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-auto.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -63,7 +63,7 @@ case $CHOICE in
         echo "You chose 'RWKV-4-World-Claude-for-Mobile...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world-claude-for-mobile.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world-claude-for-mobile.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -72,7 +72,7 @@ case $CHOICE in
         echo "You chose 'RWKV-4-World...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-rwkv-4-world.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -81,7 +81,7 @@ case $CHOICE in
         echo "You chose 'KobbleTiny...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-kobbletiny.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-kobbletiny.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -90,7 +90,7 @@ case $CHOICE in
         echo "You chose 'KobbleTinyV2-1.1B_iMatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-kobbletiny-imatrix.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-kobbletiny-imatrix.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -99,7 +99,7 @@ case $CHOICE in
         echo "You chose 'Tiny-Vicuna-1B...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-tiny-vicuna-1b.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-tiny-vicuna-1b.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -108,7 +108,7 @@ case $CHOICE in
         echo "You chose 'TinyDolphin-2.8-1.1b-imatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-tinydolphin-2.8-1.1b-imatrix.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-tinydolphin-2.8-1.1b-imatrix.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -117,7 +117,7 @@ case $CHOICE in
         echo "You chose 'TinyDolphin-2.8.2-1.1B-laser...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-tinydolphin-2.8.2-1.1b-laser.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-tinydolphin-2.8.2-1.1b-laser.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -126,7 +126,7 @@ case $CHOICE in
         echo "You chose 'TinyLlama-1.1B-Chat-v1.0...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-tinyllama-1.1b-chat-v1.0.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-tinyllama-1.1b-chat-v1.0.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -135,7 +135,7 @@ case $CHOICE in
         echo "You chose 'LLaMA-3-8B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-llama-3-8b-instruct.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-llama-3-8b-instruct.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -144,7 +144,7 @@ case $CHOICE in
         echo "You chose 'LLaMA-2-7B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-llama-2-7b-chat.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-llama-2-7b-chat.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -153,7 +153,7 @@ case $CHOICE in
         echo "You chose 'Mistral-7B-Instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-mistral-7b-instruct-v0.2.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-mistral-7b-instruct-v0.2.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -162,7 +162,7 @@ case $CHOICE in
         echo "You chose 'Vicuna-7B-v1.5...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-vicuna-7b-v1.5.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-vicuna-7b-v1.5.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -171,7 +171,7 @@ case $CHOICE in
         echo "You chose 'Mamba...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-mamba.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-mamba.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -180,7 +180,7 @@ case $CHOICE in
         echo "You chose 'Phi-3-mini-4k-instruct...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-3-mini-4k-instruct.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-phi-3-mini-4k-instruct.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -189,7 +189,7 @@ case $CHOICE in
         echo "You chose 'Phi-SoSerious-Mini-V1...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -198,7 +198,7 @@ case $CHOICE in
         echo "You chose 'Phi-SoSerious-Mini-V1-imatrix...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1-imatrix.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-phi-soserious-mini-v1-imatrix.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -207,7 +207,7 @@ case $CHOICE in
         echo "You chose 'Phi-2-DPO...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-phi-2-dpo.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-phi-2-dpo.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -216,7 +216,7 @@ case $CHOICE in
         echo "You chose 'Yi-1.5-6B-Chat...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-yi-1.5-6b-chat.shyi-1.5-6b-chat.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-yi-1.5-6b-chat.shyi-1.5-6b-chat.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -225,7 +225,7 @@ case $CHOICE in
         echo "You chose 'Gemma-2B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-2b-it.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-2b-it.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh
@@ -234,7 +234,7 @@ case $CHOICE in
         echo "You chose 'Gemma-7B-it...'";
         {
             rm -rf 'altaera_install_pt-1.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-7b-it.sh -O 'altaera_install_pt-1.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-1-gemma-7b-it.sh -O 'altaera_install_pt-1.sh'
             chmod a+x 'altaera_install_pt-1.sh'
          } &> /dev/null 2>&1;
             bash altaera_install_pt-1.sh

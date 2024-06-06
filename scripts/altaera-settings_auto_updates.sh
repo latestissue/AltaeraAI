@@ -30,9 +30,9 @@ case $CHOICE in
             rm -rf './AltaeraAI/altaera_auto-check.sh'
             cd './AltaeraAI'
 	    rm -rf 'altaera-update.sh'
-	    wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update.sh
+	    wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update.sh
      	    chmod a+x 'altaera-update.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_auto-check.sh
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_auto-check.sh
             chmod a+x 'altaera_auto-check.sh'
             ;;
         3)
@@ -40,9 +40,9 @@ case $CHOICE in
             rm -rf './AltaeraAI/altaera_auto-check.sh'
             cd './AltaeraAI'
 	    rm -rf 'altaera-update.sh'
-	    wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_no-check.sh -O 'altaera-update.sh'
+	    wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_no-check.sh -O 'altaera-update.sh'
      	    chmod a+x 'altaera-update.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_auto-check_empty.sh -O 'altaera_auto-check.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_auto-check_empty.sh -O 'altaera_auto-check.sh'
             chmod a+x 'altaera_auto-check.sh'
             ;;
 esac

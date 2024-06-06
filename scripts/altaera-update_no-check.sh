@@ -31,7 +31,7 @@ case $CHOICE in
             ";
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-fast_no-check.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-fast_no-check.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -45,7 +45,7 @@ case $CHOICE in
             ";
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-check.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-slow_no-check.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -59,7 +59,7 @@ case $CHOICE in
             ";
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas_no-check.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas_no-check.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -73,7 +73,7 @@ case $CHOICE in
             ";
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-scripts_no-check.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-scripts_no-check.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'

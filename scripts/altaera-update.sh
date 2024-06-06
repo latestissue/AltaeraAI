@@ -74,7 +74,7 @@ echo "________________________________________________________________
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-fast.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-fast.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -131,7 +131,7 @@ echo "________________________________________________________________
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-slow.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -188,7 +188,7 @@ echo "________________________________________________________________
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-slow_no-blas.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'
@@ -245,7 +245,7 @@ echo "________________________________________________________________
             " | sed  -e :a -e "s/^.\{1,$(tput cols)\}$/ & /;ta" | tr -d '\n' | head -c $(tput cols);
             {
             rm -rf 'altaera-update_content.sh'
-            wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
+            wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-update_content-scripts.sh -O 'altaera-update_content.sh'
             chmod a+x 'altaera-update_content.sh'
             } &> /dev/null 2>&1;
             bash 'altaera-update_content.sh'

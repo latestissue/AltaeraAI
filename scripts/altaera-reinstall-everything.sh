@@ -38,18 +38,18 @@ rm -rf 'altaera_install_model.sh'
 rm -rf 'altaera_install_pt-2.sh'
 rm -rf 'altaera_reinstall-scripts.sh'
 rm -rf 'altaera-install_method.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2.sh -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
 {
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_reinstall-scripts_.sh
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_reinstall-scripts_.sh
 chmod a+x 'altaera_reinstall-scripts.sh'
 bash 'altaera_reinstall-scripts.sh'
 } &> /dev/null 2>&1;
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -96,13 +96,13 @@ _______________________________________________________________________
 ;;
 
          2)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-chn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -147,13 +147,13 @@ _______________________________________________________________________
 "
 ;;
          3)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-ger.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -198,13 +198,13 @@ _______________________________________________________________________
 "
 ;;
          4)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-spa.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -249,13 +249,13 @@ _______________________________________________________________________
 "
 ;;
          5)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-fr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -300,13 +300,13 @@ _______________________________________________________________________
 "
 ;;
          6)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-it.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -351,13 +351,13 @@ _______________________________________________________________________
 "
 ;;
          7)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-krn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -402,13 +402,13 @@ _______________________________________________________________________
 "
 ;;
          8)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-jpn.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -453,13 +453,13 @@ _______________________________________________________________________
 "
 ;;
          9)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-pol.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -504,13 +504,13 @@ _______________________________________________________________________
 "
 ;;
          10)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-por.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -555,13 +555,13 @@ _______________________________________________________________________
 "
 ;;
          11)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-rus.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
@@ -606,13 +606,13 @@ _______________________________________________________________________
 "
 ;;
          12)
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_model.sh -q --show-progress
 chmod a+x 'altaera_install_model.sh'
 bash 'altaera_install_model.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera_install_pt-2-ukr.sh -O 'altaera_install_pt-2.sh' -q --show-progress
 chmod a+x 'altaera_install_pt-2.sh'
 bash 'altaera_install_pt-2.sh'
-wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
+wget https://raw.githubusercontent.com/ThinkThroughLabs/AltaeraAI/main/scripts/altaera-install_method.sh -q --show-progress
 chmod a+x 'altaera-install_method.sh'
 bash 'altaera-install_method.sh'
 proot-distro install altaera
