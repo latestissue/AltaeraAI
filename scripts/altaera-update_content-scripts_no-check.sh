@@ -11,7 +11,7 @@
   ██      █
   █       ████████
 
-  AltaeraAI - v5.0
+  AltaeraAI - v5.1
 
     by ThinkThroughLabs
 
@@ -248,7 +248,7 @@ chmod a+x 'altaera-model_restore.sh'
   ██      █
   █       ████████
 
-  AltaeraAI - v5.0
+  AltaeraAI - v5.1
 
     by ThinkThroughLabs
 

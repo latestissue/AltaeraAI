@@ -36,7 +36,7 @@ case $CHOICE in
   ██      █
   █       ████████
 
-  AltaeraAI - v5.0
+  AltaeraAI - v5.1
 
     by ThinkThroughLabs
 
@@ -100,9 +100,9 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
 chmod a+x 'dialog_theme_on.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-off.sh
 chmod a+x 'dialog_theme_off.sh'
-wget https://github.com/latestissue/AltaeraAI/releases/download/v3.7/altaera-v5.0.tar.gz
-tar -xf 'altaera-v5.0.tar.gz'
-rm -rf 'altaera-v5.0.tar.gz'
+wget https://github.com/latestissue/AltaeraAI/releases/download/v3.7/altaera-v5.1.tar.gz
+tar -xf 'altaera-v5.1.tar.gz'
+rm -rf 'altaera-v5.1.tar.gz'
       rm -rf 'koboldcpp-altaera'
       rm -rf 'kcpp-ae_cm'
       wget https://github.com/latestissue/AltaeraAI/releases/download/v3.1/altaera-v3.1.tar.gz
@@ -134,7 +134,7 @@ wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaer
   ██      █
   █       ████████
 
-  AltaeraAI - v5.0
+  AltaeraAI - v5.1
 
     by ThinkThroughLabs
 

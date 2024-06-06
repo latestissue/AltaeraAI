@@ -7,11 +7,11 @@ cd '/data/data/com.termux/files/home'
 HEIGHT=25
 WIDTH=60
 CHOICE_HEIGHT=7
-BACKTITLE="AltaeraAI - v5.0 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
+BACKTITLE="AltaeraAI - v5.1 | RAM:$(free -m | awk '/^Mem:/{printf("%.1fG\n",$2/1000)}') | Free Storage:$(df -Ph . | tail -1 | awk '{print $4}')"
 TITLE="Bem-vindo!"
 MENU="O que é que gostaria de fazer?"
 
-OPTIONS=(1 "Iniciar o AltaeraAI [KoboldCpp v1.65]"
+OPTIONS=(1 "Iniciar o AltaeraAI [KoboldCpp v1.67]"
          2 "Verificar a disponibilidade de actualizações [...]"
          3 "Atualização da força [...]"
          4 "Gerir modelos de AI 🤖 [...]"
