@@ -287,7 +287,7 @@ chmod a+x 'altaera-model_backup.sh'
 rm -rf 'dialog_theme_on.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-on.sh
 chmod a+x 'dialog_theme_on.sh'
-rm -rf 'dialog_theme_off.sh'
+rm -rf 'dialog_theme-off.sh'
 wget https://raw.githubusercontent.com/latestissue/AltaeraAI/main/scripts/altaera-proot/dialog_theme-off.sh
 chmod a+x 'dialog_theme_off.sh'
 cd '/data/data/com.termux/files/home'
