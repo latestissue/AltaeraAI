@@ -1,5 +1,7 @@
 # AltaeraAI
 
+[![Github All Releases](https://img.shields.io/github/downloads/latestissue/AltaeraAI/total.svg)]()
+
 <p align="center">
 This repository is deprecated and was shifted into an organisational one: https://github.com/ThinkThroughLabs/AltaeraAI
 </p>
